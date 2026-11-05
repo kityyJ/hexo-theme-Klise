@@ -1,11 +1,11 @@
 /* Motion treatment inspired by Uiverse.io / mobinkakei. */
-.author .jia-brand{display:flex;align-items:center;justify-content:center;max-width:100%;line-height:1;--jia-dot:#5628ee}
+.author .jia-brand{display:flex;align-items:center;justify-content:center;max-width:100%;line-height:1;--jia-dot:#16a34a}
 .jia-word{display:block;width:90px;height:50px;overflow:visible}
 .jia-word text{font-family:inherit;font-size:64px;font-weight:700}
 .jia-word-base{fill:none;stroke:currentColor;stroke-width:1.4;opacity:.7}
 .jia-word-outline{fill:none;stroke:var(--jia-dot);stroke-width:1.4;stroke-dasharray:12 240;animation:jia-word-draw 3s linear infinite}
 .jia-word-dot{fill:var(--jia-dot)}
-body[data-theme="dark"] .jia-brand{--jia-dot:#b59aff}
+body[data-theme="dark"] .jia-brand{--jia-dot:#4ade80}
 @keyframes jia-word-draw{to{stroke-dashoffset:-252}}
 @media(max-width:360px){.jia-word{width:81px;height:45px}}
 @media(prefers-reduced-motion:reduce){.jia-word-outline,.jia-word-dot{display:none}}
