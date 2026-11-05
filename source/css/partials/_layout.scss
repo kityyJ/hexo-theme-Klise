@@ -182,15 +182,21 @@
 
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: clamp(1.5rem, 4vh, 2.5rem);
+  margin-bottom: clamp(1.5rem, 4vh, 2.5rem);
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
 
   @include media-query($on-mobile) {
-    margin-bottom: 3em;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: $on-tablet) and (max-height: 500px) {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .author-avatar-wrapper {
@@ -198,6 +204,16 @@
     border-color:b6b6b6;
     width: 70px;
     height: 70px;
+
+    @include media-query($on-mobile) {
+      width: 56px;
+      height: 56px;
+    }
+
+    @media (min-width: $on-tablet) and (max-height: 500px) {
+      width: 56px;
+      height: 56px;
+    }
     border-radius: 100%;
     user-select: none;
     background-color: $black;
@@ -221,14 +237,16 @@
 
   .author-name {
     font-size: 1.7em;
-    margin-bottom: 2px;
+    line-height: 1.35;
+    margin-top: 6px;
+    margin-bottom: 4px;
   }
 
   .author-bio {
     margin: 0 auto;
     opacity: 0.9;
     max-width: 393px;
-    line-height: 1.688;
+    line-height: 1.5;
   }
 }
 
