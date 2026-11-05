@@ -1,8 +1,8 @@
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const render = text => hexo.render.renderSync({ text, engine: 'md' });
 hexo.extend.filter.register('before_post_render', function (data) {
-  data.content = data.content.replace(/^:::\s+(info|note|tip|warning|danger|success)(?:\s+(.*))?\s*\n([\s\S]*?)^:::\s*$/gm,
-    (_, type, title, body) => '<aside class="note ' + type + '">' + (title ? '<strong>' + escape(title) + '</strong>' : '') + render(body) + '</aside>');
+  data.content = data.content.replace(/^:::[ \t]+(info|note|tip|warning|danger|success)(?:[ \t]+(.*))?[ \t]*\r?\n([\s\S]*?)^:::[ \t]*$/gm,
+    (_, type, title, body) => '\n\n<aside class="note ' + type + '">' + (title ? '<strong>' + escape(title) + '</strong>' : '') + render(body) + '</aside>\n\n');
   return data;
 });
 hexo.extend.tag.register('note', (args, content) => {

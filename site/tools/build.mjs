@@ -30,6 +30,7 @@ try {
     const html = await readFile(path.join(site, 'public', source.public_path, 'index.html'), 'utf8');
     assert.ok(html.includes(hexo.extend.helper.get('escape_html') ? source.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;') : source.title) || html.includes(source.title), 'Rendered title ' + source.id);
     assert.ok(!/{%\s*(?:note|tabs|endnote|endtabs)\b/.test(html), 'Unrendered component ' + source.id);
+    assert.ok(!/<\/aside>\s*#{1,6} /.test(html), 'Headings after imported callouts ' + source.id);
     report.push({ id: source.id, path: '/' + source.public_path + '/', date: source.date, updated: source.updated, categories: source.categories, tags: source.tags, title: source.title, body_sha256: createHash('sha256').update(body).digest('hex') });
   }
   for (const file of ['index.html', 'archives/index.html', 'tags/index.html', 'categories/index.html', 'about/index.html', '404.html', 'atom.xml', 'css/main.css', 'css/components.css', 'js/main.js']) {
