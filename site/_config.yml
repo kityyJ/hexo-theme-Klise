@@ -52,7 +52,8 @@
     },
     "stylesheets": [
       "/css/main.css",
-      "/css/components.css"
+      "/css/components.css",
+      "/css/brand-motion.css"
     ],
     "favicon": "https://img.c6c.top/logo1.1/logo-smooth.svg"
   },
