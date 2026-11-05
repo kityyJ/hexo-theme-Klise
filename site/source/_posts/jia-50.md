@@ -6,7 +6,7 @@ categories: ["干货教程"]
 tags: ["澳门蚂蚁银行 5 月开户福利：最高约 1000 港币奖赏，开户流程整理"]
 permalink: "guide/tutorial-4/"
 jia_id: "50"
-source_url: "https://blog.jia.nz/guide/tutorial-4/"
+source_url: "https://blog.yigeyao.com/guide/tutorial-4/"
 cover: "https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-0.png"
 excerpt: "如果你 5 月刚好计划去澳门，可以顺手把澳门蚂蚁银行账户和证券账户一起开好。开通证券账户后，后续也可以用于港股、美股等证券交易需求，适合本来就想配置海外账户的人提前准备。这个月的新客活动力度不错：新开户有财富兑换卡，净入资达到门槛后还有额外兑换卡和费率优惠礼包，符合高阶条件的用户还有机会拿 iPhone 17 Pro。…"
 ---

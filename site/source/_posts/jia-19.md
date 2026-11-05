@@ -6,7 +6,7 @@ categories: ["日常"]
 tags: ["小时候可曾有过梦想"]
 permalink: "life/reflections/"
 jia_id: "19"
-source_url: "https://blog.jia.nz/life/reflections/"
+source_url: "https://blog.yigeyao.com/life/reflections/"
 cover: "/uploads/1788785973801-chatgpt-image-202697-21-51-09-w6g2pjbf.png"
 excerpt: "小时候写下的理想，后来还记得吗 有时候，真正让人难过的，不是什么轰轰烈烈的事情。 只是一张旧纸，一行歪歪扭扭的字，就能突然把人拉回很多年前。 {% asset img <img src=\"/uploads/1788784921125 img"
 ---

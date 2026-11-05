@@ -6,7 +6,7 @@ categories: ["GitHub与开源"]
 tags: ["Docker","Docker Compose","Git","Gitea"]
 permalink: "github/gitea/"
 jia_id: "28"
-source_url: "https://blog.jia.nz/github/gitea/"
+source_url: "https://blog.yigeyao.com/github/gitea/"
 cover: "https://m.nep.me/blog/post/gitea.png"
 excerpt: "前言Git 用来同步一些文档、代码确实非常的方便，但是总会有一些文件不希望同步至 GitHub 或是其他的公共服务商，这时可以使用开源项目自建一个属于私人的 Git 服务器。 我是有一些文件在只需要局域网内同步就可以了，在这之前我是使用的 GitLab 社区版部署的私人 Git 服务器。 不得不说，GitLab 也是非常强大的，但相对的占用资源也比较高，需要..."
 ---

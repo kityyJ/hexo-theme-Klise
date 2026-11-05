@@ -6,7 +6,7 @@ categories: ["干货教程"]
 tags: ["Windows 11","HDR","Dolby Vision"]
 permalink: "guide/tips/"
 jia_id: "35"
-source_url: "https://blog.jia.nz/guide/tips/"
+source_url: "https://blog.yigeyao.com/guide/tips/"
 cover: "https://m.nep.me/blog/post/windows-11-tv-hdr-dolby.png"
 excerpt: "这几天一直在折腾显卡的问题，只用 DP 接了普通的显示器使用，显卡的问题终于有些眉目了，于是重新接回我的 LG C2 电视，打开 HDR 嗯？ 屏幕你怎么绿了，而且以前切换后右上角是显示 HDR ，现在是 Dolby Vision ，难道显卡又出新毛病了？ 尝试了重启、换线都没有效果，只要一开 HDR 就是绿色的屏幕。 我都准备又要使用 DDU 重装驱动了..."
 ---

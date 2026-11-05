@@ -6,7 +6,7 @@ categories: ["GitHub与开源"]
 tags: ["Folio","Photo Viewer","Electron"]
 permalink: "github/folio/"
 jia_id: "27"
-source_url: "https://blog.jia.nz/github/folio/"
+source_url: "https://blog.yigeyao.com/github/folio/"
 cover: "https://img.nep.me/blog/cover-folio.webp"
 excerpt: "身为一个仓鼠党，下了一些图集，需要保存图片到一个文件夹、擦除 EXIF、快速重命名，工具倒是都有，但是都需要打开各种不同的软件，略有麻烦。 于是根据我自己的需求，开发了一款新的看图软件 ：Folio Opus 强力驱动，代码开源： GitHub - Folio Folio 能做什么Folio 目前主要围绕几个核心场景： 多图并列浏览这是 Folio 的核心功..."
 ---

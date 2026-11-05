@@ -6,7 +6,7 @@ categories: ["干货教程"]
 tags: ["ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批"]
 permalink: "guide/knowledge/"
 jia_id: "40"
-source_url: "https://blog.jia.nz/guide/knowledge/"
+source_url: "https://blog.yigeyao.com/guide/knowledge/"
 cover: "https://v2money.net/wp-content/uploads/2026/07/2026072702145138.png"
 excerpt: "2026 年使用 ITIN 申请 Chase Sapphire Preferred 二卡的真实经历：冲 10 万点开卡礼，没有秒批，经历身份验证、补材料和电话跟进，提交 9 天后获批，并在实体卡到手前加入 Apple Pay。"
 ---
@@ -175,23 +175,4 @@ Table of Contents
 
 ### 卡还没寄到，能不能直接消费？
 
-如果获批邮件或 Chase App 提供了数字钱包入口，就有可能先加入 Apple Pay 或其他支持的钱包。是否开放、可用额度和支持的消费类型因账户而异，以页面实际显示为准。
-
-### 可以把实体卡改寄到中国吗？
-
-截至写稿时，我只是在账户中添加了另一个地址，并通过 Secure Message 向客服咨询改寄事宜，还没有得到最终确认。因此本文不把“可以寄到中国”当作结论，后续有明确结果再单独更新。
-
-![](https://img.v2money.net/i/2026/07/27/d80fce68eaf0d689d4371e199c411bfd-0.webp)
-
-## 最后
-
-这次申请从 7 月 14 日提交，到 7 月 23 日获批，前后经历了 9 天。过程不算顺利，但也没有因为一开始进入人工审核就直接结束。
-
-如果你正处在相似的人工审核阶段，我觉得最重要的是三件事：信息真实一致、材料按要求提交、所有操作只走官方渠道。其余部分，给审核一点时间。
-
-等实体卡寄到后，我会继续更新收卡、地址修改、完成开卡任务以及 Ultimate Rewards 积分使用的实际情况。
-
-本文录制和整理于 2026 年 7 月，仅分享我的个人申请经历。开卡礼、申请政策及审批结果可能因人而异，请以 Chase 官网实时页面及实际审核为准。
-
-                                                        
-原创文章，作者：卡卡，如若转载，请注明出处：https://v2money.net/itin-chase-csp-second-card-2026/
+如果获批邮件或 Chase App 提供了数字钱包入口，就有可能

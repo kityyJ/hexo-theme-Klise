@@ -6,7 +6,7 @@ categories: ["GitHub与开源"]
 tags: ["免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！"]
 permalink: "github/alist/"
 jia_id: "46"
-source_url: "https://blog.jia.nz/github/alist/"
+source_url: "https://blog.yigeyao.com/github/alist/"
 cover: ""
 excerpt: "最近在技术圈发现了一个非常香的“羊毛”——云服务商（Hi168）注册就免费送 500GB 实名后送1T  的 S3 对象存储空间 ！对于喜欢折腾服务器、经常需要中转大文件或分享素材的玩家来说，这简直是天降的神仙级后备仓库。 今天，我就带大家实战演示，如何将这 1TB 空间“榨干”..."
 ---

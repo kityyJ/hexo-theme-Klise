@@ -6,7 +6,7 @@ categories: ["GitHub与开源"]
 tags: ["Let's Encrypt","Cloudflare","Dokploy"]
 permalink: "github/dokploy/"
 jia_id: "36"
-source_url: "https://blog.jia.nz/github/dokploy/"
+source_url: "https://blog.yigeyao.com/github/dokploy/"
 cover: ""
 excerpt: "之前看见过很多人推荐 Dokploy，可以方便的部署、管理项目，印象颇深。 但是我还是一直在使用古法手动 docker compose 以及 pnpm start 运行一些项目。 随着现在 AI 的进步，整的小工具多了起来，确实管理起来略微麻烦，当然之前使用过 Dpanel 管理一些 Docker 应用，但是 Dpanel 的 2FA 是付费功能，略微不喜..."
 ---

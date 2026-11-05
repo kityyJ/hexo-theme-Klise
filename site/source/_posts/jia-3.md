@@ -6,7 +6,7 @@ categories: ["日常"]
 tags: ["今日笔记"]
 permalink: "life/notes/"
 jia_id: "3"
-source_url: "https://blog.jia.nz/life/notes/"
+source_url: "https://blog.yigeyao.com/life/notes/"
 cover: "https://img.nep.me/blog/flatpaper-welcome-card.webp"
 excerpt: "今日笔记 记录日期：2026 09 05 今天发现 有时候真正让人放松的，不是什么特别的事情，而是忙完以后安静坐一会儿。 最近越来越觉得，把一些零碎的小事记录下来，过一段时间再看会很有意思。 灵感与想法 今天突然想到，生活其实没有那么多一定"
 ---

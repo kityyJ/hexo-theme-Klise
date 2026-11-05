@@ -6,7 +6,7 @@ categories: ["教育学历"]
 tags: ["实用教程","admission"]
 permalink: "education/admission/"
 jia_id: "d24d8514-94ab-4d79-a353-fcfb25eb5dae"
-source_url: "https://blog.jia.nz/education/admission/"
+source_url: "https://blog.yigeyao.com/education/admission/"
 cover: "https://www.jia.nz/images/articles/ucas-three-questions.svg"
 excerpt: "按 UCAS 官方三问结构分配真实经历，核对每问最低字符数和总字符限制，并用证据表减少空话、重复与虚构。"
 ---

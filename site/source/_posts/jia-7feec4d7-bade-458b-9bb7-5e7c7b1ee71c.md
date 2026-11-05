@@ -6,7 +6,7 @@ categories: ["科技数码"]
 tags: ["Google AI Studio","Android","Jetpack Compose","App教程"]
 permalink: "tech/google/"
 jia_id: "7feec4d7-bade-458b-9bb7-5e7c7b1ee71c"
-source_url: "https://blog.jia.nz/tech/google/"
+source_url: "https://blog.yigeyao.com/tech/google/"
 cover: "https://www.jia.nz/__jia/google-ai-studio-cover.png"
 excerpt: "按 Google AI Studio Build 流程创建 Kotlin 与 Jetpack Compose Android 应用，用浏览器模拟器检查界面，也可连接 ADB 或 Play 内部测试。文中区分个人设备试用、内测和公开上架的账号与地区条件。"
 ---

@@ -6,7 +6,7 @@ categories: ["GitHub与开源"]
 tags: ["Docker","Docker Compose","Selfhost","Umami"]
 permalink: "github/umami/"
 jia_id: "30"
-source_url: "https://blog.jia.nz/github/umami/"
+source_url: "https://blog.yigeyao.com/github/umami/"
 cover: "https://m.nep.me/blog/post/umami-demo-preview.png"
 excerpt: "关于 UmamiUmami 是一个简单、快速、注重隐私且开源网站访问统计系统，可以作为 Google Analytics 的替代品，Umami 不使用 Cookie，不跟踪用户。 Umami 支持自己部署，功能不受限制，如果自己没有服务器，也可以直接在官网注册使用。 Umami 的界面非常简洁、直观，功能一目了然，这也是我使用 Umami 的原因，Googl..."
 ---

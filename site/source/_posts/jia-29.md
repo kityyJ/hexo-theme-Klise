@@ -6,7 +6,7 @@ categories: ["人工智能"]
 tags: ["ChatGPT","Prompt","Pixel Art","everskies"]
 permalink: "ai/tools/"
 jia_id: "29"
-source_url: "https://blog.jia.nz/ai/tools/"
+source_url: "https://blog.yigeyao.com/ai/tools/"
 cover: "https://m.nep.me/blog/post/chatgpt-pixel-art.png"
 excerpt: "前言凑个热度，最近发现 Twitter 上一些 Coser 分享照片时上面附带一个非常相似的像素风格小人，看起来非常不错。 本来以为是某个 APP 的功能，搜索了一下发现是 7 月在韩国开始的潮流，只需要使用 ChatGPT 就可以生成，免费账户的 ChatGPT 也可以使用，不过生成两张图片后就提示需要等待一天才可以继续上传文件。 使用方法访问 ChatG..."
 ---

@@ -6,7 +6,7 @@ categories: ["GitHub与开源"]
 tags: ["利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」"]
 permalink: "github/agentdock/"
 jia_id: "47"
-source_url: "https://blog.jia.nz/github/agentdock/"
+source_url: "https://blog.yigeyao.com/github/agentdock/"
 cover: "https://www.acofork.com/img/agentdock-chatgpt-codex/cover.webp"
 excerpt: "用 AgentDock 把自己电脑和服务器接进 ChatGPT 网页端，让它能直接读项目、改代码、跑命令、测试和 Git。"
 ---
@@ -75,56 +75,4 @@ Linux 机看日志
 
 这也是为什么我平时会直接说「XXX 机子，执行一下 fastfetch」。
 
-还有一个我很喜欢的用法： 随时随地运维服务器。
-
-服务器上的 AgentDock 接好以后，你不需要随身带着 SSH 客户端，也不用先连回自己的电脑。只要你所在的地方能打开 [ChatGPT](https://chatgpt.com/)，就可以直接在聊天里让它查日志、看进程、检查端口、改配置或者处理故障。
-
-电脑、平板、手机都行。服务器可以在世界另一头，你只需要能打开 ChatGPT。
-
-## 我怎么用“即时”和 Pro
-
-小操作我基本都用“即时”。
-
-比如看日志、跑命令、改一两处代码、查 Git 状态、修很明确的小问题。
-
-![](https://www.acofork.com/img/agentdock-chatgpt-codex/instant.png)
-
-这类任务没必要想很久，工具给到位以后直接干就行。
-
-复杂任务我会换 Pro。
-
-比如重构、复杂 Bug、跨前后端修改、全链路验证，或者多台机器一起处理。
-
-![](https://www.acofork.com/img/agentdock-chatgpt-codex/pro.png)
-
-我的用法很简单：
-
-即时干小活，Pro 干难活。
-
-## 最后
-
-以前用 ChatGPT 网页端写代码，经常是：
-
-text
-
-```text
-ChatGPT 写
-我复制
-我执行
-我再把结果发回去
-```
-
-接上 AgentDock 后，很多时候直接变成：
-
-text
-
-```text
-我描述目标
-ChatGPT 自己读项目、修改、执行、测试、Git
-```
-
-对我来说，这已经覆盖了大量原本要切 Codex 或本地终端才能做的事情。
-
-如果你也想试，项目在这里：
-
-[https://github.com/uvwt/agentdock](https://github.com/uvwt/agentdock)
+还有一个我很喜欢

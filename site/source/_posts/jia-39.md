@@ -6,7 +6,7 @@ categories: ["干货教程"]
 tags: ["2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurc"]
 permalink: "guide/tutorial/"
 jia_id: "39"
-source_url: "https://blog.jia.nz/guide/tutorial/"
+source_url: "https://blog.yigeyao.com/guide/tutorial/"
 cover: "https://murmurcats.com/wp-content/uploads/2026/06/1738664670612.jpg"
 excerpt: "Kraken 作為老牌加密貨幣交易所，以高安全性和穩定性著稱，適合新手與進階用戶使用。本文詳細介紹 Kraken 交易所的評價、平台應用程式選擇、開戶註冊教學與 KYC 身份認證流程。"
 ---
@@ -179,26 +179,4 @@ Kraken 可以接受的證件包含：
 
 【呢喃貓商學院精選文章】
 
-[【2026 最新】加密貨幣入門攻略，一次搞懂 8 大重點！](https://murmurcats.com/new-to-crypto/)[2026 台灣虛擬貨幣交易所排名 Top 5｜合法平台比較＋安全性分析](https://murmurcats.com/taiwan-exchange/)[虛擬貨幣報稅怎麼算？要繳稅嗎？虛擬貨幣是商品嗎？](https://murmurcats.com/crypto-tax/)[加密貨幣出金教學：解析 USDT 換台幣的 3 種方法](https://murmurcats.com/usdt-to-twd/)[2026 最新｜幣安出金全攻略：手續費、到帳時間、5 種出金方式比較](https://murmurcats.com/binance-withdraw/)
-
-## 關於呢喃貓商學院
-
-呢喃貓商學院成立於 2022 年，團隊由「 傳統金融機構從業者 」與「 區塊鏈領域研究專家 」雙軌組成，社群重視基礎研究、學習氛圍以風險控制，做出更好的決策。
-
-- 連續 3 年獲動區評選台灣區塊鏈《年度最具影響力人物榜》（[2023 年](https://www.blocktempo.com/taiwanese-blockchain-influencers-predictions-for-2023/#cryptor)、[2024 年](https://www.blocktempo.com/taiwanese-blockchain-influencers-predictions-for-2024/#Cryptor_%E5%91%A2%E5%96%83%E8%B2%93%E6%8A%95%E8%B3%87_MurMur_Cats_%E5%85%B1%E5%90%8C%E5%89%B5%E8%BE%A6%E4%BA%BA)、[2025 年](https://www.blocktempo.com/taiwanese-blockchain-influencers-predictions-for-2025/#%E5%91%A2%E5%96%83%E8%B2%93_%E3%80%8A%E5%91%A2%E5%96%83%E8%B2%93%E5%95%86%E5%AD%B8%E9%99%A2_Murmurcats%E3%80%8B%E3%80%81%E3%80%8A%E5%8D%83%E8%90%AC%E4%BA%A4%E6%98%93%E5%93%A1%E7%9A%84%E5%91%A2%E5%96%83%E3%80%8B_%E5%89%B5%E8%BE%A6%E4%BA%BA)）
-
-- [2025 年數位時代評選《2025 區塊鏈 30 大人物》](https://web3plus.bnext.com.tw/article/3274?)
-
-免責聲明：本文不構成任何投資意見或建議，亦無招攬開戶要約，資訊僅供讀者參考，加密貨幣投資為高風險產品，投資人應自行閱讀相關風險及自身風險承受度決定是否投資。
-
-## 常見問題 海妖 Kraken 交易所是詐騙嗎？安全嗎？ Kraken 成立於 2011 年，是受美國、歐盟、英國等多國監管的老牌加密貨幣交易所，並定期公開儲備證明（Proof of Reserves），目前查無官方將其認定為詐騙的紀錄。真正要留意的，是冒名 Kraken 的假客服、假 App 與釣魚網站。
-台灣用戶可以註冊使用海妖 Kraken 交易所嗎？
-可以。台灣用戶能正常完成 Kraken 註冊與 KYC 身份認證，並使用美元電匯做出入金，是不少人進行海外大額出金時的選擇之一。
-海妖 Kraken KYC 身份認證需要審核多久？
-完成證件掃描與人臉辨識後，Kraken 一般會在 1 到 2 小時內以 E-mail 通知審核結果，遇到尖峰時段可能稍微久一點。
-海妖 Kraken KYC 認證需要準備哪些證件？
-Kraken KYC 認證只需準備身分證、護照、駕照其中一種即可。建議在光線充足處驗證，並先取下眼鏡、帽子等會遮住臉部的物品。
-海妖 Kraken 註冊一定要開啟 Google 雙重驗證嗎？
-Kraken 註冊本身不強制開啟 2FA，但官方與本文都強烈建議開啟。開啟後登入與出金會多要求一組 Google 驗證碼，能大幅降低帳號被盜的風險。
-海妖 Kraken 註冊一定要手機門號嗎？
-Kraken 註冊主要使用 E-mail 收驗證碼，手機門號則用於簡訊驗證與部分安全設定。建議準備一組可正常收簡訊的門號，以免後續驗證卡關。
+[【2026 最新】加密

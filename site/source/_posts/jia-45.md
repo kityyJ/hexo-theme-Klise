@@ -6,7 +6,7 @@ categories: ["干货教程"]
 tags: ["【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGP"]
 permalink: "guide/tutorial-2/"
 jia_id: "45"
-source_url: "https://blog.jia.nz/guide/tutorial-2/"
+source_url: "https://blog.yigeyao.com/guide/tutorial-2/"
 cover: "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tzUFH5fS84krkL0h0QGFg5ebkGPe7yR02YxjS-ttf3se3L4A9Ph13UbmPDdSwNPzF3Oz8G1oLzd-aJ7PbHLAruhLaIcNpsDyZtgwcrujSaK67vscUYZrkYMi73jPJGzqYa8URdhFTPbXUcrL8fFK4l=w1200-h630-p-k-no-nu"
 excerpt: "大陆用户要海外号，常见卡点是：+86 过不了 ChatGPT，实体国际卡又贵又难保号。菲律宾运营商 DITO  提供一条线上路径：App 里用微信支付买 eSIM，拿到 +63  号码，收短信免费，年保号成本大约几毛。 筛选信息： 开卡：  eShop 最便宜档常见 79 或..."
 ---

@@ -6,7 +6,7 @@ categories: ["科技数码"]
 tags: ["iPhone 18 Pro","Apple","数码","iOS 27"]
 permalink: "tech/iphone/"
 jia_id: "37"
-source_url: "https://blog.jia.nz/tech/iphone/"
+source_url: "https://blog.yigeyao.com/tech/iphone/"
 cover: "https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/tile/Apple-iPhone-18-Pro-2up-260909-lp.jpg.og.jpg?202609101300"
 excerpt: "iPhone 18 Pro 系列发布后，最值得关注的是可变光圈主摄、A20 Pro、均热板散热和续航提升。本文用完整文章元素梳理购买前重点。"
 ---

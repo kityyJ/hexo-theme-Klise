@@ -6,7 +6,7 @@ categories: ["干货教程"]
 tags: ["如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！"]
 permalink: "guide/tutorial-1/"
 jia_id: "41"
-source_url: "https://blog.jia.nz/guide/tutorial-1/"
+source_url: "https://blog.yigeyao.com/guide/tutorial-1/"
 cover: "https://v2money.net/wp-content/uploads/2025/08/467faa3bfc85c3a15891301933281585.webp"
 excerpt: "点击到My SIM，这边可以选择转换成实体的SIM卡，也可以选择ESIM，重新转移到一个新手机上。 我们这边演示重新转移到新的iPhone上， 转移之前，需要确保我们的手机是可以兼容这个eSIM的， 输入*#06# 把手机的IMEI输入到这个空白栏里面，检查一下， 显示两个对勾，说明没问题，然后我们来输入一个安全码，如…"
 ---
