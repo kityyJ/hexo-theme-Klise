@@ -278,8 +278,10 @@
 
           <div class="page-content"><aside class="note note"><strong>适用范围</strong><p>本文按 GitHub 官方文档与 gh-actions-lock 仓库说明整理，核对时间为 2026-10-15。工作流依赖锁文件仍处公开预览阶段；仓库工具也处于 1.0 前开发期，命令细节可能变化。GitHub Enterprise Server 当前不受该扩展支持。</p>
 </aside>
-GitHub Actions 常见写法是 `uses: actions/checkout@v4`。标签便于升级，但团队需要知道运行时实际落到哪个提交。锁文件把工作流依赖对应到已核验的提交，并让 CI 可以检查锁文件是否跟工作流一致。
 
+
+
+<p>GitHub Actions 常见写法是 <code>uses: actions/checkout@v4</code>。标签便于升级，但团队需要知道运行时实际落到哪个提交。锁文件把工作流依赖对应到已核验的提交，并让 CI 可以检查锁文件是否跟工作流一致。</p>
 <h2 id="第一步：先检查工作流"><a href="#第一步：先检查工作流" class="headerlink" title="第一步：先检查工作流"></a>第一步：先检查工作流</h2><p>在仓库根目录查看 <code>.github/workflows/</code> 下所有 YAML 文件，确认每条 <code>uses:</code> 指向你认可的 action 版本。可复用工作流也要检查；它们的依赖由定义该可复用工作流的仓库管理。若组织启用了 Actions 允许列表，先确认锁定后的提交 SHA 也能通过策略。</p>
 <p>建议先启用 Dependabot 的 GitHub Actions 更新，再接入锁文件。这样后续 action 升级可以和锁文件一起进入拉取请求，避免手动升级工作流却忘记更新锁。</p>
 <h2 id="第二步：安装扩展"><a href="#第二步：安装扩展" class="headerlink" title="第二步：安装扩展"></a>第二步：安装扩展</h2><p>电脑需要安装并登录 GitHub CLI。进入仓库根目录后运行：</p>
@@ -302,7 +304,11 @@ GitHub Actions 常见写法是 `uses: actions/checkout@v4`。标签便于升级�
 <p>本地 <code>uses: ./...</code> action 如果无法解析，先检查路径是否相对仓库根目录、目标目录里是否有真实的 action 文件。官方文档说明扩展可能跳过无法解析的本地 action；看到跳过提示时应先处理，不要把“命令退出成功”当成所有依赖都已经锁好。</p>
 <aside class="note warning"><strong>记住这条边界</strong><p>锁文件提升依赖版本可复现性，但不替你判断锁定代码是否安全。每次提交都要审查 diff；公开预览期间也要留意官方文档与扩展 README 的变化。</p>
 </aside>
-[GitHub 锁文件操作文档](https://docs.github.com/en/enterprise-cloud@latest/actions/how-tos/secure-your-work/lock-workflow-dependencies) · [gh-actions-lock 使用说明](https://github.com/github/gh-actions-lock) · [公开预览公告](https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/)</div>
+
+
+
+<p><a target="_blank" rel="noopener" href="https://docs.github.com/en/enterprise-cloud@latest/actions/how-tos/secure-your-work/lock-workflow-dependencies">GitHub 锁文件操作文档</a> · <a target="_blank" rel="noopener" href="https://github.com/github/gh-actions-lock">gh-actions-lock 使用说明</a> · <a target="_blank" rel="noopener" href="https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/">公开预览公告</a></p>
+</div>
           <nav class="post-nav">
     
     <a class="post-nav-item post-nav-prev" href="/ai/agent/">

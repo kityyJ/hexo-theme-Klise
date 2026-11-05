@@ -278,8 +278,10 @@
 
           <div class="page-content"><aside class="note note"><strong>适用范围</strong><p>依据 Syncthing 官方入门文档与 v2.1.6 发布记录整理，核对日期 2026-10-15。本文以两台电脑之间同步一个测试文件夹为例，先验证，再接入真实资料。</p>
 </aside>
-Syncthing 的核心用途是持续同步设备之间的文件，许可证为 MPL-2.0。它能减少手动复制的麻烦，但双向同步也可能把删除操作同步到其他设备，因此第一步应是建立独立的小测试目录，而不是直接共享整个文档盘。
 
+
+
+<p>Syncthing 的核心用途是持续同步设备之间的文件，许可证为 MPL-2.0。它能减少手动复制的麻烦，但双向同步也可能把删除操作同步到其他设备，因此第一步应是建立独立的小测试目录，而不是直接共享整个文档盘。</p>
 <h2 id="1-两端安装并记录设备-ID"><a href="#1-两端安装并记录设备-ID" class="headerlink" title="1. 两端安装并记录设备 ID"></a>1. 两端安装并记录设备 ID</h2><p>分别从项目官方发布页或受信任的软件渠道安装，启动 <code>syncthing</code>。官方核心程序默认提供本机管理页面 <code>http://localhost:8384/</code>；界面封装版入口可能不同。不要把管理端口直接暴露到公网。</p>
 <p>在两端的 Actions／操作菜单中找到 Show ID／显示 ID。给设备取明确名称，例如书房电脑和笔记本。名称便于识别，真正配对依据是设备 ID；不能只看相似的设备名就接受连接。</p>
 <h2 id="2-互相添加设备"><a href="#2-互相添加设备" class="headerlink" title="2. 互相添加设备"></a>2. 互相添加设备</h2><p>在 A 端选择 Add Remote Device／添加远程设备，填入 B 的 ID；在 B 端重复操作，填入 A 的 ID。两端都认可后，再观察状态是否从断开变成已连接。配置更新需要短暂时间，不要连续重复添加同一设备。</p>
@@ -292,7 +294,11 @@ Syncthing 的核心用途是持续同步设备之间的文件，许可证为 MPL
 <p>建议为重要资料另做一份独立备份。只有在空测试目录中验证删除传播，确认自己理解行为后，才逐步扩大同步范围。</p>
 <aside class="note warning"><strong>验收顺序</strong><p>设备连接成功 → 测试文件出现 → 修改正确传播 → 冲突可识别 → 旧版本可恢复。缺少后几步时，不宜直接迁移唯一一份资料。</p>
 </aside>
-[官方项目](https://github.com/syncthing/syncthing) · [官方入门](https://docs.syncthing.net/intro/getting-started.html) · [v2.1.6 发布记录](https://github.com/syncthing/syncthing/releases/tag/v2.1.6)</div>
+
+
+
+<p><a target="_blank" rel="noopener" href="https://github.com/syncthing/syncthing">官方项目</a> · <a target="_blank" rel="noopener" href="https://docs.syncthing.net/intro/getting-started.html">官方入门</a> · <a target="_blank" rel="noopener" href="https://github.com/syncthing/syncthing/releases/tag/v2.1.6">v2.1.6 发布记录</a></p>
+</div>
           <nav class="post-nav">
     
     <a class="post-nav-item post-nav-prev" href="/github/uptime-kuma/">

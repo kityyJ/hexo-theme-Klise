@@ -278,8 +278,10 @@
 
           <div class="page-content"><aside class="note note"><strong>版本与来源</strong><p>本文依据 Immich 官方安装说明与 v3.3.3 发布记录整理，资料核对日期为 2026-10-15。发布记录时间为 2026-10-14 16:56 UTC；这是部署与验收教程，不把旧功能包装成当天新功能。</p>
 </aside>
-Immich 是可自行托管的照片与视频管理应用，包含手机备份、相册、搜索和多用户功能，仓库采用 AGPL-3.0 许可证。它适合想把相册服务放在自己设备上的用户，但服务器里有一份照片，并不等于已经完成可靠备份。
 
+
+
+<p>Immich 是可自行托管的照片与视频管理应用，包含手机备份、相册、搜索和多用户功能，仓库采用 AGPL-3.0 许可证。它适合想把相册服务放在自己设备上的用户，但服务器里有一份照片，并不等于已经完成可靠备份。</p>
 <h2 id="先准备独立目录和存储"><a href="#先准备独立目录和存储" class="headerlink" title="先准备独立目录和存储"></a>先准备独立目录和存储</h2><p>确认主机满足官方硬件要求并已安装 Docker Engine 与 Compose 插件。先运行 <code>docker compose version</code>，不要把旧的 <code>docker-compose</code> 命令与新插件混用。为新实例建立独立目录，并确认照片所在磁盘有足够空间；已有实例不要直接覆盖原配置。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> immich-app</span><br><span class="line"><span class="built_in">cd</span> immich-app</span><br><span class="line">curl -fL -o docker-compose.yml https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml</span><br><span class="line">curl -fL -o .<span class="built_in">env</span> https://github.com/immich-app/immich/releases/latest/download/example.env</span><br></pre></td></tr></table></figure>
 

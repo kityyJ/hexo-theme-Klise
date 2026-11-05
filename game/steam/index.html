@@ -278,8 +278,10 @@
 
           <div class="page-content"><aside class="note note"><strong>资料与版本</strong><p>依据 Valve 官方 Proton README 与 proton-11.0-2 发布记录整理，核对日期 2026-10-15。该版本记录发布于 2026-08-21；本文是兼容性排查教程，不是今日补丁快讯。</p>
 </aside>
-Proton 是 Steam Play 使用的兼容工具，借助 Wine 等组件让部分 Windows 游戏在 Linux 上运行。Valve 建议普通用户使用 Steam 客户端提供的 Proton；直接编译源码或叠加很多第三方修补，不应成为首次排查的默认步骤。
 
+
+
+<p>Proton 是 Steam Play 使用的兼容工具，借助 Wine 等组件让部分 Windows 游戏在 Linux 上运行。Valve 建议普通用户使用 Steam 客户端提供的 Proton；直接编译源码或叠加很多第三方修补，不应成为首次排查的默认步骤。</p>
 <h2 id="先分清自己遇到哪类问题"><a href="#先分清自己遇到哪类问题" class="headerlink" title="先分清自己遇到哪类问题"></a>先分清自己遇到哪类问题</h2><p>记录游戏名称、发行版、显卡和驱动、Steam 客户端以及当前 Proton 版本。现象也要具体：完全没有窗口、启动器能打开但游戏退出、进入后黑屏，还是能运行但特定场景崩溃。</p>
 <p>核对游戏的官方平台支持与反作弊要求。兼容工具不能保证所有在线游戏都能运行；服务端或反作弊未开放的支持，不能靠换一个版本就宣称已经绕过。</p>
 <h2 id="第一步：建立一个不乱改的基线"><a href="#第一步：建立一个不乱改的基线" class="headerlink" title="第一步：建立一个不乱改的基线"></a>第一步：建立一个不乱改的基线</h2><p>更新 Steam 客户端，确认发行版的图形驱动与游戏最低需求匹配；通过 Steam 检查游戏文件。保留原来的启动参数和设置截图，先移除自己加过、却不知道作用的非必要参数，再试一次。</p>
@@ -294,7 +296,11 @@ Proton 是 Steam Play 使用的兼容工具，借助 Wine 等组件让部分 Win
 <h2 id="第四步：把结果写成可复现的记录"><a href="#第四步：把结果写成可复现的记录" class="headerlink" title="第四步：把结果写成可复现的记录"></a>第四步：把结果写成可复现的记录</h2><p>至少写清楚原版本、测试版本、唯一改动、重现步骤和结果。若相同条件下只在某一版本失败，再查看该版本的官方发布说明与相关 issue；不要把一次网络故障误判成所有 Proton 版本都不可用。</p>
 <aside class="note tip"><strong>回退要简单</strong><p>恢复原兼容工具与启动参数后重新测试。先保留存档与日志，再考虑进一步处理；不靠删除数据制造一次“干净启动”。</p>
 </aside>
-[Valve Proton 官方说明](https://github.com/ValveSoftware/Proton) · [proton-11.0-2 发布记录](https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2)</div>
+
+
+
+<p><a target="_blank" rel="noopener" href="https://github.com/ValveSoftware/Proton">Valve Proton 官方说明</a> · <a target="_blank" rel="noopener" href="https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2">proton-11.0-2 发布记录</a></p>
+</div>
           <nav class="post-nav">
     
     <a class="post-nav-item post-nav-prev" href="/cycling/maintenance/">

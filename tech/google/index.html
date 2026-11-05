@@ -278,8 +278,10 @@
 
           <div class="page-content"><aside class="note note"><strong>适用范围与日期</strong><p>Google 于 2026-05-19 公布 AI Studio 的原生 Android 构建功能，10 月 13 日说明个人应用通过 Google Play 在本人设备运行的分批开放安排。地区、账号和界面入口可能继续变化；本文按官方公告说明，不保证每个账号都已出现相同按钮。</p>
 </aside>
-Google AI Studio 的 Build 标签页现在支持生成原生 Android 应用，输出以 Kotlin 和 Jetpack Compose 为主。网页模拟器可预览；需要在真机测试时，可用 Android Debug Bridge（ADB）安装，也可以连接 Play Developer 账号，把版本推到 Google Play 内部测试轨道。
 
+
+
+<p>Google AI Studio 的 Build 标签页现在支持生成原生 Android 应用，输出以 Kotlin 和 Jetpack Compose 为主。网页模拟器可预览；需要在真机测试时，可用 Android Debug Bridge（ADB）安装，也可以连接 Play Developer 账号，把版本推到 Google Play 内部测试轨道。</p>
 <h2 id="先把需求写清楚"><a href="#先把需求写清楚" class="headerlink" title="先把需求写清楚"></a>先把需求写清楚</h2><p>不要只输入“帮我做一个漂亮的记账 App”。先列出谁会用、核心流程、页面、数据怎么保存、异常情况和明确不做的事。这样生成结果更容易检查，也减少反复推倒重来。</p>
 <p>可先复制下面的提示，再替换方括号内容：</p>
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">请创建一个原生 Android 应用，使用 Kotlin 与 Jetpack Compose。</span><br><span class="line">用途：[一句话说明]</span><br><span class="line">用户流程：[打开应用后依次完成什么]</span><br><span class="line">页面：[列出页面及每页的主要控件]</span><br><span class="line">数据：[本地保存或调用的接口；没有把握时先用本地示例数据]</span><br><span class="line">异常：[空列表、输入错误、无网络时怎么显示]</span><br><span class="line">要求：支持深色模式和大字体；先完成可运行的最小版本。</span><br><span class="line">请说明生成了哪些页面，以及需要我提供的配置；不要在代码里写入真实密钥。</span><br></pre></td></tr></table></figure>
@@ -315,7 +317,11 @@ Google AI Studio 的 Build 标签页现在支持生成原生 Android 应用，�
 <p>先选与你目标对应的路径：自己试用时不要误以为需要先完成公开上架；团队内测不要把个人私用入口当作测试轨道；正式上架则要按 Google Play 开发者流程准备应用资料、测试和审核。</p>
 <aside class="note warning"><strong>费用与隐私</strong><p>AI Studio 生成原生代码不等于 Google Cloud 后端永久免费。若 App 要联网、保存用户资料或调用付费服务，应单独核实对应服务的价格、密钥保护和数据处理要求；不要把密钥硬编码进客户端。</p>
 </aside>
-[Google AI Studio 原生 Android 构建说明](https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-studio-io-2026/) · [Google Play 个人 App 与发布范围](https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/)</div>
+
+
+
+<p><a target="_blank" rel="noopener" href="https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-studio-io-2026/">Google AI Studio 原生 Android 构建说明</a> · <a target="_blank" rel="noopener" href="https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/">Google Play 个人 App 与发布范围</a></p>
+</div>
           <nav class="post-nav">
     
     <a class="post-nav-item post-nav-prev" href="/github/immich/">

@@ -278,8 +278,10 @@
 
           <div class="page-content"><aside class="note note"><strong>版本说明</strong><p>资料核对日期为 2026-10-15，参考 Uptime Kuma 官方 README 与 2.5.6 发布记录。项目采用 MIT 许可证；以下先在本机管理，再添加一个自己有权监控的网址。</p>
 </aside>
-Uptime Kuma 支持 HTTP、TCP、DNS、关键词等监控，也能发送多种渠道通知。搭建时最容易漏掉的不是“有没有绿色图标”，而是服务重启后数据是否还在，以及目标故障时通知是否真正到达。
 
+
+
+<p>Uptime Kuma 支持 HTTP、TCP、DNS、关键词等监控，也能发送多种渠道通知。搭建时最容易漏掉的不是“有没有绿色图标”，而是服务重启后数据是否还在，以及目标故障时通知是否真正到达。</p>
 <h2 id="建立一个独立的-Docker-实例"><a href="#建立一个独立的-Docker-实例" class="headerlink" title="建立一个独立的 Docker 实例"></a>建立一个独立的 Docker 实例</h2><p>准备好 Docker 后，新建目录与 <code>compose.yaml</code>。下面使用官方 2 系列镜像，并把管理端口限制在本机；若已有同名实例，应先检查现有配置，不要重复启动。</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">uptime-kuma:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="string">louislam/uptime-kuma:2</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">unless-stopped</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span><span class="string">:3001:3001</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">uptime-kuma-data:/app/data</span></span><br><span class="line"><span class="attr">volumes:</span></span><br><span class="line">  <span class="attr">uptime-kuma-data:</span></span><br></pre></td></tr></table></figure>
 
