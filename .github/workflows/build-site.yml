@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
+      - name: Verify CDN edge proxy
+        run: node --test routing/edge-proxy.test.mjs
       - name: Install locked dependencies
         working-directory: site
         run: |
