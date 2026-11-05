@@ -53,7 +53,7 @@
     "stylesheets": [
       "/css/main.css",
       "/css/components.css",
-      "/css/brand-motion.css?v=2"
+      "/css/brand-motion.css?v=3"
     ],
     "favicon": "https://img.c6c.top/logo1.1/logo-smooth.svg"
   },
