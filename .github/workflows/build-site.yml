@@ -20,10 +20,15 @@ jobs:
           node-version: '22'
       - name: Verify CDN edge proxy
         run: node --test routing/edge-proxy.test.mjs
+      - name: Verify source synchronization
+        run: node --test site/tools/sync-source.test.mjs
       - name: Install locked dependencies
         working-directory: site
         run: |
           if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - name: Sync published articles from blog.yigeyao.com
+        working-directory: site
+        run: node tools/sync-source.mjs
       - name: Build and verify all imported articles
         working-directory: site
         run: npm run build
@@ -31,7 +36,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/package-lock.json site/source/_posts
+          git add site/package-lock.json site/import/published-posts.json site/source/_posts
           if ! git diff --cached --quiet; then
             git commit -m "chore: retain imported Hexo sources and dependency lock"
             git push origin HEAD:main

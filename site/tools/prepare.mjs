@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, writeFile } from 'node:fs/promises';
+import { cp, mkdir, readFile, writeFile, readdir, unlink } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
@@ -27,5 +27,9 @@ for (const post of snapshot.posts) {
   };
   const front = Object.entries(meta).map(([key, value]) => key + ': ' + JSON.stringify(value)).join('\n');
   await writeFile(path.join(site, 'source/_posts/jia-' + post.id + '.md'), '---\n' + front + '\n---\n' + post.content, 'utf8');
+}
+const expected = new Set(snapshot.posts.map(post => 'jia-' + post.id + '.md'));
+for (const name of await readdir(path.join(site, 'source/_posts'))) {
+  if (/^jia-[a-zA-Z0-9-]+\.md$/.test(name) && !expected.has(name)) await unlink(path.join(site, 'source/_posts', name));
 }
 console.log('Prepared ' + snapshot.count + ' published posts; pending edits are excluded.');

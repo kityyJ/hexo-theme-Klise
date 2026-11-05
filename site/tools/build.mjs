@@ -33,7 +33,7 @@ try {
     assert.ok(!/<\/aside>\s*#{1,6} /.test(html), 'Headings after imported callouts ' + source.id);
     report.push({ id: source.id, path: '/' + source.public_path + '/', date: source.date, updated: source.updated, categories: source.categories, tags: source.tags, title: source.title, body_sha256: createHash('sha256').update(body).digest('hex') });
   }
-  for (const file of ['index.html', 'archives/index.html', 'tags/index.html', 'categories/index.html', 'about/index.html', '404.html', 'atom.xml', 'css/main.css', 'css/components.css', 'js/main.js']) {
+  for (const file of ['index.html', 'archives/index.html', 'tags/index.html', 'categories/index.html', 'about/index.html', '404.html', 'atom.xml', 'css/main.css', 'css/components.css', 'js/main.js', 'js/mobile-reading.js', 'css/mobile-reading.css']) {
     await access(path.join(site, 'public', file));
   }
   const css = await readFile(path.join(site, 'public/css/main.css'), 'utf8');

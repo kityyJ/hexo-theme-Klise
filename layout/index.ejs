@@ -19,7 +19,7 @@
       </h2>
       <p class="author-bio"><%=theme.bio%></p>
     </div>
-    <main aria-label="Content">
+    <main class="home-feed" aria-label="Content" data-page="<%= page.current || 1 %>" data-total="<%= site.posts.length %>" data-next="<%= page.next ? url_for(page.next_link) : '' %>">
       <%-partial('partials/recent-posts')%>
       <% if (page.total > 1) { %><nav class="pager" aria-label="分页"><%- paginator({ prev_text: '上一页', next_text: '下一页' }) %></nav><% } %>
     </main>

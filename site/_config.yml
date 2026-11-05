@@ -53,9 +53,14 @@
     "stylesheets": [
       "/css/main.css",
       "/css/components.css",
-      "/css/brand-motion.css?v=4"
+      "/css/brand-motion.css?v=4",
+      "/css/mobile-reading.css"
     ],
-    "favicon": "https://img.c6c.top/logo1.1/logo-smooth.svg"
+    "favicon": "https://img.c6c.top/logo1.1/logo-smooth.svg",
+    "scripts": [
+      "/js/main.js",
+      "/js/mobile-reading.js"
+    ]
   },
   "index_generator": {
     "path": "",

@@ -1,0 +1,20 @@
+/* Mobile article stream and reading progress. */
+.feed-chunk{animation:article-batch-in .55s ease both}
+@keyframes article-batch-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.load-more-status{display:none;border:0;background:transparent;color:inherit;font:inherit;width:100%;padding:20px 0;cursor:pointer}
+.reading-progress{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:1;width:48px;height:48px;border:0;border-radius:50%;background:#fff;color:#166534;box-shadow:0 2px 12px #0002;cursor:pointer;padding:0}
+.reading-progress svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.reading-progress circle{fill:none;stroke-width:2}
+.progress-track{stroke:#16a34a25}.progress-value{stroke:#16a34a;stroke-dasharray:100;stroke-dashoffset:100;transition:stroke-dashoffset .2s}
+.reading-progress span{position:relative;font-size:10px;font-weight:700}
+body[data-theme="dark"] .reading-progress{background:#1b1d25;color:#86efac}
+body[data-theme="dark"] .progress-value{stroke:#4ade80}
+@media(max-width:768px){
+  .home-feed.infinite-ready>.pager{display:none}
+  .home-feed.infinite-ready>.load-more-status{display:block}
+  .home-feed .post-item-date{flex:0 0 76px;min-width:0;padding-right:10px;font-size:13px;line-height:1.8}
+  .home-feed .post-item-title{min-width:0;font-size:15px;line-height:1.7;overflow-wrap:anywhere}
+  .reading-progress{right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));width:44px;height:44px}
+  .author-bio{max-width:100%;overflow-wrap:anywhere}
+}
+@media(prefers-reduced-motion:reduce){.feed-chunk{animation:none}.progress-value{transition:none}}
