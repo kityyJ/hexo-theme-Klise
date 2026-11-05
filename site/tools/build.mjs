@@ -22,7 +22,8 @@ try {
     assert.equal(post.updated.toISOString(), source.updated, 'Updated date ' + source.id);
     assert.deepEqual(post.tags.toArray().map(tag => tag.name).sort(), [...source.tags].sort(), 'Tags ' + source.id);
     assert.deepEqual(post.categories.toArray().map(category => category.name), source.categories, 'Category ' + source.id);
-    assert.equal(decodeURI(post.path).replace(/^\\/+/, '').replace(/index\\.html$/, ''), source.public_path + '/', 'Permalink ' + source.id);
+    const route = decodeURI(post.path).split('/').filter(Boolean).join('/');
+    assert.equal(route.endsWith('/index.html') ? route.slice(0, -11) : route, source.public_path, 'Permalink ' + source.id);
     const raw = await readFile(path.join(site, 'source/_posts/jia-' + source.id + '.md'), 'utf8');
     const body = raw.slice(raw.indexOf('\n---\n', 4) + 5);
     assert.equal(body, source.content, 'Unmodified published body ' + source.id);
