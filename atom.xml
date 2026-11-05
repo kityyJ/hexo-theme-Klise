@@ -9,7 +9,7 @@
   <link href="https://blog.jia.nz/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, JIA</rights>
   <subtitle>JIA 的博客</subtitle>
-  <title>JIA</title>
+  <title>𝙅𝙄𝘼 𝘽𝙇𝙊𝙂</title>
   <updated>2026-11-03T08:13:41.274Z</updated>
   <entry>
     <author>
@@ -376,10 +376,10 @@
       <name>JIA</name>
     </author>
     <category term="人工智能" scheme="https://blog.jia.nz/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"/>
-    <category term="实用教程" scheme="https://blog.jia.nz/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <category term="GitHub Copilot" scheme="https://blog.jia.nz/tags/GitHub-Copilot/"/>
     <category term="HydraFusion" scheme="https://blog.jia.nz/tags/HydraFusion/"/>
     <category term="AI编程" scheme="https://blog.jia.nz/tags/AI%E7%BC%96%E7%A8%8B/"/>
+    <category term="实用教程" scheme="https://blog.jia.nz/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/"/>
     <content>
       <![CDATA[<aside class="note note"><strong>版本与权限</strong><p>本文依据 GitHub 2026-09-30 与 2026-10-14 公告整理。HydraFusion 仍是研究预览，是否可用取决于 Copilot 方案、应用版本和组织策略；界面名称可能随预览更新。</p></aside><p>HydraFusion 出现在 Copilot 的模型选择器里，但它不是一个固定的单模型。它会根据任务，在单模型处理、先快速起草再升级检查、或让独立模型评审后再修订等工作流之间协调。Copilot Auto 是为每次请求挑选一个模型；HydraFusion 还会在一次任务里编排多个模型。</p><h2 id="在-VS-Code-开启"><a href="#在-VS-Code-开启" class="headerlink" title="在 VS Code 开启"></a>在 VS Code 开启</h2><ol><li>更新到 VS Code 1.140 或更高版本；也可以使用 VS Code Insiders。</li><li>打开 Copilot Chat，在模型选择器里查找并选择 HydraFusion。</li><li>如果列表里没有它，打开 VS Code 设置，搜索 <code>chat.copilot.hydraFusion.enabled</code> 并启用。</li><li>若账号属于公司或 Enterprise 组织，请管理员在组织或企业策略中允许预览功能；自己反复重装通常解决不了策略禁用。</li></ol><h2 id="在-GitHub-Copilot-App-开启"><a href="#在-GitHub-Copilot-App-开启" class="headerlink" title="在 GitHub Copilot App 开启"></a>在 GitHub Copilot App 开启</h2><ol><li>更新到 App 最新版本。</li><li>打开 Settings，在设置搜索框输入 HydraFusion 并开启。</li><li>返回模型选择器，选择 HydraFusion。</li></ol><p>如果开关或模型仍不存在，依次检查：Copilot 方案是否包含预览资格、App 是否已更新、个人设置是否启用、组织管理员是否开放预览。GitHub 公告列出的可用方案是 Pro、Pro+、Business 和 Enterprise；Business 与 Enterprise 还要求管理员开启预览。</p><h2 id="哪些任务适合先试"><a href="#哪些任务适合先试" class="headerlink" title="哪些任务适合先试"></a>哪些任务适合先试</h2><p>可以先用它处理有明确验收标准、而且结果能在工作区核验的任务：解释失败测试、定位一处 bug、补一个小功能、比较两种实现，或检查一个改动的边界情况。不要一开始就交给它无边界的全仓重构、生产发布或删除数据操作。</p><p>可以把下面的提示模板直接改成自己的任务：</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">目标：修复 [具体失败现象]。</span><br><span class="line">先查看相关文件和测试，列出根因与准备修改的文件；暂时不要改动无关模块。</span><br><span class="line">修改后运行 [明确的测试命令]，说明测试结果。</span><br><span class="line">最后逐项解释 diff，并指出仍未验证的行为。</span><br></pre></td></tr></table></figure><p>它仍会生成需要检查的代码，不代表多模型结论天然正确。先让它解释计划；批准修改后，检查 Git diff，再运行项目测试。涉及认证、付款、数据库迁移和权限逻辑时，单独审查边界条件，不能只因为回答看起来完整就合并。</p><h2 id="HydraFusion-与-Auto-怎么选"><a href="#HydraFusion-与-Auto-怎么选" class="headerlink" title="HydraFusion 与 Auto 怎么选"></a>HydraFusion 与 Auto 怎么选</h2><p>简单问答或小改动，可以先用 Auto；需要多步推理、代码修改后再复查，或想要更清晰的长任务进度时，可以尝试 HydraFusion。Max 是 10 月 14 日加入的更高推理强度选项，适合更难的任务；它不保证每次都更快，也不代表公开排行榜第一。先挑一个你能验证的任务，用相同输入分别运行并对照耗时、diff 和测试结果。</p><aside class="note warning"><strong>研究预览</strong><p>模型池和工作流会调整。不要把一次任务的体验当成普遍性能结论；如果组织看不到该选项，先确认管理员策略，而不是尝试绕过组织设置。</p></aside><p><a target="_blank" rel="noopener" href="https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/">VS Code 与 Copilot App 官方开启步骤</a> · <a target="_blank" rel="noopener" href="https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/">HydraFusion 与 Max 更新</a> · <a target="_blank" rel="noopener" href="https://github.blog/ai-and-ml/project-hydrafusion-frontier-quality-via-multi-model-orchestration/">项目介绍</a></p>]]>
     </content>
