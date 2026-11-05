@@ -4,7 +4,7 @@
   "description": "JIA 的博客",
   "author": "JIA",
   "language": "zh-CN",
-  "timezone": "Asia/Seoul",
+  "timezone": "UTC",
   "url": "https://jia-klise.pages.dev",
   "root": "/",
   "permalink": ":title/",

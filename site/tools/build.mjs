@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
-const site = fileURLToPath(new URL('../', import.meta.url));
+const site = path.resolve(fileURLToPath(new URL('../', import.meta.url)));
 const snapshot = JSON.parse(await readFile(path.join(site, 'import/published-posts.json'), 'utf8'));
 const hexo = new Hexo(site, {});
 try {
