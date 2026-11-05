@@ -1,14 +1,11 @@
 /* Motion treatment inspired by Uiverse.io / mobinkakei. */
-.author .jia-brand{display:flex;align-items:center;justify-content:center;gap:10px;max-width:100%;line-height:1}
-.jia-brand-letters{display:flex;align-items:center;gap:3px;--jia-dot:#5628ee}
-.jia-letter{display:block;width:32px;height:44px;overflow:visible}
-.jia-letter path{fill:none;stroke:currentColor;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
-.jia-letter .jia-letter-track{opacity:.22}
-.jia-letter .jia-letter-path{stroke-dasharray:75 25;animation:jia-letter-draw 3s cubic-bezier(.785,.135,.15,.86) infinite;animation-delay:var(--delay)}
-.jia-letter .jia-letter-counter{stroke-width:2.5}
-.jia-letter-dot{fill:var(--jia-dot);stroke:none}
-.jia-brand-blog{font-size:1em}
-body[data-theme="dark"] .jia-brand-letters{--jia-dot:#b59aff}
-@keyframes jia-letter-draw{to{stroke-dashoffset:-100}}
-@media(max-width:360px){.jia-letter{width:28px;height:40px}.author .jia-brand{gap:8px}}
-@media(prefers-reduced-motion:reduce){.jia-letter .jia-letter-path{animation:none;stroke-dasharray:none}.jia-letter-dot{display:none}}
+.author .jia-brand{display:flex;align-items:center;justify-content:center;max-width:100%;line-height:1;--jia-dot:#5628ee}
+.jia-word{display:block;width:90px;height:50px;overflow:visible}
+.jia-word text{font-family:inherit;font-size:64px;font-weight:700}
+.jia-word-base{fill:currentColor}
+.jia-word-outline{fill:none;stroke:var(--jia-dot);stroke-width:.8;stroke-dasharray:12 240;animation:jia-word-draw 3s linear infinite}
+.jia-word-dot{fill:var(--jia-dot)}
+body[data-theme="dark"] .jia-brand{--jia-dot:#b59aff}
+@keyframes jia-word-draw{to{stroke-dashoffset:-252}}
+@media(max-width:360px){.jia-word{width:81px;height:45px}}
+@media(prefers-reduced-motion:reduce){.jia-word-outline,.jia-word-dot{display:none}}

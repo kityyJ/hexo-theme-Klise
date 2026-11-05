@@ -9,14 +9,13 @@
             loading="lazy"
           />
       </div>
-      <!-- Motion treatment inspired by Uiverse.io / mobinkakei; custom JIA letter paths. -->
-      <h2 class="author-name jia-brand" aria-label="<%= config.title %>">
-        <span class="jia-brand-letters" aria-hidden="true">
-          <svg class="jia-letter" viewBox="0 0 60 80" style="--delay: -0s" focusable="false"><path class="jia-letter-track" d="M14 10H48V46C48 72 10 73 10 48H23C23 61 35 59 35 46V22H14Z"></path><path class="jia-letter-path" pathLength="100" d="M14 10H48V46C48 72 10 73 10 48H23C23 61 35 59 35 46V22H14Z"></path><circle class="jia-letter-dot" r="3.2"><animateMotion path="M14 10H48V46C48 72 10 73 10 48H23C23 61 35 59 35 46V22H14Z" dur="3s" begin="-0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keyPoints="0;1" keySplines="0.785 0.135 0.15 0.86"></animateMotion></circle></svg>
-          <svg class="jia-letter" viewBox="0 0 60 80" style="--delay: -0.5s" focusable="false"><path class="jia-letter-track" d="M10 10H50V22H37V58H50V70H10V58H23V22H10Z"></path><path class="jia-letter-path" pathLength="100" d="M10 10H50V22H37V58H50V70H10V58H23V22H10Z"></path><circle class="jia-letter-dot" r="3.2"><animateMotion path="M10 10H50V22H37V58H50V70H10V58H23V22H10Z" dur="3s" begin="-0.5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keyPoints="0;1" keySplines="0.785 0.135 0.15 0.86"></animateMotion></circle></svg>
-          <svg class="jia-letter" viewBox="0 0 60 80" style="--delay: -1s" focusable="false"><path class="jia-letter-track" d="M7 68L24 10H37L54 68H40L36 53H23L19 68Z"></path><path class="jia-letter-path" pathLength="100" d="M7 68L24 10H37L54 68H40L36 53H23L19 68Z"></path><path class="jia-letter-counter" d="M26 41H33L29.5 27Z"></path><circle class="jia-letter-dot" r="3.2"><animateMotion path="M7 68L24 10H37L54 68H40L36 53H23L19 68Z" dur="3s" begin="-1s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keyPoints="0;1" keySplines="0.785 0.135 0.15 0.86"></animateMotion></circle></svg>
-        </span>
-        <span class="jia-brand-blog" aria-hidden="true">𝘽𝙇𝙊𝙂</span>
+      <!-- Motion treatment inspired by Uiverse.io / mobinkakei. -->
+      <h2 class="author-name jia-brand" aria-label="JIA">
+        <svg class="jia-word" viewBox="0 0 144 80" width="108" height="60" aria-hidden="true" focusable="false">
+          <text class="jia-word-base" x="72" y="61" text-anchor="middle">𝙅𝙄𝘼</text>
+          <text class="jia-word-outline" x="72" y="61" text-anchor="middle">𝙅𝙄𝘼</text>
+          <circle class="jia-word-dot" r="2.5"><animateMotion path="M10 66Q37 74 70 66T130 66Q140 40 128 16Q74 7 16 16Q3 40 10 66Z" dur="3s" repeatCount="indefinite"></animateMotion></circle>
+        </svg>
       </h2>
       <p class="author-bio"><%=theme.bio%></p>
     </div>
