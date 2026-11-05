@@ -1,27 +1,7 @@
 {
-  "source": "https://blog.jia.nz",
+  "source": "https://blog.yigeyao.com",
   "count": 41,
   "posts": [
-    {
-      "id": "efab3aa9-16be-467c-909c-08941ad3c61b",
-      "path": "/game/r6s-2/",
-      "date": "2026-10-29T08:52:26.068Z",
-      "updated": "2026-11-03T08:13:43.048Z",
-      "categories": [
-        "游戏"
-      ],
-      "tags": [
-        "彩虹六号",
-        "R6S",
-        "怪医诅咒",
-        "Doktor’s Curse",
-        "万圣节",
-        "免费奖励",
-        "2026"
-      ],
-      "title": "《彩虹六号：围攻》“怪医诅咒”回归：11月2日截止，玩法与免费奖励全整理",
-      "body_sha256": "a0a9beff70f01e354fe9b4e473d059df541c6279120f4e0cd8a3075be1a3ef37"
-    },
     {
       "id": "c8916b3a-1069-4f2b-a940-057204911a9d",
       "path": "/tech/apple-1/",
@@ -43,25 +23,24 @@
       "body_sha256": "7bed309f7dbca06e2ac0adc345f67b414d358a6cd46f456bc992c6f5af3d5e7b"
     },
     {
-      "id": "44cc5f1f-c8d7-4f74-8bd3-b3d914d39f72",
-      "path": "/game/td2/",
-      "date": "2026-10-14T18:07:19.211Z",
-      "updated": "2026-11-03T08:13:39.065Z",
+      "id": "efab3aa9-16be-467c-909c-08941ad3c61b",
+      "path": "/game/r6s-2/",
+      "date": "2026-10-29T08:52:26.068Z",
+      "updated": "2026-11-03T08:13:43.048Z",
       "categories": [
         "游戏"
       ],
       "tags": [
-        "全境封锁2",
-        "TUY8S3.3",
-        "跨平台联机",
-        "战队迁移",
-        "Conflict",
-        "奇特手套",
-        "牧羊人活动",
-        "中央公园"
+        "彩虹六号",
+        "R6S",
+        "怪医诅咒",
+        "Doktor’s Curse",
+        "万圣节",
+        "免费奖励",
+        "2026"
       ],
-      "title": "《全境封锁2》TUY8S3.3 更新详解：11月跨平台时间表、新奇特手套、战队迁移与冲突战改版",
-      "body_sha256": "ef00c70f1a20fe13fb2343f27591a50fab781f3cc4fc55c0e7d0cb2b64f881e9"
+      "title": "《彩虹六号：围攻》“怪医诅咒”回归：11月2日截止，玩法与免费奖励全整理",
+      "body_sha256": "a0a9beff70f01e354fe9b4e473d059df541c6279120f4e0cd8a3075be1a3ef37"
     },
     {
       "id": "1aba07c4-7ef4-4ecb-9013-6a777c1ec84e",
@@ -138,23 +117,6 @@
       ],
       "title": "《全境封锁2》国服官宣停运：12月14日关服，玩家补偿方案完整解读",
       "body_sha256": "0a34d5bfca5f0a50a6faf637b170308fd86bfd2667b8387136b91cba4700cb91"
-    },
-    {
-      "id": "7feec4d7-bade-458b-9bb7-5e7c7b1ee71c",
-      "path": "/tech/google/",
-      "date": "2026-10-15T05:49:57.576Z",
-      "updated": "2026-10-18T16:28:19.467Z",
-      "categories": [
-        "科技数码"
-      ],
-      "tags": [
-        "Google AI Studio",
-        "Android",
-        "Jetpack Compose",
-        "App教程"
-      ],
-      "title": "Google AI Studio 制作 Android App 教程：从生成原生应用到手机测试",
-      "body_sha256": "d4438298b722561a02a6ced73da009231ce7dc2f2c2c0df01778afc3e9a0e811"
     },
     {
       "id": "699a8a04-48ca-4cf0-851a-42eab9e67ec0",
@@ -346,18 +308,71 @@
       "body_sha256": "422be4088518f2bf24ee7886abebddfe66b1740238aa17abb34fe34cee60fdbc"
     },
     {
-      "id": 45,
-      "path": "/guide/tutorial-2/",
-      "date": "2026-09-16T13:15:28.045Z",
-      "updated": "2026-10-15T06:38:34.195Z",
+      "id": "7feec4d7-bade-458b-9bb7-5e7c7b1ee71c",
+      "path": "/tech/google/",
+      "date": "2026-10-15T05:49:57.576Z",
+      "updated": "2026-10-18T16:28:19.467Z",
       "categories": [
-        "干货教程"
+        "科技数码"
       ],
       "tags": [
-        "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGP"
+        "Google AI Studio",
+        "Android",
+        "Jetpack Compose",
+        "App教程"
       ],
-      "title": "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGPT｜可注册Telegram",
-      "body_sha256": "a17c1cccfd72f59204f1a7698d482ea76ae65759661b75dfa189f211d5f0ac47"
+      "title": "Google AI Studio 制作 Android App 教程：从生成原生应用到手机测试",
+      "body_sha256": "d4438298b722561a02a6ced73da009231ce7dc2f2c2c0df01778afc3e9a0e811"
+    },
+    {
+      "id": "0f63cb2e-239a-474e-8764-7c8804a08e96",
+      "path": "/ai/agent/",
+      "date": "2026-10-15T05:49:56.813Z",
+      "updated": "2026-10-15T06:38:27.211Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "GitHub Copilot",
+        "HydraFusion",
+        "AI编程",
+        "实用教程"
+      ],
+      "title": "HydraFusion 实用上手：在 VS Code 和 Copilot App 中开启并用好多模型协作",
+      "body_sha256": "d7915e7c6f1112921203cd7d0ff7dbfce56f982f9133973a90369f1d158068f0"
+    },
+    {
+      "id": "b828cda3-f806-44ac-b311-723b784aba16",
+      "path": "/github/actions/",
+      "date": "2026-10-15T05:49:55.994Z",
+      "updated": "2026-10-15T06:38:30.097Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "GitHub Actions",
+        "依赖锁文件",
+        "CI",
+        "软件供应链"
+      ],
+      "title": "GitHub Actions 锁文件实用教程：固定依赖并在 CI 中检查",
+      "body_sha256": "e2b4855c9c56f0dbe9be33eb726d87b730d658e2a5c56d225cb8fe5278f21c37"
+    },
+    {
+      "id": "41804434-3076-4c21-912f-3ce83785d907",
+      "path": "/game/cs2/",
+      "date": "2026-10-14T18:07:23.130Z",
+      "updated": "2026-10-15T06:38:25.659Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "Steam",
+        "CS2",
+        "游戏更新"
+      ],
+      "title": "CS2 10月更新速读：AUG 换弹快了半秒，拆弹器标记更清楚",
+      "body_sha256": "93e990b81a798086cf5671a499ff8e105ae0a4c834eed5e93cecdf49cc90f58a"
     },
     {
       "id": "0deb59e2-516c-4f4f-8325-3020110a08ae",
@@ -374,6 +389,69 @@
       ],
       "title": "《彩虹六号》Y11S3.1 更新回顾：Buck 弹药与 Sledge 挥锤速度变了",
       "body_sha256": "ee33df5572dab565d0010896ddcc6102c7d642b96ae1e527107a762fd3fe24b9"
+    },
+    {
+      "id": "44cc5f1f-c8d7-4f74-8bd3-b3d914d39f72",
+      "path": "/game/td2/",
+      "date": "2026-10-14T18:07:19.211Z",
+      "updated": "2026-11-03T08:13:39.065Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "全境封锁2",
+        "TUY8S3.3",
+        "跨平台联机",
+        "战队迁移",
+        "Conflict",
+        "奇特手套",
+        "牧羊人活动",
+        "中央公园"
+      ],
+      "title": "《全境封锁2》TUY8S3.3 更新详解：11月跨平台时间表、新奇特手套、战队迁移与冲突战改版",
+      "body_sha256": "7daa23e86973beb623fb40d2a39d1b51085d07ff66fd1b4b4dda290ec22eb98c"
+    },
+    {
+      "id": 45,
+      "path": "/guide/tutorial-2/",
+      "date": "2026-09-16T13:15:28.045Z",
+      "updated": "2026-10-15T06:38:34.195Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGP"
+      ],
+      "title": "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGPT｜可注册Telegram",
+      "body_sha256": "a17c1cccfd72f59204f1a7698d482ea76ae65759661b75dfa189f211d5f0ac47"
+    },
+    {
+      "id": 41,
+      "path": "/guide/tutorial-1/",
+      "date": "2026-09-13T11:50:10.207Z",
+      "updated": "2026-09-27T11:22:04.670Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！"
+      ],
+      "title": "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！",
+      "body_sha256": "07e9e25857d8ecf34082b88d80dc86e7231c0d6800097e7fda632dbd89bab3c5"
+    },
+    {
+      "id": 39,
+      "path": "/guide/tutorial/",
+      "date": "2026-09-13T11:38:00.000Z",
+      "updated": "2026-09-16T16:46:00.237Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurc"
+      ],
+      "title": "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurcats",
+      "body_sha256": "3f4e4a62d7b8d9df1cf4cc37878c65315df5afc71b4d7baf225fa83968896657"
     },
     {
       "id": 50,
@@ -402,116 +480,7 @@
         "iPhone 18 Pro、App"
       ],
       "title": "2026 苹果秋季发布会全汇总：iPhone Duo 首秀，iPhone 18 Pro、Apple Watch 与 AirPods 新品一次看懂",
-      "body_sha256": "bf0e62172e182a9c9ed23747c672351a4b4fb4c2ca3a2a808088128ce5d8a069"
-    },
-    {
-      "id": "b828cda3-f806-44ac-b311-723b784aba16",
-      "path": "/github/actions/",
-      "date": "2026-10-15T05:49:55.994Z",
-      "updated": "2026-10-15T06:38:30.097Z",
-      "categories": [
-        "GitHub与开源"
-      ],
-      "tags": [
-        "GitHub Actions",
-        "依赖锁文件",
-        "CI",
-        "软件供应链"
-      ],
-      "title": "GitHub Actions 锁文件实用教程：固定依赖并在 CI 中检查",
-      "body_sha256": "e2b4855c9c56f0dbe9be33eb726d87b730d658e2a5c56d225cb8fe5278f21c37"
-    },
-    {
-      "id": 3,
-      "path": "/life/notes/",
-      "date": "2026-08-23T03:14:00.000Z",
-      "updated": "2026-10-15T06:38:28.367Z",
-      "categories": [
-        "日常"
-      ],
-      "tags": [
-        "今日笔记"
-      ],
-      "title": "今日笔记",
-      "body_sha256": "eaaa326a403af2d6ece3c00bdae01b6f022c5b4631c26cede4be9aa90549980b"
-    },
-    {
-      "id": "0f63cb2e-239a-474e-8764-7c8804a08e96",
-      "path": "/ai/agent/",
-      "date": "2026-10-15T05:49:56.813Z",
-      "updated": "2026-10-15T06:38:27.211Z",
-      "categories": [
-        "人工智能"
-      ],
-      "tags": [
-        "GitHub Copilot",
-        "HydraFusion",
-        "AI编程",
-        "实用教程"
-      ],
-      "title": "HydraFusion 实用上手：在 VS Code 和 Copilot App 中开启并用好多模型协作",
-      "body_sha256": "d7915e7c6f1112921203cd7d0ff7dbfce56f982f9133973a90369f1d158068f0"
-    },
-    {
-      "id": 19,
-      "path": "/life/reflections/",
-      "date": "2017-02-02T17:42:00.000Z",
-      "updated": "2026-10-15T06:38:26.348Z",
-      "categories": [
-        "日常"
-      ],
-      "tags": [
-        "小时候可曾有过梦想"
-      ],
-      "title": "小时候可曾有过梦想",
-      "body_sha256": "42547bf0829126f3c211ea4341ff1713969fca7c1b0e624c1d070c2843cb99ed"
-    },
-    {
-      "id": "41804434-3076-4c21-912f-3ce83785d907",
-      "path": "/game/cs2/",
-      "date": "2026-10-14T18:07:23.130Z",
-      "updated": "2026-10-15T06:38:25.659Z",
-      "categories": [
-        "游戏"
-      ],
-      "tags": [
-        "Steam",
-        "CS2",
-        "游戏更新"
-      ],
-      "title": "CS2 10月更新速读：AUG 换弹快了半秒，拆弹器标记更清楚",
-      "body_sha256": "93e990b81a798086cf5671a499ff8e105ae0a4c834eed5e93cecdf49cc90f58a"
-    },
-    {
-      "id": 41,
-      "path": "/guide/tutorial-1/",
-      "date": "2026-09-13T11:50:10.207Z",
-      "updated": "2026-09-27T11:22:04.670Z",
-      "categories": [
-        "干货教程"
-      ],
-      "tags": [
-        "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！"
-      ],
-      "title": "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！",
-      "body_sha256": "07e9e25857d8ecf34082b88d80dc86e7231c0d6800097e7fda632dbd89bab3c5"
-    },
-    {
-      "id": 29,
-      "path": "/ai/tools/",
-      "date": "2025-07-07T19:31:00.000Z",
-      "updated": "2026-09-27T10:56:00.761Z",
-      "categories": [
-        "人工智能"
-      ],
-      "tags": [
-        "ChatGPT",
-        "Prompt",
-        "Pixel Art",
-        "everskies"
-      ],
-      "title": "使用 ChatGPT 生成像素风格照片咒语",
-      "body_sha256": "571e7906131e82fc341ed7186814197dba95599d1757dc7bc49a8c2b68d3110a"
+      "body_sha256": "cc379276233f3490618d281c75b78362ee51a2264f4add4148ab3089ff208dba"
     },
     {
       "id": 37,
@@ -531,46 +500,20 @@
       "body_sha256": "51e4fba45d4f4a7fbe61e4c4e5ac781e370ae2dcc0c2fbe01eba7d18090ce4ef"
     },
     {
-      "id": 39,
-      "path": "/guide/tutorial/",
-      "date": "2026-09-13T11:38:00.000Z",
-      "updated": "2026-09-16T16:46:00.237Z",
+      "id": 35,
+      "path": "/guide/tips/",
+      "date": "2026-09-10T13:01:00.000Z",
+      "updated": "2026-09-10T13:29:07.383Z",
       "categories": [
         "干货教程"
       ],
       "tags": [
-        "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurc"
+        "Windows 11",
+        "HDR",
+        "Dolby Vision"
       ],
-      "title": "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurcats",
-      "body_sha256": "3a80abb0d3066ff03ed35bd1b56940c8fd6ba187781ad8958813dc90a0488606"
-    },
-    {
-      "id": 40,
-      "path": "/guide/knowledge/",
-      "date": "2026-07-31T11:02:00.000Z",
-      "updated": "2026-09-16T16:34:11.128Z",
-      "categories": [
-        "干货教程"
-      ],
-      "tags": [
-        "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批"
-      ],
-      "title": "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批",
-      "body_sha256": "d7d78eed9d487afb51fd911fc79eb724c1a085de779f1efb00648b841127d222"
-    },
-    {
-      "id": 47,
-      "path": "/github/agentdock/",
-      "date": "2026-09-08T15:00:00.000Z",
-      "updated": "2026-09-16T13:44:30.882Z",
-      "categories": [
-        "GitHub与开源"
-      ],
-      "tags": [
-        "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」"
-      ],
-      "title": "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」",
-      "body_sha256": "ce375dbc9d801e815bc9efa9a9d8d9b9dd2e3e72d4a7af139b1c8d590619d638"
+      "title": "Windows 11 下 LG 电视开启 HDR 发绿解决方案",
+      "body_sha256": "65a5b462517c8a1e2ddeb2c6a3c2f6f8152bb298fab55e72db70bea63900c7ab"
     },
     {
       "id": 27,
@@ -589,18 +532,46 @@
       "body_sha256": "ce662e3f71bbb6f6bac34a300d10e9c8f0577bf9498a42f81548985f79f21455"
     },
     {
-      "id": 46,
-      "path": "/github/alist/",
-      "date": "2019-03-31T04:32:00.000Z",
-      "updated": "2026-09-16T13:19:31.102Z",
+      "id": 47,
+      "path": "/github/agentdock/",
+      "date": "2026-09-08T15:00:00.000Z",
+      "updated": "2026-09-16T13:44:30.882Z",
       "categories": [
         "GitHub与开源"
       ],
       "tags": [
-        "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！"
+        "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」"
       ],
-      "title": "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！",
-      "body_sha256": "1e448807ac4a1a3e208bc4e95fe819c9bad1fd891a79061b4a512fb49287fa79"
+      "title": "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」",
+      "body_sha256": "9a18a01b0d2b6cde289b5c1f163a42fc59266687ed66b4d89f68a37f2bb7801e"
+    },
+    {
+      "id": 3,
+      "path": "/life/notes/",
+      "date": "2026-08-23T03:14:00.000Z",
+      "updated": "2026-10-15T06:38:28.367Z",
+      "categories": [
+        "日常"
+      ],
+      "tags": [
+        "今日笔记"
+      ],
+      "title": "今日笔记",
+      "body_sha256": "eaaa326a403af2d6ece3c00bdae01b6f022c5b4631c26cede4be9aa90549980b"
+    },
+    {
+      "id": 40,
+      "path": "/guide/knowledge/",
+      "date": "2026-07-31T11:02:00.000Z",
+      "updated": "2026-09-16T16:34:11.128Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批"
+      ],
+      "title": "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批",
+      "body_sha256": "1f029ddede5ae16d921700e42e10e2a0ad6fdf094cd2a2b26def72f062fbb40d"
     },
     {
       "id": 30,
@@ -620,20 +591,52 @@
       "body_sha256": "0dc62930317ca761e689f55b123ed94c3770e0b7e188ff002c3402242eaf3eea"
     },
     {
-      "id": 35,
-      "path": "/guide/tips/",
-      "date": "2026-09-10T13:01:00.000Z",
-      "updated": "2026-09-10T13:29:07.383Z",
+      "id": 28,
+      "path": "/github/gitea/",
+      "date": "2025-07-17T07:22:00.000Z",
+      "updated": "2026-09-10T13:18:01.320Z",
       "categories": [
-        "干货教程"
+        "GitHub与开源"
       ],
       "tags": [
-        "Windows 11",
-        "HDR",
-        "Dolby Vision"
+        "Docker",
+        "Docker Compose",
+        "Git",
+        "Gitea"
       ],
-      "title": "Windows 11 下 LG 电视开启 HDR 发绿解决方案",
-      "body_sha256": "65a5b462517c8a1e2ddeb2c6a3c2f6f8152bb298fab55e72db70bea63900c7ab"
+      "title": "使用 Docker 与 Gitea 部署私人 Git 服务器",
+      "body_sha256": "7a6373a91d3b407e051bcef62521449db8fbf879ae586d3c1a74a0849f88dc52"
+    },
+    {
+      "id": 29,
+      "path": "/ai/tools/",
+      "date": "2025-07-07T19:31:00.000Z",
+      "updated": "2026-09-27T10:56:00.761Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "ChatGPT",
+        "Prompt",
+        "Pixel Art",
+        "everskies"
+      ],
+      "title": "使用 ChatGPT 生成像素风格照片咒语",
+      "body_sha256": "571e7906131e82fc341ed7186814197dba95599d1757dc7bc49a8c2b68d3110a"
+    },
+    {
+      "id": 46,
+      "path": "/github/alist/",
+      "date": "2019-03-31T04:32:00.000Z",
+      "updated": "2026-09-16T13:19:31.102Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！"
+      ],
+      "title": "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！",
+      "body_sha256": "1e448807ac4a1a3e208bc4e95fe819c9bad1fd891a79061b4a512fb49287fa79"
     },
     {
       "id": 36,
@@ -652,21 +655,18 @@
       "body_sha256": "dca8df9abc8f63dda582d6e4862377f02d3be144fa91e2db799b181be0661b19"
     },
     {
-      "id": 28,
-      "path": "/github/gitea/",
-      "date": "2025-07-17T07:22:00.000Z",
-      "updated": "2026-09-10T13:18:01.320Z",
+      "id": 19,
+      "path": "/life/reflections/",
+      "date": "2017-02-02T17:42:00.000Z",
+      "updated": "2026-10-15T06:38:26.348Z",
       "categories": [
-        "GitHub与开源"
+        "日常"
       ],
       "tags": [
-        "Docker",
-        "Docker Compose",
-        "Git",
-        "Gitea"
+        "小时候可曾有过梦想"
       ],
-      "title": "使用 Docker 与 Gitea 部署私人 Git 服务器",
-      "body_sha256": "7a6373a91d3b407e051bcef62521449db8fbf879ae586d3c1a74a0849f88dc52"
+      "title": "小时候可曾有过梦想",
+      "body_sha256": "42547bf0829126f3c211ea4341ff1713969fca7c1b0e624c1d070c2843cb99ed"
     }
   ]
 }
