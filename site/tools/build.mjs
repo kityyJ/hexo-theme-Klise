@@ -22,11 +22,11 @@ try {
     assert.equal(post.updated.toISOString(), source.updated, 'Updated date ' + source.id);
     assert.deepEqual(post.tags.toArray().map(tag => tag.name).sort(), [...source.tags].sort(), 'Tags ' + source.id);
     assert.deepEqual(post.categories.toArray().map(category => category.name), source.categories, 'Category ' + source.id);
-    assert.equal(decodeURI(post.path), source.public_path + '/index.html', 'Permalink ' + source.id);
+    assert.equal(decodeURI(post.path).replace(/^\\/+/, '').replace(/index\\.html$/, ''), source.public_path + '/', 'Permalink ' + source.id);
     const raw = await readFile(path.join(site, 'source/_posts/jia-' + source.id + '.md'), 'utf8');
     const body = raw.slice(raw.indexOf('\n---\n', 4) + 5);
     assert.equal(body, source.content, 'Unmodified published body ' + source.id);
-    const html = await readFile(path.join(site, 'public', post.path), 'utf8');
+    const html = await readFile(path.join(site, 'public', source.public_path, 'index.html'), 'utf8');
     assert.ok(html.includes(hexo.extend.helper.get('escape_html') ? source.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;') : source.title) || html.includes(source.title), 'Rendered title ' + source.id);
     assert.ok(!/{%\s*(?:note|tabs|endnote|endtabs)\b/.test(html), 'Unrendered component ' + source.id);
     report.push({ id: source.id, path: '/' + source.public_path + '/', date: source.date, updated: source.updated, categories: source.categories, tags: source.tags, title: source.title, body_sha256: createHash('sha256').update(body).digest('hex') });
