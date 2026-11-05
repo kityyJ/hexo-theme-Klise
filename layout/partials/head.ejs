@@ -5,7 +5,7 @@ if (is_tag()) pageTitle = 'Tag: ' + page.tag;
 if (is_category()) pageTitle = 'Category: ' + page.category;
 if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
 if (is_year()) pageTitle += ': ' + page.year;
-pageTitle += ' [ ' + config.title + ' ]';
+pageTitle = pageTitle ? pageTitle + ' | ' + config.title : config.title;
 %>
 
 
@@ -13,7 +13,7 @@ pageTitle += ' [ ' + config.title + ' ]';
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><%=pageTitle%></title>
 <% if (theme.favicon){ %>
-  <link rel="icon" href="<%- url_for(theme.favicon) %>">
+  <link rel="icon" href="<%= url_for(theme.favicon) %>"<% if (/\.svg(?:[?#]|$)/i.test(theme.favicon)) { %> type="image/svg+xml" sizes="any"<% } %>>
 <% } %>
 <% if(config.author){ %>
     <meta name="author" content="<%- config.author %>">

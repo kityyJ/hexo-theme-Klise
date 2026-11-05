@@ -1,5 +1,5 @@
 {
-  "title": "JIA",
+  "title": "𝙅𝙄𝘼 𝘽𝙇𝙊𝙂",
   "subtitle": "",
   "description": "JIA 的博客",
   "author": "JIA",
@@ -53,7 +53,8 @@
     "stylesheets": [
       "/css/main.css",
       "/css/components.css"
-    ]
+    ],
+    "favicon": "https://img.c6c.top/logo1.1/logo-smooth.svg"
   },
   "index_generator": {
     "path": "",
