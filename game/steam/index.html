@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linux 上 Steam 游戏打不开？用 Proton 版本与日志逐步定位 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/" class="tag"># 实用教程</a><a href="/tags/steam/" class="tag"># steam</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">Linux 上 Steam 游戏打不开？用 Proton 版本与日志逐步定位</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-15T07:10:24.217Z">2026-10-15</time>
+            <a class="post-category" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><aside class="note note"><strong>资料与版本</strong><p>依据 Valve 官方 Proton README 与 proton-11.0-2 发布记录整理，核对日期 2026-10-15。该版本记录发布于 2026-08-21；本文是兼容性排查教程，不是今日补丁快讯。</p>
+</aside>
+Proton 是 Steam Play 使用的兼容工具，借助 Wine 等组件让部分 Windows 游戏在 Linux 上运行。Valve 建议普通用户使用 Steam 客户端提供的 Proton；直接编译源码或叠加很多第三方修补，不应成为首次排查的默认步骤。
+
+<h2 id="先分清自己遇到哪类问题"><a href="#先分清自己遇到哪类问题" class="headerlink" title="先分清自己遇到哪类问题"></a>先分清自己遇到哪类问题</h2><p>记录游戏名称、发行版、显卡和驱动、Steam 客户端以及当前 Proton 版本。现象也要具体：完全没有窗口、启动器能打开但游戏退出、进入后黑屏，还是能运行但特定场景崩溃。</p>
+<p>核对游戏的官方平台支持与反作弊要求。兼容工具不能保证所有在线游戏都能运行；服务端或反作弊未开放的支持，不能靠换一个版本就宣称已经绕过。</p>
+<h2 id="第一步：建立一个不乱改的基线"><a href="#第一步：建立一个不乱改的基线" class="headerlink" title="第一步：建立一个不乱改的基线"></a>第一步：建立一个不乱改的基线</h2><p>更新 Steam 客户端，确认发行版的图形驱动与游戏最低需求匹配；通过 Steam 检查游戏文件。保留原来的启动参数和设置截图，先移除自己加过、却不知道作用的非必要参数，再试一次。</p>
+<p>先确认本地存档与云同步状态。不要为了“重新来过”直接删除 <code>compatdata</code> 或整个游戏兼容目录，其中可能存在本地存档和配置。</p>
+<h2 id="第二步：只为单个游戏测试版本"><a href="#第二步：只为单个游戏测试版本" class="headerlink" title="第二步：只为单个游戏测试版本"></a>第二步：只为单个游戏测试版本</h2><p>在该游戏的属性中查找兼容性选项，必要时选择 Steam 提供的特定 Steam Play 兼容工具。可以在一个稳定版本和 Proton Experimental 之间做有记录的比较；不要一次给整个游戏库改版本。</p>
+<p>每次只改一个条件，使用相同存档或同一场景复测。能进主菜单、能读存档、能进入实际场景是三个不同检查点，不能只看到启动器出现就宣布问题已经解决。</p>
+<h2 id="第三步：让-Proton-输出日志"><a href="#第三步：让-Proton-输出日志" class="headerlink" title="第三步：让 Proton 输出日志"></a>第三步：让 Proton 输出日志</h2><p>官方 README 支持在游戏的启动选项中设置环境变量，并保留 <code>%command%</code>：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PROTON_LOG=1 %command%</span><br></pre></td></tr></table></figure>
+
+<p>复现一次问题后，默认可在用户主目录寻找 <code>steam-游戏APPID.log</code>；也可以按官方说明使用 <code>PROTON_LOG_DIR</code> 指定日志目录。先核对日志时间是否对应刚才这次启动，而不是拿旧文件判断。</p>
+<p>对外提交报告前，检查日志是否包含用户名、路径或其他个人信息，只提供必要片段。问题解决后移除日志选项，避免长期生成不再需要的大日志。</p>
+<h2 id="第四步：把结果写成可复现的记录"><a href="#第四步：把结果写成可复现的记录" class="headerlink" title="第四步：把结果写成可复现的记录"></a>第四步：把结果写成可复现的记录</h2><p>至少写清楚原版本、测试版本、唯一改动、重现步骤和结果。若相同条件下只在某一版本失败，再查看该版本的官方发布说明与相关 issue；不要把一次网络故障误判成所有 Proton 版本都不可用。</p>
+<aside class="note tip"><strong>回退要简单</strong><p>恢复原兼容工具与启动参数后重新测试。先保留存档与日志，再考虑进一步处理；不靠删除数据制造一次“干净启动”。</p>
+</aside>
+[Valve Proton 官方说明](https://github.com/ValveSoftware/Proton) · [proton-11.0-2 发布记录](https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2)</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/cycling/maintenance/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">自行车链条什么时候该换？磨损量规读数与检查清单</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/ai/tutorial/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">Claude Code Skills 上手：安装官方示例，再把重复任务写成可复用技能</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

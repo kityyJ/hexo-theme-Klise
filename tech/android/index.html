@@ -1,0 +1,379 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>scrcpy 安卓投屏实操：USB 连接、降低卡顿与录屏的排查顺序 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/" class="tag"># 实用教程</a><a href="/tags/android/" class="tag"># android</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">scrcpy 安卓投屏实操：USB 连接、降低卡顿与录屏的排查顺序</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-15T07:05:58.921Z">2026-10-15</time>
+            <a class="post-category" href="/categories/%E7%A7%91%E6%8A%80%E6%95%B0%E7%A0%81/">科技数码</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><aside class="note note"><strong>版本与设备</strong><p>依据 scrcpy v5.0.1 官方 README 整理，核对日期 2026-10-15。基本投屏要求 Android 5.0 以上，音频转发要求 Android 11 以上；具体设备仍可能受厂商权限限制。</p>
+</aside>
+scrcpy 可以让 Windows、macOS 或 Linux 电脑通过 USB 或网络显示并控制安卓设备。项目采用 Apache-2.0 许可证，不要求 root。首次尝试建议先用数据线把基础连接跑通，再考虑无线连接。
+
+<h2 id="从官方渠道安装"><a href="#从官方渠道安装" class="headerlink" title="从官方渠道安装"></a>从官方渠道安装</h2><p>项目明确提醒，GitHub 上的 Genymobile&#x2F;scrcpy 仓库是其官方来源。按 README 中对应系统的安装说明或官方 Releases 下载，不要因为下载站域名带有 scrcpy 就默认可信。留意系统、处理器架构与发布包是否对应。</p>
+<p>准备一根能传数据的 USB 线，而不是只能充电的线。手机打开开发者选项与 USB 调试，连接后在手机上核对授权提示，确认授权的是自己的电脑。</p>
+<h2 id="第一次连接先不加复杂参数"><a href="#第一次连接先不加复杂参数" class="headerlink" title="第一次连接先不加复杂参数"></a>第一次连接先不加复杂参数</h2><p>在已安装 Android platform-tools 的终端运行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">adb devices</span><br><span class="line">scrcpy</span><br></pre></td></tr></table></figure>
+
+<p><code>adb devices</code> 中如果显示 <code>unauthorized</code>，先解锁手机并完成本机授权；如果没有设备，先换线、USB 端口并检查系统驱动。ADB 本身还没连接时，继续修改视频编码参数通常不会解决问题。</p>
+<p>成功打开窗口后，先用鼠标完成返回、主页和文字输入，确认画面和控制都正常。电脑较多时不要随意接受陌生调试授权，使用完可在手机设置中关闭 USB 调试或撤销不再信任的电脑授权。</p>
+<h2 id="卡顿时先降低分辨率"><a href="#卡顿时先降低分辨率" class="headerlink" title="卡顿时先降低分辨率"></a>卡顿时先降低分辨率</h2><p>官方列出的简便办法是缩小最大画面尺寸：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scrcpy -m1024</span><br></pre></td></tr></table></figure>
+
+<p>先观察是否明显改善，再逐步调整帧率等参数。一次只改一个条件，记录原命令，方便恢复。不要把网络带宽、USB 线、设备编码能力和电脑解码负载混成同一种问题。</p>
+<h2 id="没有声音、只能看不能控制"><a href="#没有声音、只能看不能控制" class="headerlink" title="没有声音、只能看不能控制"></a>没有声音、只能看不能控制</h2><p>声音转发要求 Android 11 以上，不能据此宣称所有支持投屏的老手机也都能转发声音。若音频本来就不需要，可先关闭音频来缩小排查范围：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scrcpy --no-audio</span><br></pre></td></tr></table></figure>
+
+<p>某些厂商设备还需要单独的 USB 调试安全设置才能注入键鼠输入。官方特别举到部分小米设备的额外开关与重启要求；应按自己设备的官方设置核实，而不是照着陌生教程关闭所有安全功能。</p>
+<h2 id="录屏前做一个小样本"><a href="#录屏前做一个小样本" class="headerlink" title="录屏前做一个小样本"></a>录屏前做一个小样本</h2><p>需要录制时，可先查看 <code>scrcpy --help</code> 的 Recording 选项，再用短片段检查画面、声音和文件能否播放。录制前关闭会显示个人消息的通知，避免把验证码或聊天内容一起录进去。</p>
+<p>先确认基本连接，再分别处理画质、音频和录制，比把一大串参数一次粘进去更容易判断原因。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/Genymobile/scrcpy">官方项目与各系统安装入口</a> · <a target="_blank" rel="noopener" href="https://github.com/Genymobile/scrcpy/releases/tag/v5.0.1">v5.0.1 发布记录</a></p>
+</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/ai/tutorial/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">Claude Code Skills 上手：安装官方示例，再把重复任务写成可复用技能</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/guide/tips-1/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">LocalSend 跨平台传文件教程：同一 Wi-Fi 找不到设备时怎么排查</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocalSend 跨平台传文件教程：同一 Wi-Fi 找不到设备时怎么排查 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/" class="tag"># 实用教程</a><a href="/tags/tips/" class="tag"># tips</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">LocalSend 跨平台传文件教程：同一 Wi-Fi 找不到设备时怎么排查</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-15T07:05:58.343Z">2026-10-15</time>
+            <a class="post-category" href="/categories/%E5%B9%B2%E8%B4%A7%E6%95%99%E7%A8%8B/">干货教程</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><aside class="note note"><strong>资料与适用范围</strong><p>依据 LocalSend 官方 README 与 v1.18.2 发布记录整理，核对日期为 2026-10-15。这是一篇使用教程，版本发布记录来自 2026 年 8 月，并非今日新版本报道。</p>
+</aside>
+LocalSend 是 Apache-2.0 许可的开源跨平台文件分享工具，可以在本地网络通过 HTTPS 传输文件与文字，不依赖第三方存储中转服务器。它适合电脑与手机之间临时传照片、文档和小批量资料。
+
+<h2 id="先完成一次最小传输"><a href="#先完成一次最小传输" class="headerlink" title="先完成一次最小传输"></a>先完成一次最小传输</h2><p>在发送端和接收端分别从官方列出的应用商店或软件渠道安装。两台设备接入同一可信本地网络，同时打开 LocalSend，记录各自显示的设备名称。</p>
+<p>发送端先只选择一张不含隐私的测试图片，选择正确的接收设备；接收端确认请求并选择保存位置。完成后打开图片核对，确认是正确文件，而不只是界面显示了传输进度。</p>
+<p>大批量文件传输前先做这一步，可以同时发现权限、接收路径和设备选择错误。</p>
+<h2 id="情况一：完全看不到另一台设备"><a href="#情况一：完全看不到另一台设备" class="headerlink" title="情况一：完全看不到另一台设备"></a>情况一：完全看不到另一台设备</h2><p>先确认两端应用都在前台，手机已允许本地网络相关权限，电脑没有把应用的本地网络通信全部拦截。设备即使连着相同名称的 Wi-Fi，也可能处于访客网络或不同隔离区域，未必能相互访问。</p>
+<p>如果使用家用路由器，检查是否开启 AP 隔离或访客隔离。只在自己管理、且确认需要设备互通的网络调整设置；公共网络由管理员限制时，不要试图绕过。</p>
+<h2 id="情况二：能发现设备，点发送却失败"><a href="#情况二：能发现设备，点发送却失败" class="headerlink" title="情况二：能发现设备，点发送却失败"></a>情况二：能发现设备，点发送却失败</h2><p>官方 README 给出的入站端口是 TCP、UDP 的 53317。按系统防火墙给 LocalSend 放行相应的可信本地网络通信，而不是关闭整个防火墙。网络中还有 VPN、代理或安全软件时，也应检查它们是否改变了局域网路由。</p>
+<p>重新测试同一张小图片。如果小文件稳定、大文件中断，再检查设备是否休眠、剩余空间是否足够，以及接收端保存目录是否可写。</p>
+<h2 id="情况三：对方说收到了，自己找不到文件"><a href="#情况三：对方说收到了，自己找不到文件" class="headerlink" title="情况三：对方说收到了，自己找不到文件"></a>情况三：对方说收到了，自己找不到文件</h2><p>在接收端查看实际保存目录和应用接收记录，按文件名与大小核对。手机系统的相册、下载目录和文件管理器并不是同一个入口；收到文档也不一定会出现在照片相册里。</p>
+<p>对重要文件，传输后至少打开一次；资料很多时可按文件数量、大小或校验值确认，而不要把“发送完成”直接等同于长期备份成功。</p>
+<h2 id="升级与兼容性"><a href="#升级与兼容性" class="headerlink" title="升级与兼容性"></a>升级与兼容性</h2><p>当前 README 对不同平台列出了最低系统版本；旧设备不应盲目安装最新包。项目还提醒应用自身不提供统一自动更新机制，使用应用商店或软件包管理器渠道更便于后续维护。</p>
+<aside class="note tip"><strong>使用习惯</strong><p>给设备设置容易辨认的名称；发送前核对接收设备；私密文件只向自己确认的设备发送；传完后检查内容和保存位置。</p>
+</aside>
+[官方仓库与平台下载入口](https://github.com/localsend/localsend) · [v1.18.2 发布记录](https://github.com/localsend/localsend/releases/tag/v1.18.2)</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/tech/android/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">scrcpy 安卓投屏实操：USB 连接、降低卡顿与录屏的排查顺序</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/github/uptime-kuma/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">Uptime Kuma 部署与告警教程：先监控一个网址，再验证通知真的能收到</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

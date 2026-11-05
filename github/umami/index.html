@@ -1,0 +1,400 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>使用 Docker 部署 Umami 网站访问统计系统 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/Docker/" class="tag"># Docker</a><a href="/tags/Docker-Compose/" class="tag"># Docker Compose</a><a href="/tags/Selfhost/" class="tag"># Selfhost</a><a href="/tags/Umami/" class="tag"># Umami</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">使用 Docker 部署 Umami 网站访问统计系统</h1>
+          <div class="post-meta">
+            <time datetime="2025-09-12T12:39:00.000Z">2025-09-12</time>
+            <a class="post-category" href="/categories/GitHub%E4%B8%8E%E5%BC%80%E6%BA%90/">GitHub与开源</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><h2 id="关于-Umami"><a href="#关于-Umami" class="headerlink" title="关于 Umami"></a>关于 Umami</h2><p><a target="_blank" rel="noopener" href="https://umami.is/">Umami</a> 是一个简单、快速、注重隐私且开源网站访问统计系统，可以作为 Google Analytics 的替代品，Umami 不使用 Cookie，不跟踪用户。</p>
+<p>Umami 支持自己部署，功能不受限制，如果自己没有服务器，也可以直接在官网注册使用。</p>
+<p>Umami 的界面非常简洁、直观，功能一目了然，这也是我使用 Umami 的原因，Google Analytics 太强大，界面也很复杂，有时找个功能要找半天。</p>
+<p>Umami 支持下面的功能</p>
+<ul>
+<li><p>统计浏览量、访问次数、访客数量、跳出率、平均访问时长</p>
+</li>
+<li><p>按时间段生成柱状图</p>
+</li>
+<li><p>查看每个 URL 对应的浏览量</p>
+</li>
+<li><p>查看来源域名</p>
+</li>
+<li><p>查看访客的浏览器、操作系统、设备类型、分辨率、地理位置</p>
+</li>
+<li><p>支持生成各种报告</p>
+</li>
+</ul>
+<p>在开始使用之前，可以查看官方提供的 <a target="_blank" rel="noopener" href="https://eu.umami.is/share/LGazGOecbDtaIwDr/umami.is">DEMO</a> 体验后台与统计效果 <img src="https://m.nep.me/blog/post/umami-demo-preview.png"></p>
+<p>不过 Umami 不会区分 localhost 的域名，网页载入了统计代码的话就会进行统计。</p>
+<h2 id="使用-Docker-Compose-部署"><a href="#使用-Docker-Compose-部署" class="headerlink" title="使用 Docker Compose 部署"></a>使用 Docker Compose 部署</h2><p>使用 docker compose 可以直接一键部署，首先创建 docker-compose.yml ，填入下面的内容</p>
+<p>如果没有安装 docker compose， 可以查看 <a target="_blank" rel="noopener" href="https://u.sb/debian-install-docker/">Debian 12 &#x2F; Ubuntu 24.04 安装 Docker 以及 Docker Compose 教程</a></p>
+<p>使用的是官方提供的自带 postgresql 数据库版本的镜像</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">services:</span><br><span class="line">  umami:</span><br><span class="line">    image: ghcr.io/umami-software/umami:postgresql-latest</span><br><span class="line">    ports:</span><br><span class="line">      - &quot;3000:3000&quot;</span><br><span class="line">    environment:</span><br><span class="line">      </span><br><span class="line"></span><br><span class="line">设置 Nginx 反代Nginx 配置文件中的反代部分如下</span><br><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td></tr></table></figure>
+
+<p>然后为了安全，我们可以将 docker-compose.yaml 文件中的端口设置仅限本地 Nginx 访问，将下面部分</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ports:</span><br><span class="line">  - &quot;3000:3000&quot;</span><br></pre></td></tr></table></figure>
+
+<p>修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ports:</span><br><span class="line">  - &quot;127.0.0.1:3000:3000&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="添加站点"><a href="#添加站点" class="headerlink" title="添加站点"></a>添加站点</h2><p>点击 设置 &gt; 添加网站 进行添加：</p>
+<ul>
+<li><p>名字 ：显示在 Umami 后台，用于辨识</p>
+</li>
+<li><p>域名 ：填入实际访问域名，例如 example.com ，不需要加 https:&#x2F;&#x2F;</p>
+</li>
+</ul>
+<p>然后点击对应网站的 编辑 ，在 跟踪代码 部分即可查看需要使用的代码，将对应的代码附加到需要追踪的网页中即可。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>我使用的 Hexo Theme NEXT 主题，可以直接在主题设置中填写 域名 与 data-website-id 让追踪生效。</p>
+<h2 id="资源占用"><a href="#资源占用" class="headerlink" title="资源占用"></a>资源占用</h2><p>使用 docker stats 查看资源占用情况如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS </span><br><span class="line">df307a49da94   umami-umami-1      0.01%     238.8MiB / 1.933GiB   12.06%    16.8MB / 655kB    48MB / 73.8MB     48 </span><br><span class="line">e7c0ca63f761   umami-db-1         0.02%     38.71MiB / 1.933GiB   1.96%     189kB / 162kB     8.56MB / 1.26MB   10</span><br></pre></td></tr></table></figure></div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/guide/knowledge/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/github/gitea/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">使用 Docker 与 Gitea 部署私人 Git 服务器</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

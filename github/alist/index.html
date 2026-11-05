@@ -1,0 +1,440 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！ [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%85%8D%E8%B4%B9-1TB-%E7%A7%81%E4%BA%BA%E7%BD%91%E7%9B%98%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97%EF%BC%9A%E6%96%87%E4%BB%B6%E7%9B%B4%E9%93%BE%E7%94%9F%E6%88%90%E5%99%A8-Alist-%E5%AE%8C%E7%BE%8E%E6%8C%82%E8%BD%BD%EF%BC%81/" class="tag"># 免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！</h1>
+          <div class="post-meta">
+            <time datetime="2019-03-31T04:32:00.000Z">2019-03-31</time>
+            <a class="post-category" href="/categories/GitHub%E4%B8%8E%E5%BC%80%E6%BA%90/">GitHub与开源</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>最近在技术圈发现了一个非常香的“羊毛”——云服务商（Hi168）注册就免费送 500GB 实名后送1T &nbsp;的 S3 对象存储空间 ！对于喜欢折腾服务器、经常需要中转大文件或分享素材的玩家来说，这简直是天降的神仙级后备仓库。</p>
+<p>今天，我就带大家实战演示，如何将这 1TB 空间“榨干”，玩出两种截然不同用法：</p>
+<ul>
+<li><p>轻量级玩法 ：利用 Cloudflare Workers 零成本手搓一个极简的 &nbsp;私人直链网盘 ，随时随地拖拽上传，极速获取文件直链。</p>
+</li>
+<li><p>终极完全体 ：将 S3 空间完美挂载到你服务器的 Alist 中，打造一个可以在线预览视频、管理目录的全功能私人云盘！</p>
+</li>
+</ul>
+<h2 id="nbsp-方案一：极客专属，Cloudflare-Workers-零成本搭建专属极速云盘"><a href="#nbsp-方案一：极客专属，Cloudflare-Workers-零成本搭建专属极速云盘" class="headerlink" title="&nbsp;方案一：极客专属，Cloudflare Workers 零成本搭建专属极速云盘"></a>&nbsp;方案一：极客专属，Cloudflare Workers 零成本搭建专属极速云盘</h2><p>如果你手里没有服务器，或者只想弄个轻量级的工具用来快速分享文件，Cloudflare Workers 是最完美的方案。</p>
+<h3 id="1-获取-S3-凭证与“避坑指南”"><a href="#1-获取-S3-凭证与“避坑指南”" class="headerlink" title="1.获取 S3 凭证与“避坑指南”"></a>1.获取 S3 凭证与“避坑指南”</h3><p>在开始之前，我们需要从服务商后台拿到 S3 的连接配置。</p>
+<p>来到注册网站：<a target="_blank" rel="noopener" href="https://www.hi168.com/">https://www.hi168.com</a> 注册后登陆进去-储存管理-创建储存桶-获取参数</p>
+<p>这里有一个 极其容易踩坑的致命点 ！</p>
+<p>通常 S3 需要四个参数，请对照你的后台严格记录：</p>
+<ul>
+<li><p>Endpoint（端点） ： OSS服务地址</p>
+</li>
+<li><p>Access Key（访问密钥） ：后台密钥列表获取。</p>
+</li>
+<li><p>Secret Key（安全密钥） ：后台密钥列表获取。</p>
+</li>
+<li><p>Bucket（存储桶名称） ： 【超级大坑】 千万不要用后台显示的那个为了好看的“短桶名”（比如 webs3 ）！一定要使用系统分配的一长串 “挂载名称” （例如 hi168-30042-xxxxxx ）。API 接口只认这个底层真实的挂载名称，否则会一直报 NoSuchBucket 的错误！</p>
+</li>
+</ul>
+<h3 id="2-创建-Worker"><a href="#2-创建-Worker" class="headerlink" title="2. 创建 Worker"></a>2. 创建 Worker</h3><p>进入 Cloudflare 后台，新建一个 Worker，将以下代码全部复制进去并部署：</p>
+<p>&nbsp;Cloudflare Worker 源码（前后端合一）</p>
+<p>直接复制代码的地址 ：<a target="_blank" rel="noopener" href="https://blog.020915.xyz/archives/s3web">https://blog.020915.xyz/archives/s3web</a></p>
+<h3 id="3-创建数据库"><a href="#3-创建数据库" class="headerlink" title="3. 创建数据库"></a>3. 创建数据库</h3><h4 id="第一步：创建一个免费的-KV-数据库"><a href="#第一步：创建一个免费的-KV-数据库" class="headerlink" title="第一步：创建一个免费的 KV 数据库"></a>第一步：创建一个免费的 KV 数据库</h4><ul>
+<li><p>回到 Cloudflare 的主界面（Dashboard），在左侧菜单找到 Storage &amp; Databases -&gt; KV 。</p>
+</li>
+<li><p>点击右上角的 Create a namespace （创建命名空间）。</p>
+</li>
+<li><p>名字随便起，比如叫 MY_S3_RECORDS ，然后点击 Add 添加。</p>
+</li>
+</ul>
+<h4 id="第二步：把数据库和密码绑定给-Worker"><a href="#第二步：把数据库和密码绑定给-Worker" class="headerlink" title="第二步：把数据库和密码绑定给 Worker"></a>第二步：把数据库和密码绑定给 Worker</h4><ul>
+<li><p>回到你刚才那个 Worker 的详情页。</p>
+</li>
+<li><p>进入 Settings（设置） -&gt; Variables and Secrets（变量和机密） 。</p>
+</li>
+<li><p>设置访问密码： 在你之前填 S3_BUCKET 的地方，再新增一个文本变量： 变量名： MY_PASSWORD</p>
+</li>
+<li><p>值：填一个你自己记得住的密码（比如 eianun666 ）。</p>
+</li>
+<li><p>绑定 KV 数据库： 往下滚动，找到 KV Namespace Bindings（KV 命名空间绑定） 这一块。 点击 Add binding。</p>
+</li>
+<li><p>Variable name（变量名）填： RECORDS 。</p>
+</li>
+<li><p>KV namespace（命名空间）下拉选择你刚才创建的 MY_S3_RECORDS 。</p>
+</li>
+<li><p>点击最下方的 Save and deploy（保存并部署）。</p>
+</li>
+</ul>
+<h2 id="4-配置环境变量"><a href="#4-配置环境变量" class="headerlink" title="4. 配置环境变量"></a>4. 配置环境变量</h2><p>在 Worker 的 Settings -&gt; Variables and Secrets 中添加以下变量：</p>
+<ul>
+<li><p>S3_ENDPOINT (文本): <a target="_blank" rel="noopener" href="https://s3.hi168.com/">https://s3.hi168.com</a></p>
+</li>
+<li><p>S3_BUCKET (文本): 你的挂载名称（不是短桶名！）</p>
+</li>
+<li><p>S3_ACCESS_KEY (密钥): 你的 AK</p>
+</li>
+<li><p>S3_SECRET_KEY (密钥): 你的 SK</p>
+</li>
+</ul>
+<p>保存部署后，访问你的 Worker 专属域名，就能看到一个支持拖拽、支持并发极速上传的极简云盘界面了！</p>
+<h2 id="方案二：终极体验，挂载-Alist-打造全功能私人网盘"><a href="#方案二：终极体验，挂载-Alist-打造全功能私人网盘" class="headerlink" title="方案二：终极体验，挂载 Alist 打造全功能私人网盘"></a>方案二：终极体验，挂载 Alist 打造全功能私人网盘</h2><p>如果你有一台云服务器，并且部署了 Alist ，那体验可以直接拉满！不仅能在线预览视频、图片，还能通过 WebDAV 挂载到电脑本地当硬盘用。</p>
+<p>在 Alist 中添加存储，选择 Amazon S3 协议，并按以下参数填写：</p>
+<ul>
+<li><p>挂载路径 ： &#x2F;Hi168云盘 （自定义）</p>
+</li>
+<li><p>端点 (Endpoint) ： <a target="_blank" rel="noopener" href="https://s3.hi168.com/">https://s3.hi168.com</a> （结尾不要带 &#x2F; ）</p>
+</li>
+<li><p>存储桶 (Bucket) ：填入那一长串 挂载名称 （血泪教训，再次强调）。</p>
+</li>
+<li><p>区域 (Region) ：填 us-east-1</p>
+</li>
+<li><p>Access Key &amp; Secret Key ：正常填入。</p>
+</li>
+</ul>
+<h2 id="致命报错解决：-no-such-host"><a href="#致命报错解决：-no-such-host" class="headerlink" title="致命报错解决： no such host"></a>致命报错解决： no such host</h2><p>如果你填完后状态报红，提示 dial tcp: lookup xxx.s3.hi168.com … no such host ，这是因为中小服务商不支持 S3 的“虚拟主机样式（Virtual Hosted-Style）”。</p>
+<p>解决办法 ：在 Alist 配置中往下划，找到 【强制路径样式 (Force Path Style)】 ，将这个开关 开启 (True) ，保存后瞬间变绿！</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>通过以上两种方案，我们成功把白嫖来的 1TB 空间玩出了花。日常高频发图，用 Cloudflare Worker 随时随地拖拽秒传；大文件归档、视频素材管理，用 Alist 统一调度，美滋滋。</p>
+<p>安全提醒： &nbsp;千万记得给你的 Access Key 和 Secret Key 保管好！这俩钥匙一旦泄露，你的 1TB 空间就会变成别人的跑马场。</p>
+<p>如果你在折腾过程中遇到了其他问题，欢迎在评论区交流。我们下期教程再见！👋</p>
+</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/ai/tools/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">使用 ChatGPT 生成像素风格照片咒语</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/github/dokploy/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">在局域网中部署 Dokploy 并配合 dnsChallenge(Cloudflare) 签发证书</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,373 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syncthing 双机同步教程：设备配对、文件夹共享与版本保护 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/" class="tag"># 开源工具</a><a href="/tags/syncthing/" class="tag"># syncthing</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">Syncthing 双机同步教程：设备配对、文件夹共享与版本保护</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-15T07:05:56.878Z">2026-10-15</time>
+            <a class="post-category" href="/categories/GitHub%E4%B8%8E%E5%BC%80%E6%BA%90/">GitHub与开源</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><aside class="note note"><strong>适用范围</strong><p>依据 Syncthing 官方入门文档与 v2.1.6 发布记录整理，核对日期 2026-10-15。本文以两台电脑之间同步一个测试文件夹为例，先验证，再接入真实资料。</p>
+</aside>
+Syncthing 的核心用途是持续同步设备之间的文件，许可证为 MPL-2.0。它能减少手动复制的麻烦，但双向同步也可能把删除操作同步到其他设备，因此第一步应是建立独立的小测试目录，而不是直接共享整个文档盘。
+
+<h2 id="1-两端安装并记录设备-ID"><a href="#1-两端安装并记录设备-ID" class="headerlink" title="1. 两端安装并记录设备 ID"></a>1. 两端安装并记录设备 ID</h2><p>分别从项目官方发布页或受信任的软件渠道安装，启动 <code>syncthing</code>。官方核心程序默认提供本机管理页面 <code>http://localhost:8384/</code>；界面封装版入口可能不同。不要把管理端口直接暴露到公网。</p>
+<p>在两端的 Actions／操作菜单中找到 Show ID／显示 ID。给设备取明确名称，例如书房电脑和笔记本。名称便于识别，真正配对依据是设备 ID；不能只看相似的设备名就接受连接。</p>
+<h2 id="2-互相添加设备"><a href="#2-互相添加设备" class="headerlink" title="2. 互相添加设备"></a>2. 互相添加设备</h2><p>在 A 端选择 Add Remote Device／添加远程设备，填入 B 的 ID；在 B 端重复操作，填入 A 的 ID。两端都认可后，再观察状态是否从断开变成已连接。配置更新需要短暂时间，不要连续重复添加同一设备。</p>
+<p>如果一直离线，先确认两端程序都在运行，再检查防火墙与网络限制。设备间连接可能借助发现服务或中继，不能把界面里的“已连接”直接解释成一定只走了局域网。</p>
+<h2 id="3-只共享一个新的测试文件夹"><a href="#3-只共享一个新的测试文件夹" class="headerlink" title="3. 只共享一个新的测试文件夹"></a>3. 只共享一个新的测试文件夹</h2><p>在 A 端新增一个测试文件夹，为它设置清晰名称，并勾选共享给 B。B 接到共享请求后，选择自己的本地保存路径。两台电脑的磁盘路径可以不同，但应对应同一项共享；不要在 B 上误选一个已经装满无关文件的目录。</p>
+<p>先放入 <code>hello-sync.txt</code>，等两端都显示同步完成后，在 B 打开它核对内容。再在 A 修改一行，确认 B 更新；然后反向修改一个新的测试文件，确认 A 也收到。这比仅看到设备“在线”更能证明配置有效。</p>
+<h2 id="4-再决定是否需要双向修改"><a href="#4-再决定是否需要双向修改" class="headerlink" title="4. 再决定是否需要双向修改"></a>4. 再决定是否需要双向修改</h2><p>两端都会编辑时，可以使用双向同步。若一端只是分发资料或保留接收副本，先阅读对应文件夹类型的官方说明，再选择发送／接收方向；不要凭名称猜测覆盖规则。</p>
+<p>多人同时编辑同一个文档，可能出现冲突副本。先比较内容再整理，不能看到带有冲突标记的文件就全部删除。重要文件接入前，先约定哪端负责编辑、哪端负责归档。</p>
+<h2 id="5-文件版本不能代替独立备份"><a href="#5-文件版本不能代替独立备份" class="headerlink" title="5. 文件版本不能代替独立备份"></a>5. 文件版本不能代替独立备份</h2><p>可在接收端的文件夹设置里启用文件版本控制，并根据保留策略测试旧版本是否可恢复。版本功能针对被同步覆盖或删除的文件，不代表能撤销本机的一切操作，也不能保护同一磁盘损坏。</p>
+<p>建议为重要资料另做一份独立备份。只有在空测试目录中验证删除传播，确认自己理解行为后，才逐步扩大同步范围。</p>
+<aside class="note warning"><strong>验收顺序</strong><p>设备连接成功 → 测试文件出现 → 修改正确传播 → 冲突可识别 → 旧版本可恢复。缺少后几步时，不宜直接迁移唯一一份资料。</p>
+</aside>
+[官方项目](https://github.com/syncthing/syncthing) · [官方入门](https://docs.syncthing.net/intro/getting-started.html) · [v2.1.6 发布记录](https://github.com/syncthing/syncthing/releases/tag/v2.1.6)</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/github/uptime-kuma/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">Uptime Kuma 部署与告警教程：先监控一个网址，再验证通知真的能收到</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/github/immich/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">Immich 相册部署教程：从 Docker Compose 配置到手机备份验收</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

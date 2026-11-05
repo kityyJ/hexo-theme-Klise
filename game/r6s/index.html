@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《彩虹六号》Y11S3.1 更新回顾：Buck 弹药与 Sledge 挥锤速度变了 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%BD%A9%E8%99%B9%E5%85%AD%E5%8F%B7/" class="tag"># 彩虹六号</a><a href="/tags/%E8%A1%A5%E4%B8%81%E5%9B%9E%E9%A1%BE/" class="tag"># 补丁回顾</a><a href="/tags/%E5%B9%B2%E5%91%98%E8%B0%83%E6%95%B4/" class="tag"># 干员调整</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">《彩虹六号》Y11S3.1 更新回顾：Buck 弹药与 Sledge 挥锤速度变了</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-14T18:07:21.017Z">2026-10-14</time>
+            <a class="post-category" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><p>回归《彩虹六号》时，往往先关心自己常用的干员有没有变化。这篇选取 <strong>2026年9月22日</strong> 官方 Y11S3.1 补丁中的几项调整，方便快速核对。</p>
+<aside class="note info"><strong>这是一篇更新回顾</strong><p>本文对应 Y11S3.1，并非10月15日新发布的补丁。后续版本可能再次调整数值，实际游玩请以当前客户端为准。</p>
+</aside>
+## 六项数值变化
+
+<table>
+<thead>
+<tr>
+<th>干员 &#x2F; 武器</th>
+<th>补丁前</th>
+<th>Y11S3.1</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Buck Skeleton Key 总弹药</td>
+<td>31</td>
+<td>36</td>
+</tr>
+<tr>
+<td>Castle 装甲板近战破坏次数</td>
+<td>9</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Maestro 邪眼电池持续时间</td>
+<td>8秒</td>
+<td>9秒</td>
+</tr>
+<tr>
+<td>Sledge 挥锤耗时</td>
+<td>1秒</td>
+<td>0.8秒</td>
+</tr>
+<tr>
+<td>M1014 基础伤害</td>
+<td>28</td>
+<td>30</td>
+</tr>
+<tr>
+<td>SPAS-15 基础伤害</td>
+<td>24</td>
+<td>26</td>
+</tr>
+</tbody></table>
+<p>补丁还修复了小队成员断线后无法重连到进行中对局的问题。<a target="_blank" rel="noopener" href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/3WMly2DNZqv1GpUK9GNGm5/y11s31-patch-notes">官方补丁详情</a></p>
+<h2 id="怎么理解这些调整"><a href="#怎么理解这些调整" class="headerlink" title="怎么理解这些调整"></a>怎么理解这些调整</h2><p>以下是我的解读，不是实战胜率结论。Buck 多了工具弹药，意味着处理垂直区域时可以少一些“弹药是否够用”的顾虑；Sledge 动作缩短，则更适合先在练习环境里重新熟悉挥锤节奏。</p>
+<p>Castle 的装甲板多承受一次近战，不代表防守方可以放弃配合；破坏手段、站位和队伍信息仍会影响推进速度。霰弹枪伤害提高，也不能直接推出所有距离下都更强。</p>
+<section class="post-tabs" aria-label="回归玩家先做什么"><details open><summary>设置与手感</summary><p>先用常用干员熟悉工具节奏，再进入正式对局；不要只凭一个数字就更换整套打法。</p>
+</details><details><summary>版本核对</summary><p>打开当前版本说明，确认是否有后续修订。本文保留补丁日期，方便你区分历史变化与今天的状态。</p>
+</details></section>
+
+<p>来源：<a target="_blank" rel="noopener" href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/3WMly2DNZqv1GpUK9GNGm5/y11s31-patch-notes">Ubisoft 官方 Y11S3.1 补丁，2026-09-22</a></p>
+</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/game/cs2/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">CS2 10月更新速读：AUG 换弹快了半秒，拆弹器标记更清楚</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/game/td2/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">《全境封锁2》TUY8S3.3 更新详解：11月跨平台时间表、新奇特手套、战队迁移与冲突战改版</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

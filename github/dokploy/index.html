@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在局域网中部署 Dokploy 并配合 dnsChallenge(Cloudflare) 签发证书 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/Let-s-Encrypt/" class="tag"># Let&#39;s Encrypt</a><a href="/tags/Cloudflare/" class="tag"># Cloudflare</a><a href="/tags/Dokploy/" class="tag"># Dokploy</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">在局域网中部署 Dokploy 并配合 dnsChallenge(Cloudflare) 签发证书</h1>
+          <div class="post-meta">
+            <time datetime="2019-03-10T03:02:00.000Z">2019-03-10</time>
+            <a class="post-category" href="/categories/GitHub%E4%B8%8E%E5%BC%80%E6%BA%90/">GitHub与开源</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><p>之前看见过很多人推荐 <a target="_blank" rel="noopener" href="https://dokploy.com/">Dokploy</a>，可以方便的部署、管理项目，印象颇深。 但是我还是一直在使用古法手动 docker compose 以及 pnpm start 运行一些项目。</p>
+<p>随着现在 AI 的进步，整的小工具多了起来，确实管理起来略微麻烦，当然之前使用过 Dpanel 管理一些 Docker 应用，但是 Dpanel 的 2FA 是付费功能，略微不喜。</p>
+<p>于是打算先在我的局域网设备上体验一下。</p>
+<h2 id="安装-Dokploy"><a href="#安装-Dokploy" class="headerlink" title="安装 Dokploy"></a>安装 Dokploy</h2><p>装了一个全新的 Debian 13 给 Dokploy 用 ，安装也是非常的简单，一条命令就可以了。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -sSL https://dokploy.com/install.sh | sh</span><br></pre></td></tr></table></figure>
+
+<p>然后访问 http:&#x2F;&#x2F;:3000 就可以了。</p>
+<h2 id="连接-GitHub"><a href="#连接-GitHub" class="headerlink" title="连接 GitHub"></a>连接 GitHub</h2><p>点击左侧的菜单的 Git ，右侧 Git Providers，点击 Github ，然后点击 Create GitHub App ，填写一个不重复的项目名称。</p>
+<p>设置一下项目权限，然后就可以在 Dokploy 中部署对应的项目了。</p>
+<h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><h3 id="首先创建一个-Project"><a href="#首先创建一个-Project" class="headerlink" title="首先创建一个 Project"></a>首先创建一个 Project</h3><p>在左侧菜单栏选择 Projects 后，右侧可以创建 Project。</p>
+<p>Project（项目）是一个整体，在项目内部可以创建不同 Service（服务），创建服务时才会使用到 Github 。</p>
+<h3 id="创建-Service"><a href="#创建-Service" class="headerlink" title="创建 Service"></a>创建 Service</h3><p>进入项目后，可以点击 Create Service 创建应用程序，可以选择以下的方式创建。</p>
+<ul>
+<li><p>Application : 我们是从 GitHub 拉取镜像创建，选择这一个</p>
+</li>
+<li><p>Database : 创建数据库应用</p>
+</li>
+<li><p>Compose : 使用 Docker Compose 创建</p>
+</li>
+<li><p>Template : 内建的模板市场</p>
+</li>
+</ul>
+<p>选择 Application 创建后：</p>
+<ul>
+<li><p>打开对应的 Service，选择之前连接的 Github 账户与项目</p>
+</li>
+<li><p>环境变量在 Environment 中设置</p>
+</li>
+</ul>
+<p>我的应用程序有提供 Dockerfile 文件，因此 Build Type 选择 Docckerfile 即可。</p>
+<p>Dockerfile 文件位于根目录，下面的路径直接填写 Dockerfile 即可，另外的保持默认。</p>
+<p>然后点击顶部的 Deploy 即可拉取镜像进行部署。</p>
+<h3 id="设置域名"><a href="#设置域名" class="headerlink" title="设置域名"></a>设置域名</h3><p>部署完成后，发现无法访问，点击 Logs 会查看的下面的内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">2025-12-15T09:38:31.197Z ▲ Next.js 15.5.9</span><br><span class="line">2025-12-15T09:38:31.197Z - Local:        http://14888c5aa2db:3000</span><br><span class="line">2025-12-15T09:38:31.197Z - Network:      http://14888c5aa2db:3000</span><br><span class="line">2025-12-15T09:38:31.197Z ✓ Starting...</span><br><span class="line">2025-12-15T09:38:31.276Z ✓ Ready in 88ms</span><br></pre></td></tr></table></figure>
+
+<p>这是因为没有设置 Domains ，无法访问到项目，Dokploy 使用的是 Traefik 进行反代与设置证书。</p>
+<p>Dokploy 中默认使用的是 httpChallenge 签发 Let’s Encrypt 证书，如果 Dokploy 部署在公网服务器上，只要简单的填写 Host ，并将 Certificate Provider 选择 Let’s Encrypt 就可以打开 HTTPS 使用了。</p>
+<p>可是我的 Dokploy 服务器位于局域网中，无法完成 httpChallenge ，不过 Traefik 是支持使用 Cloudflare API 进行 dnsChallenge 的，需要修改一些设置。</p>
+<h2 id="设置-dnsChallenge-Cloudflare"><a href="#设置-dnsChallenge-Cloudflare" class="headerlink" title="设置 dnsChallenge(Cloudflare)"></a>设置 dnsChallenge(Cloudflare)</h2><h3 id="获取-Cloudflare-API-Token"><a href="#获取-Cloudflare-API-Token" class="headerlink" title="获取 Cloudflare API Token"></a>获取 Cloudflare API Token</h3><ul>
+<li><p>登录 Cloudflare Dashboard: <a target="_blank" rel="noopener" href="https://dash.cloudflare.com/profile/api-tokens">https://dash.cloudflare.com/profile/api-tokens</a></p>
+</li>
+<li><p>选择创建令牌</p>
+</li>
+<li><p>记得编辑一下 令牌名称 用于区分用途</p>
+</li>
+<li><p>令牌模板选择 编辑区域 DNS</p>
+</li>
+<li><p>根据最小化授权的原则，区域资源选择对应的域名</p>
+</li>
+<li><p>根据需求设置允许的 IP 地址以及生效时间</p>
+</li>
+</ul>
+<p>点击继续，最后显示对应的 Token ，保存备用，Token 只会显示这一次，以后无法查看。</p>
+<h3 id="修改-traefik-yml"><a href="#修改-traefik-yml" class="headerlink" title="修改 traefik.yml"></a>修改 traefik.yml</h3><p>在 Dokploy 左侧菜单栏选择 Home &gt; Traefik File System ，右侧点击 traefik.yml ，需要点击 Unlock 才可以编辑，将底部的</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">certificatesResolvers: </span><br><span class="line">  letsencrypt: </span><br><span class="line">    acme: email: [email protected] </span><br><span class="line">    storage: /etc/dokploy/traefik/dynamic/acme.json </span><br><span class="line">    httpChallenge: entryPoint: web</span><br></pre></td></tr></table></figure>
+
+<p>修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">certificatesResolvers:</span><br><span class="line">  letsencrypt:</span><br><span class="line">    acme:</span><br><span class="line">      email: [email protected]</span><br><span class="line">      storage: /etc/dokploy/traefik/dynamic/acme.json</span><br><span class="line">      dnsChallenge:</span><br><span class="line">        provider: cloudflare</span><br><span class="line">        delayBeforeCheck: 10</span><br></pre></td></tr></table></figure>
+
+<p>点击 Update 后再点击右上角 Lock</p>
+<h3 id="设置-Cloudflare-API-Token"><a href="#设置-Cloudflare-API-Token" class="headerlink" title="设置 Cloudflare API Token"></a>设置 Cloudflare API Token</h3><p>在 Dokploy 左侧菜单栏选择 Settings &gt; Web Server ，右侧点击 Traefik ， Actions 中选择 Modify Environment ，加入 Cloudflare API token 的设置。</p>
+<p>修改后显示如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</span><br><span class="line">CF_DNS_API_TOKEN=your_cloudflare_api_token</span><br></pre></td></tr></table></figure>
+
+<p>然后就可以签发证书了， 访问 Dokploy 的域名也是在这个页面的 Server Domain 部分中进行设置。</p>
+<h2 id="安全设置"><a href="#安全设置" class="headerlink" title="安全设置"></a>安全设置</h2><p>确认可以通过 HTTPS 域名访问 Dokploy 后，我们需要关闭 ip:port 的访问， 在服务器上执行下面的命令即可</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker service update --publish-rm &quot;published=3000,target=3000,mode=host&quot; dokploy</span><br></pre></td></tr></table></figure>
+
+<p>更多的安全内容请查看 <a target="_blank" rel="noopener" href="https://docs.dokploy.com/docs/core/remote-servers/security">Dokploy Docs: Security</a></p>
+</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/github/alist/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/life/reflections/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">小时候可曾有过梦想</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

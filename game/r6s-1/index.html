@@ -1,0 +1,407 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《彩虹六号：围攻》Y11S3.2补丁：Noor大幅增强、Tachanka新增引燃方式 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%BD%A9%E8%99%B9%E5%85%AD%E5%8F%B7/" class="tag"># 彩虹六号</a><a href="/tags/R6S/" class="tag"># R6S</a><a href="/tags/Y11S3-2/" class="tag"># Y11S3.2</a><a href="/tags/Noor/" class="tag"># Noor</a><a href="/tags/Tachanka/" class="tag"># Tachanka</a><a href="/tags/%E5%B9%B3%E8%A1%A1%E8%B0%83%E6%95%B4/" class="tag"># 平衡调整</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">《彩虹六号：围攻》Y11S3.2补丁：Noor大幅增强、Tachanka新增引燃方式</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-20T16:08:01.117Z">2026-10-20</time>
+            <a class="post-category" href="/categories/%E6%B8%B8%E6%88%8F/">游戏</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><aside class="note info"><strong>官方补丁时间</strong><p>育碧于<strong>2026年10月13日</strong>发布Y11S3.2补丁说明，并于<strong>10月15日</strong>提供开发者设计说明。下文数据来自官方，实际实装以对应平台客户端为准。</p>
+</aside>
+这次《彩虹六号：围攻》的赛季中期版本集中调整几名干员：有明显的Noor强化，也有Solid Snake的资源压缩。
+
+<h2 id="改动速览"><a href="#改动速览" class="headerlink" title="改动速览"></a>改动速览</h2><table>
+<thead>
+<tr>
+<th>干员</th>
+<th>改动</th>
+<th>对实战的影响</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Noor</strong></td>
+<td>Horus Lance钻透时间 <strong>2秒→1.5秒</strong>，切换准备 <strong>0.9秒→0.4秒</strong></td>
+<td>出手和打盾节奏加快</td>
+</tr>
+<tr>
+<td><strong>Noor</strong></td>
+<td>直接命中伤害 <strong>50→80</strong>，击盾破防强度 <strong>30%→100%</strong></td>
+<td>打盾威胁提升</td>
+</tr>
+<tr>
+<td><strong>Tachanka</strong></td>
+<td>Shumikha发射器增加榴弹<strong>碰撞后直接引燃</strong>模式</td>
+<td>可自由选择反弹与定点火力</td>
+</tr>
+<tr>
+<td><strong>Solid Snake</strong></td>
+<td>Soliton Radar MK III精确模式次数 <strong>4→3</strong></td>
+<td>需更谨慎使用扫描</td>
+</tr>
+<tr>
+<td><strong>Valkyrie</strong></td>
+<td>新增副武器 <strong>Glaive-12</strong></td>
+<td>增加开洞与布局选择</td>
+</tr>
+<tr>
+<td><strong>Clash</strong></td>
+<td>敌人后撤时的减速强度 <strong>5%→10%</strong></td>
+<td>对撤离敌人的阻滞更强</td>
+</tr>
+</tbody></table>
+<p>除此之外，官方还公布了Capitão、Osa及装备交互细节优化，以及语音状态指示、射弹命中箱体和部分UI问题的修复。</p>
+<h2 id="实战优先测试哪些地方"><a href="#实战优先测试哪些地方" class="headerlink" title="实战优先测试哪些地方"></a>实战优先测试哪些地方</h2><p>Noor玩家应在自定义对局验证打盾角度、装备切换手感与新伤害；Tachanka玩家可测试新引燃模式能否更精准地封锁门口；Solid Snake玩家则需要重新安排每回合的精确侦察次数。</p>
+<p><strong>注意：</strong> 本文整理的是10月中旬的版本公告，不等于今天又出现一次新补丁。</p>
+<h3 id="资料来源"><a href="#资料来源" class="headerlink" title="资料来源"></a>资料来源</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/5K9s4APinlQlVsMNoMwR1Z/y11s32-patch-notes">育碧官方Y11S3.2补丁说明（10月13日）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/280F3jL91f371i6YbH3mew">官方开发者说明（10月15日）</a></li>
+</ul>
+</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/game/pubg-1/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">《PUBG》联动宾利正式上线：飞驰与欧陆GTC皮肤、活动日期和抽取机制</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/game/gta6/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">《GTA VI》正式发售预告公布：11月19日登陆PS5及Xbox，最新爆料与已证实信息</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

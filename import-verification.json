@@ -1,0 +1,672 @@
+{
+  "source": "https://blog.jia.nz",
+  "count": 41,
+  "posts": [
+    {
+      "id": "efab3aa9-16be-467c-909c-08941ad3c61b",
+      "path": "/game/r6s-2/",
+      "date": "2026-10-29T08:52:26.068Z",
+      "updated": "2026-11-03T08:13:43.048Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "彩虹六号",
+        "R6S",
+        "怪医诅咒",
+        "Doktor’s Curse",
+        "万圣节",
+        "免费奖励",
+        "2026"
+      ],
+      "title": "《彩虹六号：围攻》“怪医诅咒”回归：11月2日截止，玩法与免费奖励全整理",
+      "body_sha256": "a0a9beff70f01e354fe9b4e473d059df541c6279120f4e0cd8a3075be1a3ef37"
+    },
+    {
+      "id": "c8916b3a-1069-4f2b-a940-057204911a9d",
+      "path": "/tech/apple-1/",
+      "date": "2026-10-29T08:52:27.482Z",
+      "updated": "2026-11-03T08:13:41.274Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "Apple Intelligence",
+        "国行",
+        "苹果智能",
+        "苹果AI",
+        "Siri AI",
+        "中国大陆",
+        "iOS 27"
+      ],
+      "title": "国行 Apple Intelligence 即将开启测试：10月底首批功能获批，Siri AI 暂缺席",
+      "body_sha256": "7bed309f7dbca06e2ac0adc345f67b414d358a6cd46f456bc992c6f5af3d5e7b"
+    },
+    {
+      "id": "44cc5f1f-c8d7-4f74-8bd3-b3d914d39f72",
+      "path": "/game/td2/",
+      "date": "2026-10-14T18:07:19.211Z",
+      "updated": "2026-11-03T08:13:39.065Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "全境封锁2",
+        "TUY8S3.3",
+        "跨平台联机",
+        "战队迁移",
+        "Conflict",
+        "奇特手套",
+        "牧羊人活动",
+        "中央公园"
+      ],
+      "title": "《全境封锁2》TUY8S3.3 更新详解：11月跨平台时间表、新奇特手套、战队迁移与冲突战改版",
+      "body_sha256": "ef00c70f1a20fe13fb2343f27591a50fab781f3cc4fc55c0e7d0cb2b64f881e9"
+    },
+    {
+      "id": "1aba07c4-7ef4-4ecb-9013-6a777c1ec84e",
+      "path": "/game/pubg-1/",
+      "date": "2026-10-20T16:08:02.958Z",
+      "updated": "2026-10-20T16:08:02.958Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "PUBG",
+        "绝地求生",
+        "Bentley",
+        "宾利",
+        "联动",
+        "载具皮肤"
+      ],
+      "title": "《PUBG》联动宾利正式上线：飞驰与欧陆GTC皮肤、活动日期和抽取机制",
+      "body_sha256": "66651aeb782507367c62caf713a5c20d7c3fdb5b1325c3127f449414102a7d1f"
+    },
+    {
+      "id": "50a964aa-794f-4270-a1b2-4d8b906d82ba",
+      "path": "/game/r6s-1/",
+      "date": "2026-10-20T16:08:01.117Z",
+      "updated": "2026-10-20T16:08:01.117Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "彩虹六号",
+        "R6S",
+        "Y11S3.2",
+        "Noor",
+        "Tachanka",
+        "平衡调整"
+      ],
+      "title": "《彩虹六号：围攻》Y11S3.2补丁：Noor大幅增强、Tachanka新增引燃方式",
+      "body_sha256": "1fb86513c8ef7b3b79dd764ad14580060dad599bcea9f94963c281a650d353a8"
+    },
+    {
+      "id": "1564f994-ff99-4035-aec3-c6331e287987",
+      "path": "/game/gta6/",
+      "date": "2026-10-20T16:07:59.374Z",
+      "updated": "2026-10-20T16:07:59.374Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "GTA6",
+        "侠盗猎车手6",
+        "Rockstar",
+        "游戏预告",
+        "发售日期",
+        "爆料核实"
+      ],
+      "title": "《GTA VI》正式发售预告公布：11月19日登陆PS5及Xbox，最新爆料与已证实信息",
+      "body_sha256": "07860bb03d6f3a4201e40588fe654d85d04d520b6bb1beb1d2594f2e61845843"
+    },
+    {
+      "id": "4ca585e5-8257-41d6-9dc6-fa1feccc2d67",
+      "path": "/game/td2-1/",
+      "date": "2026-10-20T16:06:45.664Z",
+      "updated": "2026-10-20T16:06:45.664Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "全境封锁2",
+        "国服",
+        "腾讯",
+        "停运",
+        "补偿方案",
+        "游戏公告"
+      ],
+      "title": "《全境封锁2》国服官宣停运：12月14日关服，玩家补偿方案完整解读",
+      "body_sha256": "0a34d5bfca5f0a50a6faf637b170308fd86bfd2667b8387136b91cba4700cb91"
+    },
+    {
+      "id": "7feec4d7-bade-458b-9bb7-5e7c7b1ee71c",
+      "path": "/tech/google/",
+      "date": "2026-10-15T05:49:57.576Z",
+      "updated": "2026-10-18T16:28:19.467Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "Google AI Studio",
+        "Android",
+        "Jetpack Compose",
+        "App教程"
+      ],
+      "title": "Google AI Studio 制作 Android App 教程：从生成原生应用到手机测试",
+      "body_sha256": "d4438298b722561a02a6ced73da009231ce7dc2f2c2c0df01778afc3e9a0e811"
+    },
+    {
+      "id": "699a8a04-48ca-4cf0-851a-42eab9e67ec0",
+      "path": "/tech/tesla/",
+      "date": "2026-10-17T04:07:50.744Z",
+      "updated": "2026-10-17T04:07:50.744Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "特斯拉",
+        "Tesla",
+        "Roadster",
+        "SpaceX",
+        "电动车",
+        "跑车",
+        "汽车科技",
+        "2026新品"
+      ],
+      "title": "特斯拉第二代 Roadster 正式亮相：SpaceX 推进器让跑车腾空，2028 年计划量产",
+      "body_sha256": "2f7899e740209fdcf94de7763015763434e1b875731b4f1f63f1598683f14fe3"
+    },
+    {
+      "id": "85ba6b42-7128-4e59-828d-cc05a93e633d",
+      "path": "/game/pubg/",
+      "date": "2026-10-15T11:03:04.773Z",
+      "updated": "2026-10-15T11:03:04.773Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "PUBG",
+        "Rondo",
+        "SLB",
+        "合作PvE",
+        "玩法指南"
+      ],
+      "title": "PUBG「Rondo 破晓者」合作 PvE 玩法指南：发电机防守、制作与敌人应对",
+      "body_sha256": "c10c472937cf04c9c5a60ac134d3e73b8d080f129c26e96b6da00046831f0cd1"
+    },
+    {
+      "id": "d24d8514-94ab-4d79-a353-fcfb25eb5dae",
+      "path": "/education/admission/",
+      "date": "2026-10-15T07:11:08.150Z",
+      "updated": "2026-10-15T07:11:08.150Z",
+      "categories": [
+        "教育学历"
+      ],
+      "tags": [
+        "实用教程",
+        "admission"
+      ],
+      "title": "UCAS 个人陈述三问怎么写：2026 入学起的证据整理与提交检查",
+      "body_sha256": "4f07404ee17dc4b32b770f0708536fc663cb62d7bc02aa3b1535615acd20b1cc"
+    },
+    {
+      "id": "2dcdf700-ce83-4d03-ae76-99222c8ff76f",
+      "path": "/crypto/security/",
+      "date": "2026-10-15T07:10:25.498Z",
+      "updated": "2026-10-15T07:10:25.498Z",
+      "categories": [
+        "加密货币"
+      ],
+      "tags": [
+        "实用教程",
+        "security"
+      ],
+      "title": "钱包助记词安全清单：离线备份、换机前检查与假客服识别",
+      "body_sha256": "1b9dd84ad9a637b4673a35cb57e33abd2b38d889df04283c6bf3803e72b799f5"
+    },
+    {
+      "id": "114c6f25-b56f-42d4-b7a7-a80df7c929f5",
+      "path": "/cycling/maintenance/",
+      "date": "2026-10-15T07:10:24.894Z",
+      "updated": "2026-10-15T07:10:24.894Z",
+      "categories": [
+        "骑行"
+      ],
+      "tags": [
+        "实用教程",
+        "maintenance"
+      ],
+      "title": "自行车链条什么时候该换？磨损量规读数与检查清单",
+      "body_sha256": "661eb9218653aa75dc5f7e8545de4a3717c868f3f56de2b7b29c0b30223aea3a"
+    },
+    {
+      "id": "b876c330-9bcb-4d05-811d-56e73f13230d",
+      "path": "/game/steam/",
+      "date": "2026-10-15T07:10:24.217Z",
+      "updated": "2026-10-15T07:10:24.217Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "实用教程",
+        "steam"
+      ],
+      "title": "Linux 上 Steam 游戏打不开？用 Proton 版本与日志逐步定位",
+      "body_sha256": "6c7ddb8c97041a08bd521b815b28f52f4eb5b284bc4a2c6da3a0bd288c4690f2"
+    },
+    {
+      "id": "72290407-42f3-4294-8aec-e59cc6602cc8",
+      "path": "/ai/tutorial/",
+      "date": "2026-10-15T07:10:23.637Z",
+      "updated": "2026-10-15T07:10:23.637Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "实用教程",
+        "tutorial"
+      ],
+      "title": "Claude Code Skills 上手：安装官方示例，再把重复任务写成可复用技能",
+      "body_sha256": "59c462b6f47f0b2bc781144a87a325d73a7ddaed85b8c82c4490f44e24a803d1"
+    },
+    {
+      "id": "671cacb7-a785-4f98-a604-1a2d990a55f3",
+      "path": "/tech/android/",
+      "date": "2026-10-15T07:05:58.921Z",
+      "updated": "2026-10-15T07:05:58.921Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "实用教程",
+        "android"
+      ],
+      "title": "scrcpy 安卓投屏实操：USB 连接、降低卡顿与录屏的排查顺序",
+      "body_sha256": "a0f2a4396d6b20434486e1f15eafb2043046290dbb6072e58e4ac046029fed8d"
+    },
+    {
+      "id": "8710c920-16f5-413e-853b-0220305bb333",
+      "path": "/guide/tips-1/",
+      "date": "2026-10-15T07:05:58.343Z",
+      "updated": "2026-10-15T07:05:58.343Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "实用教程",
+        "tips"
+      ],
+      "title": "LocalSend 跨平台传文件教程：同一 Wi-Fi 找不到设备时怎么排查",
+      "body_sha256": "ece4caacda5aa21168ee09a69d3b181fd85950ca17fdbf7267ad8b45b9f5f3c4"
+    },
+    {
+      "id": "cc61eb63-b776-438b-a3f9-5890b035a6f0",
+      "path": "/github/uptime-kuma/",
+      "date": "2026-10-15T07:05:57.618Z",
+      "updated": "2026-10-15T07:05:57.618Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "开源工具",
+        "uptime-kuma"
+      ],
+      "title": "Uptime Kuma 部署与告警教程：先监控一个网址，再验证通知真的能收到",
+      "body_sha256": "45af67d3f73bf9cfbcfe75be42e0ff1d7ed572828d45d6885ed0e605896420bc"
+    },
+    {
+      "id": "4319b3b0-248b-4007-afaa-b7af11399803",
+      "path": "/github/syncthing/",
+      "date": "2026-10-15T07:05:56.878Z",
+      "updated": "2026-10-15T07:05:56.878Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "开源工具",
+        "syncthing"
+      ],
+      "title": "Syncthing 双机同步教程：设备配对、文件夹共享与版本保护",
+      "body_sha256": "4b3ebd68bbcc5bc20ac7e3ceddae31a2d1a507c3419ccdb1da7718d5c99976b8"
+    },
+    {
+      "id": "996450a5-ab62-4157-a1c6-3eea4d597581",
+      "path": "/github/immich/",
+      "date": "2026-10-15T07:05:56.248Z",
+      "updated": "2026-10-15T07:05:56.248Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "开源工具",
+        "immich"
+      ],
+      "title": "Immich 相册部署教程：从 Docker Compose 配置到手机备份验收",
+      "body_sha256": "422be4088518f2bf24ee7886abebddfe66b1740238aa17abb34fe34cee60fdbc"
+    },
+    {
+      "id": 45,
+      "path": "/guide/tutorial-2/",
+      "date": "2026-09-16T13:15:28.045Z",
+      "updated": "2026-10-15T06:38:34.195Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGP"
+      ],
+      "title": "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGPT｜可注册Telegram",
+      "body_sha256": "a17c1cccfd72f59204f1a7698d482ea76ae65759661b75dfa189f211d5f0ac47"
+    },
+    {
+      "id": "0deb59e2-516c-4f4f-8325-3020110a08ae",
+      "path": "/game/r6s/",
+      "date": "2026-10-14T18:07:21.017Z",
+      "updated": "2026-10-15T06:38:33.496Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "彩虹六号",
+        "补丁回顾",
+        "干员调整"
+      ],
+      "title": "《彩虹六号》Y11S3.1 更新回顾：Buck 弹药与 Sledge 挥锤速度变了",
+      "body_sha256": "ee33df5572dab565d0010896ddcc6102c7d642b96ae1e527107a762fd3fe24b9"
+    },
+    {
+      "id": 50,
+      "path": "/guide/tutorial-4/",
+      "date": "2026-09-12T14:12:00.000Z",
+      "updated": "2026-10-15T06:38:32.644Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "澳门蚂蚁银行 5 月开户福利：最高约 1000 港币奖赏，开户流程整理"
+      ],
+      "title": "澳门蚂蚁银行 5 月开户福利：最高约 1000 港币奖赏，开户流程整理",
+      "body_sha256": "fc639b733675d0a465cb7e11947268a236b2049268b445dacf8d364f35e7915c"
+    },
+    {
+      "id": 38,
+      "path": "/tech/apple/",
+      "date": "2026-09-10T13:58:00.000Z",
+      "updated": "2026-10-15T06:38:30.907Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "2026 苹果秋季发布会全汇总：折叠 iPhone Duo 首秀",
+        "iPhone 18 Pro、App"
+      ],
+      "title": "2026 苹果秋季发布会全汇总：iPhone Duo 首秀，iPhone 18 Pro、Apple Watch 与 AirPods 新品一次看懂",
+      "body_sha256": "bf0e62172e182a9c9ed23747c672351a4b4fb4c2ca3a2a808088128ce5d8a069"
+    },
+    {
+      "id": "b828cda3-f806-44ac-b311-723b784aba16",
+      "path": "/github/actions/",
+      "date": "2026-10-15T05:49:55.994Z",
+      "updated": "2026-10-15T06:38:30.097Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "GitHub Actions",
+        "依赖锁文件",
+        "CI",
+        "软件供应链"
+      ],
+      "title": "GitHub Actions 锁文件实用教程：固定依赖并在 CI 中检查",
+      "body_sha256": "e2b4855c9c56f0dbe9be33eb726d87b730d658e2a5c56d225cb8fe5278f21c37"
+    },
+    {
+      "id": 3,
+      "path": "/life/notes/",
+      "date": "2026-08-23T03:14:00.000Z",
+      "updated": "2026-10-15T06:38:28.367Z",
+      "categories": [
+        "日常"
+      ],
+      "tags": [
+        "今日笔记"
+      ],
+      "title": "今日笔记",
+      "body_sha256": "eaaa326a403af2d6ece3c00bdae01b6f022c5b4631c26cede4be9aa90549980b"
+    },
+    {
+      "id": "0f63cb2e-239a-474e-8764-7c8804a08e96",
+      "path": "/ai/agent/",
+      "date": "2026-10-15T05:49:56.813Z",
+      "updated": "2026-10-15T06:38:27.211Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "GitHub Copilot",
+        "HydraFusion",
+        "AI编程",
+        "实用教程"
+      ],
+      "title": "HydraFusion 实用上手：在 VS Code 和 Copilot App 中开启并用好多模型协作",
+      "body_sha256": "d7915e7c6f1112921203cd7d0ff7dbfce56f982f9133973a90369f1d158068f0"
+    },
+    {
+      "id": 19,
+      "path": "/life/reflections/",
+      "date": "2017-02-02T17:42:00.000Z",
+      "updated": "2026-10-15T06:38:26.348Z",
+      "categories": [
+        "日常"
+      ],
+      "tags": [
+        "小时候可曾有过梦想"
+      ],
+      "title": "小时候可曾有过梦想",
+      "body_sha256": "42547bf0829126f3c211ea4341ff1713969fca7c1b0e624c1d070c2843cb99ed"
+    },
+    {
+      "id": "41804434-3076-4c21-912f-3ce83785d907",
+      "path": "/game/cs2/",
+      "date": "2026-10-14T18:07:23.130Z",
+      "updated": "2026-10-15T06:38:25.659Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "Steam",
+        "CS2",
+        "游戏更新"
+      ],
+      "title": "CS2 10月更新速读：AUG 换弹快了半秒，拆弹器标记更清楚",
+      "body_sha256": "93e990b81a798086cf5671a499ff8e105ae0a4c834eed5e93cecdf49cc90f58a"
+    },
+    {
+      "id": 41,
+      "path": "/guide/tutorial-1/",
+      "date": "2026-09-13T11:50:10.207Z",
+      "updated": "2026-09-27T11:22:04.670Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！"
+      ],
+      "title": "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！",
+      "body_sha256": "07e9e25857d8ecf34082b88d80dc86e7231c0d6800097e7fda632dbd89bab3c5"
+    },
+    {
+      "id": 29,
+      "path": "/ai/tools/",
+      "date": "2025-07-07T19:31:00.000Z",
+      "updated": "2026-09-27T10:56:00.761Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "ChatGPT",
+        "Prompt",
+        "Pixel Art",
+        "everskies"
+      ],
+      "title": "使用 ChatGPT 生成像素风格照片咒语",
+      "body_sha256": "571e7906131e82fc341ed7186814197dba95599d1757dc7bc49a8c2b68d3110a"
+    },
+    {
+      "id": 37,
+      "path": "/tech/iphone/",
+      "date": "2026-09-10T13:36:00.000Z",
+      "updated": "2026-09-16T16:46:11.451Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "iPhone 18 Pro",
+        "Apple",
+        "数码",
+        "iOS 27"
+      ],
+      "title": "iPhone 18 Pro 发布：可变光圈、A20 Pro 与更长续航，值得升级吗？",
+      "body_sha256": "51e4fba45d4f4a7fbe61e4c4e5ac781e370ae2dcc0c2fbe01eba7d18090ce4ef"
+    },
+    {
+      "id": 39,
+      "path": "/guide/tutorial/",
+      "date": "2026-09-13T11:38:00.000Z",
+      "updated": "2026-09-16T16:46:00.237Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurc"
+      ],
+      "title": "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurcats",
+      "body_sha256": "3a80abb0d3066ff03ed35bd1b56940c8fd6ba187781ad8958813dc90a0488606"
+    },
+    {
+      "id": 40,
+      "path": "/guide/knowledge/",
+      "date": "2026-07-31T11:02:00.000Z",
+      "updated": "2026-09-16T16:34:11.128Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批"
+      ],
+      "title": "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批",
+      "body_sha256": "d7d78eed9d487afb51fd911fc79eb724c1a085de779f1efb00648b841127d222"
+    },
+    {
+      "id": 47,
+      "path": "/github/agentdock/",
+      "date": "2026-09-08T15:00:00.000Z",
+      "updated": "2026-09-16T13:44:30.882Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」"
+      ],
+      "title": "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」",
+      "body_sha256": "ce375dbc9d801e815bc9efa9a9d8d9b9dd2e3e72d4a7af139b1c8d590619d638"
+    },
+    {
+      "id": 27,
+      "path": "/github/folio/",
+      "date": "2026-09-10T12:27:00.000Z",
+      "updated": "2026-09-16T13:42:08.772Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Folio",
+        "Photo Viewer",
+        "Electron"
+      ],
+      "title": "开发了一款适合查看图集的看图软件 ：Folio",
+      "body_sha256": "ce662e3f71bbb6f6bac34a300d10e9c8f0577bf9498a42f81548985f79f21455"
+    },
+    {
+      "id": 46,
+      "path": "/github/alist/",
+      "date": "2019-03-31T04:32:00.000Z",
+      "updated": "2026-09-16T13:19:31.102Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！"
+      ],
+      "title": "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！",
+      "body_sha256": "1e448807ac4a1a3e208bc4e95fe819c9bad1fd891a79061b4a512fb49287fa79"
+    },
+    {
+      "id": 30,
+      "path": "/github/umami/",
+      "date": "2025-09-12T12:39:00.000Z",
+      "updated": "2026-09-10T13:37:06.625Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Docker",
+        "Docker Compose",
+        "Selfhost",
+        "Umami"
+      ],
+      "title": "使用 Docker 部署 Umami 网站访问统计系统",
+      "body_sha256": "0dc62930317ca761e689f55b123ed94c3770e0b7e188ff002c3402242eaf3eea"
+    },
+    {
+      "id": 35,
+      "path": "/guide/tips/",
+      "date": "2026-09-10T13:01:00.000Z",
+      "updated": "2026-09-10T13:29:07.383Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "Windows 11",
+        "HDR",
+        "Dolby Vision"
+      ],
+      "title": "Windows 11 下 LG 电视开启 HDR 发绿解决方案",
+      "body_sha256": "65a5b462517c8a1e2ddeb2c6a3c2f6f8152bb298fab55e72db70bea63900c7ab"
+    },
+    {
+      "id": 36,
+      "path": "/github/dokploy/",
+      "date": "2019-03-10T03:02:00.000Z",
+      "updated": "2026-09-10T13:27:34.131Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Let's Encrypt",
+        "Cloudflare",
+        "Dokploy"
+      ],
+      "title": "在局域网中部署 Dokploy 并配合 dnsChallenge(Cloudflare) 签发证书",
+      "body_sha256": "dca8df9abc8f63dda582d6e4862377f02d3be144fa91e2db799b181be0661b19"
+    },
+    {
+      "id": 28,
+      "path": "/github/gitea/",
+      "date": "2025-07-17T07:22:00.000Z",
+      "updated": "2026-09-10T13:18:01.320Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Docker",
+        "Docker Compose",
+        "Git",
+        "Gitea"
+      ],
+      "title": "使用 Docker 与 Gitea 部署私人 Git 服务器",
+      "body_sha256": "7a6373a91d3b407e051bcef62521449db8fbf879ae586d3c1a74a0849f88dc52"
+    }
+  ]
+}

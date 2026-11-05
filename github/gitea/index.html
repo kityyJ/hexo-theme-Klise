@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>使用 Docker 与 Gitea 部署私人 Git 服务器 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/Docker/" class="tag"># Docker</a><a href="/tags/Docker-Compose/" class="tag"># Docker Compose</a><a href="/tags/Git/" class="tag"># Git</a><a href="/tags/Gitea/" class="tag"># Gitea</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">使用 Docker 与 Gitea 部署私人 Git 服务器</h1>
+          <div class="post-meta">
+            <time datetime="2025-07-17T07:22:00.000Z">2025-07-17</time>
+            <a class="post-category" href="/categories/GitHub%E4%B8%8E%E5%BC%80%E6%BA%90/">GitHub与开源</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Git 用来同步一些文档、代码确实非常的方便，但是总会有一些文件不希望同步至 GitHub 或是其他的公共服务商，这时可以使用开源项目自建一个属于私人的 Git 服务器。</p>
+<p>我是有一些文件在只需要局域网内同步就可以了，在这之前我是使用的 GitLab 社区版部署的私人 Git 服务器。</p>
+<p>不得不说，GitLab 也是非常强大的，但相对的占用资源也比较高，需要较多的内存，而且也遇到过跨版本升级的问题。</p>
+<p>GitLab CE 资源占用：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS</span><br><span class="line">b20641ebf857   gitlab    17.74%    5.869GiB / 15.62GiB   37.58%    425kB / 5.35MB</span><br></pre></td></tr></table></figure>
+
+<p>最终，我决定迁移至轻量级的 Gitea，Gitea 完成迁移后的资源占用：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">CONTAINER ID   NAME         CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O     PIDS </span><br><span class="line">57b52a98d527   gitea        0.14%     112.2MiB / 3.823GiB   2.87%     446kB / 345kB   0B / 113MB    14 </span><br><span class="line">3abf2803c22c   gitea-db-1   0.00%     26.32MiB / 3.823GiB   0.67%     347kB / 445kB   0B / 1.02MB   9</span><br></pre></td></tr></table></figure>
+
+<p>使用 Docker Compose 部署起来也是非常简单的。</p>
+<h2 id="Gitea-介绍"><a href="#Gitea-介绍" class="headerlink" title="Gitea 介绍"></a>Gitea 介绍</h2><p>Gitea 的自我介绍： 一款极易搭建的自助 Git 服务</p>
+<ul>
+<li><p>易安装：通过 二进制 来运行；或者通过 Docker 来运行；或者通过 安装包 来运行。</p>
+</li>
+<li><p>跨平台：任何 Go 语言 支持的平台都可以运行 Gitea，包括 Windows、Mac、Linux 以及 ARM。</p>
+</li>
+<li><p>轻量级：一个廉价的树莓派的配置足以满足 Gitea 的最低系统硬件要求。最大程度上节省您的服务器资源！</p>
+</li>
+<li><p>开源化：所有的代码都开源在 code.gitea.io&#x2F;gitea 上</p>
+</li>
+</ul>
+<h2 id="修改主机-SSH-端口"><a href="#修改主机-SSH-端口" class="headerlink" title="修改主机 SSH 端口"></a>修改主机 SSH 端口</h2><p>我们将使用 Docker 部署 Gitea，由于 git 默认使用 22 端口更方便一些，22 端口将映射给 Docker 使用，所以需要修改宿主机的 SSH 端口</p>
+<p>命令均是在 root 权限下执行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure>
+
+<p>修改 Port 22 为其他数字。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart sshd</span><br></pre></td></tr></table></figure>
+
+<p>如果是远程服务器，记得先新开一个终端创建进行连接测试，确认可以登录再退出当前的窗口。</p>
+<h2 id="使用-Docker-Compose-部署"><a href="#使用-Docker-Compose-部署" class="headerlink" title="使用 Docker Compose 部署"></a>使用 Docker Compose 部署</h2><p>如果没有安装 docker compose， 可以查看 <a target="_blank" rel="noopener" href="https://u.sb/debian-install-docker/">Debian 12 &#x2F; Ubuntu 24.04 安装 Docker 以及 Docker Compose 教程</a></p>
+<p>首先创建一个工作文件夹，然后在其中创建 docker-compose.yml 文件，填入下面的内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">networks:</span><br><span class="line">  gitea:</span><br><span class="line">    external: false</span><br><span class="line"></span><br><span class="line">services:</span><br><span class="line">  server:</span><br><span class="line">    image: docker.gitea.com/gitea:1.24.2</span><br><span class="line">    container_name: gitea</span><br><span class="line">    environment:</span><br><span class="line">      - USER_UID=1000</span><br><span class="line">      - USER_GID=1000</span><br><span class="line">      - GITEA__database__DB_TYPE=postgres</span><br><span class="line">      - GITEA__database__HOST=db:5432</span><br><span class="line">      - GITEA__database__NAME=gitea</span><br><span class="line">      - GITEA__database__USER=gitea</span><br><span class="line">      - GITEA__database__PASSWD=gitea</span><br><span class="line">    restart: always</span><br><span class="line">    networks:</span><br><span class="line">      - gitea</span><br><span class="line">    volumes:</span><br><span class="line">      - ./gitea:/data</span><br><span class="line">      - /etc/timezone:/etc/timezone:ro</span><br><span class="line">      - /etc/localtime:/etc/localtime:ro</span><br><span class="line">    ports:</span><br><span class="line">      - &quot;3000:3000&quot;</span><br><span class="line">      - &quot;22:22&quot;</span><br><span class="line">    depends_on:</span><br><span class="line">      - db</span><br><span class="line"></span><br><span class="line">  db:</span><br><span class="line">    image: docker.io/library/postgres:14</span><br><span class="line">    restart: always</span><br><span class="line">    environment:</span><br><span class="line">      - POSTGRES_USER=gitea</span><br><span class="line">      - POSTGRES_PASSWORD=gitea</span><br><span class="line">      - POSTGRES_DB=gitea</span><br><span class="line">    networks:</span><br><span class="line">      - gitea</span><br><span class="line">    volumes:</span><br><span class="line">      - ./postgres:/var/lib/postgresql/data</span><br></pre></td></tr></table></figure>
+
+<p>Gitea 的文件将保存在与 docker-compose.yml 同目录的 gitea 文件夹内，postgres 数据库文件保存在 postgres 文件夹内。</p>
+<p>启动 Gitea ：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker compose up -d</span><br></pre></td></tr></table></figure>
+
+<p>可以省略 docker compose pull ，第一次启动会自动拉取镜像。</p>
+<p>然后就可以访问 http:&#x2F;&#x2F;:3000 查看，第一次打开会进入安装界面。</p>
+<p>数据库部分不需要修改，可以修改下面的部分</p>
+<ul>
+<li><p>服务器域名</p>
+</li>
+<li><p>基础URL</p>
+</li>
+</ul>
+<p><img src="https://m.nep.me/blog/post/gitea.png"></p>
+<h2 id="关闭注册"><a href="#关闭注册" class="headerlink" title="关闭注册"></a>关闭注册</h2><p>进入 docker-compose.yml 目录，编辑文件 .&#x2F;gitea&#x2F;gitea&#x2F;conf&#x2F;app.ini 文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ./gitea/gitea/conf/app.ini</span><br></pre></td></tr></table></figure>
+
+<p>修改下面的内容</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[service]</span><br><span class="line">DISABLE_REGISTRATION = true  # 禁用注册</span><br><span class="line">#...</span><br><span class="line">SHOW_REGISTARTION_BUTTON = false # 隐藏注册按钮</span><br><span class="line"></span><br><span class="line">[openid]</span><br><span class="line">ENABLE_OPENID_SIGNIN = false # 禁用openid登录</span><br><span class="line">ENABLE_OPENID_SIGNUP = false # 禁用openid注册</span><br></pre></td></tr></table></figure>
+
+<p>重启 Gitea:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker compose down</span><br><span class="line">docker compose up -d</span><br></pre></td></tr></table></figure>
+
+<p>如果使用 Nginx 反代 Web 界面，可以将 docker-compose.yml 中的端口设置问仅限本地访问：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ports:</span><br><span class="line">  - &quot;127.0.0.1:3000:3000&quot;</span><br></pre></td></tr></table></figure>
+
+<p>相比资源占用较大的 GitLab，Gitea 在功能上足够满足大多数个人或小团队的 Git 使用需求，且部署、维护成本极低，非常适合在本地或小型 VPS 上运行。</p>
+<p>Gitea 的 Web 界面相当的简洁直观，功能上同样支持常见的 Git 功能和权限控制，支持使用 SSH Key 认证。如果你也有不便托管在 GitHub 上的私有项目，或者希望在局域网内构建自己的 Git 服务，Gitea 是一个非常值得尝试的解决方案。</p>
+</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/github/umami/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">使用 Docker 部署 Umami 网站访问统计系统</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/ai/tools/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">使用 ChatGPT 生成像素风格照片咒语</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>

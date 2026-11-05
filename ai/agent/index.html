@@ -1,0 +1,381 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HydraFusion 实用上手：在 VS Code 和 Copilot App 中开启并用好多模型协作 [ JIA ]</title>
+
+  <link rel="icon" href="/img/favicon.ico">
+
+
+    <meta name="author" content="JIA">
+
+
+
+    <meta name="Description" content="JIA 的博客">
+
+
+
+  <link rel="alternate" href="/atom.xml " title="JIA" type="application/atom+xml">
+
+
+  
+    <link rel="stylesheet" href="/css/main.css">
+  
+    <link rel="stylesheet" href="/css/components.css">
+  
+
+<meta name="generator" content="Hexo 8.1.2"></head>
+  <body data-theme="light" class="notransition">
+    <script>
+      const body = document.body;
+      const data = body.getAttribute("data-theme");
+      const initTheme = (state) => {
+        if (state === "dark") {
+          body.setAttribute("data-theme", "dark");
+        } else if (state === "light") {
+          body.removeAttribute("data-theme");
+        } else {
+          localStorage.setItem("theme", data);
+        }
+      };
+   
+      initTheme(localStorage.getItem("theme"));
+      
+      setTimeout(() => body.classList.remove("notransition"), 75);
+    </script>
+  <div class="navbar" role="navigation">
+    <nav class="menu">
+      <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+      <label for="menu-trigger">
+        <span class="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
+            />
+          </svg>
+        </span>
+      </label>
+      <a id="mode">
+        <svg
+          class="mode-sunny"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>LIGHT</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+        <svg
+          class="mode-moon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 512 512"
+        >
+          <title>DARK</title>
+          <line
+            x1="256"
+            y1="48"
+            x2="256"
+            y2="96"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="256"
+            y1="416"
+            x2="256"
+            y2="464"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="108.92"
+            x2="369.14"
+            y2="142.86"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="369.14"
+            x2="108.92"
+            y2="403.08"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="464"
+            y1="256"
+            x2="416"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="96"
+            y1="256"
+            x2="48"
+            y2="256"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="403.08"
+            y1="403.08"
+            x2="369.14"
+            y2="369.14"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <line
+            x1="142.86"
+            y1="142.86"
+            x2="108.92"
+            y2="108.92"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+          <circle
+            cx="256"
+            cy="256"
+            r="80"
+            style="stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+          />
+        </svg>
+      </a>
+      <div class="trigger">
+        <div class="trigger-container">
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> Home</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> About</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> Archives</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> Tags</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/"> 首页</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/archives/"> 归档</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/categories/"> 分类</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/tags/"> 标签</a>
+          
+            
+            
+            
+            
+            
+            
+            <a class="menu-link " href="/about/"> 关于</a>
+          
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+<div class="wrapper post">
+  <main class="page-content" aria-label="Content">
+      <header class="header">
+        
+          <div class="tags">
+            <a href="/tags/%E5%AE%9E%E7%94%A8%E6%95%99%E7%A8%8B/" class="tag"># 实用教程</a><a href="/tags/GitHub-Copilot/" class="tag"># GitHub Copilot</a><a href="/tags/HydraFusion/" class="tag"># HydraFusion</a><a href="/tags/AI%E7%BC%96%E7%A8%8B/" class="tag"># AI编程</a>
+          </div>
+        
+        <h1 class="header-title" itemprop="headline">HydraFusion 实用上手：在 VS Code 和 Copilot App 中开启并用好多模型协作</h1>
+          <div class="post-meta">
+            <time datetime="2026-10-15T05:49:56.813Z">2026-10-15</time>
+            <a class="post-category" href="/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</a>
+            <span itemprop="author">
+              <span itemprop="name">JIA</span>
+            </span>
+          </div>
+        </header>
+
+          <div class="page-content"><aside class="note note"><strong>版本与权限</strong><p>本文依据 GitHub 2026-09-30 与 2026-10-14 公告整理。HydraFusion 仍是研究预览，是否可用取决于 Copilot 方案、应用版本和组织策略；界面名称可能随预览更新。</p>
+</aside>
+HydraFusion 出现在 Copilot 的模型选择器里，但它不是一个固定的单模型。它会根据任务，在单模型处理、先快速起草再升级检查、或让独立模型评审后再修订等工作流之间协调。Copilot Auto 是为每次请求挑选一个模型；HydraFusion 还会在一次任务里编排多个模型。
+
+<h2 id="在-VS-Code-开启"><a href="#在-VS-Code-开启" class="headerlink" title="在 VS Code 开启"></a>在 VS Code 开启</h2><ol>
+<li>更新到 VS Code 1.140 或更高版本；也可以使用 VS Code Insiders。</li>
+<li>打开 Copilot Chat，在模型选择器里查找并选择 HydraFusion。</li>
+<li>如果列表里没有它，打开 VS Code 设置，搜索 <code>chat.copilot.hydraFusion.enabled</code> 并启用。</li>
+<li>若账号属于公司或 Enterprise 组织，请管理员在组织或企业策略中允许预览功能；自己反复重装通常解决不了策略禁用。</li>
+</ol>
+<h2 id="在-GitHub-Copilot-App-开启"><a href="#在-GitHub-Copilot-App-开启" class="headerlink" title="在 GitHub Copilot App 开启"></a>在 GitHub Copilot App 开启</h2><ol>
+<li>更新到 App 最新版本。</li>
+<li>打开 Settings，在设置搜索框输入 HydraFusion 并开启。</li>
+<li>返回模型选择器，选择 HydraFusion。</li>
+</ol>
+<p>如果开关或模型仍不存在，依次检查：Copilot 方案是否包含预览资格、App 是否已更新、个人设置是否启用、组织管理员是否开放预览。GitHub 公告列出的可用方案是 Pro、Pro+、Business 和 Enterprise；Business 与 Enterprise 还要求管理员开启预览。</p>
+<h2 id="哪些任务适合先试"><a href="#哪些任务适合先试" class="headerlink" title="哪些任务适合先试"></a>哪些任务适合先试</h2><p>可以先用它处理有明确验收标准、而且结果能在工作区核验的任务：解释失败测试、定位一处 bug、补一个小功能、比较两种实现，或检查一个改动的边界情况。不要一开始就交给它无边界的全仓重构、生产发布或删除数据操作。</p>
+<p>可以把下面的提示模板直接改成自己的任务：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">目标：修复 [具体失败现象]。</span><br><span class="line">先查看相关文件和测试，列出根因与准备修改的文件；暂时不要改动无关模块。</span><br><span class="line">修改后运行 [明确的测试命令]，说明测试结果。</span><br><span class="line">最后逐项解释 diff，并指出仍未验证的行为。</span><br></pre></td></tr></table></figure>
+
+<p>它仍会生成需要检查的代码，不代表多模型结论天然正确。先让它解释计划；批准修改后，检查 Git diff，再运行项目测试。涉及认证、付款、数据库迁移和权限逻辑时，单独审查边界条件，不能只因为回答看起来完整就合并。</p>
+<h2 id="HydraFusion-与-Auto-怎么选"><a href="#HydraFusion-与-Auto-怎么选" class="headerlink" title="HydraFusion 与 Auto 怎么选"></a>HydraFusion 与 Auto 怎么选</h2><p>简单问答或小改动，可以先用 Auto；需要多步推理、代码修改后再复查，或想要更清晰的长任务进度时，可以尝试 HydraFusion。Max 是 10 月 14 日加入的更高推理强度选项，适合更难的任务；它不保证每次都更快，也不代表公开排行榜第一。先挑一个你能验证的任务，用相同输入分别运行并对照耗时、diff 和测试结果。</p>
+<aside class="note warning"><strong>研究预览</strong><p>模型池和工作流会调整。不要把一次任务的体验当成普遍性能结论；如果组织看不到该选项，先确认管理员策略，而不是尝试绕过组织设置。</p>
+</aside>
+[VS Code 与 Copilot App 官方开启步骤](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/) · [HydraFusion 与 Max 更新](https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/) · [项目介绍](https://github.blog/ai-and-ml/project-hydrafusion-frontier-quality-via-multi-model-orchestration/)</div>
+          <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/tech/google/">
+      <div class="nav-arrow">&lt;&nbsp;NEWER</div>
+      <span class="post-title">Google AI Studio 制作 Android App 教程：从生成原生应用到手机测试</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/github/actions/">
+      <div class="nav-arrow">OLDER&nbsp;&gt;</div>
+      <span class="post-title">GitHub Actions 锁文件实用教程：固定依赖并在 CI 中检查</span>
+    </a>
+    
+  </nav>
+
+   </main>
+</div>
+
+  <footer class="footer">
+    <small class="footer_copyright">
+      <div id="bottom-inner">
+        © 2021 Site by JIA using
+        <a href="http://hexo.io">hexo blog framework</a>.
+        <br>
+        <p> Theme is <a href="https://github.com/dewjohn/hexo-theme-klise">Klise</a></p>
+      </div>
+    </small>
+  </footer>
+  
+  
+
+    
+      <script src="/js/main.js"></script>
+    
+  
+  <script>
+    window.FPConfig = {
+      delay: 0,
+      ignoreKeywords: [],
+      maxRPS: 3,
+      hoverDelay: 50,
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"></script>
+</body>
+</html>
