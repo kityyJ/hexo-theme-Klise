@@ -1,0 +1,5 @@
+site/node_modules/
+site/themes/
+site/public/
+site/db.json
+.DS_Store

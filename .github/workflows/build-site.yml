@@ -1,0 +1,54 @@
+name: Build Hexo site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: klise-production
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Install locked dependencies
+        working-directory: site
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
+      - name: Build and verify all imported articles
+        working-directory: site
+        run: npm run build
+      - name: Retain generated sources and lockfile on GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/package-lock.json site/source/_posts
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: retain imported Hexo sources and dependency lock"
+            git push origin HEAD:main
+          fi
+      - name: Publish verified assets for Cloudflare Pages
+        env:
+          OUTPUT_WORKTREE: ${{ runner.temp }}/klise-pages
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
+            git fetch origin gh-pages
+            git worktree add --detach "$OUTPUT_WORKTREE" origin/gh-pages
+          else
+            git worktree add --detach "$OUTPUT_WORKTREE"
+            git -C "$OUTPUT_WORKTREE" checkout --orphan gh-pages
+            git -C "$OUTPUT_WORKTREE" rm -rf --ignore-unmatch .
+          fi
+          rsync -a --delete --exclude=.git site/public/ "$OUTPUT_WORKTREE/"
+          git -C "$OUTPUT_WORKTREE" add --all
+          if ! git -C "$OUTPUT_WORKTREE" diff --cached --quiet; then
+            git -C "$OUTPUT_WORKTREE" commit -m "Deploy verified Klise site from $GITHUB_SHA"
+            git -C "$OUTPUT_WORKTREE" push origin HEAD:gh-pages
+          fi

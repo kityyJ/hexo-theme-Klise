@@ -1,0 +1,951 @@
+{
+  "source": "https://blog.jia.nz",
+  "imported_at": "2026-11-05",
+  "count": 41,
+  "posts": [
+    {
+      "id": "efab3aa9-16be-467c-909c-08941ad3c61b",
+      "title": "《彩虹六号：围攻》“怪医诅咒”回归：11月2日截止，玩法与免费奖励全整理",
+      "content": "::: info 来源与活动时间\n育碧于 **2026年10月14日**公布「Doktor’s Curse／怪医诅咒」活动，并于10月23日在中文官网再次介绍。活动时间为 **10月15日至11月2日**。本文信息核对截至10月29日，非新赛季爆料。\n:::\n\n《彩虹六号：围攻》今年的万圣节活动已经开放。如果近期准备回坑，值得优先关注的是有截止日期的限时模式和免费奖励，而不是把它误认为Y11S3.2又推出一轮新补丁。\n\n## 玩法：5v5捉迷藏，猎人与怪物各有目标\n\n地图是由「俱乐部会所」改造的**怪医实验室（Doktor’s Lab）**。活动采用5对5的非传统对抗玩法，每局分为四个时长约两分钟的回合，双方都不能使用通常的枪械交火方式。\n\n- **猎人**：要在回合结束前消灭全部怪物，以改装干员道具和近战武器追踪目标。今年新增 **Grim** 与 **Hibana** 阵容；Grim拥有改装的Kawan蜂群，Hibana例外使用改装Capitão十字弓取代大锤。\n- **怪物**：目标是撑过追捕，利用躲藏、改装道具与「Nightstride」短暂隐身能力改变路线。**Mute** 本次加入怪物阵容，配备改装的信号干扰器。\n\n这不是普通爆破排位：猎人重视找人和围堵，怪物则要利用地形、道具及转移时机。首次体验可以先熟悉地图通道，再决定追击或保存逃脱资源。\n\n## 免费奖励怎样拿？\n\n| 奖励 | 官方公布的获得方式 |\n| --- | --- |\n| 活动免费补给包 | 活动期间首次登录领取 |\n| G36C武器皮肤（Ash、Iana适用） | 完成活动挑战 |\n| Spear .308武器皮肤（Finka、Thunderbird适用） | 通过符合条件的Twitch Drops活动领取 |\n\n**注意：** 商店中的活动外观套装、特殊纪念武器皮肤并不等于全部免费。Twitch掉宝需要核对官方页面的账号绑定、参与直播与领取条件，不能仅登录游戏就认为已到账。\n\n## 现在参加，先做哪三件事？\n\n1. **优先完成限时挑战。** 11月2日之后能否再获取活动奖励，应以育碧公告为准。\n2. **领取首次登录补给包。** 检查游戏内活动页与库存，确认内容是否到账。\n3. **分别适应猎人和怪物。** 猎人适合协同围堵；怪物要学会隐身和道具配合，而不是依靠传统枪法。\n\n## 和赛季中期补丁有什么关系？\n\n本次限时活动运行在Y11S3「Operation Split Fire」期间。育碧此前已经发布 **Y11S3.2** 补丁与季中平衡说明，包括Noor等干员调整；那是**10月13日至15日发布的另一个更新主题**，不应混淆为10月29日刚出的新补丁。\n\n### 官方资料\n- [育碧：怪医诅咒活动说明，2026-10-14](https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/2K8hI7WHXGkbWyql5ItbZv/doktors-curse-is-back-until-november-2nd)\n- [育碧中国：万圣节活动汇总，2026-10-23](https://zh-cn.ubisoft.com/news_detail.html?id=4420)\n- [育碧：Y11S3.2赛季中期官方消息，2026-10-15](https://news.ubisoft.com/en-us/article/1yzD1EJhuk6vXsTt8eP1hf/rainbow-six-siege-operation-split-fire-midseason-update-legend-division-arrives-noor-buffs-and-a-final-ranked-map-rotation)\n\n*本文基于育碧公开公告独立整理，活动安排和奖品发放以游戏内最新说明为准。*",
+      "excerpt": "育碧2026年万圣节活动“怪医诅咒”进行中：5v5捉迷藏、新加入干员、免费补给包和挑战奖励，11月2日结束。",
+      "cover": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2CFZGv67oI2iDs8h4TfUig/d1e0afcc5885bbcdac570e31c0549894/R6S_DOKT7_Keyart_16_9_4K_Final.jpg",
+      "date": "2026-10-29T08:52:26.068Z",
+      "updated": "2026-11-03T08:13:43.048Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "彩虹六号",
+        "R6S",
+        "怪医诅咒",
+        "Doktor’s Curse",
+        "万圣节",
+        "免费奖励",
+        "2026"
+      ],
+      "public_path": "game/r6s-2",
+      "source_url": "https://blog.jia.nz/game/r6s-2/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/2K8hI7WHXGkbWyql5ItbZv/doktors-curse-is-back-until-november-2nd",
+        "https://zh-cn.ubisoft.com/news_detail.html?id=4420",
+        "https://news.ubisoft.com/en-us/article/1yzD1EJhuk6vXsTt8eP1hf/rainbow-six-siege-operation-split-fire-midseason-update-legend-division-arrives-noor-buffs-and-a-final-ranked-map-rotation"
+      ]
+    },
+    {
+      "id": "c8916b3a-1069-4f2b-a940-057204911a9d",
+      "title": "国行 Apple Intelligence 即将开启测试：10月底首批功能获批，Siri AI 暂缺席",
+      "content": "::: info 核实截至2026年10月29日\n**已获批、计划于10月底推出测试版，不代表所有国行设备现已正式开放。** 苹果当前中国区支持文档仍写明「在中国大陆购买的支持设备无法使用Apple Intelligence」，本文以确认信息与已公布计划为准，不将传闻当作发布通知。\n:::\n\n国行Apple Intelligence（苹果智能）终于有明确的推进时间。苹果高管在10月15日接受媒体采访，确认首批核心功能在中国获批，并预计**10月下旬推出测试版本**。不过，本轮不包括新的Siri AI，也尚未公布所有用户都能直接启用的正式开放日期。\n\n## 一、确认了哪些功能？\n\n据澎湃新闻在**2026年10月15日16:45（北京时间）**发布的采访，以及《每日经济新闻》同日向苹果获得的确认，首批范围包括：\n\n| 首批功能 | 使用场景 |\n| --- | --- |\n| **实时翻译**（Live Translation） | 在支持的交流场景中辅助翻译 |\n| **写作工具**（Writing Tools） | 辅助润色、改写和整理文字 |\n| **照片「清除」**（Clean Up） | 在照片中移除不需要的干扰元素 |\n\n这些是**计划进入中国区测试的首批功能**，不是保证今天所有国行用户都能在设置里看到开关。不同设备、系统构建版本和测试资格可能影响实际开放范围。\n\n## 二、新版 Siri AI 会同时到来吗？\n\n**不会。** 苹果此次披露的首批国行测试内容明确不包括新一代Siri AI。海外版本所展示的自然语言对话、屏幕内容理解及跨App执行等能力，也不能直接等同于中国大陆首发能力。\n\n此前媒体提到阿里巴巴通义千问、通义万相等模型的备案与合作信息，但模型备案、产品获批、测试开放和稳定版上线是四个不同阶段。不能仅凭备案编号或系统版本推测某个功能已对用户开放。\n\n## 三、国行和海外版iPhone的限制一样吗？\n\n苹果支持文档明确区分了两类情况：\n\n- **在中国大陆购买的支持设备：** 截至本文核实，支持页面仍标注Apple Intelligence当前不可用。\n- **在中国大陆以外购买的支持设备：** 如果用户人在中国大陆，而且Apple账户的国家或地区也设为中国大陆，目前同样存在使用限制。\n\n苹果还说明，今后在中国大陆正式推出时，先前购买的兼容设备可在该地区激活一组核心功能；但这并不等于新版Siri AI同期开放。**国行硬件并非因已经购买就永久被排除，关键在后续合规和服务端开放。**\n\n## 四、现在应该做什么？\n\n1. 在 **设置 → 通用 → 软件更新** 中查看官方发布的系统版本，不通过第三方配置文件或所谓「破解描述文件」强行开启AI。\n2. 关注苹果中国官网、Apple支持文档及实际系统更新说明，核对是否已开放测试、设备名单与适用地区。\n3. 核对自己是否属于支持Apple Intelligence的设备系列。具体功能还可能因机型、语言和地区不同而有差异。\n4. 不要把网络传闻的「12月正式版」「指定某一天全部上线」当成苹果已经官宣的日期。\n\n## 五、下一步值得观察什么？\n\n最重要的不是再看到一次「即将上线」标题，而是苹果是否发布**中国区测试入口、参与条件、首批机型和正式功能清单**。在这些细节落地前，最准确的表述仍是：**首批功能获批、测试版预计在10月底推出，国行尚不能视为全面上线，新版Siri AI暂不包含。**\n\n### 来源与时间\n- [澎湃新闻：库克谈首批功能获批及10月底测试，2026-10-15](https://www.thepaper.cn/newsDetail_forward_34256510)\n- [每日经济新闻：苹果向记者确认首批测试范围，2026-10-15](https://www.nbd.com.cn/articles/2026-10-15/4605601.html)\n- [Apple支持：中国大陆设备和账户的功能可用性（核对于2026-10-29）](https://support.apple.com/zh-cn/121115)\n- [Apple Newsroom：全球Siri AI更新，2026-09-14](https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/)\n\n*本文为已公布消息的原创整理。测试计划并非某一设备已经获得功能的承诺，后续以苹果官方更新为准。*",
+      "excerpt": "苹果确认Apple Intelligence首批功能已获中国区批准，计划10月底测试实时翻译、写作工具和照片清除；新版Siri AI暂不包含。",
+      "cover": "https://www.apple.com/newsroom/images/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/tile/Apple-Siri-AI-hero-video-lp.jpg.og.jpg?202610082228",
+      "date": "2026-10-29T08:52:27.482Z",
+      "updated": "2026-11-03T08:13:41.274Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "Apple Intelligence",
+        "国行",
+        "苹果智能",
+        "苹果AI",
+        "Siri AI",
+        "中国大陆",
+        "iOS 27"
+      ],
+      "public_path": "tech/apple-1",
+      "source_url": "https://blog.jia.nz/tech/apple-1/",
+      "source_published_at": "2026-10-15T16:45:00+08:00",
+      "source_urls": [
+        "https://www.thepaper.cn/newsDetail_forward_34256510",
+        "https://www.nbd.com.cn/articles/2026-10-15/4605601.html",
+        "https://support.apple.com/zh-cn/121115",
+        "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/"
+      ]
+    },
+    {
+      "id": "44cc5f1f-c8d7-4f74-8bd3-b3d914d39f72",
+      "title": "《全境封锁2》TUY8S3.3 更新详解：11月跨平台时间表、新奇特手套、战队迁移与冲突战改版",
+      "content": "::: info 版本与资料时间\n本文于 **2026 年 11 月 3 日**依据育碧 **11 月 2 日**发布的 **TUY8S3.3** 官方补丁说明更新，适用于育碧国际服公告所述的 PC、PlayStation 与 Xbox 平台。文中区分“官方计划开放”与“已经实测可用”；未进行客户端实测，不适用于腾讯国服。\n:::\n\n《全境封锁2》这一轮更新最值得先记住的是：**11 月 3 日出现跨平台图标，不等于当天就能跨平台组队。真正的三平台互通按计划要等到 11 月 17 日。**与此同时，战队迁移、Conflict 计分、新奇特手套和牧羊人项目都有明确变化。\n\n本文保留原有全境封锁更新入口，内容已从 TUY8S3.2 更新到 TUY8S3.3。旧红月活动的限时奖励不能直接当作本轮仍在开放的内容。\n\n## 一、先看更新日历\n\n| 日期 | 官方安排 | 玩家要注意什么 |\n| --- | --- | --- |\n| 11 月 3 日 | 跨平台图标、界面变化；Master Climax Mission 开放；中央公园 DLC 计划推出 | 此时仍不能跨平台联机；DLC 详细内容另有公告 |\n| 11 月 10 日 | PC 玩家迁入新跨平台服务器，PC 排行榜重置 | PC 已迁移也不代表能与主机互通 |\n| 11 月 17 日 | PlayStation、Xbox 迁入新服务器，三平台跨平台功能开放 | 跨平台默认开启，可在角色选择画面关闭 |\n| 11 月 17—26 日 | 牧羊人活动六段项目链 | 首日开放整条链，在结束前自行安排完成 |\n\n以上是官方公告中的日期安排；公告未在这份说明中给出各项的精确解锁时刻，因此不把某个日期直接换算成北京时间或韩国时间零点上线。\n\n## 二、跨平台联机：分三步推进，排行榜也会变化\n\n### 11 月 3 日：先改界面\n\n游戏内将开始出现 Crossplay 图标和其他相关界面变化。这是上线准备阶段，**看到标识不代表功能已经可用**。如果此时无法邀请其他平台朋友，不能仅凭这一点判断账号或网络异常。\n\n### 11 月 10 日：PC 先迁服\n\nPC 玩家会进入新的跨平台服务器。此次迁移会重置 **PC 排行榜**，但跨平台组队仍未正式开放。\n\n同时，官方表示所有平台的排行榜都会暂时隐藏，直到 11 月 17 日跨平台联机上线。这里的“排行榜重置”不等于官方宣布清空角色、装备或整个账号进度，两者不要混为一谈。\n\n### 11 月 17 日：三平台互通\n\nPlayStation 和 Xbox 玩家加入新服务器后，PC、PlayStation、Xbox 将按计划能够一起游玩。功能上线时默认开启，玩家可以在**角色选择画面**关闭。\n\n这份补丁说明讲的是跨平台联机，没有在此承诺跨平台购买权益、DLC 授权或角色进度自动互通，因此不能据此推断“买一份 DLC 三个平台都能用”。\n\n## 三、战队上限翻倍，迁移前最好先沟通\n\n本次战队人数上限由 **50 人提高到 100 人**。战队在第一位成员进入新跨平台服务器时自动迁移，不需要等所有成员同时上线。\n\n### 原成员会保留位置吗？\n\n会。尚未迁入的原成员将获得预留名额，官方当前计划是从预留创建起保留 **三个月**。\n\n例如，某位 PC 成员在 11 月 10 日首先迁服，其他原成员的三个月预留期便从当天开始计算，而不是从自己下次登录才开始。预留有效时可以保证回归位置；预留被移除或到期后，只能在战队仍有空位时重新加入。\n\n有相应权限的队长和副队长可以移除预留。普通回归成员可保留原阶级，但原队长的预留过期有特殊处理。\n\n### 谁会成为队长？\n\n| 情况 | 队长处理 |\n| --- | --- |\n| 原队长首先迁入 | 继续担任队长 |\n| 其他成员先迁入 | 先迁入者成为临时队长 |\n| 原队长在预留有效期间回归 | 取回队长身份 |\n| 原队长预留到期 | 临时队长成为正式队长；原队长以后回归不会自动恢复领导权 |\n\n临时队长只有副队长级别权限，不能改战队名，也不能降级、踢出原队长或副队长，或移除他们的预留名额。临时队长离队前还必须先转交领导权。\n\n**实用建议：**活跃战队可提前商量由谁先登录新服务器，尤其是原队长长时间离线的队伍。不要把“自动迁移”理解为所有管理权限完全不变。\n\n### 同名战队和历史数据\n\n如果迁移后发生重名，战队名会自动增加原平台标识：PC 为 **#2**，Xbox 为 **#3**，PlayStation 为 **#4**。\n\n以下内容不迁移：\n\n- 战队消息；\n- 邀请和加入申请；\n- 战队贮藏箱。\n\n战队简介的迁移还带有条件：**撰写简介的成员必须是第一个把战队带入新服务器的人**。如果简介对战队很重要，建议先自行留存文本。\n\n## 四、新奇特手套 Loaded for Bear：大师难度首次通关保底\n\n**Master Climax Mission** 按官方计划于 **11 月 3 日**开放。首次以 **Master 难度**完成，可以保证获得 **Loaded for Bear 奇特手套**。\n\n手套也会在其他难度的 Climax Mission 中掉落，难度越高，掉落机会越高；公告没有列出具体百分比。这里的首次保底条件是大师难度首次完成，不能理解成“任意难度打一遍必掉”。\n\n### Afterburn 天赋怎么触发？\n\n1. 命中敌人，在该目标身上叠层。\n2. 每名敌人最多承受 **20 层**。\n3. 重新装填武器时，消耗这些层数。\n4. 每层对其所附着的敌人造成 **100% 武器伤害**。\n\n按公告文本作算术理解，单一目标叠满 20 层，对应 20 × 100% 的武器伤害系数。但这不是本文实测伤害，不能直接当作最终结算值，也不能把目标身上的层数理解为对所有敌人共享。\n\n从机制看，配装思路可以关注持续命中与换弹节奏的配合；具体武器适配、伤害计算和 PvP 表现仍需正式环境验证。\n\n## 五、牧羊人活动：六段项目、材料与具名 Mk16\n\n活动时间为 **11 月 17 日—26 日**。通过响应其他特工的支援请求、帮助队友提升 Shepherd Rank，完成六段项目链。\n\n每个项目要求提升 **一级牧羊人等级**。整条链从活动第一天就全部开放，不需要每天等待下一段解锁。上次活动把自动认可从 1 次提高到 3 次的调整会继续保留。\n\n| 项目 | 公告奖励 |\n| --- | --- |\n| 每一段 | 10 个奇特零件、700,000 XP |\n| 第 1—5 段 | 每段另得 1 个 Reconstructed Cache |\n| 第 6 段 | 具名 Mk16：Malinois |\n\n若完整完成六段，**按每段奖励计算**可合计获得 **60 个奇特零件、4,200,000 XP、5 个 Reconstructed Cache，以及 Malinois**。这是依照公告逐项求和，并非另外存在一份同等数额的最终大奖。\n\n对缺奇特零件的玩家，这条项目链值得提前预留时间；对暂时不打算刷新手套的玩家，也有一条偏协助队友的活动路线。\n\n## 六、Conflict：让防守、支援和干扰贡献被看见\n\n本轮 Conflict 更新不只看击杀数。新计分板增加四类统计，分别记录防守、步枪/射手步枪击杀、支援和干扰贡献。\n\n在 **Domination** 中，计分板会用 **Captures（占领次数）替换 Deaths（死亡数）**列；比赛内通知也会显示获得的比赛分数。这个调整更强调目标推进，不能仅靠击杀死亡比判断整场贡献。\n\n### 四类 Combat Marks\n\n| 标记 | 主要对应行为 |\n| --- | --- |\n| Iron Wall | 抵御大量来袭伤害并存活 |\n| Extended Reach | 使用步枪或射手步枪完成击杀 |\n| Tactical Aid | 治疗、复活队友，脉冲敌人，提供有帮助的技能与天赋效果 |\n| System Breaker | 摧毁敌方技能、施加状态，或用技能、爆炸、状态效果击杀 |\n\n**Combat Marks 奖励比赛分数，不直接奖励 XP。**这点与赛后 Honor Marks 要分开看。\n\n### 赛后 Honor Marks\n\n每场比赛最多获得 **一个** Honor Mark。官方说明涉及目标、击杀、防守、支援、干扰及准确度等贡献。\n\n- **MVP：**授予胜方符合条件且比赛分数最高的特工，奖励 **200 XP + 额外 15 CCC**。\n- **其他 Honor Marks：**按对应比赛统计授予，奖励 **150 XP + 额外 8 CCC**。\n\nCCC 指 Conflict Commendation Currency。这些是表彰带来的额外奖励，不能简单视为整场全部结算。\n\n官方同时提到新一轮 PvP 武器和天赋平衡，并提供单独的详细表格链接。本文没有成功读取该外链文件，因此不罗列未核实的增伤、削弱百分比，也不把 PvE 天赋描述直接套进 PvP。\n\n## 七、好友邀请：玩满两小时才算有效\n\n新版 Friend Referral Program 更新了双方外观奖励。玩家先在育碧官方邀请页面登录，取得自己的专属链接，再邀请朋友。\n\n**每位被邀请朋友需要至少游玩两小时，才计入有效邀请。**\n\n| 对象 | 奖励 |\n| --- | --- |\n| 邀请者首次成功邀请 | Cyclops Outfit |\n| 邀请者第二次成功邀请 | Esprit de Corps Outfit |\n| 被邀请朋友 | Frenzied Outfit |\n\n具体参与资格以邀请页面为准，不能把“发出链接”或“朋友刚登录”当作已经达成奖励条件。\n\n## 八、修复了什么？还有什么已知问题？\n\n本轮公告列出以下修复：\n\n- 修复 Steel & Sons ACR 奇特步枪从掩体射击时准确度降低的问题。\n- 修复打开 Red Horizon 赛季通行证时的过渡异常。\n- 修复机密任务把已解锁收藏品仍显示为其他特工可得奖励的问题。\n- 修复 Harrier Pride 奇特背包缺少重配置蓝图的问题。\n- 修复 Conflict 20 级后升级奖励界面错误显示 30 CCC 的问题，正确数值为 **45 CCC**。\n- 修复 Protected Reload 天赋未向其他子小队提供额外装甲的问题。\n\n**已知问题：**完成所有标为高价值目标的 Manhunt Scouts 后，Climax Mission 可能仍在侦察菜单锁定，地图上也不显示。官方给出的临时办法是：**退出登录，再重新登录**。\n\n此外，**Stretch Goals 本赛季暂停**，官方计划下赛季以调整后的形式回归。计划不等于当前已开放，也没有在这份公告里提供完整的新规则。\n\n## 九、中央公园 DLC：与本补丁有关，但别混写\n\n育碧在 11 月 2 日公告开头说明，**Echoes of Central Park 计划 11 月 3 日推出**，届时会发布 DLC 完整介绍，之后再补充庆祝上线的 Event Pass 细节。\n\n因此，这篇文章主要解析 **TUY8S3.3 的跨平台、战队、Conflict、活动与装备更新**，不把尚未在本轮资料中核实的 DLC 售价、流程长度、区域入口和通行证奖励写成已确认事实。要购买或进入 DLC，仍应核对自己平台的商店页面与游戏内开放状态。\n\n## 十、回归玩家先做这几件事\n\n1. **先看日期。**11 月 3 日只是跨平台界面准备，跨平台约队按 11 月 17 日安排。\n2. **战队先沟通迁移。**确认队长是否能及时上线，留存重要简介，并关注不会迁移的邀请和战队贮藏箱。\n3. **想拿新手套，明确难度。**大师难度首次通关才是这次公告写明的保底渠道；其他难度属于概率掉落。\n4. **想补材料，记好 11 月 17—26 日。**牧羊人六段链可按自己的时间集中完成。\n5. **遇到高潮任务不显示，先重新登录。**这是官方已公布的临时解决方式。\n\n---\n\n### 官方来源\n\n- [育碧 TUY8S3.3 完整补丁说明，2026-11-02](https://www.ubisoft.com/en-us/game/the-division/the-division-2/news-updates/7L8TlD1Hv0XC1prOD8mdte/tuy8s33-crossplay-rollout-conflict-improvements-more)\n- [育碧《全境封锁2》新闻与更新列表](https://www.ubisoft.com/en-us/game/the-division/the-division-2/news-updates)\n\n本文为官方公告的原创中文整理。英文装备、天赋和奖励名用于避免非官方译名造成混淆；解读与奖励合计均已在对应位置说明，不代表客户端实测。",
+      "excerpt": "育碧11月2日公布TUY8S3.3：跨平台分11月3日、10日、17日推进，战队扩至100人；详解新奇特手套首次保底、牧羊人六段奖励、Conflict计分改版、好友邀请及已知问题。",
+      "cover": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6DVtaPhnGzFQzWfSWkS5IS/98ed230091e7e0d2bacbca7f768261d2/TU_Y8S3.3.jpg",
+      "date": "2026-10-14T18:07:19.211Z",
+      "updated": "2026-11-03T08:13:39.065Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "全境封锁2",
+        "TUY8S3.3",
+        "跨平台联机",
+        "战队迁移",
+        "Conflict",
+        "奇特手套",
+        "牧羊人活动",
+        "中央公园"
+      ],
+      "public_path": "game/td2",
+      "source_url": "https://blog.jia.nz/game/td2/",
+      "source_published_at": "2026-10-13",
+      "source_urls": [
+        "https://www.ubisoft.com/en-us/game/the-division/the-division-2/news-updates/7L8TlD1Hv0XC1prOD8mdte/tuy8s33-crossplay-rollout-conflict-improvements-more"
+      ]
+    },
+    {
+      "id": "1aba07c4-7ef4-4ecb-9013-6a777c1ec84e",
+      "title": "《PUBG》联动宾利正式上线：飞驰与欧陆GTC皮肤、活动日期和抽取机制",
+      "content": "::: info 官方活动\nPUBG于**2026年10月13日**公布与宾利（Bentley）的正式联动。活动涉及载具外观、工坊兑换及通行证。部分物品存在概率抽取机制；以下日期采用**UTC**，不同平台时间不同。\n:::\n\n这次合作把宾利的两类车型带进《PUBG: BATTLEGROUNDS》：**Flying Spur Mulliner** 飞驰轿车，以及 **Continental GTC Mulliner** 欧陆敞篷跑车。它们以游戏内特殊载具皮肤形式提供，并非新增一种基础性能更强的车辆。\n\n## 车型和玩法\n\n| 联动皮肤 | 对应原车辆 | 特征 |\n| --- | --- | --- |\n| Flying Spur Mulliner (Luxe) | Dacia、Mirado | 专属外观、灯效、音效和细节动画 |\n| Flying Spur Mulliner | Dacia、Mirado | 飞驰外观及车辆音效 |\n| Continental GTC Mulliner | Coupe RB | 敞篷开合动画及专属声效 |\n\n官方说明特殊载具皮肤不会直接改变车辆的基础生命值、最高车速、燃料、传动等核心性能；外观更换并非付费性能增益。\n\n联动还带来大厅和出生岛的宾利展示集装箱。拥有相应皮肤的玩家可以互动展示，部分内容在登机后消失。\n\n## 获取方式和时间\n\n玩家可通过Bentley Cargo、Crafting及Crafter Pass获取相关道具。部分货箱为随机概率内容，官方设有累计抽取奖励，但**抽取不等于保证立刻获得最高稀有度皮肤**。购买前应看清各地区概率与道具有效期。\n\n| 平台 | 官方销售期间（UTC） |\n| --- | --- |\n| PC | 10月14日维护后—11月11日00:00 |\n| 主机 | 10月22日维护后—11月19日00:00 |\n\n工坊专项兑换截止时间比销售截止时间更晚：PC为11月16日00:00、主机为11月24日00:00（UTC）。**抽取券、代币到期可能失效且无法退换，别等到最后一天。**\n\n## 值不值得参与？\n\n主要看你对宾利品牌外观、专属动画以及收藏稀有度的兴趣。车辆核心性能并不因为购买皮肤而提高。不要因展示视频中“跑得更快”的主观印象误判机制，也不要购买非官方渠道的所谓低价“保底券”。\n\n**官方来源：** [PUBG x Bentley，2026年10月13日](https://pubg.com/en/news/11181)。",
+      "excerpt": "《PUBG: BATTLEGROUNDS》10月13日公布宾利联动，带来Flying Spur与Continental GTC专属载具皮肤、活动通行证及制作系统。",
+      "cover": "https://wstatic-prod-boc.krafton.com/common/content/news/20261012/6gQf0z57.jpg",
+      "date": "2026-10-20T16:08:02.958Z",
+      "updated": "2026-10-20T16:08:02.958Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "PUBG",
+        "绝地求生",
+        "Bentley",
+        "宾利",
+        "联动",
+        "载具皮肤"
+      ],
+      "public_path": "game/pubg-1",
+      "source_url": "https://blog.jia.nz/game/pubg-1/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://pubg.com/en/news/11181"
+      ]
+    },
+    {
+      "id": "50a964aa-794f-4270-a1b2-4d8b906d82ba",
+      "title": "《彩虹六号：围攻》Y11S3.2补丁：Noor大幅增强、Tachanka新增引燃方式",
+      "content": "::: info 官方补丁时间\n育碧于**2026年10月13日**发布Y11S3.2补丁说明，并于**10月15日**提供开发者设计说明。下文数据来自官方，实际实装以对应平台客户端为准。\n:::\n\n这次《彩虹六号：围攻》的赛季中期版本集中调整几名干员：有明显的Noor强化，也有Solid Snake的资源压缩。\n\n## 改动速览\n\n| 干员 | 改动 | 对实战的影响 |\n| --- | --- | --- |\n| **Noor** | Horus Lance钻透时间 **2秒→1.5秒**，切换准备 **0.9秒→0.4秒** | 出手和打盾节奏加快 |\n| **Noor** | 直接命中伤害 **50→80**，击盾破防强度 **30%→100%** | 打盾威胁提升 |\n| **Tachanka** | Shumikha发射器增加榴弹**碰撞后直接引燃**模式 | 可自由选择反弹与定点火力 |\n| **Solid Snake** | Soliton Radar MK III精确模式次数 **4→3** | 需更谨慎使用扫描 |\n| **Valkyrie** | 新增副武器 **Glaive-12** | 增加开洞与布局选择 |\n| **Clash** | 敌人后撤时的减速强度 **5%→10%** | 对撤离敌人的阻滞更强 |\n\n除此之外，官方还公布了Capitão、Osa及装备交互细节优化，以及语音状态指示、射弹命中箱体和部分UI问题的修复。\n\n## 实战优先测试哪些地方\n\nNoor玩家应在自定义对局验证打盾角度、装备切换手感与新伤害；Tachanka玩家可测试新引燃模式能否更精准地封锁门口；Solid Snake玩家则需要重新安排每回合的精确侦察次数。\n\n**注意：** 本文整理的是10月中旬的版本公告，不等于今天又出现一次新补丁。\n\n### 资料来源\n- [育碧官方Y11S3.2补丁说明（10月13日）](https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/5K9s4APinlQlVsMNoMwR1Z/y11s32-patch-notes)\n- [官方开发者说明（10月15日）](https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/280F3jL91f371i6YbH3mew)",
+      "excerpt": "育碧10月13日发布Y11S3.2更新，Noor投射物伤害50升至80，Tachanka、Solid Snake、Valkyrie装备也有调整。",
+      "cover": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/22TFm6bD4bwe4eDqiJTzRF/b251108c7d1c2830c9e5027be982084c/Y11S3_PATCHNOTES_MIDSEASON_960x540.jpg",
+      "date": "2026-10-20T16:08:01.117Z",
+      "updated": "2026-10-20T16:08:01.117Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "彩虹六号",
+        "R6S",
+        "Y11S3.2",
+        "Noor",
+        "Tachanka",
+        "平衡调整"
+      ],
+      "public_path": "game/r6s-1",
+      "source_url": "https://blog.jia.nz/game/r6s-1/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/5K9s4APinlQlVsMNoMwR1Z/y11s32-patch-notes",
+        "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/280F3jL91f371i6YbH3mew"
+      ]
+    },
+    {
+      "id": "1564f994-ff99-4035-aec3-c6331e287987",
+      "title": "《GTA VI》正式发售预告公布：11月19日登陆PS5及Xbox，最新爆料与已证实信息",
+      "content": "::: info 官方核实 | 2026年10月21日\nRockstar于**10月15日**发布《Grand Theft Auto VI》全新发售预告，正式发售日期仍为**2026年11月19日**。首发平台：PlayStation 5及 Xbox Series X|S。\n:::\n\n距离《GTA VI》计划发售仅剩约一个月，Rockstar Games 最新发布的 **Launch Trailer** 为玩家带来罪恶都市和两位主角的更多画面，而不是网络传言中的所谓泄露版游戏录像。\n\n## 预告主要信息\n\n故事聚焦 **Jason 与 Lucia**。两人的一场看似简单的行动出现差错，随后被卷入虚构州 **Leonida** 的犯罪阴谋。故事舞台包括 **Vice City（罪恶都市）**。本次预告延续此前对开放世界、人物关系和城市氛围的展现，但具体交互功能应以后续完整游戏说明为准。\n\n这次预告的音乐也是官方重点。电子组合 **Justice** 为本作原创配乐参与创作，新单曲 **《Flower in a Hurricane》** 作为预告音乐发布，歌曲合作阵容包括 Tame Impala、SZA 和 King Gizzard & The Lizard Wizard。Rockstar 还宣布了官方原声专辑相关预订信息。\n\n## 确认与传闻怎么区分？\n\n| 话题 | 目前可核实的结论 |\n| --- | --- |\n| 发售日期 | 官方确认为 **2026年11月19日** |\n| 首发平台 | **PS5、Xbox Series X|S** |\n| 主要角色 | Jason 和 Lucia |\n| 故事区域 | Vice City及Leonida州 |\n| PC版上市日期 | **尚未正式公布，不可把网传日期当成官宣** |\n| 联机玩法、地图完整区域、隐藏角色 | 部分网传细节仍应视为**未经官方证实** |\n\n## 发售前值得关注的三件事\n\n1. **版本差异：** Rockstar 官网已提供标准版、Ultimate Edition及预购奖励信息，内容与定价以所在平台商店展示为准。\n2. **主机与PC：** 不要把“肯定同步上PC”等网上爆料当成购买计划的依据。\n3. **网络爆料：** 遇到所谓内部试玩、地图泄露和主机帧率截图时，先追溯最初来源；未经证实的信息明确按传闻看待。\n\n### 原始资料\n- [Rockstar Games：2026年10月15日新预告公告](https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer)\n- [《GTA VI》官方网站、发售日期与平台](https://www.rockstargames.com/VI)\n\n**本文依据官方公告整理，未核实的游戏爆料不写成事实。**",
+      "excerpt": "Rockstar在10月15日推出《GTA VI》新预告，确认11月19日上市。梳理Jason、Lucia、Vice City、Justice配乐以及PC版尚未官宣的情况。",
+      "cover": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/517572321a549a/0637b4bb19438399bc5b3e7bbdfe6936f79cdbf3.jpg",
+      "date": "2026-10-20T16:07:59.374Z",
+      "updated": "2026-10-20T16:07:59.374Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "GTA6",
+        "侠盗猎车手6",
+        "Rockstar",
+        "游戏预告",
+        "发售日期",
+        "爆料核实"
+      ],
+      "public_path": "game/gta6",
+      "source_url": "https://blog.jia.nz/game/gta6/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer",
+        "https://www.rockstargames.com/VI"
+      ]
+    },
+    {
+      "id": "4ca585e5-8257-41d6-9dc6-fa1feccc2d67",
+      "title": "《全境封锁2》国服官宣停运：12月14日关服，玩家补偿方案完整解读",
+      "content": "::: info 事件状态\n**已官宣，即将停运。** 2026年10月12日，腾讯运营团队宣布中国大陆国服将于12月14日关闭。这不等于育碧国际服停运。以下时间为**北京时间**。\n:::\n\n《全境封锁2》国服于2023年11月正式上线。运营团队称因业务发展策略变更，经与开发商友好协商决定停止运营。距离正式关服仍有一段时间，已经充值或拥有角色的玩家应该抓紧核对自己的权益。\n\n## 停服时间表\n\n| 时间（北京时间） | 安排 |\n| --- | --- |\n| **10月12日11:00** | 停止充值和新账号注册 |\n| **10月14日—12月14日** | 按公告参与停运补偿 |\n| **12月14日11:00** | 关闭国服游戏服务器和游戏官网，无法登录 |\n| **12月22日11:00** | 关闭官方论坛与专属客服 |\n\n运营团队同时表示，服务器关闭后，除法律法规另有规定或协议另有约定，将按相关规则处理账号资料与角色数据。建议提前保留充值记录和必要的账号信息。\n\n## 游戏里的高级点数怎么补偿？\n\n官方公布的补偿**不是原路现金退款**，而是用其他腾讯游戏的礼包等权益替换符合条件的付费余额、未失效订阅服务。补偿涵盖《和平精英》《金铲铲之战》《无畏契约》《穿越火线》《王者荣耀》等。\n\n适用条件主要为：**2026年10月12日11点前充值，且国服账号还有付费获得的未消耗高级点数。** 免费赠送的点数不计入。未失效的付费周卡、月卡按照公告约定的剩余时间折算。\n\n| 符合补偿的高级点数余额 | 对应礼包档位 |\n| --- | --- |\n| 0 < 余额 ≤ 1,000 | 价值10元礼包 |\n| 1,000 < 余额 ≤ 10,000 | 价值100元礼包 |\n| 10,000 < 余额 ≤ 50,000 | 价值500元礼包 |\n| 余额 > 50,000 | 按余额除以50,000后向上取整计算500元礼包份数 |\n\n请注意表中所谓“价值”是**礼包标示价值**，不能理解成可直接兑换现金。参与补偿可能意味着接受替换方案；以官方补偿页面最新条款为准。\n\n## 国际服、Steam版也会关吗？\n\n此次公告仅指**腾讯代理的中国大陆国服**。育碧旗下的海外运营版本是不同服务体系，不能把国服关停扩大表述为整个《全境封锁2》停止运营。Steam国际版与腾讯国服的账号、角色、道具能否继承或互转，也不能在没有正式声明时擅自保证。\n\n## 玩家目前应该做的四件事\n\n1. 判断账号属于腾讯国服还是育碧国际服，确认自己是否受到本次公告影响。\n2. 核对付费高级点数、月卡周卡期限、订单、充值凭证。\n3. 在12月14日前查看官方补偿规则，并在客服关闭前处理异议。\n4. 警惕冒充客服的所谓“国服退款绿色通道”，不要向非官方链接输入密码或验证码。\n\n**报道与公告整理来源：** [IT之家（10月12日）](https://www.ithome.com/1/011/870.htm)、[新京报（10月12日）](https://www.bjnews.com.cn/detail/1791803151129205.html)、[游民星空转载运营公告（10月13日）](https://www.gamersky.com/handbook/202610/2226999.shtml)。",
+      "excerpt": "腾讯代理的《全境封锁2》中国大陆国服将于2026年12月14日11时停止运营。整理停运时间、付费点数补偿、账号数据处理和与国际服的区别。",
+      "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202602/2319/610e0da330e145d2b14a82febaaf8a909470aa0ca6ff0df5.jpg",
+      "date": "2026-10-20T16:06:45.664Z",
+      "updated": "2026-10-20T16:06:45.664Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "全境封锁2",
+        "国服",
+        "腾讯",
+        "停运",
+        "补偿方案",
+        "游戏公告"
+      ],
+      "public_path": "game/td2-1",
+      "source_url": "https://blog.jia.nz/game/td2-1/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.ithome.com/1/011/870.htm",
+        "https://www.bjnews.com.cn/detail/1791803151129205.html",
+        "https://www.gamersky.com/handbook/202610/2226999.shtml"
+      ]
+    },
+    {
+      "id": "7feec4d7-bade-458b-9bb7-5e7c7b1ee71c",
+      "title": "Google AI Studio 制作 Android App 教程：从生成原生应用到手机测试",
+      "content": "::: note 适用范围与日期\nGoogle 于 2026-05-19 公布 AI Studio 的原生 Android 构建功能，10 月 13 日说明个人应用通过 Google Play 在本人设备运行的分批开放安排。地区、账号和界面入口可能继续变化；本文按官方公告说明，不保证每个账号都已出现相同按钮。\n:::\n\nGoogle AI Studio 的 Build 标签页现在支持生成原生 Android 应用，输出以 Kotlin 和 Jetpack Compose 为主。网页模拟器可预览；需要在真机测试时，可用 Android Debug Bridge（ADB）安装，也可以连接 Play Developer 账号，把版本推到 Google Play 内部测试轨道。\n\n## 先把需求写清楚\n\n不要只输入“帮我做一个漂亮的记账 App”。先列出谁会用、核心流程、页面、数据怎么保存、异常情况和明确不做的事。这样生成结果更容易检查，也减少反复推倒重来。\n\n可先复制下面的提示，再替换方括号内容：\n\n```text\n请创建一个原生 Android 应用，使用 Kotlin 与 Jetpack Compose。\n用途：[一句话说明]\n用户流程：[打开应用后依次完成什么]\n页面：[列出页面及每页的主要控件]\n数据：[本地保存或调用的接口；没有把握时先用本地示例数据]\n异常：[空列表、输入错误、无网络时怎么显示]\n要求：支持深色模式和大字体；先完成可运行的最小版本。\n请说明生成了哪些页面，以及需要我提供的配置；不要在代码里写入真实密钥。\n```\n\n## 在浏览器里生成与迭代\n\n1. 登录 Google AI Studio，进入 Build 标签页。\n2. 选择 `Build an Android app`，粘贴需求提示并生成。\n3. 等它完成后，先在浏览器 Android 模拟器里走完主流程，不要只看首页截图。\n4. 按问题一次修一个点，例如“保存后重启应用，数据仍应存在”或“输入为空时显示错误并阻止提交”。改完后重新走一遍相关流程。\n5. 检查导航返回、键盘遮挡、长文本、无数据和无网络时的表现。AI 生成的代码仍需要实际测试；按钮能显示不等于业务逻辑正确。\n\nGoogle 官方还列出 ADB 真机安装支持。要把 App 装到 Android 手机上测试，可按 AI Studio 当前页面提供的连接说明启用设备调试，再通过 ADB 安装；不同系统和设备的授权界面会有差别。不要把开发者密钥或个人资料粘进公开提示。\n\n## 个人试用、内测和公开上架是三条路\n\n| 目标 | 官方流程与条件 |\n| --- | --- |\n| 只在自己的手机运行 | Google 10 月公告称，AI Studio 个人应用可经 Google Play 私下运行，不需要 Developer 账号；该能力当时开始向包括美国在内的部分市场、18 岁以上用户分批推出。若入口未显示，可能是地区或 rollout 尚未覆盖。 |\n| 邀请测试人员试用 | 在 AI Studio 连接 Google Play Developer 账号，再发布到 Internal Test Track；这与无需开发者账号的个人私用功能不同。 |\n| 面向公众正式发布 | 需要专业 Developer 账号，并遵循 Google Play 的 Trust & Safety 审查和质量要求。 |\n\n先选与你目标对应的路径：自己试用时不要误以为需要先完成公开上架；团队内测不要把个人私用入口当作测试轨道；正式上架则要按 Google Play 开发者流程准备应用资料、测试和审核。\n\n::: warning 费用与隐私\nAI Studio 生成原生代码不等于 Google Cloud 后端永久免费。若 App 要联网、保存用户资料或调用付费服务，应单独核实对应服务的价格、密钥保护和数据处理要求；不要把密钥硬编码进客户端。\n:::\n\n[Google AI Studio 原生 Android 构建说明](https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-studio-io-2026/) · [Google Play 个人 App 与发布范围](https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/)",
+      "excerpt": "按 Google AI Studio Build 流程创建 Kotlin 与 Jetpack Compose Android 应用，用浏览器模拟器检查界面，也可连接 ADB 或 Play 内部测试。文中区分个人设备试用、内测和公开上架的账号与地区条件。",
+      "cover": "https://www.jia.nz/__jia/google-ai-studio-cover.png",
+      "date": "2026-10-15T05:49:57.576Z",
+      "updated": "2026-10-18T16:28:19.467Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "Google AI Studio",
+        "Android",
+        "Jetpack Compose",
+        "App教程"
+      ],
+      "public_path": "tech/google",
+      "source_url": "https://blog.jia.nz/tech/google/",
+      "source_published_at": "2026-10-13",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-ai-studio-io-2026/",
+        "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/"
+      ]
+    },
+    {
+      "id": "699a8a04-48ca-4cf0-851a-42eab9e67ec0",
+      "title": "特斯拉第二代 Roadster 正式亮相：SpaceX 推进器让跑车腾空，2028 年计划量产",
+      "content": "> **特斯拉最新发布｜2026 年 10 月 17 日整理**  \n> 事件时间：美国当地时间 2026 年 10 月 15 日。文中明确区分现场演示、厂商承诺与尚未确定的量产信息。\n\n特斯拉再次把等待多年的第二代 Roadster 推向聚光灯下。在美国得克萨斯州 SpaceX 测试设施举行的发布活动中，一辆全新白色 Roadster 借助风扇吸附系统与冷气推进器，完成倒置驶过弧形坡道、短暂腾空以及空中旋转等动作。与此同时，发布会画面展示了一次 **0–60 mph（约 0–96.6 km/h）仅用 0.81 秒**的加速测试。\n\n这可能是特斯拉近期最具话题性的产品展示，但必须厘清：**现场技术演示不代表相关功能已经可以合法用于公开道路，更不代表新车已经量产交付。** 特斯拉目前提出的量产目标为 **2028 年**。\n\n::: note info\n**先看结论：** Roadster 确实进行了短暂离地演示，但这不是持续、自由航行的飞行汽车。0.81 秒属于发布会展示数据，尚不能作为全部量产版本的第三方认证性能；2028 年也只是生产计划。\n:::\n\n## 1. 现场演示有哪些看点？\n\n**倒挂行驶。** Roadster 首先驶上特别建造的弧形坡道。与普通靠轮胎附着力行驶的车辆不同，它通过车底多模式风扇与密封结构形成吸附力，使车辆可以在特定演示条件下短暂倒置。\n\n**短暂腾空与翻转。** 车辆离开坡道后，利用车身推进器调整运动姿态并落地。发布会还展示了 Roadster 从一排特斯拉车辆上方跃过的片段。这类短时间的腾跃与持续航空飞行不是同一概念。\n\n**极端加速。** 特斯拉现场显示 0–60 mph 0.81 秒的成绩。不同起步计时口径、配置与环境会显著改变测试结果；在独立测试和最终量产规格公布前，更适合把它理解为技术展示，而非所有买家都能直接实现的承诺。\n\n## 2. SpaceX 推进器是什么原理？\n\n新 Roadster 展示了两条不同的技术路线。\n\n- **风扇吸附系统：** 通过气流和车底密封控制压差，产生额外向下作用力，以提高特定条件下的抓地能力。倒置表演正是这项思路的极端展示。\n- **冷气推进器：** 释放储存的高压气体产生推力，为车辆提供额外的加速或短时姿态调整能力。它并不是在车上燃烧火箭燃料的传统火箭发动机。\n\n这种技术有很强的表演效果，但对日常用车而言，储气设备重量、高压气体补充时间、维护成本、失效保护以及合法使用场景，比单次演示视频更值得关注。现阶段还没有充分信息证明这些问题都已解决。\n\n## 3. Roadster 的三个版本有何不同？\n\n根据特斯拉产品介绍及发布会报道，新 Roadster 大致分为三个方向：\n\n| 版本 | 定位与核心差异 | 需要注意 |\n| --- | --- | --- |\n| **Performance** | 以电动高性能驾驶为主，强调两座布局与空气动力学 | 不等于拥有演示中的全部推进功能 |\n| **Thrust** | 加入面向加速的推进辅助，保留双座布局 | 使用条件和最终参数需以后续正式资料为准 |\n| **Rocket** | 更极端的推进器方案，用于展示短暂腾空及空中姿态调整 | 邀请制特殊配置，未获普通公开道路使用批准 |\n\n**三种版本不能混为一谈。** 尤其不能把 Rocket 演示中的动作写成普通消费者购买 Performance 版就能得到的功能。\n\n此外，最终售价仍未完整确定。预订款项属于预订条件的一部分，并非最终车价；有预订入口也不意味着生产时间或交付时间得到保证。\n\n## 4. 为什么量产要等到 2028 年？\n\n第二代 Roadster 早在 2017 年就公开亮相，此后多次推迟推出时间。此次马斯克将量产计划指向 2028 年，但从工程展示到可规模化交付，仍有一系列关键环节：\n\n1. **工程一致性：** 展台演示车能完成的动作，能否在可交付的常规配置上长期、稳定地重复。\n2. **法规与安全：** 普通道路通行资格、推进器使用限制以及可能涉及的其他监管要求，并不是一纸产品发布会声明就能解决。\n3. **商业可行性：** 高压气体补给、零部件维护、最终售价、保修与服务体系都需要实际方案。\n\n因此，“2028 年开始生产”是目前值得跟踪的目标，**不是保证当年交付，更不是飞行功能已经获批**。\n\n## 5. 它为何仍是特斯拉的重要新闻？\n\n一方面，Roadster 是特斯拉最早的车型名称之一。新一代车型回归，可以重建品牌在高性能电动车领域的技术标杆形象。另一方面，特斯拉近年更强调 Robotaxi、自动驾驶与机器人项目，Roadster 则强调“驾驶本身”及工程极限，两者形成鲜明对照。\n\n这次展示最有价值的信号，或许并不在“飞行汽车”的称呼，而在于**主动吸附、气体推进、轻量化设计与车辆控制系统**能否被真正整合进面向用户的产品。要判断这些技术是不是行业突破，还需要量产车参数、第三方测试和实际合法使用案例。\n\n## 总结：令人惊讶的演示，不等于已交付的未来\n\n截至 **2026 年 10 月 17 日**，已经可以确认的是：特斯拉展示了第二代 Roadster，新车现场进行了短暂腾空和极端加速演示，并公布了 2028 年的量产目标。尚不能确认的是最终售价、按期交付，以及演示中的推进器功能何时、何地能够合法供用户使用。\n\n**关注下一步的实际量产进度，比把“会飞”三个字当成购买保证更有意义。**\n\n---\n\n### 信息来源\n\n- [Tesla 官方 Roadster 产品页面](https://www.tesla.com/roadster)\n- [Reuters（2026-10-16）：Roadster 展示及 2028 年量产计划](https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028)\n- [美联社 AP：Roadster 技术、交付与道路监管](https://apnews.com/article/tesla-musk-roadster-rocket-7d5f19665435b7408025bfb7a2f2f0b7)\n- [The Verge：现场演示及加速成绩](https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk)\n\n封面为特斯拉公布的 Roadster 展示图片，由 [Exotic Car Trends](https://www.exoticcartrends.com/news/tesla-roadster-reveal-2026/) 汇集；图片著作权归 Tesla, Inc. 所有。",
+      "excerpt": "特斯拉于 2026 年 10 月 15 日展示全新 Roadster：SpaceX 冷气推进器、倒置行驶、短暂腾空，以及 0–60 mph 0.81 秒现场加速。本文解析技术原理、不同版本、2028 年量产目标和上路限制。",
+      "cover": "https://www.exoticcartrends.com/data/news/images/tesla-roadster-reveal-2026-gallery-4.jpg",
+      "date": "2026-10-17T04:07:50.744Z",
+      "updated": "2026-10-17T04:07:50.744Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "特斯拉",
+        "Tesla",
+        "Roadster",
+        "SpaceX",
+        "电动车",
+        "跑车",
+        "汽车科技",
+        "2026新品"
+      ],
+      "public_path": "tech/tesla",
+      "source_url": "https://blog.jia.nz/tech/tesla/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.tesla.com/roadster",
+        "https://live.euronext.com/en/financial-news/teslas-new-roadster-turns-air-spacex-thrusters-wont-land-until-2028",
+        "https://apnews.com/article/tesla-musk-roadster-rocket-7d5f19665435b7408025bfb7a2f2f0b7",
+        "https://www.theverge.com/transportation/1012552/tesla-roadster-next-gen-reveal-elon-musk"
+      ]
+    },
+    {
+      "id": "85ba6b42-7128-4e59-828d-cc05a93e633d",
+      "title": "PUBG「Rondo 破晓者」合作 PvE 玩法指南：发电机防守、制作与敌人应对",
+      "content": "> 官方资料：PUBG《SLB: Dawnbreakers of Rondo》，来源发布日期 **2026-10-14**（原文只标日期，不推测时刻）。本文是对官方规则的中文归纳和战术分析，**并非实测体验**。本站发布时间应由博客在真正上线时记录。\n\n## 玩法核心\n\n该模式是 Rondo 地图上的合作 PvE，最多 **4 人**，也可单人排队或自动补位。进入路径为 **Play → Arcade → SLB: Dawnbreakers of Rondo**，视角为第一人称。可选 Rookie 和 Veteran 两档难度，地点包括 Jao Tin、Yu Garden、Yun Gu、Rin Jiang、Stadium、Jadena City。\n\n本模式的目标不是大逃杀吃鸡，而是在敌人波次中搜集油桶和材料，给 Generator 供油，守护 Capacitor 充能并发出逃生信号。**若已启动的 Capacitor 被敌人破坏，充能进度会归零**；队伍至少一人生还并完成任务才能获取对应奖励。\n\n## 推荐行动顺序\n\n1. 在起点的自动售货机领取基础枪械。\n2. 沿电缆寻找发电机、燃料、资源点。不要因为官方说弹药无限，就忽略制作强力武器需要的稀有材料。\n3. 使用工作台制作装备、食物和可部署防御设施；建议队内分工，一人管燃料，一人管制作和补给，两人观察入口。\n4. 启动目标前按通道布局设置减速陷阱和火力点，充能期间重点防守 Capacitor。\n5. 发出逃生信号后仍要确认阶段任务完成，奖励按游戏内 Stage Select 的关卡和难度说明核对。\n\n::: note info\n发电机提供电力，电容装置是守护目标。不要把“开启发电机”误认为“已经完成撤离”。\n:::\n\n## 装置和作用速查\n\n| 设施 | 官方说明 | 使用建议（推导，非实测） |\n| --- | --- | --- |\n| Light Turret | 敌人经过激光探测线时射击 | 面向狭窄路口 |\n| Heavy Turret | 自动用爆炸弹攻击范围内敌人 | 覆盖主要集结方向 |\n| Manned Turret | 人工操作的持续火力 | 安排队友保护操作位 |\n| Barbed Wire | 减速，使用会损耗耐久 | 入口通道 |\n| Spike Trap | 命中后造成流血效果 | 与减速陷阱配合 |\n| Healing Station | 持续治疗、清除减益并扶起倒地队友 | 安全掩体附近 |\n\n手炮、喷火器、榴弹发射器各有专属武器箱；箱内为四把对应武器，使用、丢弃及卸下后的持有规则与普通枪械不同。不要把“无限弹药”等同“特殊武器可以永久保留”。\n\n## 新敌人与支援机制\n\n- **Shield Alpha Hunger**：正面持盾，官方建议瞄准头部或绕背。\n- **Shooter Hunger**：远距离持枪攻击，队伍不能只顾近战通道。\n- **Dog Hunger**：低姿态高速冲锋，防守时留意侧翼与近地面。\n\n蔬菜汤提升换弹速度并降低后坐力；猪肉炖菜提升生命值与移动速度；香料汤增强对敌人的击倒效果。同一时刻最多可保留 **3 种不同汤品增益**，且持续时间有限。队友死亡后可捡起其 Blue Chip，在 Safehouse 的 Recall Station 将其召回。急救包、制作材料和投掷物可跨关卡保留，具体奖励按关卡和难度变化。\n\n## 准备条件与验证\n\n准备：安装并更新 PUBG，确认模式仍在 Arcade 菜单开放、服务器未处于维护；组队时约定燃料、制作与防守分工。验证：进入匹配后能看到难度、地点选择，关卡内有发电机、工作台及电容装置提示；是否上线、版本与地区限制以实际客户端公告为准。\n\n**常见问题**：两人能玩吗？能；官方支持 1～4 人并可自动补位。敌人会一样多吗？不会；不同难度影响敌人组成、数量与强度。装置损坏是不是直接结束？官方明确充能进度重置，不能据此推断所有情况立即判负。\n\n**核验链接**：[PUBG 官方模式公告](https://www.pubg.com/en/news/11138)，发布日期 **2026-10-14**。本文没有虚构官方未发布的详细奖励概率、上线时刻或亲测数据。",
+      "excerpt": "以 PUBG 2026 年 10 月 14 日官方公告为依据，介绍 Rondo 合作 PvE 的进入方式、发电机守点、防御设施、新敌人、资源与验证方法。",
+      "cover": "https://wstatic-prod-boc.krafton.com/common/content/news/20261014/qHn2DRRu.jpg",
+      "date": "2026-10-15T11:03:04.773Z",
+      "updated": "2026-10-15T11:03:04.773Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "PUBG",
+        "Rondo",
+        "SLB",
+        "合作PvE",
+        "玩法指南"
+      ],
+      "public_path": "game/pubg",
+      "source_url": "https://blog.jia.nz/game/pubg/",
+      "source_published_at": "2026-10-14",
+      "source_urls": [
+        "https://www.pubg.com/en/news/11138"
+      ]
+    },
+    {
+      "id": "d24d8514-94ab-4d79-a353-fcfb25eb5dae",
+      "title": "UCAS 个人陈述三问怎么写：2026 入学起的证据整理与提交检查",
+      "content": "::: note 适用范围\n依据 UCAS 官方针对 2026 入学及以后申请的个人陈述指南整理，核对日期为 2026-10-15。该页面未提供可核实的独立文章发布日期，因此不编造日期。具体课程要求、截止日期与费用须另查申请当年的官方信息。封面为本站原创示意图。\n:::\n\nUCAS 的新结构把原来的长篇个人陈述拆成三个问题。它仍然需要作为一个整体来展示申请人与课程之间的联系；把同一段经历换三个说法重复写，并不会让材料更有说服力。\n\n## 先记住两个字符规则\nUCAS 官方说明：每个问题的回答至少 350 个字符，三问合计最多 4,000 个字符，包含空格。这里说的是字符，不是 4,000 个英文单词；最终应以申请系统中的字符计数为准。\n\n三个回答不要求平均分配。先保证每问达到最低要求，再根据自己的相关证据调整篇幅，而不是为了填满格子重复成绩单内容。\n\n## 第一问：为什么选择这个课程或学科\n先写清楚真正的兴趣点，再找能证明它的阅读、探索或经历。只有“我从小热爱这个专业”很难让读者看出你具体了解什么；可以进一步回答：最近关注了什么问题，为什么想继续研究，与目标课程有什么联系。\n\n写完后给每一句话做检查：这句是在描述真实动机，还是谁申请任何专业都能套用的空话？无法与课程联系的装饰性句子，可先删去。\n\n## 第二问：学习经历怎样帮助你准备\n从正式学习、课程模块、项目或相关训练中，选择最能说明能力的例子。不要把所有分数再抄一遍；申请表已有成绩信息，这部分更适合解释自己具体做过什么、学到了什么。\n\n可以先做一张个人证据表：\n\n| 经历 | 具体行动 | 学到的能力 | 与课程的联系 |\n| --- | --- | --- | --- |\n| 一项真实课程项目 | 写清自己负责的部分 | 说明形成或改进的技能 | 对照目标课程需要 |\n\n表格是整理工具，不是要编造经历。最后只挑能展开说明、也能在后续问询中解释清楚的材料。\n\n## 第三问：课堂之外做了哪些准备\n可整理真实的工作、志愿服务、照护责任、兴趣活动或其他相关经历，但重点仍是反思它为什么有用。活动名称很多，不等于已经证明能力；把具体行动和收获写清楚，通常比罗列职位更有效。\n\n同一项经历若已在第二问充分展开，第三问就换另一个角度或选择其他证据，避免占用有限字符重复描述。\n\n## 提交前的五项检查\n1. 三个问题都真正回答了，而不是把旧长文机械切成三段。\n2. 每个重要判断都能对应自己的真实例子，不夸大职责或结果。\n3. 总字符与每问最低字符符合系统提示。\n4. 专业名称、表达和信息前后一致，拼写与语法经过复核。\n5. 只给可信的人反馈，不把完整个人陈述公开发布到网络。\n\nAI 可以辅助检查结构与表达，但不能替申请人生成不存在的经历。材料质量也不等于录取保证；目标课程的入学、语言和材料要求仍应逐项核对官方页面。\n\n[UCAS 三问结构与字符要求](https://www.ucas.com/applying/applying-to-university/writing-your-personal-statement/how-to-write-your-personal-statement-for-2026-entry-onwards)",
+      "excerpt": "按 UCAS 官方三问结构分配真实经历，核对每问最低字符数和总字符限制，并用证据表减少空话、重复与虚构。",
+      "cover": "https://www.jia.nz/images/articles/ucas-three-questions.svg",
+      "date": "2026-10-15T07:11:08.150Z",
+      "updated": "2026-10-15T07:11:08.150Z",
+      "categories": [
+        "教育学历"
+      ],
+      "tags": [
+        "实用教程",
+        "admission"
+      ],
+      "public_path": "education/admission",
+      "source_url": "https://blog.jia.nz/education/admission/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.ucas.com/applying/applying-to-university/writing-your-personal-statement/how-to-write-your-personal-statement-for-2026-entry-onwards"
+      ]
+    },
+    {
+      "id": "2dcdf700-ce83-4d03-ae76-99222c8ff76f",
+      "title": "钱包助记词安全清单：离线备份、换机前检查与假客服识别",
+      "content": "::: note 讨论范围\n依据 Coinbase 官方恢复短语说明整理，核对日期为 2026-10-15。原页面未标明可核实的独立发布日期。本文讨论使用助记词的自托管钱包；通行密钥等其他恢复模型需看对应产品说明，不应套用同一流程。封面为本站原创安全示意图。\n:::\n\n助记词常由 12～24 个词组成，用于恢复相关钱包控制权。它与钱包地址、手机解锁密码、应用 PIN 是不同东西：地址可以用于接收资产，助记词却可能让拿到它的人获得控制权。\n\n## 先确认自己用的是哪一类账户\n平台托管账户通常有自己的登录与账户找回流程；使用助记词的自托管钱包则需要自己保管恢复信息。部分智能钱包使用通行密钥或其他恢复机制，不能因为没有看到 12 个词就随意导入网上找到的“通用恢复方法”。\n\n先在产品官方帮助页面确认恢复方式，再制作备份。不要根据一条聊天消息就安装替代钱包或打开所谓同步网站。\n\n## 创建备份时核对三个细节\n在自己确认的官方钱包流程中查看恢复信息，逐个核对拼写和顺序。不要把真实助记词发送给客服、聊天机器人、朋友或任何在线工具，也不要把它粘到浏览器搜索框里核对。\n\n为重要恢复信息准备安全的离线保存方式，并考虑丢失、受潮、火灾和未经授权读取等不同风险。若准备多份副本，应分别妥善保管；不要自行发明分词规则，导致几年后连自己也无法正确还原。\n\n云备份选项也不能一概看作普通明文网盘。若使用产品提供的加密备份，应先理解其加密、账户和恢复条件，保护相关账户，同时核实离线恢复依据是否足够。\n\n## 换手机前，先检查，后清理旧设备\n先确认备份实际存在、能够读清、顺序正确。优先使用钱包官方提供的备份校验功能；不要为了测试，把真实助记词输入陌生网页。\n\n刚开始学习时，可以用没有资产的测试钱包熟悉创建、备份与恢复过程。真实账户迁移时，应核对官方应用、目标账户和网络显示，确认自己理解恢复结果后，再考虑清理旧设备；不能只看到新手机上出现一个钱包图标就认为恢复已经完成。\n\n## 这些索要方式应立即停下\n| 对方的说法 | 需要识别的问题 |\n| --- | --- |\n| 验证钱包、同步余额要填助记词 | 可能是在直接索取控制权 |\n| 客服要拍下完整备份帮你修复 | 恢复信息不应交给他人 |\n| 免费奖励要求先导入现有钱包 | 先核验来源，勿在陌生入口导入 |\n| 让你发送日志或截图 | 先确认其中没有恢复词、私钥或凭据 |\n\n“界面像官方”“对方知道你的地址”都不是可信凭据。出现疑问时，从自己已核实的官方入口查说明，不沿着陌生消息里的跳转链接继续操作。\n\n## 丢失和泄露是两种不同问题\n如果只是找不到纸质备份、旧设备仍能正常访问，应先查看钱包支持的重新备份方式，不要急着卸载。若怀疑恢复信息已经泄露，即使自己还看得到钱包，也不能认定控制权仍然安全；应按可信官方安全指引处理，不再把原恢复信息当作秘密。\n\n本文不涉及收益承诺、行情判断或交易推荐。最重要的检查结果应是：自己知道账户的恢复模型，备份确实可用，而且从未把恢复信息交给不应获得它的人。\n\n[Coinbase 官方恢复短语说明](https://www.coinbase.com/en-gb/learn/crypto-glossary/what-is-a-seed-phrase)",
+      "excerpt": "区分助记词、钱包地址和应用密码，整理备份与换机前检查步骤，识别索要恢复短语的钓鱼页面。适用于使用助记词的自托管钱包。",
+      "cover": "https://www.jia.nz/images/articles/wallet-recovery-safety.svg",
+      "date": "2026-10-15T07:10:25.498Z",
+      "updated": "2026-10-15T07:10:25.498Z",
+      "categories": [
+        "加密货币"
+      ],
+      "tags": [
+        "实用教程",
+        "security"
+      ],
+      "public_path": "crypto/security",
+      "source_url": "https://blog.jia.nz/crypto/security/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://www.coinbase.com/en-gb/learn/crypto-glossary/what-is-a-seed-phrase"
+      ]
+    },
+    {
+      "id": "114c6f25-b56f-42d4-b7a7-a80df7c929f5",
+      "title": "自行车链条什么时候该换？磨损量规读数与检查清单",
+      "content": "::: note 来源说明\n技术依据为 Park Tool《When to Replace a Worn Chain》。原页面标注发布日期 2017-02-17，本文于 2026-10-15 核对，是常青维护资料整理；具体更换阈值以链条及传动厂商当前要求优先。封面为本站原创示意图。\n:::\n\n链条的使用寿命不能只用骑行总里程判断。路况、清洁、润滑和使用方式不同，同样里程的磨损可能不同。建立一份简单测量记录，比只凭“好像还能骑”更容易提前发现问题。\n\n## 先确认传动规格与量规是否适配\n记下链条品牌、型号与后飞轮速别，再查看厂商给出的测量方式和阈值。不同链条的滚子结构可能影响部分量规的读数；不是所有外形相似的量规都能对所有链条直接套用。\n\n把车停稳，清理影响接触的明显污物，准备相应磨损量规。操作时车轮与曲柄不要突然转动，避免手指与工具被卷入传动机构。\n\n## 测量时不要用力压出一个结果\n以具有 0.5% 和 0.75% 标记的常见量规为例，先按该工具说明把定位端放到正确接触位置，再轻放另一端。遇到阻力时不要强行压入。读数应来自正确接触，而不是工具或链条被人为掰弯。\n\n建议在链条不同位置复测几次，并记录日期、读数与所用工具。如果几次结果明显不一致，先检查接触方法、污物或局部损伤，而不是只保留自己最满意的那次读数。\n\n## 读数要结合规格理解\nPark Tool 给出的通用参考如下；这是一般指引，不能覆盖每个厂商与特殊链条：\n\n| 传动类型 | 一般参考更换磨损值 |\n| --- | --- |\n| 单速 | 1.0% |\n| 10 速及以下变速系统 | 0.75% |\n| 11 速及以上变速系统 | 0.5% |\n\n磨损百分比不是骑行公里数，也不能把它解释成“还能安全骑多少天”。一旦达到自己系统规定的更换值，就应安排处理，不要靠润滑把超限磨损当成已经消失。\n\n## 没有量规时该怎么办\n从牙盘提起链条、用尺粗测等方法只能作为初步线索。初步结果可疑时，应换用适配工具确认，或者请车店按规格测量，而不是把肉眼感觉当成精确结论。\n\n若出现负载下明显跳齿、卡链或局部受损，应停止把它当作普通润滑问题反复试骑。链条、飞轮、牙盘和变速调整都有可能相关，需要分项检查。\n\n## 换链后的验收也要记录\n先确认新链条的速别、长度和连接件要求，再按厂商说明安装。更换后仍跳齿，不一定是新链条本身有问题，也可能涉及已磨损的飞轮或其他部件；不要随意拧动限位螺丝来掩盖现象。\n\n可以给自己的维护记录留四列：日期、链条型号、磨损读数、处理结果。下一次复测沿用同一量规与方法，数据才更容易比较。\n\n[Park Tool 原始技术资料](https://www.parktool.com/en-us/blog/repair-help/when-to-replace-a-chain-on-a-bicycle)",
+      "excerpt": "把链条磨损检查拆成工具适配、轻放测量、按传动规格判断和记录复测，避免只凭里程换链，也避免忽视飞轮与牙盘磨损。",
+      "cover": "https://www.jia.nz/images/articles/chain-wear-guide.svg",
+      "date": "2026-10-15T07:10:24.894Z",
+      "updated": "2026-10-15T07:10:24.894Z",
+      "categories": [
+        "骑行"
+      ],
+      "tags": [
+        "实用教程",
+        "maintenance"
+      ],
+      "public_path": "cycling/maintenance",
+      "source_url": "https://blog.jia.nz/cycling/maintenance/",
+      "source_published_at": "2017-02-17",
+      "source_urls": [
+        "https://www.parktool.com/en-us/blog/repair-help/when-to-replace-a-chain-on-a-bicycle"
+      ]
+    },
+    {
+      "id": "b876c330-9bcb-4d05-811d-56e73f13230d",
+      "title": "Linux 上 Steam 游戏打不开？用 Proton 版本与日志逐步定位",
+      "content": "::: note 资料与版本\n依据 Valve 官方 Proton README 与 proton-11.0-2 发布记录整理，核对日期 2026-10-15。该版本记录发布于 2026-08-21；本文是兼容性排查教程，不是今日补丁快讯。\n:::\n\nProton 是 Steam Play 使用的兼容工具，借助 Wine 等组件让部分 Windows 游戏在 Linux 上运行。Valve 建议普通用户使用 Steam 客户端提供的 Proton；直接编译源码或叠加很多第三方修补，不应成为首次排查的默认步骤。\n\n## 先分清自己遇到哪类问题\n记录游戏名称、发行版、显卡和驱动、Steam 客户端以及当前 Proton 版本。现象也要具体：完全没有窗口、启动器能打开但游戏退出、进入后黑屏，还是能运行但特定场景崩溃。\n\n核对游戏的官方平台支持与反作弊要求。兼容工具不能保证所有在线游戏都能运行；服务端或反作弊未开放的支持，不能靠换一个版本就宣称已经绕过。\n\n## 第一步：建立一个不乱改的基线\n更新 Steam 客户端，确认发行版的图形驱动与游戏最低需求匹配；通过 Steam 检查游戏文件。保留原来的启动参数和设置截图，先移除自己加过、却不知道作用的非必要参数，再试一次。\n\n先确认本地存档与云同步状态。不要为了“重新来过”直接删除 `compatdata` 或整个游戏兼容目录，其中可能存在本地存档和配置。\n\n## 第二步：只为单个游戏测试版本\n在该游戏的属性中查找兼容性选项，必要时选择 Steam 提供的特定 Steam Play 兼容工具。可以在一个稳定版本和 Proton Experimental 之间做有记录的比较；不要一次给整个游戏库改版本。\n\n每次只改一个条件，使用相同存档或同一场景复测。能进主菜单、能读存档、能进入实际场景是三个不同检查点，不能只看到启动器出现就宣布问题已经解决。\n\n## 第三步：让 Proton 输出日志\n官方 README 支持在游戏的启动选项中设置环境变量，并保留 `%command%`：\n\n```text\nPROTON_LOG=1 %command%\n```\n\n复现一次问题后，默认可在用户主目录寻找 `steam-游戏APPID.log`；也可以按官方说明使用 `PROTON_LOG_DIR` 指定日志目录。先核对日志时间是否对应刚才这次启动，而不是拿旧文件判断。\n\n对外提交报告前，检查日志是否包含用户名、路径或其他个人信息，只提供必要片段。问题解决后移除日志选项，避免长期生成不再需要的大日志。\n\n## 第四步：把结果写成可复现的记录\n至少写清楚原版本、测试版本、唯一改动、重现步骤和结果。若相同条件下只在某一版本失败，再查看该版本的官方发布说明与相关 issue；不要把一次网络故障误判成所有 Proton 版本都不可用。\n\n::: tip 回退要简单\n恢复原兼容工具与启动参数后重新测试。先保留存档与日志，再考虑进一步处理；不靠删除数据制造一次“干净启动”。\n:::\n\n[Valve Proton 官方说明](https://github.com/ValveSoftware/Proton) · [proton-11.0-2 发布记录](https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2)",
+      "excerpt": "先区分系统、兼容工具和具体游戏限制，再对单个游戏测试 Proton 版本、生成启动日志，并保留本地存档与原有设置。",
+      "cover": "https://www.jia.nz/images/articles/steam-proton-guide.svg",
+      "date": "2026-10-15T07:10:24.217Z",
+      "updated": "2026-10-15T07:10:24.217Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "实用教程",
+        "steam"
+      ],
+      "public_path": "game/steam",
+      "source_url": "https://blog.jia.nz/game/steam/",
+      "source_published_at": "2026-08-21T20:31:08Z",
+      "source_urls": [
+        "https://github.com/ValveSoftware/Proton",
+        "https://github.com/ValveSoftware/Proton/releases/tag/proton-11.0-2"
+      ]
+    },
+    {
+      "id": "72290407-42f3-4294-8aec-e59cc6602cc8",
+      "title": "Claude Code Skills 上手：安装官方示例，再把重复任务写成可复用技能",
+      "content": "::: note 来源与范围\n依据 Anthropic 官方 skills 仓库 README 整理，资料核对日期为 2026-10-15。仓库说明页没有单独文章发布日期，因此不编造发布时间。本文讨论 Claude Code 中的技能使用与最小模板。\n:::\n\nSkill 是包含说明、脚本和资源的目录。它的价值是把稳定的工作方式保存下来，让助手在合适任务中复用，而不是每次重新解释一长串要求。它也不等于额外权限：写进技能里的操作，仍须受到宿主工具、账户权限和用户授权约束。\n\n## 先试官方示例\n在已经可正常使用的 Claude Code 中，官方仓库给出的 marketplace 添加命令是：\n\n```text\n/plugin marketplace add anthropics/skills\n```\n\n随后在插件浏览入口选择 `anthropic-agent-skills`，按需要安装示例包。仓库也给出直接安装命令：\n\n```text\n/plugin install example-skills@anthropic-agent-skills\n```\n\n如果目标是文档处理，对应的是 `document-skills@anthropic-agent-skills`。不要一次安装许多来路不明的包，再把输出变化都归因于模型；先用一个已知任务确认技能是否被识别。\n\n## 用明确任务检验调用\n安装后，在请求中点明目标与技能，例如让它按指定技能处理一份没有敏感内容的测试文档。检查输出是否真的符合约定结构；“我会使用某技能”的文字声明，不足以证明生成结果已经满足要求。\n\n如果没有调用预期技能，先核对插件是否安装、任务是否符合技能描述，以及当前宿主是否支持该技能。Claude.ai、Claude Code 与 API 的接入方式不同，不能把一个产品的安装步骤直接套到另一个产品。\n\n## 最小 SKILL.md 可以这样组织\n官方说明中的基础格式是带有 `name` 与 `description` 的 Markdown。下面是一个原创的报告检查示例，可在官方模板基础上调整：\n\n```markdown\n---\nname: report-check\ndescription: 当用户要求检查报告中的事实、来源和遗漏信息时使用。\n---\n# 报告检查\n1. 先列出用户提供的事实与来源，不补写未核实的数据。\n2. 检查日期、单位、结论与证据是否对应。\n3. 输出已确认内容、需要补充的信息和具体修改建议。\n4. 信息不足时明确标记未知，不把猜测写成已确认。\n```\n\n描述要写清楚什么时候用，正文要写清楚怎么做。与其堆砌几十条抽象形容词，不如给出一两个可判定的例子和明确输出要求。\n\n## 用三组输入检查，而不是只看一个成功案例\n第一组是正常输入：资料齐全，观察输出结构是否稳定。第二组故意缺少关键日期或来源，检查它是否指出缺口。第三组放入互相冲突的数据，检查它是否识别矛盾，而不是替用户编一个看似完整的答案。\n\n涉及脚本的技能还应审查脚本来源、读取范围和写入行为。测试时使用可丢弃的文件副本，不让一个新技能直接修改唯一原件。\n\n## 注意不同目录的许可证\n官方仓库说明，许多示例采用 Apache-2.0；文档处理目录中的部分技能是 source-available，并不等同于开源许可。复制、改编或分发前应查看具体目录的许可证，不能把整个仓库统一称为随意可用的 Apache 项目。\n\n[Anthropic 官方 skills 仓库与安装说明](https://github.com/anthropics/skills)",
+      "excerpt": "按 Anthropic 官方仓库安装示例技能，理解 SKILL.md 的最小结构，并用正常、缺信息和边界输入三组样例检查技能是否可靠。",
+      "cover": "https://opengraph.githubassets.com/cdae82424ea7f72f605215c013be2f7f89cebe14ca7cdb78ab29c2a4a0b90286/anthropics/skills",
+      "date": "2026-10-15T07:10:23.637Z",
+      "updated": "2026-10-15T07:10:23.637Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "实用教程",
+        "tutorial"
+      ],
+      "public_path": "ai/tutorial",
+      "source_url": "https://blog.jia.nz/ai/tutorial/",
+      "source_published_at": "",
+      "source_urls": [
+        "https://github.com/anthropics/skills"
+      ]
+    },
+    {
+      "id": "671cacb7-a785-4f98-a604-1a2d990a55f3",
+      "title": "scrcpy 安卓投屏实操：USB 连接、降低卡顿与录屏的排查顺序",
+      "content": "::: note 版本与设备\n依据 scrcpy v5.0.1 官方 README 整理，核对日期 2026-10-15。基本投屏要求 Android 5.0 以上，音频转发要求 Android 11 以上；具体设备仍可能受厂商权限限制。\n:::\n\nscrcpy 可以让 Windows、macOS 或 Linux 电脑通过 USB 或网络显示并控制安卓设备。项目采用 Apache-2.0 许可证，不要求 root。首次尝试建议先用数据线把基础连接跑通，再考虑无线连接。\n\n## 从官方渠道安装\n项目明确提醒，GitHub 上的 Genymobile/scrcpy 仓库是其官方来源。按 README 中对应系统的安装说明或官方 Releases 下载，不要因为下载站域名带有 scrcpy 就默认可信。留意系统、处理器架构与发布包是否对应。\n\n准备一根能传数据的 USB 线，而不是只能充电的线。手机打开开发者选项与 USB 调试，连接后在手机上核对授权提示，确认授权的是自己的电脑。\n\n## 第一次连接先不加复杂参数\n在已安装 Android platform-tools 的终端运行：\n\n```bash\nadb devices\nscrcpy\n```\n\n`adb devices` 中如果显示 `unauthorized`，先解锁手机并完成本机授权；如果没有设备，先换线、USB 端口并检查系统驱动。ADB 本身还没连接时，继续修改视频编码参数通常不会解决问题。\n\n成功打开窗口后，先用鼠标完成返回、主页和文字输入，确认画面和控制都正常。电脑较多时不要随意接受陌生调试授权，使用完可在手机设置中关闭 USB 调试或撤销不再信任的电脑授权。\n\n## 卡顿时先降低分辨率\n官方列出的简便办法是缩小最大画面尺寸：\n\n```bash\nscrcpy -m1024\n```\n\n先观察是否明显改善，再逐步调整帧率等参数。一次只改一个条件，记录原命令，方便恢复。不要把网络带宽、USB 线、设备编码能力和电脑解码负载混成同一种问题。\n\n## 没有声音、只能看不能控制\n声音转发要求 Android 11 以上，不能据此宣称所有支持投屏的老手机也都能转发声音。若音频本来就不需要，可先关闭音频来缩小排查范围：\n\n```bash\nscrcpy --no-audio\n```\n\n某些厂商设备还需要单独的 USB 调试安全设置才能注入键鼠输入。官方特别举到部分小米设备的额外开关与重启要求；应按自己设备的官方设置核实，而不是照着陌生教程关闭所有安全功能。\n\n## 录屏前做一个小样本\n需要录制时，可先查看 `scrcpy --help` 的 Recording 选项，再用短片段检查画面、声音和文件能否播放。录制前关闭会显示个人消息的通知，避免把验证码或聊天内容一起录进去。\n\n先确认基本连接，再分别处理画质、音频和录制，比把一大串参数一次粘进去更容易判断原因。\n\n[官方项目与各系统安装入口](https://github.com/Genymobile/scrcpy) · [v5.0.1 发布记录](https://github.com/Genymobile/scrcpy/releases/tag/v5.0.1)",
+      "excerpt": "用官方 scrcpy 在电脑显示并控制安卓设备，先验证 ADB 授权，再按顺序处理卡顿、无声音和只能看不能操作的问题。",
+      "cover": "https://opengraph.githubassets.com/8c7fb4599b963ca9b8ed4aeb1740710d00b12bdc23a12f362af08f7d1ce54735/Genymobile/scrcpy",
+      "date": "2026-10-15T07:05:58.921Z",
+      "updated": "2026-10-15T07:05:58.921Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "实用教程",
+        "android"
+      ],
+      "public_path": "tech/android",
+      "source_url": "https://blog.jia.nz/tech/android/",
+      "source_published_at": "2026-10-08T06:44:27Z",
+      "source_urls": [
+        "https://github.com/Genymobile/scrcpy",
+        "https://github.com/Genymobile/scrcpy/releases/tag/v5.0.1"
+      ]
+    },
+    {
+      "id": "8710c920-16f5-413e-853b-0220305bb333",
+      "title": "LocalSend 跨平台传文件教程：同一 Wi-Fi 找不到设备时怎么排查",
+      "content": "::: note 资料与适用范围\n依据 LocalSend 官方 README 与 v1.18.2 发布记录整理，核对日期为 2026-10-15。这是一篇使用教程，版本发布记录来自 2026 年 8 月，并非今日新版本报道。\n:::\n\nLocalSend 是 Apache-2.0 许可的开源跨平台文件分享工具，可以在本地网络通过 HTTPS 传输文件与文字，不依赖第三方存储中转服务器。它适合电脑与手机之间临时传照片、文档和小批量资料。\n\n## 先完成一次最小传输\n在发送端和接收端分别从官方列出的应用商店或软件渠道安装。两台设备接入同一可信本地网络，同时打开 LocalSend，记录各自显示的设备名称。\n\n发送端先只选择一张不含隐私的测试图片，选择正确的接收设备；接收端确认请求并选择保存位置。完成后打开图片核对，确认是正确文件，而不只是界面显示了传输进度。\n\n大批量文件传输前先做这一步，可以同时发现权限、接收路径和设备选择错误。\n\n## 情况一：完全看不到另一台设备\n先确认两端应用都在前台，手机已允许本地网络相关权限，电脑没有把应用的本地网络通信全部拦截。设备即使连着相同名称的 Wi-Fi，也可能处于访客网络或不同隔离区域，未必能相互访问。\n\n如果使用家用路由器，检查是否开启 AP 隔离或访客隔离。只在自己管理、且确认需要设备互通的网络调整设置；公共网络由管理员限制时，不要试图绕过。\n\n## 情况二：能发现设备，点发送却失败\n官方 README 给出的入站端口是 TCP、UDP 的 53317。按系统防火墙给 LocalSend 放行相应的可信本地网络通信，而不是关闭整个防火墙。网络中还有 VPN、代理或安全软件时，也应检查它们是否改变了局域网路由。\n\n重新测试同一张小图片。如果小文件稳定、大文件中断，再检查设备是否休眠、剩余空间是否足够，以及接收端保存目录是否可写。\n\n## 情况三：对方说收到了，自己找不到文件\n在接收端查看实际保存目录和应用接收记录，按文件名与大小核对。手机系统的相册、下载目录和文件管理器并不是同一个入口；收到文档也不一定会出现在照片相册里。\n\n对重要文件，传输后至少打开一次；资料很多时可按文件数量、大小或校验值确认，而不要把“发送完成”直接等同于长期备份成功。\n\n## 升级与兼容性\n当前 README 对不同平台列出了最低系统版本；旧设备不应盲目安装最新包。项目还提醒应用自身不提供统一自动更新机制，使用应用商店或软件包管理器渠道更便于后续维护。\n\n::: tip 使用习惯\n给设备设置容易辨认的名称；发送前核对接收设备；私密文件只向自己确认的设备发送；传完后检查内容和保存位置。\n:::\n\n[官方仓库与平台下载入口](https://github.com/localsend/localsend) · [v1.18.2 发布记录](https://github.com/localsend/localsend/releases/tag/v1.18.2)",
+      "excerpt": "把安卓、iPhone、Windows 与 Mac 之间的文件传输分成发现、连接、接收三步排查，重点检查本地网络权限、访客网络隔离和防火墙。",
+      "cover": "https://repository-images.githubusercontent.com/578822531/6c3c4f46-0ab9-4737-9afe-7fa7f2f929d7",
+      "date": "2026-10-15T07:05:58.343Z",
+      "updated": "2026-10-15T07:05:58.343Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "实用教程",
+        "tips"
+      ],
+      "public_path": "guide/tips-1",
+      "source_url": "https://blog.jia.nz/guide/tips-1/",
+      "source_published_at": "2026-08-21T14:02:01Z",
+      "source_urls": [
+        "https://github.com/localsend/localsend",
+        "https://github.com/localsend/localsend/releases/tag/v1.18.2"
+      ]
+    },
+    {
+      "id": "cc61eb63-b776-438b-a3f9-5890b035a6f0",
+      "title": "Uptime Kuma 部署与告警教程：先监控一个网址，再验证通知真的能收到",
+      "content": "::: note 版本说明\n资料核对日期为 2026-10-15，参考 Uptime Kuma 官方 README 与 2.5.6 发布记录。项目采用 MIT 许可证；以下先在本机管理，再添加一个自己有权监控的网址。\n:::\n\nUptime Kuma 支持 HTTP、TCP、DNS、关键词等监控，也能发送多种渠道通知。搭建时最容易漏掉的不是“有没有绿色图标”，而是服务重启后数据是否还在，以及目标故障时通知是否真正到达。\n\n## 建立一个独立的 Docker 实例\n准备好 Docker 后，新建目录与 `compose.yaml`。下面使用官方 2 系列镜像，并把管理端口限制在本机；若已有同名实例，应先检查现有配置，不要重复启动。\n\n```yaml\nservices:\n  uptime-kuma:\n    image: louislam/uptime-kuma:2\n    restart: unless-stopped\n    ports:\n      - 127.0.0.1:3001:3001\n    volumes:\n      - uptime-kuma-data:/app/data\nvolumes:\n  uptime-kuma-data:\n```\n\n```bash\ndocker compose config --quiet\ndocker compose up -d\ndocker compose ps\n```\n\n在服务器本机打开 `http://127.0.0.1:3001` 并完成账户设置。远程管理应通过自己已有的安全访问方式或单独配置 HTTPS 入口，不要为了方便直接取消认证。官方特别提醒数据目录应放在本地目录或卷，NFS 等文件系统不受支持。\n\n## 添加第一个 HTTP 监控\n选择 HTTP(s) 类型，填入自己负责的网址，使用清楚的名称。先确认地址不需要交互式登录，再设置合理的检查间隔、超时和重试。过短间隔会增加负载，也容易把网络瞬时抖动当成持续故障。\n\n先等到几次检查都成功，再理解响应时间曲线。HTTP 200 只说明这次请求获得了预期状态，不证明登录、搜索或文章保存功能正确；必要时增加关键词或专门的健康检查地址，但不要让健康接口输出密钥与内部资料。\n\n## 通知要单独验收\n在通知设置里填写自己控制的接收渠道，先使用测试通知按钮，确认消息真的抵达。然后把通知绑定到相应监控项目；只保存一个通知配置，并不代表所有监控已经使用它。\n\n接着使用自己专门准备的测试目标制造一次短暂故障，观察故障通知与恢复通知是否都收到。不要用关闭真实生产服务的方式随意测试告警。\n\n## 为什么监控绿色，用户却说打不开\n监控服务器所在网络、DNS、地区、登录状态可能与用户不同。把监控地址、状态码和监控地点一起看；若只有某个地区出问题，可以添加独立监测点，而不是直接把正常检查结果当成用户反馈不成立。\n\n## 升级与数据保留\n持久卷保存监控配置和历史数据。升级前按官方说明备份数据，并阅读跨版本升级要求；不要删除卷来解决普通启动问题。`2` 标签会随该系列更新，生产使用者还应记录当时运行的具体镜像版本，以便排查变化。\n\n[官方仓库与安装说明](https://github.com/louislam/uptime-kuma) · [2.5.6 发布记录](https://github.com/louislam/uptime-kuma/releases/tag/2.5.6)",
+      "excerpt": "用 Docker 启动独立监控实例，设置 HTTP 检查与通知，区分页面可访问和业务正常，并检查数据持久化及更新前备份。",
+      "cover": "https://repository-images.githubusercontent.com/382496361/f21b61f5-693a-4925-9f1f-fea237ade223",
+      "date": "2026-10-15T07:05:57.618Z",
+      "updated": "2026-10-15T07:05:57.618Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "开源工具",
+        "uptime-kuma"
+      ],
+      "public_path": "github/uptime-kuma",
+      "source_url": "https://blog.jia.nz/github/uptime-kuma/",
+      "source_published_at": "2026-10-09T15:46:26Z",
+      "source_urls": [
+        "https://github.com/louislam/uptime-kuma",
+        "https://github.com/louislam/uptime-kuma/releases/tag/2.5.6"
+      ]
+    },
+    {
+      "id": "4319b3b0-248b-4007-afaa-b7af11399803",
+      "title": "Syncthing 双机同步教程：设备配对、文件夹共享与版本保护",
+      "content": "::: note 适用范围\n依据 Syncthing 官方入门文档与 v2.1.6 发布记录整理，核对日期 2026-10-15。本文以两台电脑之间同步一个测试文件夹为例，先验证，再接入真实资料。\n:::\n\nSyncthing 的核心用途是持续同步设备之间的文件，许可证为 MPL-2.0。它能减少手动复制的麻烦，但双向同步也可能把删除操作同步到其他设备，因此第一步应是建立独立的小测试目录，而不是直接共享整个文档盘。\n\n## 1. 两端安装并记录设备 ID\n分别从项目官方发布页或受信任的软件渠道安装，启动 `syncthing`。官方核心程序默认提供本机管理页面 `http://localhost:8384/`；界面封装版入口可能不同。不要把管理端口直接暴露到公网。\n\n在两端的 Actions／操作菜单中找到 Show ID／显示 ID。给设备取明确名称，例如书房电脑和笔记本。名称便于识别，真正配对依据是设备 ID；不能只看相似的设备名就接受连接。\n\n## 2. 互相添加设备\n在 A 端选择 Add Remote Device／添加远程设备，填入 B 的 ID；在 B 端重复操作，填入 A 的 ID。两端都认可后，再观察状态是否从断开变成已连接。配置更新需要短暂时间，不要连续重复添加同一设备。\n\n如果一直离线，先确认两端程序都在运行，再检查防火墙与网络限制。设备间连接可能借助发现服务或中继，不能把界面里的“已连接”直接解释成一定只走了局域网。\n\n## 3. 只共享一个新的测试文件夹\n在 A 端新增一个测试文件夹，为它设置清晰名称，并勾选共享给 B。B 接到共享请求后，选择自己的本地保存路径。两台电脑的磁盘路径可以不同，但应对应同一项共享；不要在 B 上误选一个已经装满无关文件的目录。\n\n先放入 `hello-sync.txt`，等两端都显示同步完成后，在 B 打开它核对内容。再在 A 修改一行，确认 B 更新；然后反向修改一个新的测试文件，确认 A 也收到。这比仅看到设备“在线”更能证明配置有效。\n\n## 4. 再决定是否需要双向修改\n两端都会编辑时，可以使用双向同步。若一端只是分发资料或保留接收副本，先阅读对应文件夹类型的官方说明，再选择发送／接收方向；不要凭名称猜测覆盖规则。\n\n多人同时编辑同一个文档，可能出现冲突副本。先比较内容再整理，不能看到带有冲突标记的文件就全部删除。重要文件接入前，先约定哪端负责编辑、哪端负责归档。\n\n## 5. 文件版本不能代替独立备份\n可在接收端的文件夹设置里启用文件版本控制，并根据保留策略测试旧版本是否可恢复。版本功能针对被同步覆盖或删除的文件，不代表能撤销本机的一切操作，也不能保护同一磁盘损坏。\n\n建议为重要资料另做一份独立备份。只有在空测试目录中验证删除传播，确认自己理解行为后，才逐步扩大同步范围。\n\n::: warning 验收顺序\n设备连接成功 → 测试文件出现 → 修改正确传播 → 冲突可识别 → 旧版本可恢复。缺少后几步时，不宜直接迁移唯一一份资料。\n:::\n\n[官方项目](https://github.com/syncthing/syncthing) · [官方入门](https://docs.syncthing.net/intro/getting-started.html) · [v2.1.6 发布记录](https://github.com/syncthing/syncthing/releases/tag/v2.1.6)",
+      "excerpt": "从两台电脑配对开始，逐步验证文件创建和修改，再区分双向同步、文件版本与独立备份，避免误删被同步到另一端。",
+      "cover": "https://opengraph.githubassets.com/53f73b312a5ef98cd2288d6ff86a36bf95302966f13159c5ced1ed90f63aeb61/syncthing/syncthing",
+      "date": "2026-10-15T07:05:56.878Z",
+      "updated": "2026-10-15T07:05:56.878Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "开源工具",
+        "syncthing"
+      ],
+      "public_path": "github/syncthing",
+      "source_url": "https://blog.jia.nz/github/syncthing/",
+      "source_published_at": "2026-10-06T06:08:27Z",
+      "source_urls": [
+        "https://github.com/syncthing/syncthing",
+        "https://docs.syncthing.net/intro/getting-started.html",
+        "https://github.com/syncthing/syncthing/releases/tag/v2.1.6"
+      ]
+    },
+    {
+      "id": "996450a5-ab62-4157-a1c6-3eea4d597581",
+      "title": "Immich 相册部署教程：从 Docker Compose 配置到手机备份验收",
+      "content": "::: note 版本与来源\n本文依据 Immich 官方安装说明与 v3.3.3 发布记录整理，资料核对日期为 2026-10-15。发布记录时间为 2026-10-14 16:56 UTC；这是部署与验收教程，不把旧功能包装成当天新功能。\n:::\n\nImmich 是可自行托管的照片与视频管理应用，包含手机备份、相册、搜索和多用户功能，仓库采用 AGPL-3.0 许可证。它适合想把相册服务放在自己设备上的用户，但服务器里有一份照片，并不等于已经完成可靠备份。\n\n## 先准备独立目录和存储\n确认主机满足官方硬件要求并已安装 Docker Engine 与 Compose 插件。先运行 `docker compose version`，不要把旧的 `docker-compose` 命令与新插件混用。为新实例建立独立目录，并确认照片所在磁盘有足够空间；已有实例不要直接覆盖原配置。\n\n```bash\nmkdir immich-app\ncd immich-app\ncurl -fL -o docker-compose.yml https://github.com/immich-app/immich/releases/latest/download/docker-compose.yml\ncurl -fL -o .env https://github.com/immich-app/immich/releases/latest/download/example.env\n```\n\n以上命令仅用于全新的空目录。下载后先阅读文件，确认文件来自官方仓库；升级现有实例时，应先看升级说明与备份要求。\n\n## 编辑 .env，区分两类数据\n`UPLOAD_LOCATION` 是照片与视频的存放位置，应选真实、稳定挂载的数据目录。`DB_DATA_LOCATION` 是数据库目录，官方说明不支持把数据库放到网络共享路径；不要因为照片盘是 NAS，就把数据库目录也随手指向同一网络共享。\n\n把默认 `DB_PASSWORD` 换成足够长的随机值，按官方建议使用字母与数字；设置自己的 `TZ`。需要固定版本时可核对发布页后设置 `IMMICH_VERSION`，不要在不知道迁移要求的情况下跨大版本升级。\n\n## 启动并确认服务状态\n```bash\ndocker compose config --quiet\ndocker compose up -d\ndocker compose ps\ndocker compose logs --tail=100\n```\n`config --quiet` 用于先检查配置结构。若容器持续重启，先看日志中的首个具体错误，检查目录权限、数据库目录与磁盘空间，再重试；不要反复删除数据库目录来碰运气。\n\n## 用测试照片做一次完整验收\n先按官方安装后说明创建账户，让手机连接服务器，只选择一个小测试相册。上传几张照片和一个短视频，核对数量、拍摄日期、视频播放与原文件下载；再从另一台设备登录同一账号，确认能够读取。\n\n测试通过后再逐步加入真实相册。若手机退出后上传暂停，先检查系统后台与电池策略，不能仅凭网页里出现缩略图就认定全部原片已经安全保存。\n\n## 上线后保留三份恢复依据\n照片原文件、数据库备份、部署配置分别保存。数据库应使用官方支持的一致性备份流程，不把复制正在写入的数据库目录当作已验证的恢复方案。定期用一小组测试素材检查下载与恢复，不要直接拿唯一一份家庭照片验证删除和回滚。\n\n升级前先备份，阅读目标版本说明，并留出维护窗口。若需要对外访问，再单独配置 HTTPS、访问控制与备份策略，避免刚部署就把管理入口随意公开。\n\n[官方仓库](https://github.com/immich-app/immich) · [Compose 安装说明](https://docs.immich.app/install/docker-compose/) · [v3.3.3 发布记录](https://github.com/immich-app/immich/releases/tag/v3.3.3)",
+      "excerpt": "按官方 Compose 流程准备配置、区分照片与数据库存储，并用少量测试照片验证上传、下载和备份。附更新前的检查清单。",
+      "cover": "https://repository-images.githubusercontent.com/455229168/ebba3238-9ef5-4891-ad58-a3b0223b12bd",
+      "date": "2026-10-15T07:05:56.248Z",
+      "updated": "2026-10-15T07:05:56.248Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "开源工具",
+        "immich"
+      ],
+      "public_path": "github/immich",
+      "source_url": "https://blog.jia.nz/github/immich/",
+      "source_published_at": "2026-10-14T16:56:21Z",
+      "source_urls": [
+        "https://github.com/immich-app/immich",
+        "https://docs.immich.app/install/docker-compose/",
+        "https://github.com/immich-app/immich/releases/tag/v3.3.3"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGPT｜可注册Telegram",
+      "content": "&nbsp; ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788270527101_image.png) 大陆用户要海外号，常见卡点是：+86 过不了 ChatGPT，实体国际卡又贵又难保号。菲律宾运营商 DITO 提供一条线上路径：App 里用微信支付买 eSIM，拿到 +63 号码，收短信免费，年保号成本大约几毛。\n\n筛选信息：\n\n- 开卡： eShop 最便宜档常见 79 或 89 菲律宾比索 ，微信大约 7～10 元人民币\n\n- 月租： 0\n\n- 保号： 充值 5～10 比索 ，有效期常见 +1 年；\n\n- 收短信： 免费（接码主用途）\n\n- 门槛： 外区商店下载 App、护照登记、能写入 eSIM 的手机或Xesim\n\n## 一、DITO 是什么\n\n简单地说，DITO 是菲律宾电信运营商与中国电信合作、当地第三大一类背景。买到的是 预付 eSIM 号码 ，不是快递实体卡。\n\nDITO eSIM 区号 +63 获取 DITO App 内购二维码 支付 微信 月租 0但要年充值延期 典型用途 海外接码、平台验证\n\n资金与号码链路：\n\n```text\nDITO App eShop\n→ 微信支付最便宜 eSIM\n→ 订单/邮箱出二维码\n→ 写入本机或 eSIM 读卡器\n→ 护照登记激活\n→ 充值延期\n→ +63 收码（ChatGPT / Telegram 等）\n```\n\n## 二、费用与资费\n\n项目 开卡 89 PHP≈10 元；或 79 PHP≈6.7～7 元 「79/89 PHP，约 7～10 元，以结算页为准」 月租 0 0 月租 保号 5 PHP≈0.5～0.6 元；或 10 PHP≈1.25 元，+1 年 建议 5～10 PHP； 多充不叠加年限 App 最低充值显示 5 PHP； 以可提交金额为准 收短信 免费 接码主路径 漫游通话 约 35 PHP/分钟 非本期重点 发短信 约 15 PHP/条 非本期重点 流量 需另开套餐 只接码可不买\n\n## 三、开号前准备\n\n- 外区 App Store 或 Google Play（大陆商店常搜不到 DITO）\n\n- 能收信的邮箱（二维码投递地址）\n\n- 微信支付\n\n- 护照\n\n- 写卡方式三选一：本机 eSIM / 另一台支持 eSIM 的设备 / XeSIM\n\n- 接受：KYC\n\n## 四、购买 eSIM\n\n- 打开 DITO，按教程 上滑 进入 eShop（避免在开屏误点登录）。 ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788271727482_image.png)\n\n- 购买最便宜 eSIM（只要号和短信）。\n\n- 提示本机不支持 eSIM → 选「在其他手机使用」。\n\n- 验证邮箱。 ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788271818898_image.png)\n\n- 微信支付，支付完 回到 App 。\n\n- Download 页转圈： 不要干等、不要杀进程 ；返回订单页等约 5～10 分钟。\n\n- 订单与邮件出现二维码和号码后，截图备份。 ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788272080076_image.png)\n\n翻车点： 支付后未进入订单/Download 就退出，可能导致无订单、无邮件，只能联系客服。\n\n## 五、写入设备\n\n- 本机支持 eSIM： 系统添加蜂窝计划，扫码下载并启用。\n\n- 国行不支持： 插入Xesim，用 App 扫码，再在系统 SIM 列表启用 DITO。\n\nXesim官网：[https://xesim.cc/?DIST=RkdAGVo%3D](https://xesim.cc/?DIST=RkdAGVo%3D) 🎁优惠码 eianun\n\nxesim使用教程： [https://my.feishu.cn/wiki/Q6WNw4Xboi6g1ukyA5Ucu3A2nbh](https://my.feishu.cn/wiki/Q6WNw4Xboi6g1ukyA5Ucu3A2nbh)\n\n无信号时检查：APN、数据漫游、网络运营商改为 非「禁用」项 （教程举例或为联通，以你列表为准），必要时重启。\n\nKYC 点 Verify 前，信号窗口可能约一分钟。选好运营商立刻回 App 收码提交；可多次尝试，不要空点 Register。\n\n## 六、登记激活（KYC）\n\n- Register my DITO number → Proceed → Start Registration ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788274065801_image.png)\n\n- 身份类型：用 Filipino individual ，该项报错需选 外国人选项 → 以能 Verify 的项为准\n\n- 输入号码 Verify，提交短信码\n\n- Passport：信息页 + 人脸/自拍\n\n- 核对照片识别出的姓名证件号；填写页面要求的菲律宾地址字段 一个真实地址生成器（获取真实详细地址）： [https://address.333186.xyz/](https://address.333186.xyz/)\n\n- 勾选协议 Register ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788274520524_image.png)\n\n![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788276018816_dito_sim_registration_pair_07_08.png) 会收到激活成功的短信，短信里可以看到 然后可以用短信里的密码进行登录 ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788279799470_image.png)\n\n在这里建议直接进行密码更改 改一个自己能记住的密码 流程：Forgot Password?，进行修改密码，登录后，全部勾选，点击：Proceed\n\n## 七、充值保号 ![](https://99305540.cloudflare-imgbed-9r8.pages.dev/file/1788279900904_image.png)\n\n- 号码 + 密码/短信登录\n\n- 看首页 有效期\n\n- 充值 5 PHP（或页面允许的最小额），优先微信\n\n- 确认有效期后移约一年\n\n- 每年到期前再充；多充不叠加年限\n\n保号建议 ：每11个月充值一次 账户里长期保留至少5至10比索 偶尔登录DITO App检查号码状态 不要把余额全部用完 充值后截图保存新的有效期\n\n## 八、绑定 ChatGPT\n\nOpenAI 相关产品常拒 +86，港号也不稳定。\n\n建议顺序：\n\n- 确认 DITO 能收短信或至少能注册 WhatsApp\n\n- 用 +63 注册 WhatsApp\n\n- ChatGPT 账号先完成邮箱注册（年龄按平台要求）\n\n- Codex / 桌面端触发手机验证时，国家选菲律宾\n\n- 优先 WhatsApp 收\n\n## 九、注册 Telegram\n\nTelegram 选 +63，走短信。成败取决于号码已激活且能收短信。\n\n## 十、简易流程\n\n- 外区商店下载 DITO，eShop 最便宜档，微信支付\n\n- 订单/邮箱备份二维码，写入设备\n\n- 开漫游，抢信号完成护照登记并改密\n\n- 充 5～10 比索，核对有效期\n\n- +63 测 Telegram 短信或 WhatsApp；再测 ChatGPT\n\n规则、价格、验证通道以官方 App 和各平台页面为准。有风险，独立判断。",
+      "excerpt": "大陆用户要海外号，常见卡点是：+86 过不了 ChatGPT，实体国际卡又贵又难保号。菲律宾运营商 DITO  提供一条线上路径：App 里用微信支付买 eSIM，拿到 +63  号码，收短信免费，年保号成本大约几毛。 筛选信息： 开卡：  eShop 最便宜档常见 79 或...",
+      "cover": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_tzUFH5fS84krkL0h0QGFg5ebkGPe7yR02YxjS-ttf3se3L4A9Ph13UbmPDdSwNPzF3Oz8G1oLzd-aJ7PbHLAruhLaIcNpsDyZtgwcrujSaK67vscUYZrkYMi73jPJGzqYa8URdhFTPbXUcrL8fFK4l=w1200-h630-p-k-no-nu",
+      "date": "2026-09-16T13:15:28.045Z",
+      "updated": "2026-10-15T06:38:34.195Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "【保姆开通教程】菲律宾DITO手机号：10块开号｜0月租｜每年五毛保号｜免费收短信｜绑定ChatGP"
+      ],
+      "public_path": "guide/tutorial-2",
+      "source_url": "https://blog.jia.nz/guide/tutorial-2/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": "0deb59e2-516c-4f4f-8325-3020110a08ae",
+      "title": "《彩虹六号》Y11S3.1 更新回顾：Buck 弹药与 Sledge 挥锤速度变了",
+      "content": "回归《彩虹六号》时，往往先关心自己常用的干员有没有变化。这篇选取 **2026年9月22日** 官方 Y11S3.1 补丁中的几项调整，方便快速核对。\n\n::: info 这是一篇更新回顾\n本文对应 Y11S3.1，并非10月15日新发布的补丁。后续版本可能再次调整数值，实际游玩请以当前客户端为准。\n:::\n\n## 六项数值变化\n\n| 干员 / 武器 | 补丁前 | Y11S3.1 |\n| --- | --- | --- |\n| Buck Skeleton Key 总弹药 | 31 | 36 |\n| Castle 装甲板近战破坏次数 | 9 | 10 |\n| Maestro 邪眼电池持续时间 | 8秒 | 9秒 |\n| Sledge 挥锤耗时 | 1秒 | 0.8秒 |\n| M1014 基础伤害 | 28 | 30 |\n| SPAS-15 基础伤害 | 24 | 26 |\n\n补丁还修复了小队成员断线后无法重连到进行中对局的问题。[官方补丁详情](https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/3WMly2DNZqv1GpUK9GNGm5/y11s31-patch-notes)\n\n## 怎么理解这些调整\n\n以下是我的解读，不是实战胜率结论。Buck 多了工具弹药，意味着处理垂直区域时可以少一些“弹药是否够用”的顾虑；Sledge 动作缩短，则更适合先在练习环境里重新熟悉挥锤节奏。\n\nCastle 的装甲板多承受一次近战，不代表防守方可以放弃配合；破坏手段、站位和队伍信息仍会影响推进速度。霰弹枪伤害提高，也不能直接推出所有距离下都更强。\n\n{% tabs 回归玩家先做什么 %}\n<!-- tab 设置与手感 -->\n先用常用干员熟悉工具节奏，再进入正式对局；不要只凭一个数字就更换整套打法。\n<!-- endtab -->\n<!-- tab 版本核对 -->\n打开当前版本说明，确认是否有后续修订。本文保留补丁日期，方便你区分历史变化与今天的状态。\n<!-- endtab -->\n{% endtabs %}\n\n来源：[Ubisoft 官方 Y11S3.1 补丁，2026-09-22](https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/3WMly2DNZqv1GpUK9GNGm5/y11s31-patch-notes)",
+      "excerpt": "回顾9月22日官方补丁：Buck总弹药31→36、Sledge挥锤1秒→0.8秒等。不是今日突发更新，实际游戏状态以当前客户端为准。",
+      "cover": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1WV00PDy4HQle2I9Nckyk4/09cb7853fa8e986f8d3f36a2959f46d9/Y11S3.1_PATCHNOTES_960x540.jpg",
+      "date": "2026-10-14T18:07:21.017Z",
+      "updated": "2026-10-15T06:38:33.496Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "彩虹六号",
+        "补丁回顾",
+        "干员调整"
+      ],
+      "public_path": "game/r6s",
+      "source_url": "https://blog.jia.nz/game/r6s/",
+      "source_published_at": "2026-09-22",
+      "source_urls": [
+        "https://www.ubisoft.com/en-us/game/rainbow-six/siege/news-updates/3WMly2DNZqv1GpUK9GNGm5/y11s31-patch-notes"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "澳门蚂蚁银行 5 月开户福利：最高约 1000 港币奖赏，开户流程整理",
+      "content": "如果你 5 月刚好计划去澳门，可以顺手把澳门 [蚂蚁银行](https://v2money.net/tag/%e8%9a%82%e8%9a%81%e9%93%b6%e8%a1%8c/) 账户和证券账户一起开好。开通证券账户后，后续也可以用于港股、美股等证券交易需求，适合本来就想配置海外账户的人提前准备。这个月的新客活动力度不错：新开户有财富兑换卡，净入资达到门槛后还有额外兑换卡和费率优惠礼包，符合高阶条件的用户还有机会拿 iPhone 17 Pro。\n\n透明说明：文中的链接和邀请码是我的专属邀请入口。通过这个入口完成登记和开户后，会绑定到我的邀请关系；活动资格、奖励发放、股票兑换卡价值和具体条款，以澳门蚂蚁银行 APP 及官方活动页面为准。本文只整理活动信息和开户路径，不构成投资建议。\n\nTable of Contents\n\n## 活动时间\n\n2026 年 5 月 1 日至 2026 年 5 月 31 日。\n\n## 这次福利有什么\n\n一重福利，新开户即送：\n\n- 财富兑换卡 1 张，价值约 90 港币，可兑换 3 股小米。\n\n二重福利，活动期间净入资理财账户满 3000 港币：\n\n- 财富兑换卡 2 张，价值约 270 港币，可兑换 2 股 BABA。\n\n- 600 港币费率优惠礼包。\n\n- 入资 100 万港币以上，留存 90 天并完成 90 次交易，有机会获得 iPhone 17 Pro。\n\n![](https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-0.png)\n\n## 先做这一步：用专属链接登记\n\n一定要先用下面这个专属开户链接登记。收到验证码后点击登录，完成登记，再下载澳门蚂蚁银行 APP。\n\n专属开户链接：\n\n[https://render.alipay.com/p/c/180020570000149153/index.html?invite-code=LPVGVDQA](https://render.alipay.com/p/c/180020570000149153/index.html?invite-code=LPVGVDQA)\n\n我的邀请码：\n\nLPVGVDQA\n\n人在内地也可以先通过链接完成邀请关系绑定，之后到澳门再开户。这样开户成功后，邀请关系仍然算在我的名下。\n\n## 到澳门后怎么开户\n\n开户需要在澳门境内完成，APP 会检测定位。建议出发前先准备好这些资料：\n\n- 内地居民身份证，正反面清晰，有效期建议超过 6 个月。\n\n- 港澳通行证，需要有有效澳门签注。\n\n- 过关小票。\n\n- 近 7 天澳门出入境记录，可通过支付宝或微信里的移民局服务获取。\n\n- 澳门网络或开通数据漫游，内地手机号需要能接收短信验证码。\n\n- 税务编号，一般可填写身份证号；如被要求补充收入或资金来源证明，再按 APP 提示提交。\n\n第一步，打开澳门蚂蚁银行 APP，选择开户，并按自己的实际身份选择对应选项。\n\n![](https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-1.png)\n\n第二步，按提示补充个人资料、居住地址、税务信息、邮箱和登录密码。这里按实际情况填写即可，过关小票上一般会显示本次逗留截止日期。\n\n![](https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-2.png)\n\n第三步，开户资料审核通过后，上传《出入境记录》文件。这个文件不限制上传地区，但需要在 90 天内提交。支付宝和微信都可以搜索“移民局”，进入出入境记录服务后查询并下载。\n\n![](https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-3.png)\n\n第四步，澳门蚂蚁银行账户开通后，可以在 APP 内授权开通证券账户。这个步骤不限制地区，完成后再存入资金，就可以参与当月活动奖励。\n\n![](https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-4.png)\n\n## 如果已经直接开户，怎么改绑邀请码\n\n如果你没有通过我的链接进入，而是已经直接打开 APP 操作，也还有一次补救机会：必须在首次入金之前改绑。\n\n路径如下：\n\n打开 APP，进入“证券”，选择“资产”，点击“查看邀请关系”。在“开户邀请人”或“入资邀请人”位置选择绑定或更改，填写我的邀请码：\n\nLPVGVDQA\n\n注意，开户邀请人需要在开户成功前绑定或更改；入资邀请人需要在首次入资成功前绑定或更改。已经首次入金后，通常就不能再补绑入资邀请关系了。\n\n![](https://v2money.net/wp-content/uploads/2026/05/invite-binding-guide.png)\n\n## 简单总结一下\n\n最稳妥的顺序是：\n\n- 先点专属链接登记。\n\n- 输入手机号和验证码，完成邀请关系绑定。\n\n- 下载澳门蚂蚁银行 APP。\n\n- 到澳门后按 APP 流程提交开户。\n\n- 审核通过后上传出入境记录。\n\n- 授权开通证券账户。\n\n- 首次入资前，确认邀请关系已绑定到邀请码 LPVGVDQA。\n\n如果你 5 月有澳门行程，可以提前把第一步做掉。后面到澳门开户时，资料准备齐，整个流程会顺很多。\n\n                                                        \n原创文章，作者：卡卡，如若转载，请注明出处：https://v2money.net/macau-ant-bank-account-opening-bonus/",
+      "excerpt": "如果你 5 月刚好计划去澳门，可以顺手把澳门蚂蚁银行账户和证券账户一起开好。开通证券账户后，后续也可以用于港股、美股等证券交易需求，适合本来就想配置海外账户的人提前准备。这个月的新客活动力度不错：新开户有财富兑换卡，净入资达到门槛后还有额外兑换卡和费率优惠礼包，符合高阶条件的用户还有机会拿 iPhone 17 Pro。…",
+      "cover": "https://v2money.net/wp-content/uploads/2026/05/macau-ant-bank-guide-page-0.png",
+      "date": "2026-09-12T14:12:00.000Z",
+      "updated": "2026-10-15T06:38:32.644Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "澳门蚂蚁银行 5 月开户福利：最高约 1000 港币奖赏，开户流程整理"
+      ],
+      "public_path": "guide/tutorial-4",
+      "source_url": "https://blog.jia.nz/guide/tutorial-4/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 38,
+      "title": "2026 苹果秋季发布会全汇总：iPhone Duo 首秀，iPhone 18 Pro、Apple Watch 与 AirPods 新品一次看懂",
+      "content": "# 2026 苹果秋季发布会全汇总：iPhone Duo、iPhone 18 Pro、Apple Watch Series 12、Ultra 4 与 AirPods 5 一文看懂\n\n> 更新时间：2026 年 9 月 10 日  \n> Apple 于 2026 年 9 月 9 日举行最新秋季新品发布会。本次新品包括 **iPhone Duo、iPhone 18 Pro / Pro Max、Apple Watch Series 12、Apple Watch Ultra 4 与 AirPods 5**。\n\n![2026 苹果秋季发布会新品](https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-colors-260909_big.jpg.large.jpg)\n\n---\n\n## 一张表看完本次新品\n\n| 产品 | 主要升级 | 中国大陆起售价 | 发售时间 |\n|---|---|---:|---|\n| **iPhone Duo** | 折叠设计、7.6 英寸内屏、A20 Pro、多任务 | **RMB 15,999** | 10 月 23 日 |\n| **iPhone 18 Pro** | A20 Pro、可变光圈、专业影像 | **RMB 9,999** | 9 月 18 日 |\n| **iPhone 18 Pro Max** | Pro 全部功能、更强续航 | **RMB 10,999** | 9 月 18 日 |\n| **Apple Watch Series 12** | S11、健康感测、准备指数 | **RMB 2,999 起** | 9 月 18 日 |\n| **Apple Watch Ultra 4** | S11、长续航、专业户外功能 | **RMB 6,499** | 9 月 18 日 |\n| **AirPods 5** | 主动降噪、新声学架构 | **RMB 999** | 9 月 18 日 |\n\n---\n\n## iPhone Duo：苹果进入折叠屏时代\n\n本次发布会最受关注的新品之一，就是 **iPhone Duo**。\n\n这是 Apple 首款采用折叠设计的 iPhone，展开后拥有更大的显示区域，闭合后则可以使用外屏完成日常操作。\n\n![iPhone Duo 展开与闭合](https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-display-sizes-260909_big.jpg.large.jpg)\n\n### 折叠内屏与外屏\n\niPhone Duo 采用横向折叠结构。\n\n主要特点包括：\n\n- 大尺寸可折叠内屏\n- 独立外屏\n- ProMotion 自适应刷新率\n- 全天候显示\n- 高亮度户外显示\n- 根据开合状态自动调整 UI\n- 支持多任务操作\n\n折叠状态下可以像普通 iPhone 一样使用，展开以后则更适合：\n\n- 浏览网页\n- 查看照片\n- 阅读文档\n- 视频播放\n- 多任务处理\n\n### 针对折叠屏优化的系统\n\n针对大屏幕，系统增加了更完整的多任务能力。\n\n包括：\n\n1. **Split View 分屏**\n2. 两个 App 并排运行\n3. 根据屏幕方向自动调整布局\n4. 支持多窗口\n5. Siri 与当前应用同时显示\n6. 视频与其他 App 同屏运行\n7. 针对折叠状态调整系统 UI\n\n### A20 Pro\n\niPhone Duo 搭载 **A20 Pro** 芯片。\n\n主要升级方向包括：\n\n- CPU 性能提升\n- GPU 图形性能提升\n- Neural Engine AI 运算\n- 更高内存带宽\n- 更强散热\n- Wi-Fi 7\n- 新一代蓝牙\n- Thread\n- 新一代蜂窝网络能力\n\n### 摄像头\n\niPhone Duo 的折叠结构也带来了新的拍摄方式。\n\n例如：\n\n- 后置主摄自拍\n- 外屏实时预览\n- 被拍摄者查看构图\n- 前后摄像头协同工作\n- 视频通话时使用不同屏幕\n\n### 中国大陆售价\n\n| 容量 | 售价 |\n|---|---:|\n| 256GB | **RMB 15,999** |\n| 512GB | **RMB 17,999** |\n| 1TB | **RMB 21,499** |\n| 2TB | **RMB 26,499** |\n\n> 具体价格、上市日期及监管审批状态以 Apple 中国大陆官网最终公布的信息为准。\n\n---\n\n## iPhone 18 Pro / Pro Max：重点升级影像与性能\n\niPhone 18 Pro 系列继续承担传统旗舰 iPhone 的定位。\n\n主要升级集中在：\n\n- 摄影\n- 视频\n- 性能\n- 散热\n- 电池\n- AI\n\n![iPhone 18 Pro](https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-color-lineup-260909_big.jpg.large.jpg)\n\n### 专业影像升级\n\niPhone 18 Pro 继续强化专业摄影能力。\n\n主要包括：\n\n- 高像素主摄\n- 超广角摄像头\n- 长焦摄像头\n- 光学变焦\n- 夜间摄影\n- ProRAW\n- ProRes\n- Dolby Vision HDR\n- 高规格 4K 视频\n\n### 可变光圈\n\n这一代值得关注的升级之一，是 **可变光圈**。\n\n可变光圈可以根据拍摄环境改变进光量与景深。\n\n例如：\n\n- 夜景使用更大光圈\n- 人像获得更自然景深\n- 风景与多人合影缩小光圈\n- 手动控制不同拍摄效果\n\n相比完全依靠软件模拟景深，可变光圈能够增加真正的光学控制。\n\n### Pro 相机控制\n\n相机 App 进一步提供专业参数。\n\n包括：\n\n- 光圈\n- 快门速度\n- 白平衡\n- 曝光\n- 直方图\n\n对于摄影和视频创作者来说，可控制的参数更加完整。\n\n### A20 Pro\n\niPhone 18 Pro 和 iPhone 18 Pro Max 搭载 **A20 Pro**。\n\n主要升级包括：\n\n- 新一代 CPU\n- 新一代 GPU\n- Neural Engine\n- 更高内存带宽\n- 强化本地 AI\n- 更大的 VC 均热板\n- 更高持续性能\n\n主要受益场景包括：\n\n- 大型游戏\n- 视频剪辑\n- 4K 视频处理\n- AI 运算\n- 图形渲染\n\n### 中国大陆售价\n\n| 机型 | 起售价 |\n|---|---:|\n| **iPhone 18 Pro** | **RMB 9,999** |\n| **iPhone 18 Pro Max** | **RMB 10,999** |\n\n预计提供：\n\n- 256GB\n- 512GB\n- 1TB\n- 2TB\n\n---\n\n## Apple Watch Series 12：健康分析进一步升级\n\nApple Watch Series 12 的核心方向之一，是从简单记录健康数据进一步转向 **身体状态分析**。\n\n![Apple Watch Series 12](https://www.apple.com/newsroom/images/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/article/Apple-Watch-Series-12-2up-260909_big.jpg.large.jpg)\n\n### 更完整的健康感测\n\nApple Watch Series 12 继续强化：\n\n- 心率监测\n- HRV 心率变异性\n- 睡眠分析\n- 运动恢复\n- 训练负荷\n- 身体状态分析\n\n### 准备指数\n\n系统可以综合多项数据生成 **准备指数**。\n\n参考信息可能包括：\n\n- 最近运动量\n- 训练负荷\n- 睡眠\n- 心率\n- HRV\n- 恢复状态\n- 生命体征\n\n随后根据身体状态提供训练建议。\n\n### Audio Intelligence\n\n新一代 Apple Watch 还强化了环境声音与语音处理能力。\n\n包括：\n\n- **Sound Recognition**\n- **Live Rewind**\n- **Siri Recap**\n- **Shazam**\n\n> 部分功能存在语言和地区限制，中国大陆具体支持情况**待核实**。\n\n---\n\n## Apple Watch Ultra 4：继续强化专业户外能力\n\nApple Watch Ultra 4 继续面向：\n\n- 徒步\n- 登山\n- 越野跑\n- 马拉松\n- 骑行\n- 游泳\n- 潜水\n- 户外探险\n\n![Apple Watch Ultra 4](https://www.apple.com/newsroom/images/2026/09/apple-unveils-apple-watch-ultra-4/article/Apple-Watch-Ultra-4-hero-260909_big.jpg.large.jpg)\n\n### 核心功能\n\nUltra 4 继续提供：\n\n- S11 芯片\n- 心率监测\n- HRV\n- 睡眠分析\n- 准备指数\n- 训练负荷\n- 双频 GPS\n- 深度计\n- 水温传感器\n- 蜂窝网络\n- 户外安全功能\n\n### 长续航\n\nUltra 系列继续把续航作为主要优势之一。\n\n通过正常模式、低电量模式和长距离运动模式，可以针对不同场景降低功耗。\n\n---\n\n## AirPods 5：主动降噪继续下放\n\nAirPods 5 的升级方向非常明确：\n\n**继续缩小普通 AirPods 与 AirPods Pro 之间的功能差距。**\n\n![AirPods 5](https://www.apple.com/newsroom/images/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/article/Apple-AirPods-5-hero-260909_big.jpg.large.jpg)\n\n### 主动降噪\n\nAirPods 5 重点强化：\n\n- 主动降噪 ANC\n- 通透模式\n- 自适应音频\n- 对话感知\n- 空间音频\n- 动态头部追踪\n\n### H2 芯片\n\nAirPods 5 搭载 **H2 芯片**。\n\n主要改善：\n\n- 低频\n- 声音细节\n- 主动降噪\n- 通话降噪\n- 人声清晰度\n- 空间音频\n\n### Siri AI 与实时翻译\n\n配合兼容的 iPhone，AirPods 可以进一步作为 Siri 的语音入口。\n\n包括：\n\n- 语音调用 Siri\n- 查询信息\n- 控制设备\n- 回复消息\n- 实时翻译\n\n> Apple Intelligence、Siri AI 与实时翻译在中国大陆的完整支持范围目前**待核实**。\n\n---\n\n## Apple Intelligence 成为苹果生态的重要主线\n\n从 iPhone 到 Apple Watch，再到 AirPods，AI 正在逐渐贯穿整个 Apple 生态。\n\n### iPhone\n\n用于：\n\n- 信息理解\n- 邮件处理\n- 照片\n- 屏幕内容\n- Siri\n- App 操作\n\n### Apple Watch\n\n用于：\n\n- 健康数据\n- 睡眠\n- 心率\n- HRV\n- 运动分析\n- 环境声音\n\n### AirPods\n\n用于：\n\n- Siri\n- 语音控制\n- 消息\n- 翻译\n- 免手持交互\n\n---\n\n## 本次发布会最值得关注的五个变化\n\n### 1. 折叠 iPhone 出现\n\niPhone Duo 代表 Apple 开始尝试新的 iPhone 产品形态。\n\n### 2. Pro 系列继续专业化\n\niPhone 18 Pro 进一步强化：\n\n- 专业摄影\n- 专业视频\n- 手动参数\n- 性能\n- 散热\n\n### 3. Apple Watch 从记录走向分析\n\nApple Watch 不再只是告诉用户：\n\n“你今天走了多少步。”\n\n而是开始尝试回答：\n\n**“你今天的身体状态怎么样？”**\n\n### 4. AI 开始贯穿整个苹果生态\n\nApple Intelligence 正在连接：\n\n- iPhone\n- Siri\n- Apple Watch\n- AirPods\n- 相机\n- 健康\n\n### 5. AirPods 普通版继续向 Pro 靠拢\n\n主动降噪、自适应音频、AI 与翻译功能逐渐进入普通 AirPods 产品线。\n\n---\n\n## 总结\n\n2026 年苹果秋季新品的几个主要关键词是：\n\n**折叠屏、专业影像、健康分析、人工智能。**\n\niPhone Duo 是产品形态变化最大的新品。\n\niPhone 18 Pro 系列继续强化专业影像、性能与 AI。\n\nApple Watch Series 12 和 Ultra 4 的重点，则逐渐从记录健康数据转向分析身体与训练状态。\n\nAirPods 5 继续强化主动降噪与智能功能。\n\n从整个产品生态来看，Apple 正在让 **iPhone、Apple Watch、AirPods 与 Apple Intelligence** 更紧密地连接在一起。\n\n---\n\n## 资料来源\n\n- Apple 官方发布会  \n  https://www.apple.com/apple-events/\n\n- Apple Newsroom  \n  https://www.apple.com/newsroom/\n\n- Apple 中国大陆 Newsroom  \n  https://www.apple.com.cn/newsroom/\n\n- Apple 中国大陆 iPhone  \n  https://www.apple.com.cn/iphone/\n\n- Apple 中国大陆 Apple Watch  \n  https://www.apple.com.cn/watch/\n\n- Apple 中国大陆 AirPods  \n  https://www.apple.com.cn/airpods/\n\n> 注：部分地区功能、AI 支持、具体规格及上市安排可能后续发生调整，请以 Apple 官方最新页面为准。",
+      "excerpt": "2026 苹果秋季发布会全汇总：折叠 iPhone Duo 首秀，iPhone 18 Pro、Apple Watch Series 12、Ultra 4 与 AirPods 5 全部功能一文看懂 更新时间：2026 年 9 月 10 日 A",
+      "cover": "",
+      "date": "2026-09-10T13:58:00.000Z",
+      "updated": "2026-10-15T06:38:30.907Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "2026 苹果秋季发布会全汇总：折叠 iPhone Duo 首秀",
+        "iPhone 18 Pro、App"
+      ],
+      "public_path": "tech/apple",
+      "source_url": "https://blog.jia.nz/tech/apple/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": "b828cda3-f806-44ac-b311-723b784aba16",
+      "title": "GitHub Actions 锁文件实用教程：固定依赖并在 CI 中检查",
+      "content": "::: note 适用范围\n本文按 GitHub 官方文档与 gh-actions-lock 仓库说明整理，核对时间为 2026-10-15。工作流依赖锁文件仍处公开预览阶段；仓库工具也处于 1.0 前开发期，命令细节可能变化。GitHub Enterprise Server 当前不受该扩展支持。\n:::\n\nGitHub Actions 常见写法是 `uses: actions/checkout@v4`。标签便于升级，但团队需要知道运行时实际落到哪个提交。锁文件把工作流依赖对应到已核验的提交，并让 CI 可以检查锁文件是否跟工作流一致。\n\n## 第一步：先检查工作流\n\n在仓库根目录查看 `.github/workflows/` 下所有 YAML 文件，确认每条 `uses:` 指向你认可的 action 版本。可复用工作流也要检查；它们的依赖由定义该可复用工作流的仓库管理。若组织启用了 Actions 允许列表，先确认锁定后的提交 SHA 也能通过策略。\n\n建议先启用 Dependabot 的 GitHub Actions 更新，再接入锁文件。这样后续 action 升级可以和锁文件一起进入拉取请求，避免手动升级工作流却忘记更新锁。\n\n## 第二步：安装扩展\n\n电脑需要安装并登录 GitHub CLI。进入仓库根目录后运行：\n\n```bash\ngh extension install github/gh-actions-lock\ngh auth status\n```\n\n若扩展已安装，之后更新可运行 `gh extension upgrade gh-actions-lock`。CLI 登录账号至少要能读取仓库和相关依赖仓库。\n\n## 第三步：先接入一个工作流\n\n初次建议从不承担发布或部署的 CI 工作流开始，缩小审查范围：\n\n```bash\ngh actions-lock .github/workflows/ci.yml\ngit status --short\ngit diff -- .github/workflows/\n```\n\n工具会写入 `.github/workflows/actions.lock`，并可能改写工作流里的 `uses:` 写法。不要只看锁文件；检查整个 diff，重点确认 action 名称、解析出的版本、提交变化和组织允许列表。锁文件记录的提交就是运行时会执行的代码，应按普通依赖升级审查。\n\n单个工作流审查通过后，再为整个仓库生成或更新锁文件：\n\n```bash\ngh actions-lock\ngit diff -- .github/workflows/\n```\n\n完整扫描还会清理已删除工作流遗留的锁条目；指定单个工作流的命令只处理该范围。\n\n## 第四步：把检查放进 CI\n\n先在本机确认工作流和锁文件匹配：\n\n```bash\ngh actions-lock --verify\n```\n\n`--verify` 只检查，不写文件；官方扩展仓库建议在 CI 使用它。`--verify-local` 只核对每个引用是否有锁条目，不验证锁定提交仍对应可信上游，因此不能代替在线的 `--verify`。实际 CI 工作流还需安装 GitHub CLI 和该扩展，再执行同一条检查命令。\n\n## 后续维护与常见卡点\n\n新增工作流，或增删现有工作流中的 `uses:` 后，重新运行 `gh actions-lock` 并提交工作流与锁文件。普通运行不会默默追随分支或短版本标签的新提交；如果上游标签移动，先去上游仓库历史核实原因，再考虑 `gh actions-lock --relock`。只有确认上游变更可信、且原提交已无法使用时，才考虑 `--accept-moved`，不要把它当成日常更新快捷键。\n\n本地 `uses: ./...` action 如果无法解析，先检查路径是否相对仓库根目录、目标目录里是否有真实的 action 文件。官方文档说明扩展可能跳过无法解析的本地 action；看到跳过提示时应先处理，不要把“命令退出成功”当成所有依赖都已经锁好。\n\n::: warning 记住这条边界\n锁文件提升依赖版本可复现性，但不替你判断锁定代码是否安全。每次提交都要审查 diff；公开预览期间也要留意官方文档与扩展 README 的变化。\n:::\n\n[GitHub 锁文件操作文档](https://docs.github.com/en/enterprise-cloud@latest/actions/how-tos/secure-your-work/lock-workflow-dependencies) · [gh-actions-lock 使用说明](https://github.com/github/gh-actions-lock) · [公开预览公告](https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/)",
+      "excerpt": "从检查工作流、安装 gh-actions-lock、生成 .github/workflows/actions.lock，到审查差异和运行 --verify，逐步把 GitHub Actions 依赖锁定纳入日常维护。本文也说明公开预览、组织白名单和本地 action 的注意事项。",
+      "cover": "https://github.blog/wp-content/uploads/2026/10/668106759-0617e0cd-8cb1-497d-b5f7-848ad8487469.jpeg",
+      "date": "2026-10-15T05:49:55.994Z",
+      "updated": "2026-10-15T06:38:30.097Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "GitHub Actions",
+        "依赖锁文件",
+        "CI",
+        "软件供应链"
+      ],
+      "public_path": "github/actions",
+      "source_url": "https://blog.jia.nz/github/actions/",
+      "source_published_at": "2026-10-14",
+      "source_urls": [
+        "https://docs.github.com/en/enterprise-cloud@latest/actions/how-tos/secure-your-work/lock-workflow-dependencies",
+        "https://github.com/github/gh-actions-lock",
+        "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "今日笔记",
+      "content": "# 今日笔记\n## 今天发现\n\n* 有时候真正让人放松的，不是什么特别的事情，而是忙完以后安静坐一会儿。\n* 最近越来越觉得，把一些零碎的小事记录下来，过一段时间再看会很有意思。\n## 灵感与想法\n\n今天突然想到，生活其实没有那么多一定要被赋予意义的事情。\n\n吃到喜欢的东西、听到一首不错的歌、解决一个困扰很久的小问题，甚至只是晚上出去走一圈，都可以成为一天里值得记住的部分。\n\n很多时候不是生活太普通，而是我们习惯得太快。\n\n偶尔停下来看看，会发现每天其实都有一些细小的变化。\n\n## 待办\n未知-",
+      "excerpt": "今日笔记 记录日期：2026 09 05 今天发现 有时候真正让人放松的，不是什么特别的事情，而是忙完以后安静坐一会儿。 最近越来越觉得，把一些零碎的小事记录下来，过一段时间再看会很有意思。 灵感与想法 今天突然想到，生活其实没有那么多一定",
+      "cover": "https://img.nep.me/blog/flatpaper-welcome-card.webp",
+      "date": "2026-08-23T03:14:00.000Z",
+      "updated": "2026-10-15T06:38:28.367Z",
+      "categories": [
+        "日常"
+      ],
+      "tags": [
+        "今日笔记"
+      ],
+      "public_path": "life/notes",
+      "source_url": "https://blog.jia.nz/life/notes/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": "0f63cb2e-239a-474e-8764-7c8804a08e96",
+      "title": "HydraFusion 实用上手：在 VS Code 和 Copilot App 中开启并用好多模型协作",
+      "content": "::: note 版本与权限\n本文依据 GitHub 2026-09-30 与 2026-10-14 公告整理。HydraFusion 仍是研究预览，是否可用取决于 Copilot 方案、应用版本和组织策略；界面名称可能随预览更新。\n:::\n\nHydraFusion 出现在 Copilot 的模型选择器里，但它不是一个固定的单模型。它会根据任务，在单模型处理、先快速起草再升级检查、或让独立模型评审后再修订等工作流之间协调。Copilot Auto 是为每次请求挑选一个模型；HydraFusion 还会在一次任务里编排多个模型。\n\n## 在 VS Code 开启\n\n1. 更新到 VS Code 1.140 或更高版本；也可以使用 VS Code Insiders。\n2. 打开 Copilot Chat，在模型选择器里查找并选择 HydraFusion。\n3. 如果列表里没有它，打开 VS Code 设置，搜索 `chat.copilot.hydraFusion.enabled` 并启用。\n4. 若账号属于公司或 Enterprise 组织，请管理员在组织或企业策略中允许预览功能；自己反复重装通常解决不了策略禁用。\n\n## 在 GitHub Copilot App 开启\n\n1. 更新到 App 最新版本。\n2. 打开 Settings，在设置搜索框输入 HydraFusion 并开启。\n3. 返回模型选择器，选择 HydraFusion。\n\n如果开关或模型仍不存在，依次检查：Copilot 方案是否包含预览资格、App 是否已更新、个人设置是否启用、组织管理员是否开放预览。GitHub 公告列出的可用方案是 Pro、Pro+、Business 和 Enterprise；Business 与 Enterprise 还要求管理员开启预览。\n\n## 哪些任务适合先试\n\n可以先用它处理有明确验收标准、而且结果能在工作区核验的任务：解释失败测试、定位一处 bug、补一个小功能、比较两种实现，或检查一个改动的边界情况。不要一开始就交给它无边界的全仓重构、生产发布或删除数据操作。\n\n可以把下面的提示模板直接改成自己的任务：\n\n```text\n目标：修复 [具体失败现象]。\n先查看相关文件和测试，列出根因与准备修改的文件；暂时不要改动无关模块。\n修改后运行 [明确的测试命令]，说明测试结果。\n最后逐项解释 diff，并指出仍未验证的行为。\n```\n\n它仍会生成需要检查的代码，不代表多模型结论天然正确。先让它解释计划；批准修改后，检查 Git diff，再运行项目测试。涉及认证、付款、数据库迁移和权限逻辑时，单独审查边界条件，不能只因为回答看起来完整就合并。\n\n## HydraFusion 与 Auto 怎么选\n\n简单问答或小改动，可以先用 Auto；需要多步推理、代码修改后再复查，或想要更清晰的长任务进度时，可以尝试 HydraFusion。Max 是 10 月 14 日加入的更高推理强度选项，适合更难的任务；它不保证每次都更快，也不代表公开排行榜第一。先挑一个你能验证的任务，用相同输入分别运行并对照耗时、diff 和测试结果。\n\n::: warning 研究预览\n模型池和工作流会调整。不要把一次任务的体验当成普遍性能结论；如果组织看不到该选项，先确认管理员策略，而不是尝试绕过组织设置。\n:::\n\n[VS Code 与 Copilot App 官方开启步骤](https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/) · [HydraFusion 与 Max 更新](https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/) · [项目介绍](https://github.blog/ai-and-ml/project-hydrafusion-frontier-quality-via-multi-model-orchestration/)",
+      "excerpt": "按官方步骤开启 GitHub Copilot HydraFusion，排查模型选项不出现的问题，并用可复核的任务提示和 diff 检查流程处理调试、代码说明与多步修改。附研究预览和组织策略限制。",
+      "cover": "https://github.blog/wp-content/uploads/2026/09/OptA_UI.jpg",
+      "date": "2026-10-15T05:49:56.813Z",
+      "updated": "2026-10-15T06:38:27.211Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "GitHub Copilot",
+        "HydraFusion",
+        "AI编程",
+        "实用教程"
+      ],
+      "public_path": "ai/agent",
+      "source_url": "https://blog.jia.nz/ai/agent/",
+      "source_published_at": "2026-10-14",
+      "source_urls": [
+        "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app/",
+        "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/",
+        "https://github.blog/ai-and-ml/project-hydrafusion-frontier-quality-via-multi-model-orchestration/"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "小时候可曾有过梦想",
+      "content": "# 小时候写下的理想，后来还记得吗\n\n有时候，真正让人难过的，不是什么轰轰烈烈的事情。\n\n只是一张旧纸，一行歪歪扭扭的字，就能突然把人拉回很多年前。\n\n小时候写下的理想\n<img src=\"/uploads/1788784921125-img-6946-azcdc0rn.jpeg\" alt=\"1788784921125-img-6946-azcdc0rn\" width=\"162\" height=\"215\" style=\"width:162px;height:215px\">\n照片里的纸上，写着关于小时候的理想。\n\n那时候的字并不好看，想法也很简单。\n\n可现在重新看到，却突然觉得——\n\n**那可能是我们最认真相信未来的时候。**\n\n---\n\n## 我的理想\n\n小时候老师总喜欢问：\n\n> **“你长大以后想做什么？”**\n\n那时候好像每个人都能很快回答。\n\n科学家、宇航员、医生、老师、警察……\n\n不会考虑工资，也不会考虑现实。\n\n更不会去想，这个梦想到底有多难。\n\n| 小时候想的 | 长大以后想的 |\n| --- | --- |\n| 我以后要做什么？ | 我以后该怎么办？ |\n| 我喜欢什么？ | 什么更现实？ |\n| 长大一定很好玩 | 原来长大也很累 |\n| 时间还有很多 | 时间怎么过得这么快 |\n| 我一定可以做到 | 我真的还能做到吗？ |\n\n小时候觉得，\n\n只要自己喜欢，\n\n未来就一定会变成那个样子。\n\n---\n\n{% note warning 后来 %}\n小时候最期待的事情，是长大。\n\n后来才发现，\n\n**小时候反而成了最想回去，却永远回不去的地方。**\n{% endnote %}\n\n---\n\n## 后来，我们真的长大了\n\n小时候总觉得“长大”是一件很遥远的事情。\n\n总想着：\n\n等我长大了，就可以不用写作业。\n\n等我长大了，就可以买自己喜欢的东西。\n\n等我长大了，就可以去想去的地方。\n\n等我长大了，就自由了。\n\n可是真的走到小时候口中的“以后”，才发现事情并没有那么简单。\n\n| 那时候 | 现在 |\n| --- | --- |\n| 期待长大 | 怀念小时候 |\n| 放学就是快乐 | 下班只是一天结束 |\n| 几块钱零食就很满足 | 买了很多东西也未必开心 |\n| 暑假好像永远过不完 | 一年转眼就过去了 |\n| 总觉得未来很远 | 回头才发现过去已经很远 |\n| 对世界充满好奇 | 开始习惯很多事情 |\n\n电脑越来越好。\n\n手机越来越贵。\n\n懂的事情越来越多。\n\n拥有的东西，也比小时候多了很多。\n\n可奇怪的是，\n\n**小时候那种很容易开心的感觉，却越来越少了。**\n\n---\n\n## “我以后一定可以吧”\n\n小时候写下一句梦想的时候，\n\n我们大概真的相信自己能够做到。\n\n不会觉得自己普通。\n\n不会觉得梦想太远。\n\n也不会提前替未来找理由。\n\n那时候最大的担心可能只是：\n\n> **“我以后真的可以成为这样的人吗？”**\n\n现在再看，会觉得有一点幼稚。\n\n但又很羡慕。\n\n因为那个时候的我们，\n\n至少还敢认真地相信未来。\n\n---\n\n{% note info 有些东西变了 %}\n长大并不是突然发生的。\n\n它更像是一点一点把小时候的东西拿走。\n\n先是不再期待放学。\n\n然后是不再期待暑假。\n\n再后来，\n\n连生日好像也只是普通的一天。\n{% endnote %}\n\n---\n\n## 小时候的世界其实很小\n\n小时候的世界没有现在这么大。\n\n却好像比现在有意思得多。\n\n| 一件很小的事情 | 当时的感觉 |\n| --- | --- |\n| 买到喜欢的零食 | 可以开心很久 |\n| 老师提前下课 | 像中了大奖 |\n| 放学和朋友一起回家 | 一天最期待的时候 |\n| 考试多拿几分 | 想赶紧回家告诉家里 |\n| 暑假第一天 | 感觉未来还有无限时间 |\n| 得到一个新玩具 | 能反复玩很久 |\n| 周末不用上学 | 前一天晚上都会特别开心 |\n\n现在回头看，\n\n那些事情真的很小。\n\n但当时的快乐是真的。\n\n小时候并不是没有烦恼。\n\n只是那时候的烦恼，\n\n往往睡一觉以后，\n\n第二天就没那么重要了。\n\n---\n\n## 时间到底去了哪里\n\n小时候总嫌一天太长。\n\n一节课四十分钟都觉得很慢。\n\n暑假更像是一段永远不会结束的时间。\n\n后来才发现，\n\n时间其实一直都走得很快。\n\n| 年纪越来越大 | 感觉却越来越明显 |\n| --- | --- |\n| 一天 | 很快 |\n| 一个月 | 没什么感觉就结束 |\n| 一年 | 好像才刚开始 |\n| 几年前 | 仿佛就在昨天 |\n| 小时候 | 明明很远，却又记得很清楚 |\n\n也许不是小时候的时间比较慢。\n\n只是小时候的一天里，\n\n有太多值得期待的事情。\n\n而现在，\n\n日子开始变得相似。\n\n所以时间才像被谁偷偷按下了快进键。\n\n---\n\n> **小时候写的是“我的理想”。  \n> 长大以后想的，却慢慢变成了“生活怎么办”。**\n\n---\n\n## 如果真的可以回去一次\n\n如果真的可以回到小时候，\n\n我大概不会告诉那个时候的自己未来发生了什么。\n\n不会告诉他，\n\n小时候的梦想有没有实现。\n\n不会告诉他，\n\n以后会遇到什么人，又会失去什么人。\n\n我只是想在旁边坐一会儿。\n\n看看那个还没有被现实磨掉棱角，\n\n还会为了很小的事情开心，\n\n还认真相信自己以后一定会变得很厉害的小孩。\n\n然后告诉他：\n\n**别那么着急长大。**\n\n作业写不完也没关系。\n\n考试没考好也没关系。\n\n想玩的东西就多玩一会儿。\n\n想见的人就多待一会儿。\n\n因为现在觉得普通的一天，\n\n以后可能会变成一个再也回不去的下午。\n\n---\n\n{% note success 如果可以告诉小时候的自己 %}\n慢一点长大。\n\n不要总想着以后。\n\n你现在觉得很普通的生活，\n\n有一天，\n\n可能会成为你最怀念的日子。\n{% endnote %}\n\n---\n\n## 后来才明白\n\n我们最终可能没有成为小时候想成为的那个人。\n\n但那并不代表小时候的梦想没有意义。\n\n至少曾经有一个小小的自己，\n\n认真地相信过未来。\n\n| 小时候拥有的 | 后来才知道有多珍贵 |\n| --- | --- |\n| 天真 | 不会提前怀疑结果 |\n| 勇气 | 敢说出很大的梦想 |\n| 好奇心 | 什么东西都想知道 |\n| 简单的快乐 | 很小的事情也会满足 |\n| 对未来的期待 | 总相信明天会更好 |\n| 很多时间 | 当时却从来没有珍惜 |\n\n我们怀念的，\n\n或许从来不只是小时候。\n\n而是小时候的那个自己。\n\n---\n\n## 写在最后\n\n{% note primary 关于那张纸 %}\n多年以后再看到小时候写过的字，\n\n真正让人难过的，\n\n不是梦想最后有没有实现。\n\n而是突然发现：\n\n**那个认真写下梦想的小孩，已经离自己很远了。**\n{% endnote %}\n\n> **后来才明白，最珍贵的从来不是那个梦想有没有实现，而是当年那个真的相信自己什么都能做到的小孩。**\n\n如果有一天还能再见到他，\n\n我想告诉他：\n\n**你不用急着长大。**\n\n因为我已经替你走到了这里。\n\n只是偶尔，\n\n真的很想你。",
+      "excerpt": "小时候写下的理想，后来还记得吗 有时候，真正让人难过的，不是什么轰轰烈烈的事情。 只是一张旧纸，一行歪歪扭扭的字，就能突然把人拉回很多年前。 {% asset img <img src=\"/uploads/1788784921125 img",
+      "cover": "/uploads/1788785973801-chatgpt-image-202697-21-51-09-w6g2pjbf.png",
+      "date": "2017-02-02T17:42:00.000Z",
+      "updated": "2026-10-15T06:38:26.348Z",
+      "categories": [
+        "日常"
+      ],
+      "tags": [
+        "小时候可曾有过梦想"
+      ],
+      "public_path": "life/reflections",
+      "source_url": "https://blog.jia.nz/life/reflections/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": "41804434-3076-4c21-912f-3ce83785d907",
+      "title": "CS2 10月更新速读：AUG 换弹快了半秒，拆弹器标记更清楚",
+      "content": "Valve 在10月8日的《Counter-Strike 2》更新公告中，调整了 AUG 换弹时间，并加入了更直观的拆弹器标记。它是一份常规修补公告，**不是一次新模式上线公告**。\n\n::: info 时间说明\nSteam 公告标记10月8日；官方新闻接口时间为2026-10-08 22:36 UTC，换算韩国时间是10月9日07:36。本文在10月15日整理回顾。\n:::\n\n## 三个直接影响体验的变化\n\n| 项目 | 公告内容 |\n| --- | --- |\n| AUG | 换弹时间减少0.5秒 |\n| 掉落拆弹器 | 新增标记图标 |\n| Desert Eagle | 修复静默换弹的声音事件问题 |\n\n此外，公告提到录像回放环境声、Rush 地图碰撞、本地化与稳定性修复。[Valve 官方公告](https://steamcommunity.com/games/CSGO/announcements/detail/675134162359814147)\n\n## 半秒变化应该怎么看\n\n我的建议是先在熟悉的环境中重新确认换弹节奏。时间缩短是明确的补丁事实，但它本身不能证明 AUG 已经成为所有场景下的最优选择。价格、射击位置与队伍经济仍会影响你是否购买它。\n\n拆弹器标记则属于信息呈现的改进。队伍找回掉落工具时，可以留意新的提示；实际救场仍取决于工具位置、剩余时间和敌方站位。\n\n::: warning 不把修复写成新玩法\n本次公告提到了 Rush 地图修复，没有宣告10月8日新增 Rush 模式。本文没有提供未经验证的下载大小、帧率提升或胜率数据。\n:::\n\n来源：[Steam / Valve 官方 Counter-Strike 2 更新公告](https://steamcommunity.com/games/CSGO/announcements/detail/675134162359814147)",
+      "excerpt": "Valve 10月8日公告整理：AUG换弹时间减少0.5秒，掉落拆弹器增加标记，并修复Rush地图与声音问题。不是新模式上线公告。",
+      "cover": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/6328493f4cc4a8fb83e1149be1cac5a7823fe588/capsule_616x353.jpg",
+      "date": "2026-10-14T18:07:23.130Z",
+      "updated": "2026-10-15T06:38:25.659Z",
+      "categories": [
+        "游戏"
+      ],
+      "tags": [
+        "Steam",
+        "CS2",
+        "游戏更新"
+      ],
+      "public_path": "game/cs2",
+      "source_url": "https://blog.jia.nz/game/cs2/",
+      "source_published_at": "2026-10-08T22:36:00Z",
+      "source_urls": [
+        "https://steamcommunity.com/games/CSGO/announcements/detail/675134162359814147"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！",
+      "content": "## 正文\n\n点击到My SIM，这边可以选择转换成实体的SIM卡，也可以选择ESIM，重新转移到一个新手机上。\n\n![](https://img.v2money.net/i/2025/08/22/99c9ee6ac2efbc2d13ab9fa2aa42dbe4-0.webp)\n\n我们这边演示重新转移到新的iPhone上，\n\n转移之前，需要确保我们的手机是可以兼容这个eSIM的，\n\n输入 *#06# 把手机的IMEI输入到这个空白栏里面，检查一下，\n\n![](https://img.v2money.net/i/2025/08/22/ee76ae52470d9992e101e903eccb403c-0.webp)\n\n![](https://img.v2money.net/i/2025/08/22/62abec514bfbdf5cb8717d4ee8b46c2a-0.webp)\n\n显示两个对勾，说明没问题，然后我们来输入一个安全码，如果忘记安全码的话，可以点击 Reset Security PIN 重置一个。\n\n![](https://img.v2money.net/i/2025/08/22/f5b83db6320a601133eac557f1026ede-0.webp)\n\n确认码没问题之后，这边看一下注意事项，\n\n- 一旦点击激活eSIM，之前的手机会没有信号\n\n- 激活之前，手机要链接Wi-Fi\n\n![](https://img.v2money.net/i/2025/08/22/bea7d592b9530bd8a9cdd91cbc9e8ac4-0.webp)\n\n确认没问题，我们就点击激活，\n\n然后这边会显示pending，\n\n![](https://img.v2money.net/i/2025/08/22/c9a3b90ae254487f54213b27917fcc43-0.webp)\n\n接着就会生成一个新的二维码，我们用新手机扫描，就可以激活了。\n\n![](https://img.v2money.net/i/2025/08/22/f3c34d23c50ac04c6832d46cac68fced-0.webp)\n\n付上iPhone的官方说明激活步骤：\n\n![](https://img.v2money.net/i/2025/08/22/27b63adf9e58b5b0d2003d6cc5700be5-0.webp)\n\n一般我们选第一种就行。\n\n如何在您的iPhone设备上激活eSIM 选项1 - 扫描二维码，请按照以下步骤操作：\n\n- 打开手机的相机并扫描二维码\n\n- 当出现“检测到蜂窝计划”通知时，点击它\n\n- 点击屏幕底部的继续\n\n- 点击添加蜂窝计划\n\n来到手机上，蜂窝网络，添加eSIM\n\n![](https://img.v2money.net/i/2025/08/22/b3288c2795672bbf659d63df4350c2aa-0.webp)\n\n一步一步直到设置完成，\n\n![](https://img.v2money.net/i/2025/08/22/6a1113766718546f1c04e86cf39edd2c-0.webp) ![](https://img.v2money.net/i/2025/08/22/cf367bf9b8a031fa430835756ff0e0b7-0.webp) ![](https://img.v2money.net/i/2025/08/22/7fa4685dc7e295d5e03e10d31210044e-0.webp)\n\n这边如果一直激活不了，建议打开梯子再尝试激活，\n\n![](https://img.v2money.net/i/2025/08/22/11d65f3afda3dcebc0e6fb89c11f447b-0.webp)\n\n打开Wi-Fi 通话，\n\n![](https://img.v2money.net/i/2025/08/22/5adfd19bc40d1ecf7bae64e3710649ce-0.webp)\n\n搞定了，可以显示Wi-Fi Calling\n\n![](https://img.v2money.net/i/2025/08/22/33935e030877ab94d1aa9c494497c407-0.webp)\n\n                                                        \n原创文章，作者：卡卡，如若转载，请注明出处：https://v2money.net/tello-esim-transfer/",
+      "excerpt": "点击到My SIM，这边可以选择转换成实体的SIM卡，也可以选择ESIM，重新转移到一个新手机上。 我们这边演示重新转移到新的iPhone上， 转移之前，需要确保我们的手机是可以兼容这个eSIM的， 输入*#06# 把手机的IMEI输入到这个空白栏里面，检查一下， 显示两个对勾，说明没问题，然后我们来输入一个安全码，如…",
+      "cover": "https://v2money.net/wp-content/uploads/2025/08/467faa3bfc85c3a15891301933281585.webp",
+      "date": "2026-09-13T11:50:10.207Z",
+      "updated": "2026-09-27T11:22:04.670Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "如何将Tello的eSIM转移到新iPhone？最全eSIM激活指南！"
+      ],
+      "public_path": "guide/tutorial-1",
+      "source_url": "https://blog.jia.nz/guide/tutorial-1/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 29,
+      "title": "使用 ChatGPT 生成像素风格照片咒语",
+      "content": "## 前言\n\n凑个热度，最近发现 Twitter 上一些 Coser 分享照片时上面附带一个非常相似的像素风格小人，看起来非常不错。\n\n本来以为是某个 APP 的功能，搜索了一下发现是 7 月在韩国开始的潮流，只需要使用 ChatGPT 就可以生成，免费账户的 ChatGPT 也可以使用，不过生成两张图片后就提示需要等待一天才可以继续上传文件。\n\n## 使用方法\n\n访问 ChatGPT ，对话时添加需要处理的图片，对话框输入下面 Prompt 就可以了。\n\n日文版：\n\nEverskiesスタイルの全身ピクセルアートイラストを作成してください。人物の体型、顔の表情、服装とヘアスタイルの表現方法を模倣してください。添付画像の人物の髪型、服装、アクセサリーを参考にして、全身のイラストを描いてください、背景は透過でお願いします。ピクセルアート風のドット絵スタイルで、ゲームキャラクターのような可愛らしい仕上がりにしてください。\n\n中文翻译：\n\n请制作一幅 Everskies 风格的全身像像素画插图。请模仿人物的体型、面部表情、服装以及发型的表现方式。参考所附图片中人物的发型、服装和配饰，绘制完整的人物插图，将背景设为透明。请使用像素风格的点阵图，呈现出像游戏角色一样可爱的效果。\n\n## 效果\n\n![](https://m.nep.me/blog/post/chatgpt-pixel-art.png)\n\nPic via [Twitter](https://x.com/UKYEJFT/status/1942479986486858138)\n\n## 参考\n\n- [韓国で話題！ChatGPT×ドット絵の作り方【複数プロンプト付き】](https://www.mfro.net/aiebisu/1352/)",
+      "excerpt": "前言凑个热度，最近发现 Twitter 上一些 Coser 分享照片时上面附带一个非常相似的像素风格小人，看起来非常不错。 本来以为是某个 APP 的功能，搜索了一下发现是 7 月在韩国开始的潮流，只需要使用 ChatGPT 就可以生成，免费账户的 ChatGPT 也可以使用，不过生成两张图片后就提示需要等待一天才可以继续上传文件。 使用方法访问 ChatG...",
+      "cover": "https://m.nep.me/blog/post/chatgpt-pixel-art.png",
+      "date": "2025-07-07T19:31:00.000Z",
+      "updated": "2026-09-27T10:56:00.761Z",
+      "categories": [
+        "人工智能"
+      ],
+      "tags": [
+        "ChatGPT",
+        "Prompt",
+        "Pixel Art",
+        "everskies"
+      ],
+      "public_path": "ai/tools",
+      "source_url": "https://blog.jia.nz/ai/tools/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 37,
+      "title": "iPhone 18 Pro 发布：可变光圈、A20 Pro 与更长续航，值得升级吗？",
+      "content": "## 一句话看点\n\nApple 在 2026 年 9 月 9 日发布 **iPhone 18 Pro 与 iPhone 18 Pro Max**。重点是 *A20 Pro、48MP 可变光圈主摄、新一代均热板、更长续航与更小的灵动岛*。\n\n> 这代的重点不是短暂跑分，而是影像可控性、持续性能与续航。\n\n![iPhone 18 Pro 官方产品图](https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/tile/Apple-iPhone-18-Pro-2up-260909-lp.jpg.og.jpg?202609101300)\n\n## 核心升级速览\n\n| 项目 | 重点 | 适合谁 |\n| --- | --- | --- |\n| 芯片与散热 | A20 Pro + 新一代均热板 | 游戏、视频与端侧 AI |\n| 主摄 | 48MP Fusion 主摄，支持可变光圈 | 想要夜景与景深控制的人 |\n| 屏幕 | 6.3 英寸 Pro / 6.9 英寸 Pro Max，最高 120Hz | 阅读、拍摄与视频用户 |\n| 续航 | Pro Max 最高 45 小时视频播放 | 出差、旅行、长时间创作 |\n| 充电 | 兼容充电器下约 15 分钟至 50% | 碎片时间补电 |\n\n---\n\n## 影像：可变光圈终于落到主摄\n\n48MP Fusion 主摄加入 **可变光圈**，不只是背景更虚，更重要的是低光、近景和视频拍摄时多了一层景深与进光量控制。\n\n我会重点看三件事：\n\n1. 夜景的高光是否稳定；\n2. 人像边缘和肤色是否自然；\n3. 视频从明到暗时曝光是否跳变。\n\n## 性能与续航：持续体验比峰值更重要\n\nA20 Pro 配合均热板，Apple 强调的是**持续性能**。对手游、高码率视频和端侧 AI，长时间稳定比短暂的峰值数字更有意义。\n\n~~~text\n我的购买优先级：续航 > 影像控制 > 持续性能 > 外观颜色\n~~~\n\n- **Pro**：更适合轻巧握持、偏拍照和日常使用；\n- **Pro Max**：更适合旅行记录、视频创作与长续航；\n- ~~只为新机而换新机~~：建议先等待真实评测与本地售价。\n\n## 购买前检查清单\n\n- [ ] 确认所需存储容量；\n- [ ] 确认运营商与 eSIM/实体 SIM 的地区差异；\n- [ ] 确认 Apple Intelligence 与 Siri AI 的本地语言可用性；\n- [ ] 等待续航、发热、相机样张的第三方实测。\n\n## 官方资料与文件\n\n- [Apple 新闻稿：iPhone 18 Pro 与 iPhone 18 Pro Max](https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/)\n- [Apple iPhone 18 Pro 产品页](https://www.apple.com/iphone-18-pro/)\n- [官方产品图文件](https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/tile/Apple-iPhone-18-Pro-2up-260909-lp.jpg.og.jpg?202609101300)\n\n> 规格、上市时间与功能以 Apple 官方页面为准；地区售价与功能可用性可能不同。",
+      "excerpt": "iPhone 18 Pro 系列发布后，最值得关注的是可变光圈主摄、A20 Pro、均热板散热和续航提升。本文用完整文章元素梳理购买前重点。",
+      "cover": "https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/tile/Apple-iPhone-18-Pro-2up-260909-lp.jpg.og.jpg?202609101300",
+      "date": "2026-09-10T13:36:00.000Z",
+      "updated": "2026-09-16T16:46:11.451Z",
+      "categories": [
+        "科技数码"
+      ],
+      "tags": [
+        "iPhone 18 Pro",
+        "Apple",
+        "数码",
+        "iOS 27"
+      ],
+      "public_path": "tech/iphone",
+      "source_url": "https://blog.jia.nz/tech/iphone/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 39,
+      "title": "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurcats",
+      "content": "目錄\n\n- [海妖 Kraken 交易所是詐騙嗎？評價如何？](https://murmurcats.com/kraken-register-tutorial/#rtoc-1)\n\n- [海妖 Kraken 平台怎麼選？](https://murmurcats.com/kraken-register-tutorial/#rtoc-2)\n\n- [海妖 Kraken 開戶註冊教學](https://murmurcats.com/kraken-register-tutorial/#rtoc-3)\n\n- [海妖 Kraken KYC 身份認證教學](https://murmurcats.com/kraken-register-tutorial/#rtoc-4)\n\n- [海妖 Kraken 設定 Google 雙重驗證教學](https://murmurcats.com/kraken-register-tutorial/#rtoc-5)\n\n- [關於呢喃貓商學院](https://murmurcats.com/kraken-register-tutorial/#rtoc-6)\n\n- [常見問題](https://murmurcats.com/kraken-register-tutorial/#rtoc-7)\n\n## 海妖 Kraken 交易所是詐騙嗎？評價如何？\n\n![](https://murmurcats.com/wp-content/uploads/2026/06/image-40.webp)\n\n[海妖 Kraken 交易所](https://www.kraken.com/zh-cn)是一家於 2011 年成立的加密貨幣交易所，總部位於美國舊金山，服務拓及全球，主要的用戶位於在歐美地區。\n\nKraken 在許多區域都有取得[營業執照](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated)，不用擔心海妖交易所是詐騙。以美國為例，Kraken 透過旗下子公司在美國註冊為 MSB，提供加密貨幣服務、數位資產託管以及股票交易服務，並同時受 SEC、FINRA、SIPC 監管。\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf2hG11T0AAvYPXupczuzZKIo8AWYzxpAXa-9Vc7liSOyn0gBbxiFT6AqbAT96Crvl0EDokWQHxub-WgUDEY0UstvE5SfMZtEgpRhdAGUgQnD1GMkLzpZRwyfqQAwUA6qbB1K41RQ?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n交易所安全分數排行（Source：[Coingecko](https://www.coingecko.com/zh-tw/%E4%BA%A4%E6%98%93%E5%B9%B3%E5%8F%B0)）\n\n目前在 Coingecko 的加密貨幣交易所信用分數排行中排行第五，是一個相當安全可靠的平台。\n\n對於幣圈早期的用戶來說，Kraken 交易所算是一個老字號的品牌，經歷過數輪牛熊週期，都未曾發生重大安全事故。\n\nKraken 交易所以 高安全性 著稱，採用冷錢包存儲、雙重身份驗證、以及資產儲備證明等措施，來確保用戶的資產安全。\n\n在 2025 年，[海妖交易所開放 FTX 受災戶收回發出的理賠款項](https://abmedia.io/ftx-kraken-bitgo-withdrawl-fee)，也支援從海外出金美金服務。對於需要透過[海外大額出金](https://murmurcats.com/crypto-tax/)的用戶，海妖 Kraken 交易所就是個不錯的選擇。\n\n## 海妖 Kraken 平台怎麼選？\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfdCQpEFw1YJzwmoa4eCQ8oFS5hWM2w2-gTeCOyTlveErejuRgpRgDkz2jrWxPYBXXtAy8oV4VhRiMb8WAvmXMH1df-Nc2IKbQhgy0J_ydS-6-JR0_On3p1y-uQtdoFQUWNpVedFA?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n目前 Kraken 針對不同平台用戶，有提供不同的應用程式：\n\n- Kraken ：手機端簡易版的交易所 APP，功能僅支援一般交易，介面簡單直覺，適合新手使用。\n\n- Kraken Pro ：手機端進階版的交易所 APP，具有完整功能，適合中高階用戶使用。\n\n- Kraken Desktop ：使用電腦版程式進行交易，但其實可以直接透過電腦網頁進入交易所，不一定要下載。\n\n- Kraken Wallet ：Kraken 交易所推出的去中心化鏈上熱錢包，與交易所帳戶不同，資產完全用戶自行掌握，主要用於與鏈上協議（[Dapps](https://murmurcats.com/what-is-dapp/)）進行互動。\n\n讀者可以根據個人需要到[官方頁面](https://www.kraken.com/zh-cn/features/cryptocurrency-apps)下載。\n\n## 海妖 Kraken 開戶註冊教學\n\n### Step 0：準備資料\n\n準備好以下資料後，就可以開始註冊：\n\n- 身份證件 ：身分證、護照、駕照，其中之一。\n\n- 手機鏡頭，或電腦視訊鏡頭 ：人臉驗證會用到。\n\n- E-mail 信箱 ：用於註冊帳號＆收驗證碼。\n\n- 手機門號 ：用於收驗證碼。\n\n以下示範用手機 APP 註冊的流程\n\n### Step 1：使用信箱註冊\n\n【Create Account】→輸入 Email→【Continue】→輸入驗證碼\n\n進入手機 APP 後會直接跳出註冊畫面。按照上述步驟操作後，Email 就會收到一封驗證信，把驗證碼輸入回手機 App 就會進入設定密碼的環節。\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxTRi4GXDxnqqjcbGX5-abCtl5HZvWPtIApM03NXX_8h3MVjbGV86NHG6SO4nlLIb6IwuO6_z8sQIkARk4Gm4zVX10KHVNLWLS99KPRsjF9iPvLIiAnIHgSI_DJ4WHG_3BfwiW?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n### Step 2：設定密碼、國家\n\n設定密碼→選擇國家→【Create Account】即完成\n\n設定密碼有以下幾個注意事項：\n\n- 至少需要 12 個字元\n\n- 至少包含 1 個數字\n\n- 至少包含 1 個符號\n\n- 至少包含 1 個字母\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeQJjR66grr5qA4WghwH-XFC89D8MqmjwZU01RB4P-uP0vVbWCabBfK9_vWp0ja2Vhu9qiSvWFby9j5c1_U4JSl71cDBaKTHk8asTRXDtsW82oMaPOXEFXB5ts6zNHHuTjsxxzmdg?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n## 海妖 Kraken KYC 身份認證教學\n\n註冊完會接著進行 KYC 身份認證，才能開通交易、入金等基本功能。\n\n類似於在銀行開戶時，需要填一些基本資料跟附上證件，在交易所開戶同樣需要完成這些流程。\n\n以下介紹海妖 Kraken KYC 身份認證流程，只需準備「身分證」或「駕照」或「護照」即可，全程約 3 分鐘。\n\n### Step 1：填寫基本資料\n\n一共包含以下 4 項資料，需要用英文填寫。\n\n- 手機號碼\n\n- 姓名（護照英文名字）\n\n- 生日\n\n- 地址\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdOu9nDJsLGUMCbqjVcksIx9hZEclN-ztCDHL8Im4R2Uu9wF3PPDTed7Tg_B5HmMmlmFTdtPhi62kEEKR7vwIN1W6m1TCqhcXmkWyZiP3Vjq6NKvzrOGn_rzTiGou1CXkDvNO8qww?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n### Step 2：職業收入與帳戶用途\n\n一共包含以下 5 項資料。\n\n- 職業\n\n- 收入來源\n\n- 帳戶用途\n\n- 預期交易金額\n\n- 預期使用功能\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfq7XkpY_Q4iNaPAxDsAvJAVB1t6Qd4XhFJS1phUvYt0p4rh6cPHxCmS3MJqCu4avnjgW865VM1L7Cxh2RMOC_jYu2UE8ZkzUnXFMPzbAyILSUQ_zH0i7wHau5qpR-QHjTVnwHwfw?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n### Step 3：用手機掃描證件、人臉辨識\n\n最後一步會需要使用手機鏡頭掃描身分證件以及人臉辨識，請在光線充足的地方驗證，並把眼鏡、帽子這些會遮臉的東西先取下。\n\nKraken 可以接受的證件包含：\n\n- 身分證\n\n- 駕照\n\n- 護照\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe7Ve18mUy-DKcP0kErLvefAsmyF8glTgJojmnNxOQlDWCOvIek9gu6Fn-8nb0sEq7i0L8UAdosm19Tzv2fc2TmYiMPXN9EynksIRG0QpuTyicKcZa-A4BiC4ax5ga5GZtMUzShvQ?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n以上三步驟都完成後，就完成 KYC 身份驗證囉，接下來要等候海妖 Kraken人工審核，一般來說 1 – 2 小時內就會收到 E-mail 通知驗證結果。\n\n## 海妖 Kraken 設定 Google 雙重驗證教學\n\n註冊完建議要開啟 Google 雙重驗證（2FA 安全驗證），以提升帳戶的安全。\n\n開啟雙重驗證之後，後續在登入、出金時都會額外要求輸入一組驗證碼，好比需要經過兩把鑰匙才能開門，能夠大幅提高帳號的安全性。\n\n### Step 1：進入安全設置頁面\n\n【Security】→【Authenticator app】→【Add Authenticator app】\n\n在 Kraken的帳戶頁面，點擊【Security】，就能進行相關安全設置。\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcVh8YhY5wSsWn5sMvS0YnB6_XnI2-8f9nIP14fAqf2x4Mkb_tf2nLtr6XLZPu1z1ZMUyiv-exCoHLUG627UlpWGQFXAYmAhVjJGyiMAjh-b8GuWaPheu5ONut5LPL8x2XeAiUaqA?key=m_FCQ_KLKCeFMXDtyLcaLzsM)\n\n### Step 2：設定 Google 驗證器\n\n【Copy code】→切到 Google 驗證器【＋】→【設定金鑰】→貼上金鑰→【新增】\n\n按照上述步驟，把即時金鑰密碼（6 位數）貼回海妖 Kraken 官方 APP 中，即可完成設置。\n\n![](https://murmurcats.com/wp-content/uploads/2026/06/image15-1.jpg)\n\n【呢喃貓商學院精選文章】\n\n[【2026 最新】加密貨幣入門攻略，一次搞懂 8 大重點！](https://murmurcats.com/new-to-crypto/)[2026 台灣虛擬貨幣交易所排名 Top 5｜合法平台比較＋安全性分析](https://murmurcats.com/taiwan-exchange/)[虛擬貨幣報稅怎麼算？要繳稅嗎？虛擬貨幣是商品嗎？](https://murmurcats.com/crypto-tax/)[加密貨幣出金教學：解析 USDT 換台幣的 3 種方法](https://murmurcats.com/usdt-to-twd/)[2026 最新｜幣安出金全攻略：手續費、到帳時間、5 種出金方式比較](https://murmurcats.com/binance-withdraw/)\n\n## 關於呢喃貓商學院\n\n呢喃貓商學院成立於 2022 年，團隊由「 傳統金融機構從業者 」與「 區塊鏈領域研究專家 」雙軌組成，社群重視基礎研究、學習氛圍以風險控制，做出更好的決策。\n\n- 連續 3 年獲動區評選台灣區塊鏈《年度最具影響力人物榜》（[2023 年](https://www.blocktempo.com/taiwanese-blockchain-influencers-predictions-for-2023/#cryptor)、[2024 年](https://www.blocktempo.com/taiwanese-blockchain-influencers-predictions-for-2024/#Cryptor_%E5%91%A2%E5%96%83%E8%B2%93%E6%8A%95%E8%B3%87_MurMur_Cats_%E5%85%B1%E5%90%8C%E5%89%B5%E8%BE%A6%E4%BA%BA)、[2025 年](https://www.blocktempo.com/taiwanese-blockchain-influencers-predictions-for-2025/#%E5%91%A2%E5%96%83%E8%B2%93_%E3%80%8A%E5%91%A2%E5%96%83%E8%B2%93%E5%95%86%E5%AD%B8%E9%99%A2_Murmurcats%E3%80%8B%E3%80%81%E3%80%8A%E5%8D%83%E8%90%AC%E4%BA%A4%E6%98%93%E5%93%A1%E7%9A%84%E5%91%A2%E5%96%83%E3%80%8B_%E5%89%B5%E8%BE%A6%E4%BA%BA)）\n\n- [2025 年數位時代評選《2025 區塊鏈 30 大人物》](https://web3plus.bnext.com.tw/article/3274?)\n\n免責聲明：本文不構成任何投資意見或建議，亦無招攬開戶要約，資訊僅供讀者參考，加密貨幣投資為高風險產品，投資人應自行閱讀相關風險及自身風險承受度決定是否投資。\n\n## 常見問題 海妖 Kraken 交易所是詐騙嗎？安全嗎？ Kraken 成立於 2011 年，是受美國、歐盟、英國等多國監管的老牌加密貨幣交易所，並定期公開儲備證明（Proof of Reserves），目前查無官方將其認定為詐騙的紀錄。真正要留意的，是冒名 Kraken 的假客服、假 App 與釣魚網站。\n台灣用戶可以註冊使用海妖 Kraken 交易所嗎？\n可以。台灣用戶能正常完成 Kraken 註冊與 KYC 身份認證，並使用美元電匯做出入金，是不少人進行海外大額出金時的選擇之一。\n海妖 Kraken KYC 身份認證需要審核多久？\n完成證件掃描與人臉辨識後，Kraken 一般會在 1 到 2 小時內以 E-mail 通知審核結果，遇到尖峰時段可能稍微久一點。\n海妖 Kraken KYC 認證需要準備哪些證件？\nKraken KYC 認證只需準備身分證、護照、駕照其中一種即可。建議在光線充足處驗證，並先取下眼鏡、帽子等會遮住臉部的物品。\n海妖 Kraken 註冊一定要開啟 Google 雙重驗證嗎？\nKraken 註冊本身不強制開啟 2FA，但官方與本文都強烈建議開啟。開啟後登入與出金會多要求一組 Google 驗證碼，能大幅降低帳號被盜的風險。\n海妖 Kraken 註冊一定要手機門號嗎？\nKraken 註冊主要使用 E-mail 收驗證碼，手機門號則用於簡訊驗證與部分安全設定。建議準備一組可正常收簡訊的門號，以免後續驗證卡關。",
+      "excerpt": "Kraken 作為老牌加密貨幣交易所，以高安全性和穩定性著稱，適合新手與進階用戶使用。本文詳細介紹 Kraken 交易所的評價、平台應用程式選擇、開戶註冊教學與 KYC 身份認證流程。",
+      "cover": "https://murmurcats.com/wp-content/uploads/2026/06/1738664670612.jpg",
+      "date": "2026-09-13T11:38:00.000Z",
+      "updated": "2026-09-16T16:46:00.237Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "2026 最新｜海妖 Kraken 交易所註冊開戶＋KYC 認證教學 - 呢喃貓商學院Murmurc"
+      ],
+      "public_path": "guide/tutorial",
+      "source_url": "https://blog.jia.nz/guide/tutorial/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 40,
+      "title": "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批",
+      "content": "我在 2026 年 7 月 14 日提交了 [Chase Sapphire Preferred](https://v2money.net/tag/chase-sapphire-preferred/) （下文简称 CSP）申请，7 月 23 日晚收到获批邮件。\n\n这是我的 [Chase 二卡](https://v2money.net/tag/chase-%e4%ba%8c%e5%8d%a1/) ，也不是一次“提交后秒批”的申请。中间经历了在线身份验证没有完成、进入人工审核、补交材料和多次电话跟进，100 分钟的电话套餐最后只剩 1 分钟，申请才顺利获批。好在获批后，即使实体卡还在路上，我也已经把卡加入 [Apple Pay](https://v2money.net/tag/apple-pay/) ，并成功完成了第一笔消费。\n\n下面按时间顺序，完整复盘这次申请。\n\n如果你更喜欢跟着画面看，也可以直接看视频版：\n\n[ITIN 申请 Chase CSP 二卡实录：没秒批、补材料，提交 9 天后获批](https://youtu.be/vcFkErzjCAg)\n\nTable of Contents\n\n## 先说结论\n\n- 使用 [ITIN](https://v2money.net/tag/itin/) 提交 [Chase CSP](https://v2money.net/tag/chase-csp/) 二卡申请；\n\n- 没有秒批，后续要求补充出生日期和实际地址证明；\n\n- 7 月 14 日申请，7 月 23 日获批，前后 9 天；\n\n- 实体卡尚未寄到时，已经成功加入 Apple Pay 并完成一笔 25 美元消费；\n\n- 截至 2026 年 7 月 27 日，Chase 官网仍显示 100,000 点公开开卡礼。\n\n## 先说明：官网仍能看到 100,000 点\n\n![](https://img.v2money.net/i/2026/07/27/2fd4e041feb517288da049a6783bb042-0.webp)\n\n我申请时，CSP 的公开优惠是：开户后的前 3 个月内消费 5,000 美元，可获得 100,000 点 [Ultimate Rewards](https://v2money.net/tag/ultimate-rewards/) 积分，年费为 95 美元。\n\n2026 年 7 月 27 日，我重新打开 [Chase 官方产品页](https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred)查看时，页面仍然显示 100,000 点，并没有结束。\n\n不过 Chase 也提示，线上、线下或不同申请入口的优惠可能不同，并且会随时调整。所以如果你看到的数字和我不一样，也不一定是谁看错了。提交申请前，还是以自己页面上的奖励和条款为准。\n\n按 Chase 的[官方说明](https://www.chase.com/personal/credit-cards/education/basics/how-chase-ultimate-rewards-works)，Ultimate Rewards 积分用于现金返还时，1 点通常按 1 美分计算。也就是说，100,000 点的基础现金价值约为 1,000 美元。转到航空或酒店伙伴后，实际价值可能更高，也可能更低，取决于兑换库存、路线、日期和个人用法，不宜把某个估值当成固定收益。\n\n## 为什么我决定申请\n\n我之前已经申请过一张 Chase IHG，这次 CSP 是我的 Chase 二卡。按照信用卡圈常见的“5/24”口径，我当时刚刚回到可以尝试申请 Chase 新卡的范围内，又碰上了 100,000 点的限时活动，所以决定提交申请。\n\n需要说明的是，所谓 5/24 并不是 Chase 在产品页公开列出的正式审批规则。是否获批仍然取决于个人信用记录、收入、身份验证和 Chase 的内部审核，别把“回到 5/24 以内”理解成一定会批。\n\n## 第一步：在线提交申请\n\n我先打开 Chase 官方网站，登录已有账户，再进入 CSP 的申请页面。姓名、地址、邮箱和电话等基础信息已经自动带出，后面需要补充居住情况和收入信息。\n\n这里没有什么“标准答案”。房租、收入、居住类型等信息都应该按照真实情况填写，不要照抄别人的数字。提交前还要再次核对姓名拼写、地址、电话和邮箱是否与现有账户及证明文件一致。\n\n我同时选择了无纸化通知，阅读并同意相关协议，然后提交申请。\n\n![](https://img.v2money.net/i/2026/07/27/7916e87538198b44ec3105b15ad3ccef-0.webp)\n\n![](https://img.v2money.net/i/2026/07/27/e8037fa4e2ba9b9fa72591dc71575153-0.webp)\n\n## 第二步：没有秒批，进入额外身份验证\n\n提交后，页面没有直接给出审批结果，而是要求通过手机扫码进行 ID Capture 身份验证。\n\n当时的即时验证流程里没有我能顺利使用的证件选项，所以我没有继续完成这一步。退出后，页面写明 Chase 需要继续审核申请，并会尽快以书面形式通知决定，同时提醒不要重复提交申请。\n\n这个页面还写着： 如果申请获批，实体卡将在 7—10 个工作日内寄到。 这里的 7—10 个工作日指获批后的寄卡时间，不是审核时限，也不是审批结果。\n\n我上一次申请 Chase IHG 时使用的是中国大陆网络，这一次申请时使用了不同的网络环境，随后刚好遇到额外验证。但两件事只是时间上相邻，没有证据证明是 IP 触发了审核。更稳妥的做法是保持网络、设备和账户信息稳定，不要为了模仿别人的经历频繁切换环境。\n\n![](https://img.v2money.net/i/2026/07/27/31afcb63ede04cbdca97021d2e4a42ac-0.webp)\n\n![](https://img.v2money.net/i/2026/07/27/a0f35e67fba169ee6d8df6fce4c57a04-0.webp)\n\n## 第三步：7 月 20 日联系 Chase，并补交材料\n\n等待几天后，我没有收到进一步通知。7 月 20 日晚，我通过 Chase 官方渠道联系申请状态部门。客服确认我没有收到参考编号后，给我发送了安全上传链接。\n\n当晚 11:19，我收到 Chase 邮件。邮件中写明，需要补充两类材料：\n\n- 能证明出生日期的文件；\n\n- 当前实际地址证明。\n\n![](https://img.v2money.net/i/2026/07/27/09ba10c08c3638d5bf43c438f050221f-0.webp)\n\n我根据自己收到的要求，通过 Chase 的安全上传入口提交了护照和 ITIN 确认信。护照用于证明身份与出生日期，ITIN 确认信上带有我的相关信息。\n\n这只是我这次申请中提交的材料，不是通用模板。每个人收到的补件要求可能不同，应逐条阅读自己的邮件，只提交对方明确要求、真实且清晰的文件。不要把身份证件、ITIN 文件或地址证明发送到非官方邮箱，也不要通过陌生人提供的链接上传。\n\n## 第四步：真正磨人的，是补件后的等待\n\n材料上传后，状态没有立刻变化。接下来的几天里，我多次通过官方电话查询。有的客服只让我等待纸质拒信，有的表示文件还在排队处理中，也有客服建议再等 24—48 小时。\n\n回头看，这段时间频繁打电话未必能加快审核，反而会增加自己的焦虑。更有效的做法是确认材料已经成功上传、保存邮件和截图，然后给审核部门合理的处理时间。\n\n![](https://img.v2money.net/i/2026/07/27/1b4852db5a10a4750f63f3abe5f44118-0.webp)\n\n这次申请的完整时间线如下：\n\n日期\n进展\n\n7 月 14 日\n在线提交 CSP 申请，未秒批；身份验证没有完成，页面显示需要继续审核并提醒不要重复申请\n\n7 月 20 日\n联系 Chase，收到补件邮件；上传护照和 ITIN 确认信\n\n7 月 21—23 日\n多次查询，客服回复并不一致，状态仍在审核\n\n7 月 23 日 22:29、22:31\n自动语音仍提示等待 7—10 个工作日\n\n7 月 23 日 22:37\n获批邮件已经发出\n\n7 月 23 日 23:14\n再次拨打自动语音，第一次听到 “You are approved”\n\n当晚我先和家里人打了一通电话，结束后又查询了一次申请状态。机器人突然说出 “You are approved”，我还愣了几秒。打开邮箱才发现，获批邮件其实在 22:37 就已经到了。\n\n![](https://img.v2money.net/i/2026/07/27/bc43541fc4fed71c6ae3514cb60a24e5-0.webp)\n\n更巧的是，我用来打电话的 Ultra Mobile 套餐一共只有 100 分钟，整个申请跟进结束后，刚好只剩 1 分钟。\n\n## 获批后：实体卡没到，也可以先使用吗？\n\n获批邮件显示，实体卡和欢迎资料预计在 5—7 个工作日内寄出，比提交申请后的概括性页面给出了更具体的时间。邮件同时提供了加入数字钱包的入口，但也提醒：在确认收到实体卡之前，账户可能无法使用全部信用额度。\n\n我随后登录 Chase App，完成卡片设置，并把 CSP 加入 Apple Pay。\n\n![](https://img.v2money.net/i/2026/07/27/f430e2cb94d0bd8c83ec81815eb744da-0.webp)\n\n为了确认数字钱包确实可用，我在美国区 Apple 官网购买了一张 25 美元礼品卡，交易成功。\n\n![](https://img.v2money.net/i/2026/07/27/db3e98f6962d57f04dbe88b14adbd4fe-0.webp)\n\n这只能说明我的账户当时已经可以通过数字钱包消费，不代表每个申请人获批后都会立刻获得同样权限。是否能添加数字钱包、可用额度是多少，仍以 Chase App 和获批邮件中的实际提示为准。\n\n## 这次申请，我认为最值得记住的 6 件事\n\n- “需要继续审核”不是最终拒绝。 系统只是没有当场给出结果，后续仍可能补件、获批或拒绝。\n\n- 只按自己的补件通知准备材料。 我提交的是护照和 ITIN 确认信，不代表别人也需要或只需要这两份。\n\n- 申请信息必须真实且前后一致。 姓名、出生日期、地址、收入和联系方式都应能与账户及证明文件对应。\n\n- 补件只走官方渠道。 上传前确认域名、邮件来源和页面地址，避免把敏感文件交给第三方。\n\n- 多打电话不一定更快。 确认材料已经进入系统后，耐心等待通常比反复催问更有效。\n\n- 不要从单个案例推断风控规则。 IP、设备、通话次数和审批结果之间是否有关，外部很难证实。\n\n## 几个可能会被问到的问题\n\n### ITIN 可以申请 CSP 吗？\n\n我这次使用 ITIN 申请并最终获批，说明在我的账户与信用条件下可以完成申请。但这不代表只要有 ITIN 就一定能获批，Chase 仍会综合审核个人信用、收入、地址和身份信息。\n\n### 没有完成在线 ID Capture，是不是就没机会了？\n\n不一定。我当时没有完成即时验证，之后通过官方补件流程继续审核并最终获批。具体下一步要看系统提示和 Chase 后续通知。\n\n### 进入人工审核后，要不要每天打电话？\n\n我不建议照搬我当时的频率。先确认是否收到邮件或纸质通知，再通过 Chase 官网、App 或官方电话查询。若已完成补件，应给审核部门留出处理时间。\n\n### 卡还没寄到，能不能直接消费？\n\n如果获批邮件或 Chase App 提供了数字钱包入口，就有可能先加入 Apple Pay 或其他支持的钱包。是否开放、可用额度和支持的消费类型因账户而异，以页面实际显示为准。\n\n### 可以把实体卡改寄到中国吗？\n\n截至写稿时，我只是在账户中添加了另一个地址，并通过 Secure Message 向客服咨询改寄事宜，还没有得到最终确认。因此本文不把“可以寄到中国”当作结论，后续有明确结果再单独更新。\n\n![](https://img.v2money.net/i/2026/07/27/d80fce68eaf0d689d4371e199c411bfd-0.webp)\n\n## 最后\n\n这次申请从 7 月 14 日提交，到 7 月 23 日获批，前后经历了 9 天。过程不算顺利，但也没有因为一开始进入人工审核就直接结束。\n\n如果你正处在相似的人工审核阶段，我觉得最重要的是三件事：信息真实一致、材料按要求提交、所有操作只走官方渠道。其余部分，给审核一点时间。\n\n等实体卡寄到后，我会继续更新收卡、地址修改、完成开卡任务以及 Ultimate Rewards 积分使用的实际情况。\n\n本文录制和整理于 2026 年 7 月，仅分享我的个人申请经历。开卡礼、申请政策及审批结果可能因人而异，请以 Chase 官网实时页面及实际审核为准。\n\n                                                        \n原创文章，作者：卡卡，如若转载，请注明出处：https://v2money.net/itin-chase-csp-second-card-2026/",
+      "excerpt": "2026 年使用 ITIN 申请 Chase Sapphire Preferred 二卡的真实经历：冲 10 万点开卡礼，没有秒批，经历身份验证、补材料和电话跟进，提交 9 天后获批，并在实体卡到手前加入 Apple Pay。",
+      "cover": "https://v2money.net/wp-content/uploads/2026/07/2026072702145138.png",
+      "date": "2026-07-31T11:02:00.000Z",
+      "updated": "2026-09-16T16:34:11.128Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "ITIN 申请 Chase CSP 二卡实录：冲 10 万点，补件后 9 天获批"
+      ],
+      "public_path": "guide/knowledge",
+      "source_url": "https://blog.jia.nz/guide/knowledge/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 47,
+      "title": "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」",
+      "content": "2026-09-09 · 2015 字\n \n# 利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」\n \n用 AgentDock 把自己电脑和服务器接进 ChatGPT 网页端，让它能直接读项目、改代码、跑命令、测试和 Git。\n \nsvg]:size-3! group/badge inline-flex w-fit shrink-0 items-center justify-center overflow-hidden whitespace-nowrap transition-colors focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80\"> AI svg]:size-3! group/badge inline-flex w-fit shrink-0 items-center justify-center overflow-hidden whitespace-nowrap transition-colors focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80\"> AgentDock svg]:size-3! group/badge inline-flex w-fit shrink-0 items-center justify-center overflow-hidden whitespace-nowrap transition-colors focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80\"> ChatGPT svg]:size-3! group/badge inline-flex w-fit shrink-0 items-center justify-center overflow-hidden whitespace-nowrap transition-colors focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80\"> MCP svg]:size-3! group/badge inline-flex w-fit shrink-0 items-center justify-center overflow-hidden whitespace-nowrap transition-colors focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&>svg]:pointer-events-none bg-secondary text-secondary-foreground [a]:hover:bg-secondary/80\"> 开发\n \n\n \n![](https://www.acofork.com/img/agentdock-chatgpt-codex/cover.webp) 本文由 AI 编写。我提供实际使用场景和截图，技术内容按 [AgentDock 当前源码](https://github.com/uvwt/agentdock) 核对。 我之前开发基本都在用 Codex，也专门买了对应的套餐。 问题是 Codex 有自己的一份开发额度。用完以后，就得等它恢复。 而 ChatGPT 里的普通「聊天」还有另一套额度。于是我就在想：既然聊天里的模型也很强，能不能把它也接到我的电脑上？这样 Codex 的额度用完了，我还能直接在聊天里继续开发。 AgentDock 刚好把这件事补上了。 本文讲的就是这套用法： 让 ChatGPT 的「聊天」也能像 Codex 一样直接操作真实项目。 我自己用 Pro 5x 高强度开发到现在，还没在这套聊天工作流里撞到过限额。不过网页端具体能用多少并没有一个简单的固定数字，我也不打算在这里猜。 ## 把自己的电脑接进 ChatGPT ChatGPT 的开发者模式允许你添加第三方 MCP，并把它作为「应用」接进聊天。这个能力由 OpenAI 官方提供。它走的是 ChatGPT 原生的 MCP 接入流程，不需要反代网页、注入脚本或劫持 Tool Call。 调用工具时，是 ChatGPT 去连接你配置的 MCP 服务。MCP 如果跑在自己的电脑或内网里，也需要通过 Tunnel 之类的方式让 ChatGPT 能访问到它。 这里也有一个很直接的安全问题： 不要乱接你不控制、也不信任的 MCP。 MCP 能看到什么、能改什么，取决于你给它暴露了哪些工具和权限。不可信的 MCP 还可能带来提示注入等风险。OpenAI 官方文档也明确要求，只连接你信任并且审查过的 MCP。 所以开发者模式默认不开启是合理的。打开以后，相当于允许 ChatGPT 从纯聊天进一步调用外部系统，尤其是文件修改、命令执行这类写操作，权限要自己管好。 AgentDock 本身就是一个 MCP 工具运行时，装在 Windows、Linux、服务器或者容器上，把文件、命令、Git 等能力交给 ChatGPT 调用。 ![](https://www.acofork.com/img/agentdock-chatgpt-codex/developer-mode.png) 接好以后，它会出现在 ChatGPT 的工具列表里。 ![](https://www.acofork.com/img/agentdock-chatgpt-codex/agentdock-plugin.png) 如果你之前一直用「工作」里的 Codex，这里会有一点不习惯： 聊天没有让你先选代码仓库、再指定工作目录的那套界面。 可以简单理解为，AgentDock 把这台机器上的文件、命令、Git 等能力直接交给了 ChatGPT。它不会在每次聊天开始时弹窗问你「这次在哪个项目里工作」。 所以我的习惯是，每次开头先 @AgentDock，然后直接把机器和目录一起说清楚： @AgentDock-af C:\\Users\\acofo\\Documents\\GitHub\\af-frontend-svelte，改一下博客文章页面的链接图标。 后面它就在这个上下文里继续读文件、改代码、跑命令和 Git。 相比 Codex 的工作区选择，这一步确实麻烦一点。但也更直接：不需要先创建一个“工作”，告诉它去哪台机器、哪个目录、干什么就行。 ![](https://www.acofork.com/img/agentdock-chatgpt-codex/agentdock-running.png) 这就是我说它可以做 ChatGPT 网页端「Codex 平替」的原因。 AgentDock 没有替代 Codex 模型。它补上的是日常开发最关键的执行能力。 ## 安装 安装直接看官方文档：[安装 AgentDock](https://uvwt.github.io/agentdock-docs/zh-CN/docs/getting-started/install)。Windows、Linux、macOS 和 Docker 都有对应方式，普通用户不需要下载源码，也不用自己装 Go 编译。 如果懒得自己折腾，也可以把安装文档丢给 AI，让它照着文档帮你装。尤其是 Linux 服务器，这类安装、配置服务和检查运行状态的活很适合直接交给 AI 代劳。 ## 公网怎么接 本机用的话，AgentDock 可以直接提供 MCP 地址。 但 ChatGPT 网页端要访问你自己的电脑或服务器，一般还需要一个公网 HTTPS 入口。我这里用 Cloudflare Tunnel。 链路大概就是： text\n\n```text\nChatGPT\n  ↓\n公网 HTTPS\n  ↓\nCloudflare Tunnel\n  ↓\nAgentDock\n  ↓\n我的电脑 / 服务器\n```\n\nTunnel 在这里负责提供公网入口，和 AgentDock 是两层东西。你也可以用别的方式解决公网访问。\n\n公网使用时要开认证。AgentDock 支持 Bearer Token 和 OAuth。\n\n这里别理解成「开了 OAuth，请求就一定来自 OpenAI」。OAuth/Bearer 解决的是谁有权限调用你的 AgentDock。\n\n## 它不只是一个裸 Shell\n\n如果只是给 AI 一个 SSH，其实也能执行命令。\n\nAgentDock 做得更适合 AI 一点。\n\n文件有单独的读取、搜索、编辑工具；命令支持超时、输出限制和长任务 session；参数会做校验；stdout、stderr、退出码也会分开返回。\n\n所以模型不需要什么都靠一条超长 Shell 命令硬搓。\n\n这些细节我不会在这里展开，想看实现直接去官方仓库：\n\n[https://github.com/uvwt/agentdock](https://github.com/uvwt/agentdock)\n\n## 多设备很好用\n\n这是我很喜欢的一点。\n\n我可以在本机 Windows、Linux 服务器、其他机器上分别装 AgentDock，然后都接进同一个 ChatGPT 会话。\n\n于是我可以直接说：\n\ntext\n\n```text\nWindows 机改前端\nLinux 机看日志\n另一台服务器查容器状态\n最后一起验证\n```\n\n不用自己开三四个 SSH 窗口，也不用反复告诉 AI「现在我切到哪台机子了」。\n\n这也是为什么我平时会直接说「XXX 机子，执行一下 fastfetch」。\n\n还有一个我很喜欢的用法： 随时随地运维服务器。\n\n服务器上的 AgentDock 接好以后，你不需要随身带着 SSH 客户端，也不用先连回自己的电脑。只要你所在的地方能打开 [ChatGPT](https://chatgpt.com/)，就可以直接在聊天里让它查日志、看进程、检查端口、改配置或者处理故障。\n\n电脑、平板、手机都行。服务器可以在世界另一头，你只需要能打开 ChatGPT。\n\n## 我怎么用“即时”和 Pro\n\n小操作我基本都用“即时”。\n\n比如看日志、跑命令、改一两处代码、查 Git 状态、修很明确的小问题。\n\n![](https://www.acofork.com/img/agentdock-chatgpt-codex/instant.png)\n\n这类任务没必要想很久，工具给到位以后直接干就行。\n\n复杂任务我会换 Pro。\n\n比如重构、复杂 Bug、跨前后端修改、全链路验证，或者多台机器一起处理。\n\n![](https://www.acofork.com/img/agentdock-chatgpt-codex/pro.png)\n\n我的用法很简单：\n\n即时干小活，Pro 干难活。\n\n## 最后\n\n以前用 ChatGPT 网页端写代码，经常是：\n\ntext\n\n```text\nChatGPT 写\n我复制\n我执行\n我再把结果发回去\n```\n\n接上 AgentDock 后，很多时候直接变成：\n\ntext\n\n```text\n我描述目标\nChatGPT 自己读项目、修改、执行、测试、Git\n```\n\n对我来说，这已经覆盖了大量原本要切 Codex 或本地终端才能做的事情。\n\n如果你也想试，项目在这里：\n\n[https://github.com/uvwt/agentdock](https://github.com/uvwt/agentdock)",
+      "excerpt": "用 AgentDock 把自己电脑和服务器接进 ChatGPT 网页端，让它能直接读项目、改代码、跑命令、测试和 Git。",
+      "cover": "https://www.acofork.com/img/agentdock-chatgpt-codex/cover.webp",
+      "date": "2026-09-08T15:00:00.000Z",
+      "updated": "2026-09-16T13:44:30.882Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "利用 AgentDock，让 ChatGPT 网页端变成一个「Codex 平替」"
+      ],
+      "public_path": "github/agentdock",
+      "source_url": "https://blog.jia.nz/github/agentdock/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 27,
+      "title": "开发了一款适合查看图集的看图软件 ：Folio",
+      "content": "身为一个仓鼠党，下了一些图集，需要保存图片到一个文件夹、擦除 EXIF、快速重命名，工具倒是都有，但是都需要打开各种不同的软件，略有麻烦。\n\n于是根据我自己的需求，开发了一款新的看图软件 ：[Folio](https://folio.nep.me/)\n\n![](https://folio.nep.me/assets/hero.webp)\n\nOpus 强力驱动，代码开源： [GitHub - Folio](https://github.com/Homulilly/folio)\n\n## Folio 能做什么\n\nFolio 目前主要围绕几个核心场景：\n\n### 多图并列浏览\n\n这是 Folio 的核心功能之一。最多可以同时打开四张图片并排看，说是用来对比构图、细节、色彩、版本差异。其实就是为了 快速找图集中的 AWESOME 图片 。\n\n![](https://folio.nep.me/assets/multiview.webp)\n\n### Exif 擦除\n\nFolio 内置 Exif 信息查看与擦除功能，擦除支持指定分类。\n\n为什么有人会把信息写到 ImageUnique ID 里啊，Folio 可以擦除它，同时保留其他信息。\n\n### 批量重命名\n\n支持按规则批量重命名，内置了一些简单的规则，比如加序号、替换字段、按模板生成文件名等。执行前会有预览，避免一键把文件夹搞乱。\n\n### 格式转换\n\n可以把图片转换成 JPEG、PNG、WebP、AVIF、TIFF 等格式。\n\n### 支持拖拽\n\n在单图模式下，且是适应的缩放时，支持直接拖拽图片到其他文件夹、网页上传控件中。\n\n## 开发框架 Electron\n\nFolio 是用 Electron 做的。\n\n好处很明显：跨平台、开发效率高、UI 能做得比较自由，花了周五加一个周末就做出了 MVP 版本， 用 AI 起 MVP ，首选 Electron 。\n\n坏处也很明显：内存一下就起飞了，打开一个充满 40MB 的大图相册，内存直奔 2GB 。\n\n## 现在的状态\n\nFolio 目前已经完成了主要 MVP 功能，包括基础看图、多图并列、Exif 查看与擦除、批量重命名、格式转换、缓存、预览图、设置持久化。\n\n后续会根据实际使用体验继续优化或是增加功能。\n\n在这里记录一下。\n\n## 踩坑的地方\n\n### macOS 15 的图标\n\n在 macOS 26 上，使用纯白色背景的图片使用下面命令就可以创建图标，系统将自动处理圆角遮罩。\n\n```\npnpx electron-icon-builder --input=resources/icon.png --output=resources --flatten\n```\n\n但是在 macOS 15 上面，装完发现是大大的直角方块，考虑到 Apple 的生态，15 的占有率应该很低了，本来没打算处理的，但是 Claude 给了我一个脚本就解决了。\n\nmkicon.cjs\n\n```\n用项目现成的 `sharp` 生成 macOS 形状的 1024 PNG。脚本(`mkicon.cjs`):\n\n```js\nconst sharp = require('sharp')\nconst SRC = 'resources/icons/1024x1024.png'\nconst OUT = process.argv[2]\nconst C = 1024            // canvas\nconst TILE = 952          // white squircle body (fills out near the edge)\nconst OFF = (C - TILE) / 2 // 36\nconst R = Math.round(TILE * 0.2237) // ≈ 213\n\n;(async () => {\n  // 1) rounded mask for the tile\n  const mask = Buffer.from(\n    ``,\n  )\n  const maskPng = await sharp(mask).png().toBuffer()\n\n  // 2) artwork resized to TILE and clipped to the rounded mask\n  const tile = await sharp(SRC)\n    .resize(TILE, TILE, { fit: 'cover' })\n    .composite([{ input: maskPng, blend: 'dest-in' }])\n    .png()\n    .toBuffer()\n\n  // 3) soft drop shadow: a black rounded rect, shifted down, blurred\n  const shadowSvg = Buffer.from(\n    ``,\n  )\n  const shadow = await sharp(shadowSvg).blur(13).png().toBuffer()\n\n  // 4) compose: transparent canvas -> shadow -> tile\n  await sharp({ create: { width: C, height: C, channels: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } } })\n    .composite([\n      { input: shadow, left: 0, top: 0 },\n      { input: tile, left: OFF, top: OFF },\n    ])\n    .png()\n    .toFile(OUT)\n  console.log('wrote', OUT)\n})().catch((e) => { console.error(e); process.exit(1) })\n```",
+      "excerpt": "身为一个仓鼠党，下了一些图集，需要保存图片到一个文件夹、擦除 EXIF、快速重命名，工具倒是都有，但是都需要打开各种不同的软件，略有麻烦。 于是根据我自己的需求，开发了一款新的看图软件 ：Folio Opus 强力驱动，代码开源： GitHub - Folio Folio 能做什么Folio 目前主要围绕几个核心场景： 多图并列浏览这是 Folio 的核心功...",
+      "cover": "https://img.nep.me/blog/cover-folio.webp",
+      "date": "2026-09-10T12:27:00.000Z",
+      "updated": "2026-09-16T13:42:08.772Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Folio",
+        "Photo Viewer",
+        "Electron"
+      ],
+      "public_path": "github/folio",
+      "source_url": "https://blog.jia.nz/github/folio/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 46,
+      "title": "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！",
+      "content": "# \n\n最近在技术圈发现了一个非常香的“羊毛”——云服务商（Hi168）注册就免费送 500GB 实名后送1T &nbsp;的 S3 对象存储空间 ！对于喜欢折腾服务器、经常需要中转大文件或分享素材的玩家来说，这简直是天降的神仙级后备仓库。\n\n今天，我就带大家实战演示，如何将这 1TB 空间“榨干”，玩出两种截然不同用法：\n\n- 轻量级玩法 ：利用 Cloudflare Workers 零成本手搓一个极简的 &nbsp;私人直链网盘 ，随时随地拖拽上传，极速获取文件直链。\n\n- 终极完全体 ：将 S3 空间完美挂载到你服务器的 Alist 中，打造一个可以在线预览视频、管理目录的全功能私人云盘！\n\n## &nbsp;方案一：极客专属，Cloudflare Workers 零成本搭建专属极速云盘\n\n如果你手里没有服务器，或者只想弄个轻量级的工具用来快速分享文件，Cloudflare Workers 是最完美的方案。\n\n### 1.获取 S3 凭证与“避坑指南”\n\n在开始之前，我们需要从服务商后台拿到 S3 的连接配置。\n\n来到注册网站：[https://www.hi168.com](https://www.hi168.com/) 注册后登陆进去-储存管理-创建储存桶-获取参数\n\n这里有一个 极其容易踩坑的致命点 ！\n\n通常 S3 需要四个参数，请对照你的后台严格记录：\n\n- Endpoint（端点） ： OSS服务地址\n\n- Access Key（访问密钥） ：后台密钥列表获取。\n\n- Secret Key（安全密钥） ：后台密钥列表获取。\n\n- Bucket（存储桶名称） ： 【超级大坑】 千万不要用后台显示的那个为了好看的“短桶名”（比如 webs3 ）！一定要使用系统分配的一长串 “挂载名称” （例如 hi168-30042-xxxxxx ）。API 接口只认这个底层真实的挂载名称，否则会一直报 NoSuchBucket 的错误！\n\n### 2. 创建 Worker\n\n进入 Cloudflare 后台，新建一个 Worker，将以下代码全部复制进去并部署：\n\n&nbsp;Cloudflare Worker 源码（前后端合一）\n\n直接复制代码的地址 ：[https://blog.020915.xyz/archives/s3web](https://blog.020915.xyz/archives/s3web)\n\n### 3. 创建数据库\n\n#### 第一步：创建一个免费的 KV 数据库\n\n- 回到 Cloudflare 的主界面（Dashboard），在左侧菜单找到 Storage & Databases -> KV 。\n\n- 点击右上角的 Create a namespace （创建命名空间）。\n\n- 名字随便起，比如叫 MY_S3_RECORDS ，然后点击 Add 添加。\n\n#### 第二步：把数据库和密码绑定给 Worker\n\n- 回到你刚才那个 Worker 的详情页。\n\n- 进入 Settings（设置） -> Variables and Secrets（变量和机密） 。\n\n- 设置访问密码： 在你之前填 S3_BUCKET 的地方，再新增一个文本变量： 变量名： MY_PASSWORD\n\n- 值：填一个你自己记得住的密码（比如 eianun666 ）。\n\n- 绑定 KV 数据库： 往下滚动，找到 KV Namespace Bindings（KV 命名空间绑定） 这一块。 点击 Add binding。\n\n- Variable name（变量名）填： RECORDS 。\n\n- KV namespace（命名空间）下拉选择你刚才创建的 MY_S3_RECORDS 。\n\n- 点击最下方的 Save and deploy（保存并部署）。\n\n## 4. 配置环境变量\n\n在 Worker 的 Settings -> Variables and Secrets 中添加以下变量：\n\n- S3_ENDPOINT (文本): https://s3.hi168.com\n\n- S3_BUCKET (文本): 你的挂载名称（不是短桶名！）\n\n- S3_ACCESS_KEY (密钥): 你的 AK\n\n- S3_SECRET_KEY (密钥): 你的 SK\n\n保存部署后，访问你的 Worker 专属域名，就能看到一个支持拖拽、支持并发极速上传的极简云盘界面了！\n\n## 方案二：终极体验，挂载 Alist 打造全功能私人网盘\n\n如果你有一台云服务器，并且部署了 Alist ，那体验可以直接拉满！不仅能在线预览视频、图片，还能通过 WebDAV 挂载到电脑本地当硬盘用。\n\n在 Alist 中添加存储，选择 Amazon S3 协议，并按以下参数填写：\n\n- 挂载路径 ： /Hi168云盘 （自定义）\n\n- 端点 (Endpoint) ： https://s3.hi168.com （结尾不要带 / ）\n\n- 存储桶 (Bucket) ：填入那一长串 挂载名称 （血泪教训，再次强调）。\n\n- 区域 (Region) ：填 us-east-1\n\n- Access Key & Secret Key ：正常填入。\n\n## 致命报错解决： no such host\n\n如果你填完后状态报红，提示 dial tcp: lookup xxx.s3.hi168.com ... no such host ，这是因为中小服务商不支持 S3 的“虚拟主机样式（Virtual Hosted-Style）”。\n\n解决办法 ：在 Alist 配置中往下划，找到 【强制路径样式 (Force Path Style)】 ，将这个开关 开启 (True) ，保存后瞬间变绿！\n\n## 总结\n\n通过以上两种方案，我们成功把白嫖来的 1TB 空间玩出了花。日常高频发图，用 Cloudflare Worker 随时随地拖拽秒传；大文件归档、视频素材管理，用 Alist 统一调度，美滋滋。\n\n安全提醒： &nbsp;千万记得给你的 Access Key 和 Secret Key 保管好！这俩钥匙一旦泄露，你的 1TB 空间就会变成别人的跑马场。\n\n如果你在折腾过程中遇到了其他问题，欢迎在评论区交流。我们下期教程再见！👋\n",
+      "excerpt": "最近在技术圈发现了一个非常香的“羊毛”——云服务商（Hi168）注册就免费送 500GB 实名后送1T  的 S3 对象存储空间 ！对于喜欢折腾服务器、经常需要中转大文件或分享素材的玩家来说，这简直是天降的神仙级后备仓库。 今天，我就带大家实战演示，如何将这 1TB 空间“榨干”...",
+      "cover": "",
+      "date": "2019-03-31T04:32:00.000Z",
+      "updated": "2026-09-16T13:19:31.102Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "免费 1TB 私人网盘搭建指南：文件直链生成器 + Alist 完美挂载！"
+      ],
+      "public_path": "github/alist",
+      "source_url": "https://blog.jia.nz/github/alist/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 30,
+      "title": "使用 Docker 部署 Umami 网站访问统计系统",
+      "content": "## 关于 Umami\n\n[Umami](https://umami.is/) 是一个简单、快速、注重隐私且开源网站访问统计系统，可以作为 Google Analytics 的替代品，Umami 不使用 Cookie，不跟踪用户。\n\nUmami 支持自己部署，功能不受限制，如果自己没有服务器，也可以直接在官网注册使用。\n\nUmami 的界面非常简洁、直观，功能一目了然，这也是我使用 Umami 的原因，Google Analytics 太强大，界面也很复杂，有时找个功能要找半天。\n\nUmami 支持下面的功能\n\n- 统计浏览量、访问次数、访客数量、跳出率、平均访问时长\n\n- 按时间段生成柱状图\n\n- 查看每个 URL 对应的浏览量\n\n- 查看来源域名\n\n- 查看访客的浏览器、操作系统、设备类型、分辨率、地理位置\n\n- 支持生成各种报告\n\n在开始使用之前，可以查看官方提供的 [DEMO](https://eu.umami.is/share/LGazGOecbDtaIwDr/umami.is) 体验后台与统计效果 ![](https://m.nep.me/blog/post/umami-demo-preview.png)\n\n不过 Umami 不会区分 localhost 的域名，网页载入了统计代码的话就会进行统计。\n\n## 使用 Docker Compose 部署\n\n使用 docker compose 可以直接一键部署，首先创建 docker-compose.yml ，填入下面的内容\n\n如果没有安装 docker compose， 可以查看 [Debian 12 / Ubuntu 24.04 安装 Docker 以及 Docker Compose 教程](https://u.sb/debian-install-docker/)\n\n使用的是官方提供的自带 postgresql 数据库版本的镜像\n\n```plaintext\nservices:\n  umami:\n    image: ghcr.io/umami-software/umami:postgresql-latest\n    ports:\n      - \"3000:3000\"\n    environment:\n      \n\n设置 Nginx 反代Nginx 配置文件中的反代部分如下\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n```\n\n然后为了安全，我们可以将 docker-compose.yaml 文件中的端口设置仅限本地 Nginx 访问，将下面部分\n\n```\nports:\n  - \"3000:3000\"\n```\n\n修改为\n\n```\nports:\n  - \"127.0.0.1:3000:3000\"\n```\n\n## 添加站点\n\n点击 设置 > 添加网站 进行添加：\n\n- 名字 ：显示在 Umami 后台，用于辨识\n\n- 域名 ：填入实际访问域名，例如 example.com ，不需要加 https://\n\n然后点击对应网站的 编辑 ，在 跟踪代码 部分即可查看需要使用的代码，将对应的代码附加到需要追踪的网页中即可。\n\n```\n\n```\n\n我使用的 Hexo Theme NEXT 主题，可以直接在主题设置中填写 域名 与 data-website-id 让追踪生效。\n\n## 资源占用\n\n使用 docker stats 查看资源占用情况如下\n\n```\nCONTAINER ID   NAME               CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS \ndf307a49da94   umami-umami-1      0.01%     238.8MiB / 1.933GiB   12.06%    16.8MB / 655kB    48MB / 73.8MB     48 \ne7c0ca63f761   umami-db-1         0.02%     38.71MiB / 1.933GiB   1.96%     189kB / 162kB     8.56MB / 1.26MB   10\n```",
+      "excerpt": "关于 UmamiUmami 是一个简单、快速、注重隐私且开源网站访问统计系统，可以作为 Google Analytics 的替代品，Umami 不使用 Cookie，不跟踪用户。 Umami 支持自己部署，功能不受限制，如果自己没有服务器，也可以直接在官网注册使用。 Umami 的界面非常简洁、直观，功能一目了然，这也是我使用 Umami 的原因，Googl...",
+      "cover": "https://m.nep.me/blog/post/umami-demo-preview.png",
+      "date": "2025-09-12T12:39:00.000Z",
+      "updated": "2026-09-10T13:37:06.625Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Docker",
+        "Docker Compose",
+        "Selfhost",
+        "Umami"
+      ],
+      "public_path": "github/umami",
+      "source_url": "https://blog.jia.nz/github/umami/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 35,
+      "title": "Windows 11 下 LG 电视开启 HDR 发绿解决方案",
+      "content": "## 正文\n\n这几天一直在折腾显卡的问题，只用 DP 接了普通的显示器使用，显卡的问题终于有些眉目了，于是重新接回我的 LG C2 电视，打开 HDR\n\n嗯？ 屏幕你怎么绿了，而且以前切换后右上角是显示 HDR ，现在是 Dolby Vision ，难道显卡又出新毛病了？\n\n尝试了重启、换线都没有效果，只要一开 HDR 就是绿色的屏幕。\n\n我都准备又要使用 DDU 重装驱动了，还好先搜了一下，发现原来是 Windows 最近的更新导致的，解决也很简单\n\n- 桌面上点击右键，选择 显示设置\n\n- 选择 TV 对应的屏幕，进入 HDR 的菜单\n\n- 点击 HDR 右侧的箭头展开菜单\n\n- 关闭 使用 Dolby Vision 模式\n\n![](https://m.nep.me/blog/post/windows-11-tv-hdr-dolby.png)\n\n但是如果重启电脑后，重新从非 HDR 显示器切换过来，又会恢复绿色屏幕，可以使用以下三种方法中的一种\n\n- 在设置中关闭 Dolby Vision 后，前往 Windows 更新，卸载 KB5063060\n\n- 在 Nvidia 控制面板中将色彩格式改为 YCbCr420 ，这将会导致图像质量下降\n\n- 使用 CRU 禁用 Dolby 扩展，[Permanently Disable Dolby Vision via CRU](https://www.reddit.com/r/OLED_Gaming/comments/1lgfmml/comment/mzoexf0/)\n\n参考：[LG C2 Showing Dolby Vision With Purple/Green Tint After Win11 Update – CRU Didn’t Help](https://www.reddit.com/r/OLED_Gaming/comments/1kztazu/lg_c2_showing_dolby_vision_with_purplegreen_tint/)",
+      "excerpt": "这几天一直在折腾显卡的问题，只用 DP 接了普通的显示器使用，显卡的问题终于有些眉目了，于是重新接回我的 LG C2 电视，打开 HDR 嗯？ 屏幕你怎么绿了，而且以前切换后右上角是显示 HDR ，现在是 Dolby Vision ，难道显卡又出新毛病了？ 尝试了重启、换线都没有效果，只要一开 HDR 就是绿色的屏幕。 我都准备又要使用 DDU 重装驱动了...",
+      "cover": "https://m.nep.me/blog/post/windows-11-tv-hdr-dolby.png",
+      "date": "2026-09-10T13:01:00.000Z",
+      "updated": "2026-09-10T13:29:07.383Z",
+      "categories": [
+        "干货教程"
+      ],
+      "tags": [
+        "Windows 11",
+        "HDR",
+        "Dolby Vision"
+      ],
+      "public_path": "guide/tips",
+      "source_url": "https://blog.jia.nz/guide/tips/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 36,
+      "title": "在局域网中部署 Dokploy 并配合 dnsChallenge(Cloudflare) 签发证书",
+      "content": "之前看见过很多人推荐 [Dokploy](https://dokploy.com/)，可以方便的部署、管理项目，印象颇深。 但是我还是一直在使用古法手动 docker compose 以及 pnpm start 运行一些项目。\n\n随着现在 AI 的进步，整的小工具多了起来，确实管理起来略微麻烦，当然之前使用过 Dpanel 管理一些 Docker 应用，但是 Dpanel 的 2FA 是付费功能，略微不喜。\n\n于是打算先在我的局域网设备上体验一下。\n\n## 安装 Dokploy\n\n装了一个全新的 Debian 13 给 Dokploy 用 ，安装也是非常的简单，一条命令就可以了。\n\n```\ncurl -sSL https://dokploy.com/install.sh | sh\n```\n\n然后访问 http://:3000 就可以了。\n\n## 连接 GitHub\n\n点击左侧的菜单的 Git ，右侧 Git Providers，点击 Github ，然后点击 Create GitHub App ，填写一个不重复的项目名称。\n\n设置一下项目权限，然后就可以在 Dokploy 中部署对应的项目了。\n\n## 部署项目\n\n### 首先创建一个 Project\n\n在左侧菜单栏选择 Projects 后，右侧可以创建 Project。\n\nProject（项目）是一个整体，在项目内部可以创建不同 Service（服务），创建服务时才会使用到 Github 。\n\n### 创建 Service\n\n进入项目后，可以点击 Create Service 创建应用程序，可以选择以下的方式创建。\n\n- Application : 我们是从 GitHub 拉取镜像创建，选择这一个\n\n- Database : 创建数据库应用\n\n- Compose : 使用 Docker Compose 创建\n\n- Template : 内建的模板市场\n\n选择 Application 创建后：\n\n- 打开对应的 Service，选择之前连接的 Github 账户与项目\n\n- 环境变量在 Environment 中设置\n\n我的应用程序有提供 Dockerfile 文件，因此 Build Type 选择 Docckerfile 即可。\n\nDockerfile 文件位于根目录，下面的路径直接填写 Dockerfile 即可，另外的保持默认。\n\n然后点击顶部的 Deploy 即可拉取镜像进行部署。\n\n### 设置域名\n\n部署完成后，发现无法访问，点击 Logs 会查看的下面的内容：\n\n```\n2025-12-15T09:38:31.197Z ▲ Next.js 15.5.9\n2025-12-15T09:38:31.197Z - Local:        http://14888c5aa2db:3000\n2025-12-15T09:38:31.197Z - Network:      http://14888c5aa2db:3000\n2025-12-15T09:38:31.197Z ✓ Starting...\n2025-12-15T09:38:31.276Z ✓ Ready in 88ms\n```\n\n这是因为没有设置 Domains ，无法访问到项目，Dokploy 使用的是 Traefik 进行反代与设置证书。\n\nDokploy 中默认使用的是 httpChallenge 签发 Let’s Encrypt 证书，如果 Dokploy 部署在公网服务器上，只要简单的填写 Host ，并将 Certificate Provider 选择 Let’s Encrypt 就可以打开 HTTPS 使用了。\n\n可是我的 Dokploy 服务器位于局域网中，无法完成 httpChallenge ，不过 Traefik 是支持使用 Cloudflare API 进行 dnsChallenge 的，需要修改一些设置。\n\n## 设置 dnsChallenge(Cloudflare)\n\n### 获取 Cloudflare API Token\n\n- 登录 Cloudflare Dashboard: [https://dash.cloudflare.com/profile/api-tokens](https://dash.cloudflare.com/profile/api-tokens)\n\n- 选择创建令牌\n\n- 记得编辑一下 令牌名称 用于区分用途\n\n- 令牌模板选择 编辑区域 DNS\n\n- 根据最小化授权的原则，区域资源选择对应的域名\n\n- 根据需求设置允许的 IP 地址以及生效时间\n\n点击继续，最后显示对应的 Token ，保存备用，Token 只会显示这一次，以后无法查看。\n\n### 修改 traefik.yml\n\n在 Dokploy 左侧菜单栏选择 Home > Traefik File System ，右侧点击 traefik.yml ，需要点击 Unlock 才可以编辑，将底部的\n\n```\ncertificatesResolvers: \n  letsencrypt: \n    acme: email: [email protected] \n    storage: /etc/dokploy/traefik/dynamic/acme.json \n    httpChallenge: entryPoint: web\n```\n\n修改为\n\n```\ncertificatesResolvers:\n  letsencrypt:\n    acme:\n      email: [email protected]\n      storage: /etc/dokploy/traefik/dynamic/acme.json\n      dnsChallenge:\n        provider: cloudflare\n        delayBeforeCheck: 10\n```\n\n点击 Update 后再点击右上角 Lock\n\n### 设置 Cloudflare API Token\n\n在 Dokploy 左侧菜单栏选择 Settings > Web Server ，右侧点击 Traefik ， Actions 中选择 Modify Environment ，加入 Cloudflare API token 的设置。\n\n修改后显示如下\n\n```\nPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\nCF_DNS_API_TOKEN=your_cloudflare_api_token\n```\n\n然后就可以签发证书了， 访问 Dokploy 的域名也是在这个页面的 Server Domain 部分中进行设置。\n\n## 安全设置\n\n确认可以通过 HTTPS 域名访问 Dokploy 后，我们需要关闭 ip:port 的访问， 在服务器上执行下面的命令即可\n\n```\ndocker service update --publish-rm \"published=3000,target=3000,mode=host\" dokploy\n```\n\n更多的安全内容请查看 [Dokploy Docs: Security](https://docs.dokploy.com/docs/core/remote-servers/security)",
+      "excerpt": "之前看见过很多人推荐 Dokploy，可以方便的部署、管理项目，印象颇深。 但是我还是一直在使用古法手动 docker compose 以及 pnpm start 运行一些项目。 随着现在 AI 的进步，整的小工具多了起来，确实管理起来略微麻烦，当然之前使用过 Dpanel 管理一些 Docker 应用，但是 Dpanel 的 2FA 是付费功能，略微不喜...",
+      "cover": "",
+      "date": "2019-03-10T03:02:00.000Z",
+      "updated": "2026-09-10T13:27:34.131Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Let's Encrypt",
+        "Cloudflare",
+        "Dokploy"
+      ],
+      "public_path": "github/dokploy",
+      "source_url": "https://blog.jia.nz/github/dokploy/",
+      "source_published_at": "",
+      "source_urls": []
+    },
+    {
+      "id": 28,
+      "title": "使用 Docker 与 Gitea 部署私人 Git 服务器",
+      "content": "## 前言\n\nGit 用来同步一些文档、代码确实非常的方便，但是总会有一些文件不希望同步至 GitHub 或是其他的公共服务商，这时可以使用开源项目自建一个属于私人的 Git 服务器。\n\n我是有一些文件在只需要局域网内同步就可以了，在这之前我是使用的 GitLab 社区版部署的私人 Git 服务器。\n\n不得不说，GitLab 也是非常强大的，但相对的占用资源也比较高，需要较多的内存，而且也遇到过跨版本升级的问题。\n\nGitLab CE 资源占用：\n\n```\nCONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O         PIDS\nb20641ebf857   gitlab    17.74%    5.869GiB / 15.62GiB   37.58%    425kB / 5.35MB\n```\n\n最终，我决定迁移至轻量级的 Gitea，Gitea 完成迁移后的资源占用：\n\n```\nCONTAINER ID   NAME         CPU %     MEM USAGE / LIMIT     MEM %     NET I/O         BLOCK I/O     PIDS \n57b52a98d527   gitea        0.14%     112.2MiB / 3.823GiB   2.87%     446kB / 345kB   0B / 113MB    14 \n3abf2803c22c   gitea-db-1   0.00%     26.32MiB / 3.823GiB   0.67%     347kB / 445kB   0B / 1.02MB   9\n```\n\n使用 Docker Compose 部署起来也是非常简单的。\n\n## Gitea 介绍\n\nGitea 的自我介绍： 一款极易搭建的自助 Git 服务\n\n- 易安装：通过 二进制 来运行；或者通过 Docker 来运行；或者通过 安装包 来运行。\n\n- 跨平台：任何 Go 语言 支持的平台都可以运行 Gitea，包括 Windows、Mac、Linux 以及 ARM。\n\n- 轻量级：一个廉价的树莓派的配置足以满足 Gitea 的最低系统硬件要求。最大程度上节省您的服务器资源！\n\n- 开源化：所有的代码都开源在 code.gitea.io/gitea 上\n\n## 修改主机 SSH 端口\n\n我们将使用 Docker 部署 Gitea，由于 git 默认使用 22 端口更方便一些，22 端口将映射给 Docker 使用，所以需要修改宿主机的 SSH 端口\n\n命令均是在 root 权限下执行\n\n```\nvim /etc/ssh/sshd_config\n```\n\n修改 Port 22 为其他数字。\n\n```\nsystemctl restart sshd\n```\n\n如果是远程服务器，记得先新开一个终端创建进行连接测试，确认可以登录再退出当前的窗口。\n\n## 使用 Docker Compose 部署\n\n如果没有安装 docker compose， 可以查看 [Debian 12 / Ubuntu 24.04 安装 Docker 以及 Docker Compose 教程](https://u.sb/debian-install-docker/)\n\n首先创建一个工作文件夹，然后在其中创建 docker-compose.yml 文件，填入下面的内容：\n\n```\nnetworks:\n  gitea:\n    external: false\n\nservices:\n  server:\n    image: docker.gitea.com/gitea:1.24.2\n    container_name: gitea\n    environment:\n      - USER_UID=1000\n      - USER_GID=1000\n      - GITEA__database__DB_TYPE=postgres\n      - GITEA__database__HOST=db:5432\n      - GITEA__database__NAME=gitea\n      - GITEA__database__USER=gitea\n      - GITEA__database__PASSWD=gitea\n    restart: always\n    networks:\n      - gitea\n    volumes:\n      - ./gitea:/data\n      - /etc/timezone:/etc/timezone:ro\n      - /etc/localtime:/etc/localtime:ro\n    ports:\n      - \"3000:3000\"\n      - \"22:22\"\n    depends_on:\n      - db\n\n  db:\n    image: docker.io/library/postgres:14\n    restart: always\n    environment:\n      - POSTGRES_USER=gitea\n      - POSTGRES_PASSWORD=gitea\n      - POSTGRES_DB=gitea\n    networks:\n      - gitea\n    volumes:\n      - ./postgres:/var/lib/postgresql/data\n```\n\nGitea 的文件将保存在与 docker-compose.yml 同目录的 gitea 文件夹内，postgres 数据库文件保存在 postgres 文件夹内。\n\n启动 Gitea ：\n\n```\ndocker compose up -d\n```\n\n可以省略 docker compose pull ，第一次启动会自动拉取镜像。\n\n然后就可以访问 http://:3000 查看，第一次打开会进入安装界面。\n\n数据库部分不需要修改，可以修改下面的部分\n\n- 服务器域名\n\n- 基础URL\n\n![](https://m.nep.me/blog/post/gitea.png)\n\n## 关闭注册\n\n进入 docker-compose.yml 目录，编辑文件 ./gitea/gitea/conf/app.ini 文件\n\n```\nvim ./gitea/gitea/conf/app.ini\n```\n\n修改下面的内容\n\n```\n[service]\nDISABLE_REGISTRATION = true  # 禁用注册\n#...\nSHOW_REGISTARTION_BUTTON = false # 隐藏注册按钮\n\n[openid]\nENABLE_OPENID_SIGNIN = false # 禁用openid登录\nENABLE_OPENID_SIGNUP = false # 禁用openid注册\n```\n\n重启 Gitea:\n\n```\ndocker compose down\ndocker compose up -d\n```\n\n如果使用 Nginx 反代 Web 界面，可以将 docker-compose.yml 中的端口设置问仅限本地访问：\n\n```\nports:\n  - \"127.0.0.1:3000:3000\"\n```\n\n相比资源占用较大的 GitLab，Gitea 在功能上足够满足大多数个人或小团队的 Git 使用需求，且部署、维护成本极低，非常适合在本地或小型 VPS 上运行。\n\nGitea 的 Web 界面相当的简洁直观，功能上同样支持常见的 Git 功能和权限控制，支持使用 SSH Key 认证。如果你也有不便托管在 GitHub 上的私有项目，或者希望在局域网内构建自己的 Git 服务，Gitea 是一个非常值得尝试的解决方案。",
+      "excerpt": "前言Git 用来同步一些文档、代码确实非常的方便，但是总会有一些文件不希望同步至 GitHub 或是其他的公共服务商，这时可以使用开源项目自建一个属于私人的 Git 服务器。 我是有一些文件在只需要局域网内同步就可以了，在这之前我是使用的 GitLab 社区版部署的私人 Git 服务器。 不得不说，GitLab 也是非常强大的，但相对的占用资源也比较高，需要...",
+      "cover": "https://m.nep.me/blog/post/gitea.png",
+      "date": "2025-07-17T07:22:00.000Z",
+      "updated": "2026-09-10T13:18:01.320Z",
+      "categories": [
+        "GitHub与开源"
+      ],
+      "tags": [
+        "Docker",
+        "Docker Compose",
+        "Git",
+        "Gitea"
+      ],
+      "public_path": "github/gitea",
+      "source_url": "https://blog.jia.nz/github/gitea/",
+      "source_published_at": "",
+      "source_urls": []
+    }
+  ]
+}

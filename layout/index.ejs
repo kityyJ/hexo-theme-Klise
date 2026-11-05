@@ -4,7 +4,7 @@
         <div class="author-avatar-wrapper">
           <img
             class="author-avatar"
-            src="https://cdn.jsdelivr.net/gh/dewjohn/CDN@latest/images/avatar.webp"
+            src="<%= theme.avatar %>"
             alt="avatar"
             loading="lazy"
           />
@@ -14,5 +14,6 @@
     </div>
     <main aria-label="Content">
       <%-partial('partials/recent-posts')%>
+      <% if (page.total > 1) { %><nav class="pager" aria-label="分页"><%- paginator({ prev_text: '上一页', next_text: '下一页' }) %></nav><% } %>
     </main>
   </div>
