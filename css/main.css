@@ -513,8 +513,8 @@ mark,
 }
 
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  margin-top: clamp(1.5rem, 4vh, 2.5rem);
+  margin-bottom: clamp(1.5rem, 4vh, 2.5rem);
   text-align: center;
   display: flex;
   align-items: center;
@@ -522,7 +522,14 @@ mark,
 }
 @media screen and (max-width: 768px) {
   .author {
-    margin-bottom: 3em;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (min-width: 769px) and (max-height: 500px) {
+  .author {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 .author .author-avatar-wrapper {
@@ -530,6 +537,20 @@ mark,
   border-color: b6b6b6;
   width: 70px;
   height: 70px;
+}
+@media screen and (max-width: 768px) {
+  .author .author-avatar-wrapper {
+    width: 56px;
+    height: 56px;
+  }
+}
+@media (min-width: 769px) and (max-height: 500px) {
+  .author .author-avatar-wrapper {
+    width: 56px;
+    height: 56px;
+  }
+}
+.author .author-avatar-wrapper {
   border-radius: 100%;
   user-select: none;
   background-color: #0d122b;
@@ -551,13 +572,15 @@ mark,
 }
 .author .author-name {
   font-size: 1.7em;
-  margin-bottom: 2px;
+  line-height: 1.35;
+  margin-top: 6px;
+  margin-bottom: 4px;
 }
 .author .author-bio {
   margin: 0 auto;
   opacity: 0.9;
   max-width: 393px;
-  line-height: 1.688;
+  line-height: 1.5;
 }
 
 .posts-item-note {
