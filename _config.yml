@@ -8,9 +8,6 @@ rss: /atom.xml
 # main menu navigation
 menu:
   Home: / || Home
-  About: /about/ || About
-  Archives: /archives/ || Archives
-  Tags: /tags/ || Tags
 
 bio:
   I just want something simpler...
